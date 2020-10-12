@@ -1,0 +1,10 @@
+#Getting all properties of KB collection highlights
+#https://stackoverflow.com/questions/42076194/get-properties-from-a-group-of-items-in-with-sparql
+SELECT DISTINCT ?property ?propLabel WHERE {
+  ?item p:P195 ?st .
+  ?st ps:P195 wd:Q1526131;pq:P2868 wd:Q29188408.
+  ?item ?property [].
+  ?prop wikibase:directClaim ?property .
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?property
