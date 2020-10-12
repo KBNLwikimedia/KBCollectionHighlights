@@ -1,0 +1,11 @@
+#articles about KB collection highlights in other language (i.e. not NL) wikipedias
+select ?item ?itemLabel ?_articleDE where {
+  ?item p:P195 ?st .
+  ?st ps:P195 wd:Q1526131 .
+  ?st pq:P2868 wd:Q29188408 .
+  OPTIONAL {
+    ?_articleDE schema:about ?item.
+    ?_articleDE schema:isPartOf <https://de.wikipedia.org/>.
+  }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en,nl". }
+}
