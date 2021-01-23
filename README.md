@@ -1,3 +1,4 @@
+![Banner](banners/KBTopstukkenBannerWikimedia_EN.jpg)
 # KBCollectionHighlights
 Repository with information about the 70 KB collection highlights
 
