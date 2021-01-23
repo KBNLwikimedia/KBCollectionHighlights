@@ -1,0 +1,129 @@
+{"records": {"record": [
+   {
+      "illuminationID": 1857,
+      "manuscriptID": 1161,
+      "signature": "The Hague, KB, 76 E 5",
+      "folio": "001r-init",
+      "dimensions": "85x85",
+      "description": "Albertan of Brescia(?) and four philosophers: Seneca, Ovid, Avicenna and Sidrach",
+      "type": "historiated initial",
+      "iconClass": [
+         "48C911",
+         "49C3(+3)",
+         "49L12(O)",
+         "49L171",
+         "61B2(ALBERTAN OF BRESCIA)21",
+         "61B2(AVICENNA)11(+5)",
+         "61B2(SIDRACH)11(+5)",
+         "98B(OVID)9(+5)",
+         "98B(SENECA)9(+5)"
+      ],
+      "country": "Southern Netherlands",
+      "dateRegister": "1374 (c.)",
+      "si_fo": 1678,
+      "chr_ge": 7276,
+      "dateRegisterIndex": 1374
+   },
+   {
+      "illuminationID": 1859,
+      "manuscriptID": 1161,
+      "signature": "The Hague, KB, 76 E 5",
+      "folio": "007v-init",
+      "dimensions": "75x85",
+      "description": "Albertan of Brescia(?)",
+      "type": "historiated initial",
+      "iconClass": [
+         "48C913",
+         "49L12(U)",
+         "49L171",
+         "61B2(ALBERTAN OF BRESCIA)21"
+      ],
+      "country": "Southern Netherlands",
+      "dateRegister": "1374 (c.)",
+      "si_fo": 1679,
+      "chr_ge": 7277,
+      "dateRegisterIndex": 1374
+   },
+   {
+      "illuminationID": 1860,
+      "manuscriptID": 1161,
+      "signature": "The Hague, KB, 76 E 5",
+      "folio": "033v-init",
+      "dimensions": "90x85",
+      "description": "The Trinity (Mercy-Seat); the symbols of the four Evangelists",
+      "type": "historiated initial",
+      "iconClass": [
+         "11B3231",
+         "11I42",
+         "49L12(D)",
+         "49L171"
+      ],
+      "country": "Southern Netherlands",
+      "dateRegister": "1374 (c.)",
+      "si_fo": 1680,
+      "chr_ge": 7278,
+      "dateRegisterIndex": 1374
+   },
+   {
+      "illuminationID": 1862,
+      "manuscriptID": 1161,
+      "signature": "The Hague, KB, 76 E 5",
+      "folio": "047v-init",
+      "dimensions": "40x45",
+      "description": "Beatrijs kneeling before Mary holding the Christ-child",
+      "type": "historiated initial",
+      "iconClass": [
+         "11F4122",
+         "11F83",
+         "11P31522",
+         "49L12(U)",
+         "49L171",
+         "61B2(BEATRIJS)22"
+      ],
+      "country": "Southern Netherlands",
+      "dateRegister": "1374 (c.)",
+      "si_fo": 1681,
+      "chr_ge": 7279,
+      "dateRegisterIndex": 1374
+   },
+   {
+      "illuminationID": 1863,
+      "manuscriptID": 1161,
+      "signature": "The Hague, KB, 76 E 5",
+      "folio": "057v-init",
+      "dimensions": "25x30",
+      "description": "The head of Christ",
+      "type": "historiated initial",
+      "iconClass": [
+         "11D31",
+         "49L12(M)",
+         "49L171"
+      ],
+      "country": "Southern Netherlands",
+      "dateRegister": "1374 (c.)",
+      "si_fo": 1682,
+      "chr_ge": 7280,
+      "notAvailable": "76E5_057V.JPG",
+      "dateRegisterIndex": 1374
+   },
+   {
+      "illuminationID": 1864,
+      "manuscriptID": 1161,
+      "signature": "The Hague, KB, 76 E 5",
+      "folio": "061v-init",
+      "dimensions": "35x40",
+      "description": "Alexander and Aristotle",
+      "type": "historiated initial",
+      "iconClass": [
+         "98B(ALEXANDER THE GREAT)",
+         "49L12(D)",
+         "49L171",
+         "98B(ARISTOTLE)"
+      ],
+      "country": "Southern Netherlands",
+      "dateRegister": "1374 (c.)",
+      "si_fo": 1683,
+      "chr_ge": 7281,
+      "dateRegisterIndex": 1374
+   }
+]}}

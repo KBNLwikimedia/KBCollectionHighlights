@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<srw:searchRetrieveResponse xmlns:srw="http://www.loc.gov/zing/srw/" xmlns:tel="http://krait.kb.nl/coop/tel/handbook/telterms.html" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:dcx="http://krait.kb.nl/coop/tel/handbook/telterms.html" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+	<srw:version>1.2</srw:version>
+	<srw:totalMilliSeconds>7316</srw:totalMilliSeconds>
+	<srw:searchEngineMilliSeconds>31</srw:searchEngineMilliSeconds>
+	<srw:kbmdoMilliSeconds>7223</srw:kbmdoMilliSeconds>
+	<srw:numberOfRecords>580</srw:numberOfRecords>
+	<srw:resultSetId>jfei1vx4gw</srw:resultSetId>
+	<srw:resultSetIdleTime>300</srw:resultSetIdleTime>
+	<srw:records>
+<srw:record>
+	<srw:recordPacking>xml</srw:recordPacking>
+	<srw:recordSchema>info:srw/schema/1/dc-v1.1</srw:recordSchema>
+	<srw:recordData>
+		<srw_dc:dc xmlns:srw_dc="info:srw/schema/1/dc-v1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:mods="http://www.loc.gov/mods"
+			xmlns:marcrel="http://www.loc.gov/loc.terms/relators/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcx="http://krait.kb.nl/coop/tel/handbook/telterms.html">
+			<collection>Atlas Van der Hagen</collection>
+			<URL_gvn>Source page at the [http://resolver.kb.nl/resolve?urn=urn:gvn:KONB01:30 Geheugen van Nederland / Memory of the Netherlands] website</URL_gvn>
+			<shelfMark>KW1049B10_030</shelfMark>
+			<volume>Volume 1</volume>
+			<dcx:illustration>http://resolver.kb.nl/resolve?urn=urn:gvn:KONB01:1049B10_030&amp;size=large</dcx:illustration>
+			<dc:title>MOSCOVIAE seu RUSSIAE MAGNAE Generalis Tabula quâ LAPPONIA, NORVEGIA SUECIA, DANIA, POLONIA, Maximaeq: partes GERMANIAE, TARTARIAE, TURCICI IMPERII...</dc:title>
+			<dc:contributor>Publisher: {{Creator:Nicolaes_Visscher_II}}</dc:contributor>
+			<relatedPerson>{{Information field|name=Related persons|value=[[:w:en:Nicolaes_Visscher_II|Nicolaes Visscher II]]}}</relatedPerson>
+			<depictedLocation>{{Information field|name=Depicted locations|value=Russia}}</depictedLocation>
+			<dcterms:created xml:lang="nl">na 1681</dcterms:created>
+			<dcterms:created xml:lang="en">after 1681</dcterms:created>
+			<dcterms:spatial xsi:type="creation">Amsterdam</dcterms:spatial>
+			<dc:format xml:lang="nl">Kaart</dc:format>
+			<dc:format xml:lang="en">Map</dc:format>
+			<dc:medium xml:lang="nl">[[:w:nl:Kopergravure|kopergravure]]</dc:medium>
+			<dc:medium xml:lang="en">{{Technique |1=copper engraving}}</dc:medium>
+			<dc:extent>42 x 33 cm</dc:extent>
+			<ppn>Description of the Atlas Van der Hagen in the catalogue of the KB: http://opc4.kb.nl/DB=1/TTL=1/LNG=EN/PPN?PPN=353012750</ppn>
+			<permission>{{PD-art|PD-old-100}}</permission>
+			<Institution>Koninklijke Bibliotheek</Institution>
+			<dc:source>{{Koninklijke Bibliotheek}}</dc:source>
+			<dc:description xml:lang="nl">Deze kaart van West-Rusland werd aan het einde van de 17de eeuw uitgegeven door [[:w:en:Nicolaes_Visscher_II|Nicolaes Visscher II]] (1645-1702). Als bron greep Visscher terug op Nederlandse en
+				Franse kaarten uit het midden van de 17de eeuw.</dc:description>
+			<dc:description xml:lang="en">This map of West-Russia was published at the end of the 17th century by [[:w:en:Nicolaes_Visscher_II|Nicolaes Visscher II]] (1649-1702). Dutch and French maps from the middle of the 17th century
+				were used as source.</dc:description>
+		</srw_dc:dc>
+	</srw:recordData>
+	<srw:recordPosition>551</srw:recordPosition>
+</srw:record>
+</srw:records>
+<srw:echoedSearchRetrieveRequest>
+	<srw:version>1.2</srw:version>
+	<srw:query>isPartOf=KONB01</srw:query>
+	<srw:startRecord>1</srw:startRecord>
+	<srw:maximumRecords>600</srw:maximumRecords>
+	<srw:recordSchema>dcx</srw:recordSchema>
+	<srw:resultSetTTL>300</srw:resultSetTTL>
+	<srw:extraRequestData>
+		<collection>GVN</collection>
+	</srw:extraRequestData>
+</srw:echoedSearchRetrieveRequest>
+</srw:searchRetrieveResponse>
