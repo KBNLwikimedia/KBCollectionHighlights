@@ -1,0 +1,952 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<records>
+    <record>
+        <illuminationID>19568</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>012v</folio>
+        <dimensions>70x40</dimensions>
+        <description>The Annunciation: Gabriel announces Christ&apos;s birth to Mary</description>
+        <type>full-page miniature</type>
+        <iconClass>11C23</iconClass>
+        <iconClass>49LL72</iconClass>
+        <iconClass>49N</iconClass>
+        <iconClass>73A523(+11)</iconClass>
+        <fo_srt>12v</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4635</si_fo>
+        <chr_ge>4765</chr_ge>
+        <notAvailable>79K2_012V.JPG</notAvailable>
+        <notAvailable>79K2_012V_MIN.JPG</notAvailable>
+        <images>
+            <image2>79k2:p024_025</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19569</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>013r</folio>
+        <dimensions>35x35</dimensions>
+        <description>Bethrothal of Mary</description>
+        <type>historiated initial</type>
+        <iconClass>49L12(H)</iconClass>
+        <iconClass>49L171</iconClass>
+        <iconClass>73A42</iconClass>
+        <fo_srt>13r</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4636</si_fo>
+        <chr_ge>4766</chr_ge>
+        <notAvailable>79K2_013R.JPG</notAvailable>
+        <notAvailable>79K2_013R_INIT.JPG</notAvailable>
+        <images>
+            <image2>79k2:p024_025</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19570</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>021r</folio>
+        <dimensions>30x28</dimensions>
+        <description>Annunciation to Joseph</description>
+        <type>historiated initial</type>
+        <iconClass>49L12(G)</iconClass>
+        <iconClass>49L171</iconClass>
+        <iconClass>73A572(+0)</iconClass>
+        <fo_srt>21r</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4637</si_fo>
+        <chr_ge>4767</chr_ge>
+        <notAvailable>79K2_021R.JPG</notAvailable>
+        <notAvailable>79K2_021R_INIT.JPG</notAvailable>
+        <images>
+            <image2>79k2:p040_041</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19571</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>027v</folio>
+        <dimensions>70x45</dimensions>
+        <description>The Nativity: Mary seated, holding the Christ-child; St. Joseph; annunciation of Christ&apos;s birth to the shepherds (background)</description>
+        <type>full-page miniature</type>
+        <iconClass>73B14</iconClass>
+        <iconClass>73B25</iconClass>
+        <iconClass>73B281(+0)</iconClass>
+        <fo_srt>27v</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4638</si_fo>
+        <chr_ge>4768</chr_ge>
+        <notAvailable>79K2_027V.JPG</notAvailable>
+        <notAvailable>79K2_027V_MIN.JPG</notAvailable>
+        <images>
+            <image2>79k2:p054_055</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19572</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>028r</folio>
+        <dimensions>28x28</dimensions>
+        <description>The Nativity: the adoration of the Christ-child by Mary and St. Joseph</description>
+        <type>historiated initial</type>
+        <iconClass>49L12(G)</iconClass>
+        <iconClass>49L171</iconClass>
+        <iconClass>73B23</iconClass>
+        <fo_srt>28r</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4639</si_fo>
+        <chr_ge>4769</chr_ge>
+        <notAvailable>79K2_028R.JPG</notAvailable>
+        <notAvailable>79K2_028R_INIT.JPG</notAvailable>
+        <images>
+            <image2>79k2:p054_055</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19573</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>033v</folio>
+        <dimensions>70x44</dimensions>
+        <description>The adoration of the Christ-child by the Magi</description>
+        <type>full-page miniature</type>
+        <iconClass>73B57</iconClass>
+        <fo_srt>33v</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4640</si_fo>
+        <chr_ge>4770</chr_ge>
+        <notAvailable>79K2_033V.JPG</notAvailable>
+        <notAvailable>79K2_033V_MIN.JPG</notAvailable>
+        <images>
+            <image2>79k2:p066_067</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19574</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>034r</folio>
+        <dimensions>28x28</dimensions>
+        <description>The presentation in the temple: Mary presents the Christ-child to Simeon</description>
+        <type>historiated initial</type>
+        <iconClass>49L12(G)</iconClass>
+        <iconClass>49L171</iconClass>
+        <iconClass>73B4</iconClass>
+        <fo_srt>34r</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4641</si_fo>
+        <chr_ge>4771</chr_ge>
+        <notAvailable>79K2_034R.JPG</notAvailable>
+        <notAvailable>79K2_034R_INIT.JPG</notAvailable>
+        <images>
+            <image2>79k2:p066_067</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19575</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>039r</folio>
+        <dimensions>30x30</dimensions>
+        <description>The Flight into Egypt: Mary, St. Joseph and the Christ-child on their way</description>
+        <type>historiated initial</type>
+        <iconClass>49L12(G)</iconClass>
+        <iconClass>49L171</iconClass>
+        <iconClass>73B641</iconClass>
+        <fo_srt>39r</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4642</si_fo>
+        <chr_ge>4772</chr_ge>
+        <notAvailable>79K2_039R.JPG</notAvailable>
+        <notAvailable>79K2_039R_INIT.JPG</notAvailable>
+        <images>
+            <image2>79k2:p076_077</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19576</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>045r</folio>
+        <dimensions>28x28</dimensions>
+        <description>Christ (preaching?) in the temple</description>
+        <type>historiated initial</type>
+        <iconClass>11D3</iconClass>
+        <iconClass>11Q7141</iconClass>
+        <iconClass>49L12(G)</iconClass>
+        <iconClass>49L171</iconClass>
+        <iconClass>73C732</iconClass>
+        <fo_srt>45r</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4643</si_fo>
+        <chr_ge>4773</chr_ge>
+        <notAvailable>79K2_045R.JPG</notAvailable>
+        <notAvailable>79K2_045R_INIT.JPG</notAvailable>
+        <images>
+            <image2>79k2:p088_089</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19577</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>052r</folio>
+        <dimensions>26x27</dimensions>
+        <description>The temptation of Christ in the desert: Satan asks Christ to change stones into bread</description>
+        <type>historiated initial</type>
+        <iconClass>49L12(B)</iconClass>
+        <iconClass>49L171</iconClass>
+        <iconClass>73C221</iconClass>
+        <fo_srt>52r</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4644</si_fo>
+        <chr_ge>4774</chr_ge>
+        <notAvailable>79K2_052R.JPG</notAvailable>
+        <notAvailable>79K2_052R_INIT.JPG</notAvailable>
+        <images>
+            <image2>79k2:p102_103</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19578</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>060v</folio>
+        <dimensions>70x45</dimensions>
+        <description>Raising of Lazarus</description>
+        <type>full-page miniature</type>
+        <iconClass>73C523</iconClass>
+        <fo_srt>60v</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4645</si_fo>
+        <chr_ge>4775</chr_ge>
+        <notAvailable>79K2_060V.JPG</notAvailable>
+        <notAvailable>79K2_060V_MIN.JPG</notAvailable>
+        <images>
+            <image2>79k2:p120 _121</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19579</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>062v</folio>
+        <dimensions>68x40</dimensions>
+        <description>The Entry into Jerusalem: Christ enters the city-gate on an ass</description>
+        <type>full-page miniature</type>
+        <iconClass>73D14</iconClass>
+        <fo_srt>62v</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4646</si_fo>
+        <chr_ge>4776</chr_ge>
+        <notAvailable>79K2_062V.JPG</notAvailable>
+        <notAvailable>79K2_062V_MIN.JPG</notAvailable>
+        <images>
+            <image2>79k2:p124_125</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19580</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>064v</folio>
+        <dimensions>70x40</dimensions>
+        <description>The Last Supper: Christ and the apostles at table</description>
+        <type>full-page miniature</type>
+        <iconClass>11D3341</iconClass>
+        <iconClass>73D242</iconClass>
+        <fo_srt>64v</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4647</si_fo>
+        <chr_ge>4777</chr_ge>
+        <notAvailable>79K2_064V.JPG</notAvailable>
+        <notAvailable>79K2_064V_MIN.JPG</notAvailable>
+        <images>
+            <image2>79k2:p128_129</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19581</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>070v</folio>
+        <dimensions>70x45</dimensions>
+        <description>The arrest of Christ: the kiss of Judas; the ear of Malchus cut off by St. Peter</description>
+        <type>full-page miniature</type>
+        <iconClass>73D313</iconClass>
+        <iconClass>73D3141</iconClass>
+        <fo_srt>70v</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4648</si_fo>
+        <chr_ge>4778</chr_ge>
+        <notAvailable>79K2_070V.JPG</notAvailable>
+        <notAvailable>79K2_070V_MIN.JPG</notAvailable>
+        <images>
+            <image2>79k2:p140_141</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19582</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>071r</folio>
+        <dimensions>35x33</dimensions>
+        <description>The tortures of Christ: Christ is mocked</description>
+        <type>historiated initial</type>
+        <iconClass>49L12(H)</iconClass>
+        <iconClass>49L171</iconClass>
+        <iconClass>73D353</iconClass>
+        <fo_srt>71r</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4649</si_fo>
+        <chr_ge>4779</chr_ge>
+        <notAvailable>79K2_071R.JPG</notAvailable>
+        <notAvailable>79K2_071R_INIT.JPG</notAvailable>
+        <images>
+            <image2>79k2:p140_141</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19583</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>074r</folio>
+        <dimensions>32x30</dimensions>
+        <description>Christ before Pilate</description>
+        <type>historiated initial</type>
+        <iconClass>49L12(G)</iconClass>
+        <iconClass>49L171</iconClass>
+        <iconClass>73D323</iconClass>
+        <fo_srt>74r</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4650</si_fo>
+        <chr_ge>4780</chr_ge>
+        <notAvailable>79K2_074R.JPG</notAvailable>
+        <notAvailable>79K2_074R_INIT.JPG</notAvailable>
+        <images>
+            <image2>79k2:p146_147</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19584</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>076v</folio>
+        <dimensions>70x45</dimensions>
+        <description>The tortures of Christ: Christ is flagellated</description>
+        <type>full-page miniature</type>
+        <iconClass>73D351</iconClass>
+        <fo_srt>76v</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4651</si_fo>
+        <chr_ge>4781</chr_ge>
+        <notAvailable>79K2_076V.JPG</notAvailable>
+        <notAvailable>79K2_076V_MIN.JPG</notAvailable>
+        <images>
+            <image2>79k2:p152_153</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19585</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>077r</folio>
+        <dimensions>30x28</dimensions>
+        <description>The tortures of Christ: Christ is crowned with thorns</description>
+        <type>historiated initial</type>
+        <iconClass>49L12(G)</iconClass>
+        <iconClass>49L171</iconClass>
+        <iconClass>73D352</iconClass>
+        <fo_srt>77r</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4652</si_fo>
+        <chr_ge>4782</chr_ge>
+        <notAvailable>79K2_077R.JPG</notAvailable>
+        <notAvailable>79K2_077R_INIT.JPG</notAvailable>
+        <images>
+            <image2>79k2:p152_153</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19586</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>079v</folio>
+        <dimensions>70x45</dimensions>
+        <description>The carrying of the cross: Christ bears the cross</description>
+        <type>full-page miniature</type>
+        <iconClass>11H(JOHN)4</iconClass>
+        <iconClass>73D41(+2)</iconClass>
+        <fo_srt>79v</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4653</si_fo>
+        <chr_ge>4783</chr_ge>
+        <notAvailable>79K2_079V.JPG</notAvailable>
+        <notAvailable>79K2_079V_MIN.JPG</notAvailable>
+        <images>
+            <image2>79k2:p158_159</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19587</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>080r</folio>
+        <dimensions>28x30</dimensions>
+        <description>Christ in agony waiting to be crucified</description>
+        <type>historiated initial</type>
+        <description>Angels holding instrument of the Passion: column, scourge and reed</description>
+        <type>margin</type>
+    </record>
+    <record>
+        <illuminationID>19590</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>082v</folio>
+        <dimensions>70x45</dimensions>
+        <description>The Crucifixion, with Mary, St. John, St. Mary Magdalene, the confessing centurion, and soldiers</description>
+        <type>full-page miniature</type>
+        <iconClass>45B</iconClass>
+        <iconClass>73D58</iconClass>
+        <iconClass>73DD625</iconClass>
+        <iconClass>73DD631</iconClass>
+        <fo_srt>82v</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4656</si_fo>
+        <chr_ge>4786</chr_ge>
+        <notAvailable>79K2_082V.JPG</notAvailable>
+        <notAvailable>79K2_082V_MIN.JPG</notAvailable>
+        <images>
+            <image3>79k2:p164_165</image3>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19591</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>083r</folio>
+        <dimensions>28x30</dimensions>
+        <description>Sacrifice of Isaac</description>
+        <type>historiated initial</type>
+        <description>Angels holding Instruments of the Passion: sponge, jar with vinegar(?)</description>
+        <type>margin</type>
+        <iconClass>49L12(G)</iconClass>
+        <iconClass>49L171</iconClass>
+        <iconClass>71C131311</iconClass>
+        <fo_srt>83r</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4657</si_fo>
+        <chr_ge>4787</chr_ge>
+        <notAvailable>79K2_083R.JPG</notAvailable>
+        <notAvailable>79K2_083R_INIT.JPG</notAvailable>
+        <images>
+            <image2>79k2:p164_165</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19594</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>085v</folio>
+        <dimensions>68x45</dimensions>
+        <description>The Deposition: Christ is taken down from the cross</description>
+        <type>full-page miniature</type>
+        <iconClass>73D71</iconClass>
+        <fo_srt>85v</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4659</si_fo>
+        <chr_ge>4789</chr_ge>
+        <notAvailable>79K2_085V.JPG</notAvailable>
+        <notAvailable>79K2_085V_MIN.JPG</notAvailable>
+        <images>
+            <image2>79k2:p170_171</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19595</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>086r</folio>
+        <dimensions>32x30</dimensions>
+        <description>Lamentation</description>
+        <type>historiated initial</type>
+        <description>Angels holding Instruments of the Passion: hammer and pincers, three nails, lance</description>
+        <type>margin</type>
+        <iconClass>49L12(G)</iconClass>
+        <iconClass>49L171</iconClass>
+        <iconClass>73D72121</iconClass>
+        <fo_srt>86r</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4660</si_fo>
+        <chr_ge>4790</chr_ge>
+        <notAvailable>79K2_086R.JPG</notAvailable>
+        <notAvailable>79K2_086R_INIT.JPG</notAvailable>
+        <images>
+            <image2>79k2:p170_171</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19599</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>088r</folio>
+        <description>An angel holding an instrument of the Passion: sudarium</description>
+        <type>margin</type>
+        <iconClass>11D3122</iconClass>
+        <iconClass>73D82(SUDARIUM)(+3)</iconClass>
+        <fo_srt>88r</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4662</si_fo>
+        <chr_ge>4792</chr_ge>
+        <notAvailable>79K2_088R.JPG</notAvailable>
+        <notAvailable>79K2_088R_RANDV.JPG</notAvailable>
+        <images>
+            <image2>79k2:p174_175</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19600</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>089v</folio>
+        <dimensions>70x45</dimensions>
+        <description>Harrowing of Hell: Christ leaves hell and liberates the souls</description>
+        <type>full-page miniature</type>
+        <iconClass>11T41</iconClass>
+        <iconClass>73D94</iconClass>
+        <fo_srt>89v</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4663</si_fo>
+        <chr_ge>4793</chr_ge>
+        <notAvailable>79K2_089V.JPG</notAvailable>
+        <notAvailable>79K2_089V_MIN.JPG</notAvailable>
+        <images>
+            <image2>79k2:p178_179</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19601</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>092v</folio>
+        <dimensions>65x45</dimensions>
+        <description>The Ascension: Christ ascends into heaven above Mary and the apostles, leaving his footprints on the Mount of Olives</description>
+        <type>full-page miniature</type>
+        <iconClass>73E425</iconClass>
+        <iconClass>73E44</iconClass>
+        <fo_srt>92v</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4664</si_fo>
+        <chr_ge>4794</chr_ge>
+        <notAvailable>79K2_092V.JPG</notAvailable>
+        <notAvailable>79K2_092V_MIN.JPG</notAvailable>
+        <images>
+            <image2>79k2:p184_185</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19602</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>094v</folio>
+        <dimensions>70x45</dimensions>
+        <description>Pentecost: the Holy Spirit descends upon Mary and the apostles</description>
+        <type>full-page miniature</type>
+        <iconClass>41A2</iconClass>
+        <iconClass>73E5</iconClass>
+        <fo_srt>94v</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4665</si_fo>
+        <chr_ge>4795</chr_ge>
+        <notAvailable>79K2_094V.JPG</notAvailable>
+        <notAvailable>79K2_094V_MIN.JPG</notAvailable>
+        <images>
+            <image2>79k2:p188_189</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19603</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>104v</folio>
+        <dimensions>70x45</dimensions>
+        <description>Madonna: Mary standing on the crescent, holding the Christ-child</description>
+        <type>full-page miniature</type>
+        <iconClass>11F4132(+31)</iconClass>
+        <iconClass>11G1926</iconClass>
+        <iconClass>11G23(+0)</iconClass>
+        <fo_srt>104v</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4666</si_fo>
+        <chr_ge>4796</chr_ge>
+        <notAvailable>79K2_104V.JPG</notAvailable>
+        <notAvailable>79K2_104V_MIN.JPG</notAvailable>
+        <images>
+            <image2>79k2:p208_209</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19604</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>106v</folio>
+        <dimensions>70x45</dimensions>
+        <description>St. Michael weighing souls in the scales and stabbing the devil</description>
+        <type>full-page miniature</type>
+        <iconClass>11G1831</iconClass>
+        <fo_srt>106v</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4667</si_fo>
+        <chr_ge>4797</chr_ge>
+        <notAvailable>79K2_106V.JPG</notAvailable>
+        <notAvailable>79K2_106V_MIN.JPG</notAvailable>
+        <images>
+            <image2>79k2:p212_213</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19605</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>108v</folio>
+        <dimensions>70x45</dimensions>
+        <description>St. John the Baptist</description>
+        <type>full-page miniature</type>
+        <iconClass>11D123</iconClass>
+        <iconClass>11D1311</iconClass>
+        <iconClass>11H(JOHN THE BAPTIST)</iconClass>
+        <iconClass>41B33</iconClass>
+        <iconClass>47I2133(+91)</iconClass>
+        <iconClass>49L73</iconClass>
+        <fo_srt>108v</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4668</si_fo>
+        <chr_ge>4798</chr_ge>
+        <notAvailable>79K2_108V.JPG</notAvailable>
+        <notAvailable>79K2_108V_MIN.JPG</notAvailable>
+        <images>
+            <image2>79k2:p216_217</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19606</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>111v</folio>
+        <dimensions>70x45</dimensions>
+        <description>All Saints</description>
+        <type>full-page miniature</type>
+        <iconClass>11D1311</iconClass>
+        <iconClass>11H(...)0</iconClass>
+        <iconClass>11H(ALL SAINTS)3</iconClass>
+        <iconClass>11H(JOHN THE BAPTIST)0</iconClass>
+        <iconClass>11H(PETER)0</iconClass>
+        <iconClass>11HH(CATHERINE)0</iconClass>
+        <iconClass>44B191</iconClass>
+        <iconClass>47I2133(+91)</iconClass>
+        <iconClass>49L73</iconClass>
+        <fo_srt>111v</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4669</si_fo>
+        <chr_ge>4799</chr_ge>
+        <notAvailable>79K2_111V.JPG</notAvailable>
+        <notAvailable>79K2_111V_MIN.JPG</notAvailable>
+        <images>
+            <image2>79k2:p222_223</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19607</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>112v</folio>
+        <dimensions>70x45</dimensions>
+        <description>St. John the Evangelist</description>
+        <type>full-page miniature</type>
+        <iconClass>11H(JOHN)</iconClass>
+        <iconClass>11Q71441</iconClass>
+        <iconClass>25FF42(+13)</iconClass>
+        <iconClass>31A25561(+915)</iconClass>
+        <iconClass>31E233321(+0)</iconClass>
+        <fo_srt>112v</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4670</si_fo>
+        <chr_ge>4800</chr_ge>
+        <notAvailable>79K2_112V.JPG</notAvailable>
+        <notAvailable>79K2_112V_MIN.JPG</notAvailable>
+        <images>
+            <image2>79k2:p224_225</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19608</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>114v</folio>
+        <dimensions>70x45</dimensions>
+        <description>St. Bartholomew holding a book</description>
+        <type>full-page miniature</type>
+        <iconClass>11H(BARTHOLOMEW)</iconClass>
+        <iconClass>49LL72</iconClass>
+        <fo_srt>114v</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4671</si_fo>
+        <chr_ge>4801</chr_ge>
+        <notAvailable>79K2_114V.JPG</notAvailable>
+        <notAvailable>79K2_114V_MIN.JPG</notAvailable>
+        <images>
+            <image2>79k2:p228_229</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19609</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>116v</folio>
+        <dimensions>70x45</dimensions>
+        <description>St. George on horseback fighting the dragon, stabbing it with his lance; the princess nearby, praying</description>
+        <type>full-page miniature</type>
+        <iconClass>11H(GEORGE)41</iconClass>
+        <fo_srt>116v</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4672</si_fo>
+        <chr_ge>4802</chr_ge>
+        <notAvailable>79K2_116V.JPG</notAvailable>
+        <notAvailable>79K2_116V_MIN.JPG</notAvailable>
+        <images>
+            <image2>79k2:p232_233</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19610</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>118v</folio>
+        <dimensions>70x45</dimensions>
+        <description>St. Christopher carries the Christ child, a hermit guiding him with a lamp</description>
+        <type>full-page miniature</type>
+        <iconClass>11H(CHRISTOPHER)51</iconClass>
+        <fo_srt>118v</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4673</si_fo>
+        <chr_ge>4803</chr_ge>
+        <notAvailable>79K2_118V.JPG</notAvailable>
+        <notAvailable>79K2_118V_MIN.JPG</notAvailable>
+        <images>
+            <image2>79k2:p236_237</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19611</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>120v</folio>
+        <dimensions>65x45</dimensions>
+        <description>St. Martin, Bishop of Tours, dividing his cloak</description>
+        <type>full-page miniature</type>
+        <iconClass>11H(MARTIN)41</iconClass>
+        <fo_srt>120v</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4674</si_fo>
+        <chr_ge>4804</chr_ge>
+        <notAvailable>79K2_120V.JPG</notAvailable>
+        <notAvailable>79K2_120V_MIN.JPG</notAvailable>
+        <images>
+            <image2>79k2:p240_241</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19612</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>122v</folio>
+        <dimensions>70x45</dimensions>
+        <description>St. Antony Abbot of Egypt sitting on flames and holding a book, with a pig and a lion</description>
+        <type>full-page miniature</type>
+        <iconClass>11D123(TAU-CROSS)</iconClass>
+        <iconClass>11H(ANTONY ABBOT)</iconClass>
+        <iconClass>11P3151</iconClass>
+        <iconClass>11P315311</iconClass>
+        <iconClass>25F23(LION)(+13)</iconClass>
+        <iconClass>34A1</iconClass>
+        <iconClass>41B121</iconClass>
+        <iconClass>41D263</iconClass>
+        <iconClass>46E521</iconClass>
+        <iconClass>47I212(+913)</iconClass>
+        <fo_srt>122v</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4675</si_fo>
+        <chr_ge>4805</chr_ge>
+        <notAvailable>79K2_122V.JPG</notAvailable>
+        <notAvailable>79K2_122V_MIN.JPG</notAvailable>
+        <images>
+            <image2>79k2:p244_245</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19613</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>124v</folio>
+        <dimensions>70x45</dimensions>
+        <description>St. Mary Magdalene holding a palm and a jar of ointment</description>
+        <type>full-page miniature</type>
+        <iconClass>11HH(MARY MAGDALENE)</iconClass>
+        <iconClass>25G3(PALM-TREE)(+22)</iconClass>
+        <iconClass>31A51453</iconClass>
+        <fo_srt>124v</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4676</si_fo>
+        <chr_ge>4806</chr_ge>
+        <notAvailable>79K2_124V.JPG</notAvailable>
+        <notAvailable>79K2_124V_MIN.JPG</notAvailable>
+        <images>
+            <image2>79k2:p248_249</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19999</illuminationID>
+        <manuscriptID>420999</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>129r</folio>
+        <dimensions>Unknown</dimensions>
+        <description>Pagan soldier</description>
+        <type>historiated initial</type>
+    </record>
+    <record>
+        <illuminationID>19614</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>130v</folio>
+        <dimensions>70x45</dimensions>
+        <description>St. Dorothea of Caesarea holding a palm and a basket with roses</description>
+        <type>full-page miniature</type>
+        <iconClass>11HH(DOROTHEA)</iconClass>
+        <iconClass>25G3(PALM-TREE)(+22)</iconClass>
+        <iconClass>25G41(ROSE)</iconClass>
+        <iconClass>41A7751</iconClass>
+        <fo_srt>130v</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4677</si_fo>
+        <chr_ge>4807</chr_ge>
+        <notAvailable>79K2_130V.JPG</notAvailable>
+        <notAvailable>79K2_130V_MIN.JPG</notAvailable>
+        <images>
+            <image3>79k2:p260_261</image3>
+            <image2>79k2:p260</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19615</illuminationID>
+        <manuscriptID>4209</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>132v</folio>
+        <dimensions>65x40</dimensions>
+        <description>St. Cecilia of Rome holding two birds</description>
+        <type>full-page miniature</type>
+        <iconClass>11HH(CECILIA)</iconClass>
+        <iconClass>25F3(+13)</iconClass>
+        <fo_srt>132v</fo_srt>
+        <country>Northern Netherlands</country>
+        <dateRegister>1430-1435</dateRegister>
+        <si_fo>4678</si_fo>
+        <chr_ge>4808</chr_ge>
+        <notAvailable>79K2_132V.JPG</notAvailable>
+        <notAvailable>79K2_132V_MIN.JPG</notAvailable>
+        <images>
+            <image2>79k2:p264_265</image2>
+        </images>
+        <dateRegisterIndex>1430-1435</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>19619</illuminationID>
+        <manuscriptID>4249</manuscriptID>
+        <signature>The Hague, KB, 79 K 2</signature>
+        <folio>136r</folio>
+        <dimensions>Unknown</dimensions>
+        <description>Sudarium with the face of Christ</description>
+        <type>historiated initial</type>
+    </record>
+</records>
