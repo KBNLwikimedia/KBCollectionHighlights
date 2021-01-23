@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<records>
+    <record>
+        <illuminationID>1703</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>001v</folio>
+        <dimensions>90x70</dimensions>
+        <description>Mary holding the Christ-child</description>
+        <type>full-page miniature</type>
+        <iconClass>11F4122</iconClass>
+        <fo_srt>1v</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Jean Fouquet</miniaturist>
+        <si_fo>1000</si_fo>
+        <chr_ge>2841</chr_ge>
+        <miniature>74g37a_001v_min.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1706</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>002r</folio>
+        <dimensions>55x35</dimensions>
+        <description>Christ appears at the Lake of Gennesaret, St. Peter walks on the water</description>
+        <type>miniature</type>
+        <textPart>Suffrages</textPart>
+        <iconClass>73E3731</iconClass>
+        <fo_srt>2r</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1001</si_fo>
+        <chr_ge>2842</chr_ge>
+        <miniature>74g37a_002r_min.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1708</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>003v</folio>
+        <dimensions>55x35</dimensions>
+        <description>The conversion of St. Paul - on the way to Damascus Christ appears to Saul, who falls from his horse and is blinded by the light</description>
+        <type>miniature</type>
+        <textPart>Suffrages</textPart>
+        <iconClass>73F2212(+0)</iconClass>
+        <fo_srt>3v</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1002</si_fo>
+        <chr_ge>2843</chr_ge>
+        <miniature>74g37a_003v_min.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1710</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>004v</folio>
+        <dimensions>55x35</dimensions>
+        <description>St. John the Baptist preaching to a multitude</description>
+        <type>miniature</type>
+        <textPart>Suffrages</textPart>
+        <iconClass>73C11</iconClass>
+        <fo_srt>4v</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1003</si_fo>
+        <chr_ge>2844</chr_ge>
+        <miniature>74g37a_004v_min.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1712</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>005v</folio>
+        <dimensions>55x35</dimensions>
+        <description>The martyrdom of the Evangelist St. John - he is put in a cauldron of boiling oil</description>
+        <type>miniature</type>
+        <textPart>Suffrages</textPart>
+        <iconClass>73F2351</iconClass>
+        <fo_srt>5v</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1004</si_fo>
+        <chr_ge>2845</chr_ge>
+        <miniature>74g37a_005v_min.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1714</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>006v</folio>
+        <dimensions>55x35</dimensions>
+        <description>Conversion of Hermogenes by St. James the Great</description>
+        <type>miniature</type>
+        <textPart>Suffrages</textPart>
+        <iconClass>73F2424</iconClass>
+        <iconClass>73F2425</iconClass>
+        <fo_srt>6v</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1005</si_fo>
+        <chr_ge>2846</chr_ge>
+        <miniature>74g37a_006v_min.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1716</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>008r</folio>
+        <dimensions>55x35</dimensions>
+        <description>The martyrdom of St. Simon Zelotes and St. Jude Thaddaeus - they are beaten to death</description>
+        <type>miniature</type>
+        <textPart>Suffrages</textPart>
+        <iconClass>73F324</iconClass>
+        <iconClass>73F332</iconClass>
+        <fo_srt>8r</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1006</si_fo>
+        <chr_ge>2847</chr_ge>
+        <miniature>74g37a_008r_min.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1718</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>009r</folio>
+        <dimensions>55x35</dimensions>
+        <description>The martyrdom of St. Stephen - he is stoned to death</description>
+        <type>miniature</type>
+        <textPart>Suffrages</textPart>
+        <iconClass>11C23</iconClass>
+        <iconClass>73F3563(+11)</iconClass>
+        <fo_srt>9r</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1007</si_fo>
+        <chr_ge>2848</chr_ge>
+        <miniature>74g37a_009r_min.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1720</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>010v</folio>
+        <dimensions>55x35</dimensions>
+        <description>St. Claudius, Bishop of Besancon, stills a storm at sea</description>
+        <type>miniature</type>
+        <textPart>Suffrages</textPart>
+        <iconClass>11H(CLAUDIUS)8</iconClass>
+        <iconClass>11K31</iconClass>
+        <iconClass>11P31131</iconClass>
+        <iconClass>26C32</iconClass>
+        <iconClass>46C24(+63)</iconClass>
+        <iconClass>46C2931</iconClass>
+        <iconClass>46C298</iconClass>
+        <fo_srt>10v</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1008</si_fo>
+        <chr_ge>2849</chr_ge>
+        <miniature>74g37a_010v_min.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1722</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>012v</folio>
+        <dimensions>55x35</dimensions>
+        <description>The Supper at Bethany - St. Mary Magdalene anoints Christ&apos;s feet</description>
+        <type>miniature</type>
+        <textPart>Suffrages</textPart>
+        <iconClass>73D132</iconClass>
+        <fo_srt>12v</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1009</si_fo>
+        <chr_ge>2850</chr_ge>
+        <miniature>74g37a_012v_min.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1724</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>014r</folio>
+        <dimensions>55x35</dimensions>
+        <description>The martyrdom of St. Catherine of Alexandria - she is beheaded</description>
+        <type>miniature</type>
+        <textPart>Suffrages</textPart>
+        <iconClass>11HH(CATHERINE)631</iconClass>
+        <iconClass>11HH(CATHERINE)68</iconClass>
+        <iconClass>31E23621</iconClass>
+        <fo_srt>14r</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1010</si_fo>
+        <chr_ge>2851</chr_ge>
+        <miniature>74g37a_014r_min.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1726</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>015v</folio>
+        <dimensions>55x35</dimensions>
+        <description>St. Genevieve of Paris anointing the faithful</description>
+        <type>miniature</type>
+        <textPart>Suffrages</textPart>
+        <iconClass>11HH(GENEVIEVE)4</iconClass>
+        <iconClass>11Q11</iconClass>
+        <iconClass>11Q7562</iconClass>
+        <fo_srt>15v</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1011</si_fo>
+        <chr_ge>2852</chr_ge>
+        <miniature>74g37a_015v_min.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1728</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>017r</folio>
+        <dimensions>55x35</dimensions>
+        <description>The martyrdom of St. Apollonia of Alexandria - her teeth are pulled out</description>
+        <type>miniature</type>
+        <textPart>Suffrages</textPart>
+        <iconClass>11HH(APOLLONIA)62</iconClass>
+        <iconClass>47D8(TONGS)</iconClass>
+        <fo_srt>17r</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1012</si_fo>
+        <chr_ge>2853</chr_ge>
+        <miniature>74g37a_017r_min.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1730</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>018v</folio>
+        <dimensions>55x35</dimensions>
+        <description>St. Avia of Paris in prison receives a host from Mary</description>
+        <type>miniature</type>
+        <textPart>Suffrages</textPart>
+        <iconClass>11F82</iconClass>
+        <iconClass>11G1926</iconClass>
+        <iconClass>11HH(AVIA OF PARIS)34</iconClass>
+        <iconClass>11Q73241</iconClass>
+        <iconClass>44G311</iconClass>
+        <fo_srt>18v</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1013</si_fo>
+        <chr_ge>2854</chr_ge>
+        <miniature>74g37a_018v_min.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1732</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>019v</folio>
+        <dimensions>55x35</dimensions>
+        <description>The martyrdom of St. Barbara - she is beheaded by her father Dioscuros</description>
+        <type>miniature</type>
+        <textPart>Suffrages</textPart>
+        <iconClass>11HH(BARBARA)68</iconClass>
+        <iconClass>31A25441</iconClass>
+        <iconClass>31E23621</iconClass>
+        <fo_srt>19v</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1014</si_fo>
+        <chr_ge>2855</chr_ge>
+        <miniature>74g37a_019v_min.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1734</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>020r</folio>
+        <dimensions>55x35</dimensions>
+        <description>The arrest of Christ - the kiss of Judas; the ear of Malchus cut off by St. Peter</description>
+        <type>miniature</type>
+        <textPart>Hours of the Cross</textPart>
+        <iconClass>73D313</iconClass>
+        <iconClass>73D3142</iconClass>
+        <fo_srt>20r</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Dunois Master</miniaturist>
+        <si_fo>1015</si_fo>
+        <chr_ge>2856</chr_ge>
+        <miniature>74g37a_020r_min.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1735</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>029r</folio>
+        <dimensions>55x35</dimensions>
+        <description>Pentecost - the Holy Spirit descends upon Mary and the apostles</description>
+        <type>miniature</type>
+        <textPart>Hours of the Holy Spirit</textPart>
+        <iconClass>41A2</iconClass>
+        <iconClass>49LL72</iconClass>
+        <iconClass>49N</iconClass>
+        <iconClass>73E5</iconClass>
+        <fo_srt>29r</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1016</si_fo>
+        <chr_ge>2857</chr_ge>
+        <miniature>74g37a_029r_min.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1738</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>037r</folio>
+        <dimensions>55x35</dimensions>
+        <description>A priest on his way to a dying person to administer extreme unction</description>
+        <type>miniature</type>
+        <textPart>Office of the Dead</textPart>
+        <iconClass>11Q73271</iconClass>
+        <fo_srt>37r</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <si_fo>1017</si_fo>
+        <chr_ge>2858</chr_ge>
+        <miniature>74g37a_037r_min.jpg</miniature>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1740</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>083r</folio>
+        <dimensions>55x35</dimensions>
+        <description>Christ and Mary enthroned in heaven with saints (All Saints)</description>
+        <type>miniature</type>
+        <textPart>Suffrages</textPart>
+        <iconClass>11D331</iconClass>
+        <iconClass>11G192</iconClass>
+        <iconClass>11H(ALL SAINTS)</iconClass>
+        <fo_srt>83r</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1018</si_fo>
+        <chr_ge>2859</chr_ge>
+        <miniature>74g37a_083r_min.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1742</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>084r</folio>
+        <dimensions>55x35</dimensions>
+        <description>Christ appears to his mother Mary</description>
+        <type>miniature</type>
+        <textPart>Prayer to the Virgin</textPart>
+        <iconClass>73E32(+3)</iconClass>
+        <fo_srt>84r</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1019</si_fo>
+        <chr_ge>2860</chr_ge>
+        <miniature>74g37a_084r_min.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1743</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>088r</folio>
+        <description>January - a man dining</description>
+        <type>margin</type>
+        <dimensions>25x25</dimensions>
+        <textPart>Calendar</textPart>
+        <iconClass>23K11</iconClass>
+        <iconClass>41C43</iconClass>
+        <fo_srt>88r _sc. 1</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1020</si_fo>
+        <chr_ge>2861</chr_ge>
+        <miniature>74g37a_088r_det_randv_1.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1745</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>088r</folio>
+        <dimensions>25x25</dimensions>
+        <description>January - Aquarius</description>
+        <type>margin</type>
+        <textPart>Calendar</textPart>
+        <iconClass>23O12</iconClass>
+        <fo_srt>88r _sc. 2</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1021</si_fo>
+        <chr_ge>2862</chr_ge>
+        <miniature>74g37a_088r_det_randv_2.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1746</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>089r</folio>
+        <description>February - a man warming himself at a fire</description>
+        <type>margin</type>
+        <dimensions>25x25</dimensions>
+        <textPart>Calendar</textPart>
+        <iconClass>23K12</iconClass>
+        <iconClass>41B211</iconClass>
+        <fo_srt>89r _sc. 1</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1022</si_fo>
+        <chr_ge>2863</chr_ge>
+        <miniature>74g37a_089r_det_randv_1.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1748</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>089r</folio>
+        <description>February - Pisces</description>
+        <type>margin</type>
+        <dimensions>25x25</dimensions>
+        <textPart>Calendar</textPart>
+        <iconClass>23O13</iconClass>
+        <fo_srt>89r _sc. 2</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1023</si_fo>
+        <chr_ge>2864</chr_ge>
+        <miniature>74g37a_089r_det_randv_2.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1749</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>090r</folio>
+        <dimensions>25x25</dimensions>
+        <description>March - a man pruning</description>
+        <type>margin</type>
+        <textPart>Calendar</textPart>
+        <iconClass>23K13</iconClass>
+        <iconClass>47I135</iconClass>
+        <fo_srt>90r _sc. 1</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1024</si_fo>
+        <chr_ge>2865</chr_ge>
+        <miniature>74g37a_090r_det_randv_1.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1751</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>090r</folio>
+        <description>March - Aries</description>
+        <type>margin</type>
+        <dimensions>25x25</dimensions>
+        <textPart>Calendar</textPart>
+        <iconClass>23O21</iconClass>
+        <fo_srt>90r _sc. 2</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1025</si_fo>
+        <chr_ge>2866</chr_ge>
+        <miniature>74g37a_090r_det_randv_2.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1752</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>091r</folio>
+        <description>April - a woman holding a wreath of flowers</description>
+        <type>margin</type>
+        <dimensions>25x25</dimensions>
+        <textPart>Calendar</textPart>
+        <iconClass>23K21</iconClass>
+        <iconClass>25G411</iconClass>
+        <iconClass>31D15(+933)</iconClass>
+        <iconClass>43A(+12)</iconClass>
+        <fo_srt>91r _sc. 1</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1026</si_fo>
+        <chr_ge>2867</chr_ge>
+        <miniature>74g37a_091r_det_randv_1.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1754</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>091r</folio>
+        <description>April - Taurus</description>
+        <type>margin</type>
+        <dimensions>25x25</dimensions>
+        <textPart>Calendar</textPart>
+        <iconClass>23O22</iconClass>
+        <fo_srt>91r _sc. 2</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1027</si_fo>
+        <chr_ge>2868</chr_ge>
+        <miniature>74g37a_091r_det_randv_2.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1755</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>092r</folio>
+        <description>May - a falconer</description>
+        <type>margin</type>
+        <dimensions>25x25</dimensions>
+        <textPart>Calendar</textPart>
+        <iconClass>23K22</iconClass>
+        <iconClass>43C1113(+4241)</iconClass>
+        <fo_srt>92r _sc. 1</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1028</si_fo>
+        <chr_ge>2869</chr_ge>
+        <miniature>74g37a_092r_det_randv_1.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1757</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>092r</folio>
+        <dimensions>25x25</dimensions>
+        <description>May - Gemini (with the coat of arms of Simon de Varie)</description>
+        <type>margin</type>
+        <textPart>Calendar</textPart>
+        <iconClass>23O23</iconClass>
+        <iconClass>46A122(VARIE, Simon de)1</iconClass>
+        <fo_srt>92r _sc. 2</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1029</si_fo>
+        <chr_ge>2870</chr_ge>
+        <miniature>74g37a_092r_det_randv_2.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1758</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>093r</folio>
+        <description>June - a man making hay</description>
+        <type>margin</type>
+        <dimensions>25x25</dimensions>
+        <textPart>Calendar</textPart>
+        <iconClass>23K23</iconClass>
+        <iconClass>47I141</iconClass>
+        <iconClass>47I17(HAY)</iconClass>
+        <fo_srt>93r _sc. 1</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1030</si_fo>
+        <chr_ge>2871</chr_ge>
+        <miniature>74g37a_093r_det_randv_1.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1760</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>093r</folio>
+        <dimensions>25x25</dimensions>
+        <description>June - Cancer</description>
+        <type>margin</type>
+        <textPart>Calendar</textPart>
+        <iconClass>23O31</iconClass>
+        <fo_srt>93r _sc. 2</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1031</si_fo>
+        <chr_ge>2872</chr_ge>
+        <miniature>74g37a_093r_det_randv_2.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1761</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>094r</folio>
+        <dimensions>25x25</dimensions>
+        <description>July - a man reaping corn and a woman binding sheaves</description>
+        <type>margin</type>
+        <textPart>Calendar</textPart>
+        <iconClass>23K31</iconClass>
+        <iconClass>47I111</iconClass>
+        <iconClass>47I141</iconClass>
+        <iconClass>47I1421</iconClass>
+        <fo_srt>94r _sc. 1</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1032</si_fo>
+        <chr_ge>2873</chr_ge>
+        <miniature>74g37a_094r_det_randv_1.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1763</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>094r</folio>
+        <dimensions>25x25</dimensions>
+        <description>July - Leo</description>
+        <type>margin</type>
+        <textPart>Calendar</textPart>
+        <iconClass>23O32</iconClass>
+        <fo_srt>94r _sc. 2</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1033</si_fo>
+        <chr_ge>2874</chr_ge>
+        <miniature>74g37a_094r_det_randv_2.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1764</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>095r</folio>
+        <dimensions>25x25</dimensions>
+        <description>August - two men threshing</description>
+        <type>margin</type>
+        <textPart>Calendar</textPart>
+        <iconClass>23K32</iconClass>
+        <iconClass>47I148</iconClass>
+        <fo_srt>95r _sc. 1</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1034</si_fo>
+        <chr_ge>2875</chr_ge>
+        <miniature>74g37a_095r_det_randv_1.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1765</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <dimensions>25x25</dimensions>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>095r</folio>
+        <description>August - Virgo</description>
+        <type>margin</type>
+        <textPart>Calendar</textPart>
+        <iconClass>23O33</iconClass>
+        <fo_srt>95r _sc. 2</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1035</si_fo>
+        <chr_ge>2876</chr_ge>
+        <miniature>74g37a_095r_det_randv_2.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1767</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>096r</folio>
+        <dimensions>25x25</dimensions>
+        <description>September - Libra</description>
+        <type>margin</type>
+        <textPart>Calendar</textPart>
+        <iconClass>23O41</iconClass>
+        <fo_srt>96r _sc. 2</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1037</si_fo>
+        <chr_ge>2878</chr_ge>
+        <miniature>74g37a_096r_det_randv_2.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1768</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>096r</folio>
+        <dimensions>25x25</dimensions>
+        <description>September - two men making wine, one of them treads grapes</description>
+        <type>margin</type>
+        <textPart>Calendar</textPart>
+        <iconClass>23K33</iconClass>
+        <iconClass>47I424</iconClass>
+        <iconClass>47I4241</iconClass>
+        <fo_srt>96r _sc. 1</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1036</si_fo>
+        <chr_ge>2877</chr_ge>
+        <miniature>74g37a_096r_det_randv_1.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1770</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>097r</folio>
+        <description>October - a man sowing</description>
+        <type>margin</type>
+        <dimensions>25x25</dimensions>
+        <textPart>Calendar</textPart>
+        <iconClass>23K41</iconClass>
+        <iconClass>47I131</iconClass>
+        <fo_srt>97r _sc. 1</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1038</si_fo>
+        <chr_ge>2879</chr_ge>
+        <miniature>74g37a_097r_det_randv_1.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1772</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>097r</folio>
+        <description>October - Scorpio</description>
+        <type>margin</type>
+        <dimensions>25x25</dimensions>
+        <textPart>Calendar</textPart>
+        <iconClass>23O42</iconClass>
+        <fo_srt>97r _sc. 2</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1039</si_fo>
+        <chr_ge>2880</chr_ge>
+        <miniature>74g37a_097r_det_randv_2.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1773</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>098r</folio>
+        <description>November - a man knocking acorns out of oak-trees</description>
+        <type>margin</type>
+        <dimensions>25x25</dimensions>
+        <textPart>Calendar</textPart>
+        <iconClass>23K42</iconClass>
+        <iconClass>25G3(OAK)</iconClass>
+        <iconClass>47I2124</iconClass>
+        <iconClass>47I4132</iconClass>
+        <fo_srt>98r _sc. 1</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1040</si_fo>
+        <chr_ge>2881</chr_ge>
+        <miniature>74g37a_098r_det_randv_1.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1775</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>098r</folio>
+        <dimensions>25x25</dimensions>
+        <description>November - Sagittarius</description>
+        <type>margin</type>
+        <textPart>Calendar</textPart>
+        <iconClass>23O43</iconClass>
+        <fo_srt>98r _sc. 2</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1041</si_fo>
+        <chr_ge>2882</chr_ge>
+        <miniature>74g37a_098r_det_randv_2.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1776</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>099r</folio>
+        <description>December - a man slaughtering a pig</description>
+        <type>margin</type>
+        <dimensions>25x25</dimensions>
+        <textPart>Calendar</textPart>
+        <iconClass>23K43</iconClass>
+        <iconClass>47B1814</iconClass>
+        <iconClass>47I212(+9641)</iconClass>
+        <fo_srt>99r _sc. 1</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1042</si_fo>
+        <chr_ge>2883</chr_ge>
+        <miniature>74g37a_099r_det_randv_1.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+    <record>
+        <illuminationID>1778</illuminationID>
+        <manuscriptID>9000</manuscriptID>
+        <signature>The Hague, KB, 74 G 37a</signature>
+        <folio>099r</folio>
+        <dimensions>25x25</dimensions>
+        <description>December - Capricorn</description>
+        <type>margin</type>
+        <textPart>Calendar</textPart>
+        <iconClass>23O11</iconClass>
+        <fo_srt>99r _sc. 2</fo_srt>
+        <country>France</country>
+        <dateRegister>1455</dateRegister>
+        <miniaturist>Master of Jean Rolin II</miniaturist>
+        <si_fo>1043</si_fo>
+        <chr_ge>2884</chr_ge>
+        <miniature>74g37a_099r_det_randv_2.jpg</miniature>
+        <dateRegisterIndex>1455</dateRegisterIndex>
+    </record>
+</records>
