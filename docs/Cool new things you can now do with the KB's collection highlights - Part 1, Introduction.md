@@ -41,3 +41,11 @@ Deze mogelijkheden zijn al aardig tof natuurlijk, maar als je bv.
 Wat is er nieuw?
 
 In de volgende vier Plein-berichten wil ik de komende tijd al deze nieuwe mogelijkheden met jullie delen, steeds ongeveer 10 per bericht, om het enigszins behapbaar te houden. Hier meteen Deel 2, waarin ik allerlei handige overzichten voor alle 70 topstukken samen bespreek.
+
+
+
+--------------
+Olaf Janssen is de Wikimedia-coördinator van de KB, de nationale bibliotheek van Nederland. Hij draagt bij aan [Wikipedia](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/), [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Koninklijke_Bibliotheek) en [Wikidata](https://www.wikidata.org/wiki/Wikidata:GLAM/Koninklijke_Bibliotheek_Nederland) als [Gebruiker:OlafJanssen](https://nl.wikipedia.org/wiki/Gebruiker:OlafJanssen) 
+De tekst van dit artikel is beschikbaar onder de [Creative Commons Attribution CC-BY 4.0]()-licentie.
+[CC-BY-SA LOGO]
+
