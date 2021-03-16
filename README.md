@@ -6,9 +6,10 @@ Currently most **data** on the KB collection highlights can be found on our proj
 * [Wikidata](https://www.wikidata.org/wiki/Wikidata:WikiProject_Collection_highlights_National_Library_of_the_Netherlands) and  
 * on [Dutch Wikipedia](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken)
 
-**Images** of our public domain collection highlights are in [https://commons.wikimedia.org/wiki/Category:Collection_highlights_of_Koninklijke_Bibliotheek](Category:Collection highlights of Koninklijke Bibliotheek) on Wikimedia Commons.
+**Images** of our public domain collection highlights are in [Category:Collection highlights of Koninklijke Bibliotheek](https://commons.wikimedia.org/wiki/Category:Collection_highlights_of_Koninklijke_Bibliotheek) on Wikimedia Commons.
 
 **Publications** about Wikifying KB's collection highlights
-* [Cool new things you can now do with the KB's collection highlights](https://kbnlwikimedia.github.io/KBCollectionHighlights/) - a five part series
+* [Cool new things you can now do with the KB's collection highlights](https://kbnlwikimedia.github.io/KBCollectionHighlights/) - a five part series about ... welke handige & nuttige overzichten van alle 70 topstukken samen er als resultaat van [het project XXXXX]() beschikbaar zijn gekomen. 
+* 
 * <a href="https://medium.com/@ecritures/topstukken-in-de-koninklijke-bibliotheek-b32780f314f8">Topstukken in de Koninklijke Bibliotheek</a> (in Dutch)
 * <a href="https://medium.com/@ecritures/gestructureerde-data-van-de-kb-op-wikimedia-commons-35dc948c2eee">Gestructureerde data van de KB op Wikimedia Commons</a> (in Dutch)
