@@ -8,6 +8,6 @@ Currently most data on the KB collection highlights can be found on our project 
 * Images of our public domain collection highlights are in [https://commons.wikimedia.org/wiki/Category:Collection_highlights_of_Koninklijke_Bibliotheek](Category:Collection highlights of Koninklijke Bibliotheek) on Wikimedia Commons.
 
 Publications on LOD and the KB collection highlights
-* Five part series *Cool new things you can now do with the KB's collection highlights*
+* [Cool new things you can now do with the KB's collection highlights](https://kbnlwikimedia.github.io/KBCollectionHighlights/) - a five part series
 * <a href="https://medium.com/@ecritures/topstukken-in-de-koninklijke-bibliotheek-b32780f314f8">Topstukken in de Koninklijke Bibliotheek</a> (in Dutch)
 * <a href="https://medium.com/@ecritures/gestructureerde-data-van-de-kb-op-wikimedia-commons-35dc948c2eee">Gestructureerde data van de KB op Wikimedia Commons</a> (in Dutch)
