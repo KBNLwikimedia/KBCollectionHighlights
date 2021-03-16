@@ -1,7 +1,7 @@
 ![Banner](https://raw.githubusercontent.com/KBNLwikimedia/KBCollectionHighlights/main/banners/KBTopstukkenBannerWikimedia_EN.jpg)
 # Stories about Wikifying KB's collection highlights 
 
-## Cool new things you can now do with the KB's collection highlights 
+## Cool new things you can now do with the KB's collection highlights - March 2021
 A five part series about ... welke handige & nuttige overzichten van alle 70 topstukken samen er als resultaat van het project XXXXX beschikbaar zijn gekomen.
 
 Short introiduction 
@@ -15,3 +15,9 @@ Short introiduction
 * [Part5, Reuse](https://kbnlwikimedia.github.io/KBCollectionHighlights/Cool%20new%20things%20you%20can%20now%20do%20with%20the%20KB's%20collection%20highlights%20-%20Part%205%2C%20Reuse.html) - short explianer
 
 
+## Topstukken in de Koninklijke Bibliotheek - xx date 2020 (Dutch)
+* <a href="https://medium.com/@ecritures/topstukken-in-de-koninklijke-bibliotheek-b32780f314f8">Topstukken in de Koninklijke Bibliotheek</a> (in Dutch)
+
+
+## Gestructureerde data van de KB op Wikimedia Commons - xx date 2020 (Dutch)
+* <a href="https://medium.com/@ecritures/gestructureerde-data-van-de-kb-op-wikimedia-commons-35dc948c2eee">Gestructureerde data van de KB op Wikimedia Commons</a> (in Dutch)
