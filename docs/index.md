@@ -16,8 +16,11 @@ Short introiduction
 
 
 ## Topstukken in de Koninklijke Bibliotheek - xx date 2020 (Dutch)
-* <a href="https://medium.com/@ecritures/topstukken-in-de-koninklijke-bibliotheek-b32780f314f8">Topstukken in de Koninklijke Bibliotheek</a> (in Dutch)
-
+* <a href="https://medium.com/@ecritures/topstukken-in-de-koninklijke-bibliotheek-b32780f314f8">Topstukken in de Koninklijke Bibliotheek</a> 
+Medium
+[Screenshot invoegen]
 
 ## Gestructureerde data van de KB op Wikimedia Commons - xx date 2020 (Dutch)
-* <a href="https://medium.com/@ecritures/gestructureerde-data-van-de-kb-op-wikimedia-commons-35dc948c2eee">Gestructureerde data van de KB op Wikimedia Commons</a> (in Dutch)
+* <a href="https://medium.com/@ecritures/gestructureerde-data-van-de-kb-op-wikimedia-commons-35dc948c2eee">Gestructureerde data van de KB op Wikimedia Commons</a>
+ Medium
+[Screenshot invoegen]
