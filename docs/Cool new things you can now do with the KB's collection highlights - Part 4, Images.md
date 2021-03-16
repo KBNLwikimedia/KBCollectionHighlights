@@ -53,3 +53,14 @@ Onbetwiste KB-tagkampioene is @madeleinevandenberg, met inmiddels vele duizenden
     Miniaturen uit Der Naturen Bloeme waarop een boom te zien is (108), of vissen (17)
 
 OK, die beer is nu wel uitgerend, tot zover dit vierde deel. Volgende maand het vijfde, tevens laatste deel. Daarin zal ik uitleggen hoe je de Topstukken kunt gebruiken buiten de Wikimedia-context, dus t.b.v. je eigen websites, diensten, apps, hackathons en projecten. Dan ga ik het hebben over REST APIs, SPARQL, datadumps, Python en script- en machinematige interacties met onze topstukken.
+
+
+### About the author
+<img align="left" src="images/389px-Olaf_Janssen_at_GLAM_WIKI_Tel_Aviv_Conference_2018.JPG" width="50"/>
+
+Olaf Janssen is the Wikimedia coordinator of the KB, the national library of the Netherlands. He contributes to
+[Wikipedia](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief), [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Koninklijke_Bibliotheek) and [Wikidata](https://www.wikidata.org/wiki/Wikidata:GLAM/Koninklijke_Bibliotheek_Nederland) as [User:OlafJanssen](https://nl.wikipedia.org/wiki/Gebruiker:OlafJanssen)<br>
+
+### Reusing this article
+This text of this article is available under the [Creative Commons Attribution](https://creativecommons.org/licenses/by/4.0/) CC-BY 4.0 License. 
+<kbd><img src="images/cc-by.png" width="80"/></kbd>
