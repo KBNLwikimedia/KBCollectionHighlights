@@ -30,3 +30,14 @@ Und los gehts:
 12) Tot slot, nog even terugkomend op die Wikipedia-artikelen over de betrokkenen bij punt 9: je ziet in dat overzicht ook veel betrokken waarover nog geen Nederlandstalig Wikipedia-artikelen geschreven zijn, die hebben m.a.w. geen blauwe links. Om deze ontbrekende artikelen beter herkenbaar te maken is er een apart overzicht van al bestaande en nog gewenste Nederlandstalige Wikipeda-artikelen rondom de KB-topstukken beschikbaar. Hierin worden op 1 pagina de al bestaande (blauwe links) en de nog niet bestaande, dus gewenste Wikipedia-artikelen (d.m.v. in het oog springende rode links) opgesomd. Voor mensen die aan Wikipedia werken is een rode link een actieve uitnodiging om een artikel over dat onderwerp te gaan schrijven.
 
 Das war es, tot zover dit tweede deel. Hier staat Deel 3, waarin ik bespreek welke vernieuwde functionaliteiten er vanaf nu voor de individuele topstukken beschikbaar zijn.
+
+
+### About the author
+<img align="left" src="images/389px-Olaf_Janssen_at_GLAM_WIKI_Tel_Aviv_Conference_2018.JPG" width="50"/>
+
+Olaf Janssen is the Wikimedia coordinator of the KB, the national library of the Netherlands. He contributes to
+[Wikipedia](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief), [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Koninklijke_Bibliotheek) and [Wikidata](https://www.wikidata.org/wiki/Wikidata:GLAM/Koninklijke_Bibliotheek_Nederland) as [User:OlafJanssen](https://nl.wikipedia.org/wiki/Gebruiker:OlafJanssen)<br>
+
+### Reusing this article
+This text of this article is available under the [Creative Commons Attribution](https://creativecommons.org/licenses/by/4.0/) CC-BY 4.0 License. 
+<kbd><img src="images/cc-by.png" width="80"/></kbd>
