@@ -15,5 +15,3 @@ Short introiduction
 * [Part5, Reuse](https://kbnlwikimedia.github.io/KBCollectionHighlights/Cool%20new%20things%20you%20can%20now%20do%20with%20the%20KB's%20collection%20highlights%20-%20Part%205%2C%20Reuse.html) - short explianer
 
 
-De tekst van dit artikel is beschikbaar onder de [Creative Commons Attribution CC-BY 4.0]()-licentie.
-[CC-BY-SA LOGO]
