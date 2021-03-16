@@ -1,3 +1,4 @@
+![Banner](../banners/KBTopstukkenBannerWikimedia_EN.jpg)
 # Cool new things you can now do with the KB's collection highlights - Part 3, Overviews per highlight
 
 In het vorige deel van deze vijfdelige Plein-serie heb ik de eerste 12 hulpstukken van het rechter mes uitgeklapt We zagen welke handige & nuttige overzichten van alle 70 topstukken samen er als resultaat van het Topstukkenproject beschikbaar zijn gekomen; denk aan beeldoverzichten, alfabetisch overzichten & tabellen en een overzicht van bestaande en gewenste artikelen over onze topstukken.
