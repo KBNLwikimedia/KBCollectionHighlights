@@ -60,6 +60,8 @@ Zie ook deze eerdere Plein-post over de gestructureerde data van Atlas de Wit va
 
 OK, deze geit is nu wel leeggemolken, tot zover dit derde deel. In Deel 4 bespreek ik welke vernieuwde functionaliteiten er vanaf nu voor de losse Topstukafbeeldingen beschikbaar zijn.
 
+<hr>
+
 ### About the author
 <img align="left" src="../images/800px-Olaf_Janssen_at_GLAM_WIKI_Tel_Aviv_Conference_2018.JPG" width="50"/>
 
