@@ -56,6 +56,7 @@ Onbetwiste KB-tagkampioene is @madeleinevandenberg, met inmiddels vele duizenden
 
 OK, die beer is nu wel uitgerend, tot zover dit vierde deel. Volgende maand het vijfde, tevens laatste deel. Daarin zal ik uitleggen hoe je de Topstukken kunt gebruiken buiten de Wikimedia-context, dus t.b.v. je eigen websites, diensten, apps, hackathons en projecten. Dan ga ik het hebben over REST APIs, SPARQL, datadumps, Python en script- en machinematige interacties met onze topstukken.
 
+<hr>
 
 ### About the author
 <img align="left" src="../images/800px-Olaf_Janssen_at_GLAM_WIKI_Tel_Aviv_Conference_2018.JPG" width="50"/>
