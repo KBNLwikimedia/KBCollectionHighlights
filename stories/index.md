@@ -14,15 +14,20 @@
 
 ## [You better shape up! Datamodellen & shape expressions bij de KB](https://ecritures.medium.com/you-better-shape-up-datamodellen-shape-expressions-bij-de-kb-c49669257e64) - 19 November 2020
 *Short description* (article in Dutch)
-[image]
+
+![screenshot](images/medium19-11-2020.PNG)
 
 ## [Gestructureerde data van de KB op Wikimedia Commons](https://medium.com/@ecritures/gestructureerde-data-van-de-kb-op-wikimedia-commons-35dc948c2eee) - 12 October 2020
 *Short description*  (article in Dutch)
-[image]
+
+![screenshot](images/medium12-10-2020.PNG)
 
 ## [Topstukken in de Koninklijke Bibliotheek](https://medium.com/@ecritures/topstukken-in-de-koninklijke-bibliotheek-b32780f314f8) - 28 September 2020
 *Short description*  (article in Dutch)
-[image]
+
+![screenshot](images/medium28-09-2020.PNG)
+
+
 
 
 
