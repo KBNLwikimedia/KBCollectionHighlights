@@ -1,4 +1,4 @@
-![Banner](images/banners/KBTopstukkenBannerWikimedia_EN.jpg)
+![Banner](../images/banners/KBTopstukkenBannerWikimedia_EN.jpg)
 
 # [50 cool new things you can now do with the KB's collection highlights](Cool%20new%20things%20you%20can%20now%20do%20with%20the%20KB's%20collection%20highlights/index.html)
 *March 20201*
