@@ -62,6 +62,7 @@ OK, deze geit is nu wel leeggemolken, tot zover dit derde deel. In Deel 4 bespre
 
 ### About the author
 <img align="left" src="../images/800px-Olaf_Janssen_at_GLAM_WIKI_Tel_Aviv_Conference_2018.JPG" width="50"/>
+
 Olaf Janssen is the Wikimedia coordinator of the KB, the national library of the Netherlands. He contributes to
 [Wikipedia](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief), [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Koninklijke_Bibliotheek) and [Wikidata](https://www.wikidata.org/wiki/Wikidata:GLAM/Koninklijke_Bibliotheek_Nederland) as [User:OlafJanssen](https://nl.wikipedia.org/wiki/Gebruiker:OlafJanssen)<br>
 
