@@ -1,12 +1,28 @@
-![Banner](banners/KBTopstukkenBannerWikimedia_EN.jpg)
-# KBCollectionHighlights
-Code, data and stories about Wikifying the [collection highlights](https://www.kb.nl/galerij/digitale-topstukken) of the KB, the national library of the Netherlands. 
+![Banner](stories/images//banners/KBTopstukkenBannerWikimedia_EN.jpg)
+# Stories about Wikifying KB's collection highlights 
 
-Currently most **data** on the KB collection highlights can be found on our project pages on 
-* [Wikidata](https://www.wikidata.org/wiki/Wikidata:WikiProject_Collection_highlights_National_Library_of_the_Netherlands) and on 
-* [Dutch Wikipedia](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken)
+## Cool new things you can now do with the KB's collection highlights - March 2021
+A five part series about ... welke handige & nuttige overzichten van alle 70 topstukken samen er als resultaat van het project XXXXX beschikbaar zijn gekomen.
 
-**Images** of our public domain collection highlights are in [Category:Collection highlights of Koninklijke Bibliotheek](https://commons.wikimedia.org/wiki/Category:Collection_highlights_of_Koninklijke_Bibliotheek) on Wikimedia Commons.
+Short introiduction 
 
-**Publications** about Wikifying KB's collection highlights can be found on https://kbnlwikimedia.github.io/KBCollectionHighlights/ (and its source code in the [docs](https://github.com/KBNLwikimedia/KBCollectionHighlights/tree/main/docs) folder) 
+[zakmesplaatje]
+
+* [Part 1, Introduction](https://kbnlwikimedia.github.io/KBCollectionHighlights/Cool%20new%20things%20you%20can%20now%20do%20with%20the%20KB's%20collection%20highlights%20-%20Part%201%2C%20Introduction.html) - short explianer
+* [Part2, Overviews of all highlights](https://kbnlwikimedia.github.io/KBCollectionHighlights/Cool%20new%20things%20you%20can%20now%20do%20with%20the%20KB's%20collection%20highlights%20-%20Part%202%2C%20Overviews%20of%20all%20highlights.html) - short explianer
+* [Part3, Overviews per highlight](https://kbnlwikimedia.github.io/KBCollectionHighlights/Cool%20new%20things%20you%20can%20now%20do%20with%20the%20KB's%20collection%20highlights%20-%20Part%203%2C%20Overviews%20per%20highlight.html) - short explianer
+* [Part4, Images](https://kbnlwikimedia.github.io/KBCollectionHighlights/Cool%20new%20things%20you%20can%20now%20do%20with%20the%20KB's%20collection%20highlights%20-%20Part%204%2C%20Images.html) - short explianer
+* [Part5, Reuse](https://kbnlwikimedia.github.io/KBCollectionHighlights/Cool%20new%20things%20you%20can%20now%20do%20with%20the%20KB's%20collection%20highlights%20-%20Part%205%2C%20Reuse.html) - short explianer
+
+
+## Topstukken in de Koninklijke Bibliotheek - xx date 2020 (Dutch)
+* <a href="https://medium.com/@ecritures/topstukken-in-de-koninklijke-bibliotheek-b32780f314f8">Topstukken in de Koninklijke Bibliotheek</a> 
+Medium
+[Screenshot invoegen]
+
+## Gestructureerde data van de KB op Wikimedia Commons - xx date 2020 (Dutch)
+* <a href="https://medium.com/@ecritures/gestructureerde-data-van-de-kb-op-wikimedia-commons-35dc948c2eee">Gestructureerde data van de KB op Wikimedia Commons</a>
+ Medium
+[Screenshot invoegen]
+
 
