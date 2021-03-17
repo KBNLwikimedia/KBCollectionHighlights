@@ -33,6 +33,7 @@ Und los gehts:
 
 Das war es, tot zover dit tweede deel. Hier staat Deel 3, waarin ik bespreek welke vernieuwde functionaliteiten er vanaf nu voor de individuele topstukken beschikbaar zijn.
 
+<hr>
 
 ### About the author
 <img align="left" src="../images/800px-Olaf_Janssen_at_GLAM_WIKI_Tel_Aviv_Conference_2018.JPG" width="50"/>
