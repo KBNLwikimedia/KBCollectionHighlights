@@ -1,7 +1,7 @@
 ![Banner](../images/banners/KBTopstukkenBannerWikimedia_EN.jpg)
 # 50 cool new things you can now do with the KB's collection highlights - Part 4, Images
 
-<a href="#"><img src="images/KBtopstukkenMemeEN.jpg" width="70%"/></a>
+<img src="images/KBtopstukkenMemeEN.jpg" width="70%" align="right"/>
 
 In het vorige (derde) deel van deze vijfdelige Plein-serie heb ik 14 hulpstukken van het rechter mes uitgeklapt We zagen welke vernieuwende functionaliteiten er voor individuele topstukken beschikbaar zijn gekomen; denk aan losse beelden, bladopeningen, miniaturen & paginadetails, vrij herbruikbare video, audio en teksten, een smoelenboek of een interactieve stedenkaart.
 
