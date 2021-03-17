@@ -1,5 +1,5 @@
 ![Banner](https://raw.githubusercontent.com/KBNLwikimedia/KBCollectionHighlights/main/banners/KBTopstukkenBannerWikimedia_EN.jpg)
-# Cool new things you can now do with the KB's collection highlights - March 2021
+# Cool new things you can now do with the KB's collection highlights
 A five part series about ... welke handige & nuttige overzichten van alle 70 topstukken samen er als resultaat van het project XXXXX beschikbaar zijn gekomen.
 
 Short introiduction 
