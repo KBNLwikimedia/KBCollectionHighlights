@@ -1,8 +1,7 @@
 ![Banner](stories/images//banners/KBTopstukkenBannerWikimedia_EN.jpg)
 # Wikifying KB's collection highlights 
 
-## Stories & publications
-[Overview](stories/index.md)
+## [Stories & publications](stories/index.md)
 - [5 part series]()
   - [Part 1]()
   - [Part 2]()
