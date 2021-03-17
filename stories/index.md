@@ -1,7 +1,7 @@
 ![Banner](images/banners/KBTopstukkenBannerWikimedia_EN.jpg)
 # Wikifying KB's collection highlights - Stories & publications
 
-## [50 cool new things you can now do with the KB's collection highlights](Cool%20new%20things%20you%20can%20now%20do%20with%20the%20KB's%20collection%20highlights/) - March 2021
+## [50 cool new things you can now do with KB's collection highlights](Cool%20new%20things%20you%20can%20now%20do%20with%20the%20KB's%20collection%20highlights/) - March 2021
 *A five part series about welke handige & nuttige overzichten van alle 70 topstukken samen er als resultaat van het project XXXXX beschikbaar zijn gekomen.*
 
 <a href="Cool%20new%20things%20you%20can%20now%20do%20with%20the%20KB's%20collection%20highlights/"><img src="Cool%20new%20things%20you%20can%20now%20do%20with%20the%20KB's%20collection%20highlights/images/KBtopstukkenMemeEN.jpg" width="70%"/></a>
