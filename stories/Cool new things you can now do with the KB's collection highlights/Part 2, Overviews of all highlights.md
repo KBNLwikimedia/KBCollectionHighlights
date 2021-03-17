@@ -1,7 +1,7 @@
 ![Banner](../images/banners/KBTopstukkenBannerWikimedia_EN.jpg)
 # 50 cool new things you can now do with the KB's collection highlights - Part 2, Overviews of all highlights
 
-<a href="#"><img src="images/KBtopstukkenMemeEN.jpg" width="70%"/></a>
+<img src="images/KBtopstukkenMemeEN.jpg" width="70%" align="right"/>
 
 In het eerste deel van deze reeks Plein-berichten heb ik de tools van het linker mes besproken, dingen die je voor het Topstukkenproject al met onze topstukken kon doen In dit tweede deel ga ik de eerste paar hulpstukken van het rechter mes uitklappen, dus kijken welke handige & nuttige overzichten van alle 70 topstukken samen er als resultaat van het project beschikbaar zijn gekomen.
 
