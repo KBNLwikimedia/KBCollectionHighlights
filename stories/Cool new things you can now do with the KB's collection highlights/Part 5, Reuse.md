@@ -1,5 +1,5 @@
 ![Banner](../images/banners/KBTopstukkenBannerWikimedia_EN.jpg)
-# 50 cool new things you can now do with the KB's collection highlights - Part 5, Reuse
+# 50 cool new things you can now do with KB's collection highlights - Part 5, Reuse
 
 <img src="images/KBtopstukkenMemeEN.jpg" width="70%" align="right"/>
 
