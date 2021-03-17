@@ -8,5 +8,5 @@ Currently most **data** on the KB collection highlights can be found on our proj
 
 **Images** of our public domain collection highlights are in [Category:Collection highlights of Koninklijke Bibliotheek](https://commons.wikimedia.org/wiki/Category:Collection_highlights_of_Koninklijke_Bibliotheek) on Wikimedia Commons.
 
-**Publications & stories** about Wikifying KB's collection highlights can be found on https://kbnlwikimedia.github.io/KBCollectionHighlights/stories (and its source code in the [stories](https://github.com/KBNLwikimedia/KBCollectionHighlights/tree/gh-pages/stories folder) on the ```gh-pages``` branch)
+**Publications & stories** about Wikifying KB's collection highlights can be found on https://kbnlwikimedia.github.io/KBCollectionHighlights/stories (and its source code in the [stories](https://github.com/KBNLwikimedia/KBCollectionHighlights/tree/gh-pages/stories) folder on the ```gh-pages``` branch)
 
