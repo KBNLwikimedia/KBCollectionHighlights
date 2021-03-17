@@ -5,6 +5,8 @@
 
 Content will be written a.s.a.p.
 
+<hr>
+
 ### About the author
 <img align="left" src="../images/800px-Olaf_Janssen_at_GLAM_WIKI_Tel_Aviv_Conference_2018.JPG" width="50"/>
 
