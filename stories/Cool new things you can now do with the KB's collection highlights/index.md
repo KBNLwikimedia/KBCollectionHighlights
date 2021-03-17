@@ -1,6 +1,6 @@
 ![Banner](../images/banners/KBTopstukkenBannerWikimedia_EN.jpg)
 
-# 50 cool new things you can now do with the KB's collection highlights
+# 50 cool new things you can now do with KB's collection highlights
 *March 20201*
 
 *A five part series about welke handige & nuttige overzichten van alle 70 topstukken samen er als resultaat van het project XXXXX beschikbaar zijn gekomen.*
