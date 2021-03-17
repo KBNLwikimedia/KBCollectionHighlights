@@ -44,8 +44,8 @@ Wat is er nieuw?
 
 In de volgende vier Plein-berichten wil ik de komende tijd al deze nieuwe mogelijkheden met jullie delen, steeds ongeveer 10 per bericht, om het enigszins behapbaar te houden. Hier meteen Deel 2, waarin ik allerlei handige overzichten voor alle 70 topstukken samen bespreek.
 
-
 <hr>
+
 ### About the author
 <img align="left" src="../images/800px-Olaf_Janssen_at_GLAM_WIKI_Tel_Aviv_Conference_2018.JPG" width="50"/>
 
