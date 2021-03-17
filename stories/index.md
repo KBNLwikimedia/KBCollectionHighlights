@@ -4,9 +4,9 @@
 ## [Cool new things you can now do with the KB's collection highlights](Cool%20new%20things%20you%20can%20now%20do%20with%20the%20KB's%20collection%20highlights/index.html) - March 2021
 *A five part series about welke handige & nuttige overzichten van alle 70 topstukken samen er als resultaat van het project XXXXX beschikbaar zijn gekomen.*
 
-<a href="Cool%20new%20things%20you%20can%20now%20do%20with%20the%20KB's%20collection%20highlights/index.html"><img src="Cool%20new%20things%20you%20can%20now%20do%20with%20the%20KB's%20collection%20highlights/images/KBtopstukkenMemeEN.jpg"/></a>
+<a href="Cool%20new%20things%20you%20can%20now%20do%20with%20the%20KB's%20collection%20highlights/Part%201%2C%20Introduction.html"><img src="Cool%20new%20things%20you%20can%20now%20do%20with%20the%20KB's%20collection%20highlights/images/KBtopstukkenMemeEN.jpg"/></a>
 
-- [Part 1, Introduction](Cool%20new%20things%20you%20can%20now%20do%20with%20the%20KB's%20collection%20highlights/Part%201%2C%20Introduction.md)
+- [Part 1, Introduction](Cool%20new%20things%20you%20can%20now%20do%20with%20the%20KB's%20collection%20highlights/Part%201%2C%20Introduction.html)
 - [Part 2, Overviews of all highlights](Cool%20new%20things%20you%20can%20now%20do%20with%20the%20KB's%20collection%20highlights/Part%202%2C%20Overviews%20of%20all%20highlights.html)
 - [Part 3, Overviews per highlight](Cool%20new%20things%20you%20can%20now%20do%20with%20the%20KB's%20collection%20highlights/Part%203%2C%20Overviews%20per%20highlight.html)
 - [Part 4, Images](Cool%20new%20things%20you%20can%20now%20do%20with%20the%20KB's%20collection%20highlights/Part%204%2C%20Images.html)
