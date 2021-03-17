@@ -7,11 +7,11 @@
 
 <a href="Part%201%2C%20Introduction.html"><img src="images/KBtopstukkenMemeEN.jpg"/></a>
 
-- [Part 1, Introduction](Part%201%2C%20Introduction.html)
-- [Part 2, Overviews of all highlights](Part%202%2C%20Overviews%20of%20all%20highlights.html)
-- [Part 3, Overviews per highlight](Part%203%2C%20Overviews%20per%20highlight.html)
-- [Part 4, Images](Part%204%2C%20Images.html)
-- [Part 5, Reuse](Part%205%2C%20Reuse.html)
+- [Part 1, Introduction](Part%201%2C%20Introduction.html) - add 1 line summary
+- [Part 2, Overviews of all highlights](Part%202%2C%20Overviews%20of%20all%20highlights.html) - add 1 line summary
+- [Part 3, Overviews per highlight](Part%203%2C%20Overviews%20per%20highlight.html) - add 1 line summary
+- [Part 4, Images](Part%204%2C%20Images.html) - add 1 line summary
+- [Part 5, Reuse](Part%205%2C%20Reuse.html) - add 1 line summary
 
 
 <sub><b>Image credits</b></sub><br/>
