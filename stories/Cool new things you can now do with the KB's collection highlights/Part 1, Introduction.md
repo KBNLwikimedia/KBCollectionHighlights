@@ -1,8 +1,8 @@
 ![Banner](../images/banners/KBTopstukkenBannerWikimedia_EN.jpg)
 # 50 cool new things you can now do with the KB's collection highlights - Part 1, Introduction
 
-<a href="#"><img src="images/KBtopstukkenMemeEN.jpg" width="70%"/></a>
-
+<a href="#" align="right"><img src="images/KBtopstukkenMemeEN.jpg" width="70%"/></a>
+------------
 Het KB-Topstukkenproject is vorige maand afgerond Door onze 70 topstukken in de Wikimedia-infrastructuur onder te brengen zijn er letterlijk tientallen nieuwe functionaliteiten bijgekomen, dingen die voorheen niet mogelijk waren, maar vanaf nu dus opeens óók kunnen met onze topstukken.
 
 Wat kon er altijd al?
