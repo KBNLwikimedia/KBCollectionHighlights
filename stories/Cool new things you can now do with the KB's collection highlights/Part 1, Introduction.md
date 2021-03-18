@@ -4,6 +4,7 @@
 <img src="images/KBtopstukkenMemeEN.jpg" width="70%" align="right"/>
 
 In this sereis of 5 articles I want to .... what happens when you put collection highlioghts in the Wikimedia infrastruvture
+this project we aim to show the added value of putting images, audio and metadata of digitised collection highlights of the Koninklijke Bibliotheek into the Wikimedia ecosystem; mainly Wikidata, Wikimedia Commons, Wikipedia and 
 
 ## Collection highlights of the KB
 - Intro Topstukken op kb.nl
@@ -88,7 +89,9 @@ These options are already quite cool of course, but if you eg.
 ## Wikifying the collection highlights
 - Topstukkenproject 2020 --> Wikifiocering --> gebruik slides uit presentatie
 - Rationale achter project = meer zichtbaarhei en meer herbruikbaarheid
-<img src="images/image-p1-020.png" width="50%" align="left"/>
+<img src="images/image-p1-020.png" width="50%" align="right"/>
+
+https://www.wikidata.org/wiki/Wikidata:WikiProject_Collection_highlights_National_Library_of_the_Netherlands
 
 ## The next 4 articles
 
