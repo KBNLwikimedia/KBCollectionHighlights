@@ -91,6 +91,7 @@ These options are already quite cool of course, but if you eg.
 - Rationale achter project = meer zichtbaarhei en meer herbruikbaarheid
 <img src="images/image-p1-020.png" width="50%" align="right"/>
 
+https://commons.wikimedia.org/wiki/File:Zichtbaarheid_%26_hergebruik_KB-Topstukken-_HNI_-_14_januari_2021.pdf 
 https://www.wikidata.org/wiki/Wikidata:WikiProject_Collection_highlights_National_Library_of_the_Netherlands
 
 ## The next 4 articles
