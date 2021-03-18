@@ -3,21 +3,16 @@
 
 <img src="images/KBtopstukkenMemeEN.jpg" width="70%" align="right"/>
 
-----------------------
-Opzet 1e deel
-- Intro Topstukken op kb.nl
-- Wat kan er wel met deze topstukken
-- Topstukkenproject 2020 --> Wikifiocering --> gebruik slides uit presentatie
-- Rationale achter project = meer zichtbaarhei en meer herbruikbaarheid
-- --------------------
+In this sereis of 5 articles I want to .... what happens when you put collection highlioghts in the Wikimedia infrastruvture
 
-<img src="images/image-p1-020.png" width="50%" align="left"/>
+## Collection highlights of the KB
+- Intro Topstukken op kb.nl
 
 Het KB-Topstukkenproject is vorige maand afgerond Door onze 70 topstukken in de Wikimedia-infrastructuur onder te brengen zijn er letterlijk tientallen nieuwe functionaliteiten bijgekomen, dingen die voorheen niet mogelijk waren, maar vanaf nu dus opeens óók kunnen met onze topstukken.
 The KB Masterpieces project was completed last month By placing our 70 masterpieces in the Wikimedia infrastructure, literally dozens of new functionalities have been added, things that were not possible before, but from now on suddenly also possible with our masterpieces.
 
-Wat kon er altijd al?
-What has always been possible?
+## Functionalities on kb.nl
+- Wat kan er wel met deze topstukken
 
 Voordat ik in de volgende vier Plein-posts het rechter mes stukje voor stukje helemaal ga uitklappen, wil ik in deze inleiding eerst nog even het linker mes bespreken, dus nog even op een rijtje te zetten wat je voor het project al met de topstukken op kb.nl kon doen:
 Before I fully unfold the right knife piece by piece in the next four Square posts, I would first like to discuss the left knife in this introduction, so I would like to list what you already have with the masterpieces for the project. kb.nl could do: 
@@ -57,6 +52,8 @@ Before I fully unfold the right knife piece by piece in the next four Square pos
 8) Finally: if you prefer to have that metadata in a structured format, you can request it via our jSRU and OAI services, eg What can be seen at the fair? (via jSRU) or this album contribution (via OAI) from the friends book of Samuel Johannes van den Bergh. Only whole records, only in XML, and for the OAI services you must have VPN on, or be in the KB building.
 <img src="images/image-p1-021.png" width="70%" />
 
+## Limitations
+
 Wat kan er nu niet, bijvoorbeeld?
 What is not possible now, for example? 
 
@@ -88,21 +85,28 @@ These options are already quite cool of course, but if you eg.
 … dan kwam je in de meeste gevallen van een koude kermis thuis. Maar dankzij het Toptukkenproject kunnen dat soort dingen – en veel, veel meer - nu opeens wél heel makkelijk.
 … Then in most cases you came home from a rude awakening. But thanks to the Toptukken project, things like that - and much, much more - can now suddenly become very easy.
 
-##What's new?
+## Wikifying the collection highlights
+- Topstukkenproject 2020 --> Wikifiocering --> gebruik slides uit presentatie
+- Rationale achter project = meer zichtbaarhei en meer herbruikbaarheid
+<img src="images/image-p1-020.png" width="50%" align="left"/>
+
+## The next 4 articles
 
 In de volgende vier Plein-berichten wil ik de komende tijd al deze nieuwe mogelijkheden met jullie delen, steeds ongeveer 10 per bericht, om het enigszins behapbaar te houden. Hier meteen Deel 2, waarin ik allerlei handige overzichten voor alle 70 topstukken samen bespreek.
 In the next four Plein messages I want to share all these new possibilities with you in the coming period, each time about 10 per message, to keep it somewhat manageable. Right here Part 2, in which I discuss all kinds of useful overviews for all 70 masterpieces together. 
 
+Part 1, Introduction // [Part 2, Overviews of all highlights](Part%202%2C%20Overviews%20of%20all%20highlights.html) // [Part 3, Overviews per highlight](Part%203%2C%20Overviews%20per%20highlight.html) // [Part 4, Images](Part%204%2C%20Images.html) // [Part 5, Reuse](Part%205%2C%20Reuse.html)
+
 
 <hr>
 
-### About the author
+## About the author
 <img align="left" src="../images/800px-Olaf_Janssen_at_GLAM_WIKI_Tel_Aviv_Conference_2018.JPG" width="50"/>
 
 Olaf Janssen is the Wikimedia coordinator of the KB, the national library of the Netherlands. He contributes to
 [Wikipedia](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief), [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Koninklijke_Bibliotheek) and [Wikidata](https://www.wikidata.org/wiki/Wikidata:GLAM/Koninklijke_Bibliotheek_Nederland) as [User:OlafJanssen](https://nl.wikipedia.org/wiki/Gebruiker:OlafJanssen)<br>
 
-### Reusing this article
+## Reusing this article
 This text of this article is available under the [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. 
 <kbd><img src="../images/cc-by.png" width="80"/></kbd>
 
