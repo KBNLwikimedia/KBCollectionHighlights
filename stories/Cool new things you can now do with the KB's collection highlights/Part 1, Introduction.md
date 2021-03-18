@@ -25,17 +25,17 @@ Before I fully unfold the right knife piece by piece in the next four Square pos
 1) een alfabetische lijst van de topstukken opvragen, in HTML-formaat
 1) request an alphabetical list of the highlights, in HTML format
 
-<kbd><img src="images/image-p1-006.png" width="100%"/></kbd>
+<img src="images/image-p1-006.png" width="100%"/>
 
 2) Bladerboeken bekijken in hoge resolutie – zie bv het Zweder getijdenboek of het vriendenboek van Jacob Heyblocq.
 2) View scrolling books in high resolution - see, for example, the Zweder Book of Hours or the friend book of Jacob Heyblocq.
-<kbd><img src="images/image-p1-008.png" width="100%"/></kbd>
+<img src="images/image-p1-008.png" width="100%"/>
 
 
 3) Bij sommige topstukken zijn er in dit bladerboek transcripties, vertalingen, annotaties en/of rondleidingen beschikbaar, zoals bij bovengenoemd vriendenboek.
 3) For some masterpieces, transcriptions, translations, annotations and / or guided tours are available in this leaflet, such as with the aforementioned friends book.
-<kbd><img src="images/image-p1-010.png" width="70%"/></kbd>
-<kbd><img src="images/image-p1-012.png" width="70%"/></kbd>
+<img src="images/image-p1-010.png" width="100%"/>
+<img src="images/image-p1-012.png" width="100%"/>
 
 4) Voor een klein aantal topstukken - de alba amicorum - kun je de losse afbeeldingen opvragen als downloadbare jpg, bv deze pagina uit het vriendenboek van Petronella Moens of dit gedicht uit het vriendenboek van Samuel Johannes van den Bergh. Maar dit zijn uitzonderingen, bij veruit de meeste topstukken zijn de beelden uit het bladerboek niet los te downloaden.
 4) For a small number of masterpieces - the alba amicorum - you can request the separate images as downloadable jpg, eg this page from the friend book of Petronella Moens or this poem from the friend book of Samuel Johannes van den Bergh. But these are exceptions, with the vast majority of masterpieces the images from the browse book cannot be downloaded separately.
