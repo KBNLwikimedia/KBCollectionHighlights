@@ -3,14 +3,18 @@
 
 <img src="images/KBtopstukkenMemeEN.jpg" width="70%" align="right"/>
 
-In this sereis of 5 articles I want to .... what happens when you put collection highlioghts in the Wikimedia infrastruvture
-this project we aim to show the added value of putting images, audio and metadata of digitised collection highlights of the Koninklijke Bibliotheek into the Wikimedia ecosystem; mainly Wikidata, Wikimedia Commons, Wikipedia and 
+*In this [series of 5 articles](index.md) I show the added value of putting images and metadata of [digitised collection highlights](https://www.kb.nl/galerij/digitale-topstukken) of the KB, national library of the Netherlands, into the Wikimedia infrastructure. By putting our 70 collection highlights into Wikidata, Wikimedia Commons and Wikipedia, dozens of new functionalities have been added: now you can do things with this digital collection that were not possible before.*
 
 ## Collection highlights of the KB
-- Intro Topstukken op kb.nl
+Before I dive into the details, I need to explain a bit about the the collection highlights of the KB, and which things you can do with them on the 'native' websites of the KB.   
 
-Het KB-Topstukkenproject is vorige maand afgerond Door onze 70 topstukken in de Wikimedia-infrastructuur onder te brengen zijn er letterlijk tientallen nieuwe functionaliteiten bijgekomen, dingen die voorheen niet mogelijk waren, maar vanaf nu dus opeens óók kunnen met onze topstukken.
-The KB Masterpieces project was completed last month By placing our 70 masterpieces in the Wikimedia infrastructure, literally dozens of new functionalities have been added, things that were not possible before, but from now on suddenly also possible with our masterpieces.
+The more than 70 highlights of the KB are collection items that are of particular cultural or historical value. Ranging from the early Middle Ages to the 20th century, they comprise manuscripts, books, magazines, armorials, atlases, alba amicorum, childrens's books and even photo albums. All objects have been digitised in high resolution and are presented as [browse books on the KB website](https://www.kb.nl/galerij/digitale-topstukken).  
+
+
+
+image gallery of some highlights...
+
+
 
 ## Functionalities on kb.nl
 - Wat kan er wel met deze topstukken
