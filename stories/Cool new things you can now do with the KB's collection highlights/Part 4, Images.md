@@ -2,6 +2,7 @@
 # 50 cool new things you can now do with KB's collection highlights - Part 4, Images
 
 <img src="images/KBtopstukkenMemeEN.jpg" width="70%" align="right"/>
+
 *In this [series of 5 articles](index.md) I show the added value of putting images and metadata of [digitised collection highlights](https://www.kb.nl/galerij/digitale-topstukken) of the KB, national library of the Netherlands, into the Wikimedia infrastructure. By putting our collection highlights into Wikidata, Wikimedia Commons and Wikipedia, dozens of new functionalities have been added: now you can do things with this digital collection that were not possible before.*
 
 In het vorige (derde) deel van deze vijfdelige Plein-serie heb ik 14 hulpstukken van het rechter mes uitgeklapt We zagen welke vernieuwende functionaliteiten er voor individuele topstukken beschikbaar zijn gekomen; denk aan losse beelden, bladopeningen, miniaturen & paginadetails, vrij herbruikbare video, audio en teksten, een smoelenboek of een interactieve stedenkaart.
