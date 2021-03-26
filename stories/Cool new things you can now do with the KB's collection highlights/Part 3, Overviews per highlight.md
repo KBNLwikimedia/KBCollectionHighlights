@@ -3,6 +3,8 @@
 
 <img src="images/KBtopstukkenMemeEN.jpg" width="70%" align="right"/>
 
+*In this [series of 5 articles](index.md) I show the added value of putting images and metadata of [digitised collection highlights](https://www.kb.nl/galerij/digitale-topstukken) of the KB, national library of the Netherlands, into the Wikimedia infrastructure. By putting our collection highlights into Wikidata, Wikimedia Commons and Wikipedia, dozens of new functionalities have been added: now you can do things with this digital collection that were not possible before.*
+
 In het vorige deel van deze vijfdelige Plein-serie heb ik de eerste 12 hulpstukken van het rechter mes uitgeklapt We zagen welke handige & nuttige overzichten van alle 70 topstukken samen er als resultaat van het Topstukkenproject beschikbaar zijn gekomen; denk aan beeldoverzichten, alfabetisch overzichten & tabellen en een overzicht van bestaande en gewenste artikelen over onze topstukken.
 
 In dit derde deel ga ik het volgende groepje van 14 tools van het rechter mes uitklappen, d.w.z. laten zien welke (ver)nieuwe(nde) functionaliteiten er vanaf nu voor de individuele topstukken beschikbaar zijn.
