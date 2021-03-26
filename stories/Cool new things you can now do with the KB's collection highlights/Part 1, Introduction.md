@@ -1,3 +1,9 @@
+<script src="md-gallery.js"></script>
+
+<script>
+    md_gallery();
+</script>
+
 ![Banner](../images/banners/KBTopstukkenBannerWikimedia_EN.jpg)
 # 50 cool new things you can now do with KB's collection highlights - Part 1, Introduction
 
@@ -11,9 +17,8 @@ Before I dive into the details, I need to explain a bit about the the collection
 The more than 70 highlights of the KB are collection items that are of particular cultural or historical value. Ranging from the early Middle Ages to the 20th century, they comprise manuscripts, books, magazines, armorials, atlases, alba amicorum, childrens's books and even photo albums. All objects have been digitised in high resolution and are presented as [browse books on the KB website](https://www.kb.nl/galerij/digitale-topstukken).  
 
 
-
-image gallery of some highlights...
-
+*![Banner](../images/banners/KBTopstukkenBannerWikimedia_EN.jpg)
+*![Banner](../images/banners/KBTopstukkenBannerWikimedia_EN.jpg)
 
 
 ## Functionalities on kb.nl
