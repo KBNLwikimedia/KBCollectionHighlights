@@ -3,7 +3,7 @@
 
 <img src="images/KBtopstukkenMemeEN.jpg" width="70%" align="right"/>
 
-*In this [series of 5 articles](index.md) I show the added value of putting images and metadata of [digitised collection highlights](https://www.kb.nl/galerij/digitale-topstukken) of the KB, national library of the Netherlands, into the Wikimedia infrastructure. By putting our collection highlights into Wikidata, Wikimedia Commons and Wikipedia, dozens of new functionalities have been added: now you can do things with this digital collection that were not possible before.*
+*In this [series of 5 articles](index.md) I show the added value of putting images and metadata of [digitised collection highlights](https://www.kb.nl/galerij/digitale-topstukken) of the KB, national library of the Netherlands, into the Wikimedia infrastructure. By putting our collection highlights into Wikidata, Wikimedia Commons and Wikipedia, dozens of new functionalities have been added: now you can do things with these digital objects that were not possible before.*
 
 ## Collection highlights of the KB
 Before I dive into the details, I need to explain a bit about the the collection highlights of the KB, and which things you can do with them on the 'native' websites of the KB.   
