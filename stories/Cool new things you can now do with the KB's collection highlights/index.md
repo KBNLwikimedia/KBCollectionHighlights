@@ -3,7 +3,7 @@
 # 50 cool new things you can now do with KB's collection highlights
 *March 20201*
 
-*A five part series about welke handige & nuttige overzichten van alle 70 topstukken samen er als resultaat van het project XXXXX beschikbaar zijn gekomen.*
+*In this series of 5 articles I show the added value of putting images and metadata of [digitised collection highlights](https://www.kb.nl/galerij/digitale-topstukken) of the KB, national library of the Netherlands, into the Wikimedia infrastructure. By putting our 70 collection highlights into Wikidata, Wikimedia Commons and Wikipedia, dozens of new functionalities have been added: now you can do things with this digital collection that were not possible before.*
 
 <a href="Part%201%2C%20Introduction.html"><img src="images/KBtopstukkenMemeEN.jpg"/></a>
 
