@@ -3,6 +3,9 @@
 
 <img src="images/KBtopstukkenMemeEN.jpg" width="70%" align="right"/>
 
+*In this [series of 5 articles](index.md) I show the added value of putting images and metadata of [digitised collection highlights](https://www.kb.nl/galerij/digitale-topstukken) of the KB, national library of the Netherlands, into the Wikimedia infrastructure. By putting our collection highlights into Wikidata, Wikimedia Commons and Wikipedia, dozens of new functionalities have been added: now you can do things with this digital collection that were not possible before.*
+
+
 In het eerste deel van deze reeks Plein-berichten heb ik de tools van het linker mes besproken, dingen die je voor het Topstukkenproject al met onze topstukken kon doen In dit tweede deel ga ik de eerste paar hulpstukken van het rechter mes uitklappen, dus kijken welke handige & nuttige overzichten van alle 70 topstukken samen er als resultaat van het project beschikbaar zijn gekomen.
 
 Und los gehts:
