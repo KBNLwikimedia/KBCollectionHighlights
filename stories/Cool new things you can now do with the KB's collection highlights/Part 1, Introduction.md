@@ -55,6 +55,11 @@ These options are already quite cool, but they have their limitations. For insta
 
 ... then in most cases you came home from a rude awakening. But thanks to a recent project to Wikify our highlights, these kinds of functionalities - and much, much more - have now become avaiable.
 
+The above functionaliteis & their Limiotatins can be summarzi a follows
+Look at, consumne, view, read : OK
+<plaatje vlindr in pot)
+- Reulse, Build upon, create thing with, , : not OK
+
 ## Wikifying the collection highlights
 Recent project
 - Topstukkenproject 2020 --> Wikifiocering --> gebruik slides uit presentatie
