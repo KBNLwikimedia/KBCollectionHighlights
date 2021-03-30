@@ -12,44 +12,44 @@ The more than 70 highlights of the KB are collection items that are of particula
 
 <a href="https://www.kb.nl/dernaturenbloeme"><kbd><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Der_naturen_bloeme_-_Jacob_van_Maerlant_-_KB_KA_16_-_042v-043r_3D.jpg/320px-Der_naturen_bloeme_-_Jacob_van_Maerlant_-_KB_KA_16_-_042v-043r_3D.jpg" height="100"/></kbd></a><a href="https://www.kb.nl/heyblocq"><kbd><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Album_amicorum_Jacob_Heyblocq_-_Opening.jpg/320px-Album_amicorum_Jacob_Heyblocq_-_Opening.jpg" height="100"/></kbd></a><a href="https://www.kb.nl/ortelius"><kbd><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Atlas_Ortelius_KB_PPN369376781-001av-001br.jpg/320px-Atlas_Ortelius_KB_PPN369376781-001av-001br.jpg" height="100"/></kbd></a><a href="https://www.kb.nl/vogelen"><kbd><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/NederlandscheVogelenCoverVol1.jpg/157px-NederlandscheVogelenCoverVol1.jpg" height="100"/></kbd></a><a href="https://www.kb.nl/bazar"><kbd><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/De_Bazar_15061887-KW_TM_0205-092-093.jpg/320px-De_Bazar_15061887-KW_TM_0205-092-093.jpg" height="100"/></kbd></a><a href="https://www.kb.nl/fabrieksprentenboeken"><kbd><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/001-KW_XKZ_0213-Hoera_we_gaan_op_reis-front.jpg/301px-001-KW_XKZ_0213-Hoera_we_gaan_op_reis-front.jpg" height="100"/></kbd></a><a href="https://www.kb.nl/hotprinting"><kbd><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Hot_Printing_-_H.N._Werkman_-_KW_GW_X100005_-_front_page_%28cropped%29.jpg/185px-Hot_Printing_-_H.N._Werkman_-_KW_GW_X100005_-_front_page_%28cropped%29.jpg" height="100"/></kbd></a><br/><sub>*Sample gallery of KB's collection highlights*</sub>
 
-
 ## Functionalities on kb.nl
 Peeking at the left hand knife, I would like to look at our own KB webservices and the things you could already do with the highlights, before we decided to Wikify them. So let's make a list. Some screenshots below show Dutch language web interfaces, due to the KB not fully offering all interfaces in English.    
 
 1) Request an alphabetical **list of the highlights**, in HTML format. This overview is not available in CSV, XML, JSON or any other standard stuctured format
 <kbd><img src="images/image-p1-006.png" width="66%"/></kbd>
-<sub>*Overview of [KB collection highlights](https://www.kb.nl/galerij/digitale-topstukken), screenshot KB website d.d. 30-03-2021*</sub>
+<sub>*Overview of [KB collection highlights](https://www.kb.nl/galerij/digitale-topstukken). Screenshot KB website d.d. 30-03-2021*</sub>
 
-2) **View the works as browsable books**, in high resolution, using an image viewer - see, for example, the [Zweder Book of Hours](https://galerij.kb.nl/kb.html#/nl/zweder/page/14/zoom/2/lat/-42.03297433244139/lng/-10.546875) or the [Album amicorum of Jacob Heyblocq](https://galerij.kb.nl/kb.html#/nl/heyblocq/page/129/zoom/3/lat/-77.50411917973987/lng/75.41015624999999).
+2) **View the works as browsable books**, in high resolution, using an image viewer. See for example the [Zweder Book of Hours](https://galerij.kb.nl/kb.html#/nl/zweder/page/14/zoom/2/lat/-42.03297433244139/lng/-10.546875) or the [Album amicorum of Jacob Heyblocq](https://galerij.kb.nl/kb.html#/nl/heyblocq/page/129/zoom/3/lat/-77.50411917973987/lng/75.41015624999999).
 <kbd><img src="images/image-p1-008.png" width="66%"/></kbd>
-<sub>*Album amicorum of Jacob Heyblocq hires Image viewer, screenshot KB website d.d. 30-03-2021*</sub>
+<sub>*Album amicorum of Jacob Heyblocq [presented as a browse book](https://galerij.kb.nl/kb.html#/nl/heyblocq/page/129/zoom/3/lat/-78.6991059255054/lng/79.453125) in a high resolution image viewer. Screenshot KB website d.d. 30-03-2021*</sub>
 
-3) Bij sommige topstukken zijn er in dit bladerboek transcripties, vertalingen, annotaties en/of rondleidingen beschikbaar, zoals bij bovengenoemd vriendenboek.
-3) For some highlights, **transcriptions, translations, annotations and / or guided tours** are available as part of the presenation, such as with the aforementioned album amicorum.
+3) For some highlights, **transcriptions, translations, annotations and / or guided tours** are available as part of the presentation, such as with the aforementioned album amicorum.
     <kbd><img src="images/image-p1-010.png" width="66%"/></kbd>
-    <sub>**</sub>
+    <sub>*Transcription (top), translation (middle) and annotations (bottom) for [page 7](https://galerij.kb.nl/kb.html#/nl/heyblocq/page/6/zoom/3/lat/-76.88077457250164/lng/70.13671875) of the Album amicorum of Jacob Heyblocq . Screenshot KB website d.d. 30-03-2021*</sub>
     <kbd><img src="images/image-p1-012.png" width="66%"/></kbd>
-    <sub>**</sub>
-4) Voor een klein aantal topstukken - de alba amicorum - kun je de losse afbeeldingen opvragen als downloadbare jpg, bv deze pagina uit het vriendenboek van Petronella Moens of dit gedicht uit het vriendenboek van Samuel Johannes van den Bergh. Maar dit zijn uitzonderingen, bij veruit de meeste topstukken zijn de beelden uit het bladerboek niet los te downloaden.
-4) For a small number of masterpieces - the alba amicorum - you can request the separate images as downloadable jpg, eg this page from the friend book of Petronella Moens or this poem from the friend book of Samuel Johannes van den Bergh. But these are exceptions, with the vast majority of masterpieces the images from the browse book cannot be downloaded separately.
+    <sub>*Guided tours in the Album amicorum of Jacob Heyblocq. Screenshot KB website d.d. 30-03-2021*</sub>
+
+4) For specific highlights - the alba amicorum - you can request the **separate images as downloadable jpgs**, such as [this page](https://resolver.kb.nl/resolve?urn=EuropeanaTravel:79L5:003r) from the [album amicorum book of Petronella Moens](https://galerij.kb.nl/kb.html#/nl/moens/page/4/zoom/3/lat/-79.71860546904043/lng/-28.828124999999996) or [this poem](https://resolver.kb.nl/resolve?urn=EuropeanaTravel:133M117:016v) from the [album of Samuel Johannes van den Bergh](https://galerij.kb.nl/kb.html#/nl/vandenbergh/page/22/zoom/2/lat/-68.78414378041504/lng/-50.625). But these are exceptions, for the vast majority of highlights the individual from the browse book cannot be downloaded.
     <kbd><img src="images/image-p1-013.png" width="66%"/></kbd>
-    <sub>**</sub>
-5) Contextuele informatie over het topstuk lezen – zie bv de toelichtingen bij Atlas Ortelius of bij Naenia en Jan Toorop
-5) Read contextual information about the masterpiece - see, for example, the notes to Atlas Ortelius or to Naenia and Jan Toorop
+    <sub>*Downloadable jpg : [folio 3r](https://resolver.kb.nl/resolve?urn=EuropeanaTravel:79L5:003r)* from the [album amicorum book of Petronella Moens](https://galerij.kb.nl/kb.html#/nl/moens/page/4/zoom/3/lat/-79.71860546904043/lng/-28.828124999999996)</sub>
+
+5) Read **contextual information** about the masterpiece - see, for example, the notes to [Atlas Ortelius](https://www.kb.nl/themas/atlassen/atlas-ortelius) or to [Naenia and Jan Toorop](https://www.kb.nl/themas/boekkunst-en-geillustreerde-boeken/naenia-en-jan-toorop)
     <kbd><img src="images/image-p1-015.png" width="66%" />
     <sub>**</sub>
-6) Bij een aantal topstukken zijn bladerindexen beschikbaar, zoals bij Nederlandsche Vogelen, een filmtitelregister van het ASTA-theater of een plaatsnamenindex bij Stedenboek De Wit. Niet doorzoekbaar en alleen in HTML-formaat (als webpagina dus).
-6) Leaf indices are available for a number of masterpieces, such as at Nederlandsche Vogelen, a film title register of the ASTA theater or a place name index at Cities Book De Wit. Not searchable and only in HTML format (as a web page).
+
+6) For a number of highlights **browse indices** are available , such as for [Nederlandsche Vogelen](https://www.kb.nl/themas/boekkunst-en-geillustreerde-boeken/nederlandsche-vogelen-van-nozeman-en-sepp/nederlandsche-vogelen-index), a [film title register](https://www.kb.nl/themas/boekgeschiedenis/populair-drukwerk/asta-theater-programmaboeken) of the [ASTA theater](https://nl.wikipedia.org/wiki/ASTA) or a [place name index](https://www.kb.nl/themas/atlassen/stedenatlas-de-wit) for Atlas de Wit. However, these indices are not searchable and only available in a HTML format (as a web page).
     <img src="images/image-p1-017.png" width="66%" /></kbd>
     <sub>**</sub>
-7) Als je geïnteresseerd bent in de metadata van de topstukken, kun je die in KB-catalogus vinden, bv Buiten! Waar de vogels fluiten, Evangeliarium van Egmond of Hot printing van H.N. Werkman.
-7) If you are interested in the metadata of the masterpieces, you can find them in the KB catalog, eg Outside! Where the birds are singing, Evangeliarium of Egmond or Hot printing by H.N. Workman.
+    
+7) If you are interested in the **metadata of the highlights**, you can find them in the [KB catalog](https://opc-kb.oclc.org/DB=1/SET=1/TTL=1/LNG=EN/), eg [Buiten! Waar de vogels fluiten](https://resolver.kb.nl/resolve?urn=PPN:238308081) (Outside! Where the birds are singing), the [Egmond Gospels](https://resolver.kb.nl/resolve?urn=PPN:311779433) or [Hot printing by H.N. Werkman](https://resolver.kb.nl/resolve?urn=PPN:369506812).
     <kbd><img src="images/image-p1-019.png" width="66%" /></kbd>
     <sub>**</sub>
+    
 8) Tot slot: als je liever die metadata in gestructureerd formaat wilt hebben, dan kun je die via onze jSRU- en OAI-diensten opvragen, bv. Wat is er op de kermis te zien? (via jSRU) of deze albumbijdrage (via OAI) uit het vriendenboek van Samuel Johannes van den Bergh. Wel alleen hele records, uitsluitend in XML, en voor de OAI-services moet je VPN aan hebben staan, of in het KB-gebouw zijn.
-8) Finally: if you prefer to have that metadata in a structured format, you can request it via our jSRU and OAI services, eg What can be seen at the fair? (via jSRU) or this album contribution (via OAI) from the friends book of Samuel Johannes van den Bergh. Only whole records, only in XML, and for the OAI services you must have VPN on, or be in the KB building.
+8) Finally: if you prefer to have that **metadata in a structured format**, you can request it via our jSRU and OAI-PMH services, eg [Wat is er op de kermis te zien?](http://jsru.kb.nl/sru/sru?x-collection=GGC&recordSchema=dcx&operation=searchRetrieve&query=%22KW%20XKZ%20160%22) (What can be seen at the fair?) (via jSRU) or [this album contribution](http://services.kb.nl/mdo/oai?verb=GetRecord&identifier=PPN:310920310) (via OAI-PMH) from the Album amicorum of Samuel Johannes van den Bergh. This metadata is only available as whole records, only in XML.
     <kbd><img src="images/image-p1-021.png" width="66%" /></kbd>
     <sub>**</sub>
+
 ## Limitations
 
 Wat kan er nu niet, bijvoorbeeld?
