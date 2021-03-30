@@ -41,8 +41,8 @@ Peeking at the left hand knife, I would like to look at our own KB webservices a
 8) Finally: if you prefer to have that **metadata in a structured format**, you can request it via our jSRU service, eg for [Wat is er op de kermis te zien?](http://jsru.kb.nl/sru/sru?x-collection=GGC&recordSchema=dcx&operation=searchRetrieve&query=%22KW%20XKZ%20160%22) (*What can be seen at the fair?*). Please note: this metadata is only available as whole records (eg. you can't request only the *dc:title* field), and only in XML (you can't request it in JSON).
     <kbd><img src="images/image-p1-021.png" width="66%"/></kbd><br/><sub>*[XML response](http://jsru.kb.nl/sru/sru?x-collection=GGC&recordSchema=dcx&operation=searchRetrieve&query=%22KW%20XKZ%20160%22) for [Wat is er op de kermis te zien?](https://resolver.kb.nl/resolve?urn=PPN:205278043) from the KB SRU service. Screenshot d.d. 30-03-2021*</sub>
 
-## Limitations, what is *not* possible now
-These options are already quite cool of course, but they have their limitations. For instance, if you  
+## Limitations
+These options are already quite cool, but they have their limitations. For instance, if you  
 * want to get a quick visual impression/overview of all highlights combined
 * want to download all pm. 11.0000 images from the out-of-copyright (public domain) highlights in various resolutions
 * want to have the highlights as PDFs
