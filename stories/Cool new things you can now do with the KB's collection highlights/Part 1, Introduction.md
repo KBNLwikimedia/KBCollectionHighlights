@@ -6,7 +6,7 @@
 *In this [series of 5 articles](index.md) I show the added value of putting images and metadata of [digitised collection highlights](https://www.kb.nl/galerij/digitale-topstukken) of the KB, national library of the Netherlands, into the Wikimedia infrastructure. By putting our collection highlights into Wikidata, Wikimedia Commons and Wikipedia, dozens of new functionalities have been added. As a result of Wikifying this collection, you can now do things with these highlights that were not possible before.*
 
 ## Collection highlights of the KB
-Before I begin to unfold the parts in the right hand knife one by one in the next four articles, I need to tell a bit about the collection highlights of the KB, and which things you can do with them on the 'native' websites of the KB.   
+Before I begin to unfold the parts in the right hand knife one by one in the next four articles, let me tell a bit more about the collection highlights of the KB, and which things you can do with them on the native websites of the KB.   
 
 The more than 70 highlights of the KB are collection items that are of particular cultural or historical value. Ranging from the early Middle Ages to the 20th century, they comprise manuscripts, books, magazines, armorials, atlases, alba amicorum, childrens's books and even photo albums. All objects have been digitised in high resolution and are presented as [browse books on the KB website](https://www.kb.nl/galerij/digitale-topstukken).  
 
@@ -14,16 +14,16 @@ The more than 70 highlights of the KB are collection items that are of particula
 
 
 ## Functionalities on kb.nl
-Peeking at the left hand knife, I would like to look at our own KB web services and the things you could already do with the highlights, before we decided to Wikify them. Let's make a list:  
+Peeking at the left hand knife, I would like to look at our own KB webservices and the things you could already do with the highlights, before we decided to Wikify them. So let's make a list. Some screenshots below show Dutch language web interfaces, due to the KB not fully offering all interfaces in English.    
 
-1) request an alphabetical list of the highlights, in HTML format
+1) Request an alphabetical list of the highlights, in HTML format. This overview is not available in CSV, XML, JSON or any other standard stuctured format
 
-<img src="images/image-p1-006.png" width="100%"/>
+<kbd><img src="images/image-p1-006.png" width="100%"/></kbd>
+<sub>*Overview of [KB collection highlights](https://www.kb.nl/galerij/digitale-topstukken), screenshot KB website d.d. 30-03-2021*</sub>
 
-2) Bladerboeken bekijken in hoge resolutie – zie bv het Zweder getijdenboek of het vriendenboek van Jacob Heyblocq.
-2) View scrolling books in high resolution - see, for example, the Zweder Book of Hours or the friend book of Jacob Heyblocq.
-<img src="images/image-p1-008.png" width="100%"/>
-
+2) View the works in high resolution as browsable books, using an image viewer - see, for example, the [Zweder Book of Hours]() or the [Album amicorum of Jacob Heyblocq]().
+<kbd><img src="images/image-p1-008.png" width="100%"/></kbd>
+<sub>*Album amicorum of Jacob Heyblocq hires Image viewer, screenshot KB website d.d. 30-03-2021*</sub>
 
 3) Bij sommige topstukken zijn er in dit bladerboek transcripties, vertalingen, annotaties en/of rondleidingen beschikbaar, zoals bij bovengenoemd vriendenboek.
 3) For some masterpieces, transcriptions, translations, annotations and / or guided tours are available in this leaflet, such as with the aforementioned friends book.
