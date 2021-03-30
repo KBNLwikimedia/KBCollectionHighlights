@@ -32,7 +32,7 @@ Peeking at the left hand knife, I would like to look at our own KB webservices a
 5) Read **contextual information** about the highlights. See for example the introductions to [Atlas Ortelius](https://www.kb.nl/themas/atlassen/atlas-ortelius) or to [Naenia en Jan Toorop](https://www.kb.nl/themas/boekkunst-en-geillustreerde-boeken/naenia-en-jan-toorop)
     <kbd><img src="images/image-p1-015.png" width="66%" /></kbd><br/><sub>*Contextual information: introduction to [Naenia en Jan Toorop](https://www.kb.nl/themas/boekkunst-en-geillustreerde-boeken/naenia-en-jan-toorop) on kb.nl. Screenshot KB website d.d. 30-03-2021*</sub>
 
-6) For a number of highlights **browse indexes** are available , such as for [Nederlandsche Vogelen](https://www.kb.nl/themas/boekkunst-en-geillustreerde-boeken/nederlandsche-vogelen-van-nozeman-en-sepp/nederlandsche-vogelen-index), a [film title register](https://www.kb.nl/themas/boekgeschiedenis/populair-drukwerk/asta-theater-programmaboeken) of the [ASTA theater](https://nl.wikipedia.org/wiki/ASTA) or a [place name index](https://www.kb.nl/themas/atlassen/stedenatlas-de-wit) for Atlas de Wit. However, these indexes are not searchable and only available in HTML format (as a web page).
+6) For a number of highlights **browse indexes** are available, such as for [Nederlandsche Vogelen](https://www.kb.nl/themas/boekkunst-en-geillustreerde-boeken/nederlandsche-vogelen-van-nozeman-en-sepp/nederlandsche-vogelen-index), a [film title register](https://www.kb.nl/themas/boekgeschiedenis/populair-drukwerk/asta-theater-programmaboeken) of the [ASTA theater](https://nl.wikipedia.org/wiki/ASTA) or a [place name index](https://www.kb.nl/themas/atlassen/stedenatlas-de-wit) for Atlas de Wit. However, these indexes are not searchable and only available in HTML format (ie. as web pages).
     <kbd><img src="images/image-p1-017.png" width="66%" /></kbd><br/><sub>*[Place name index](https://www.kb.nl/themas/atlassen/stedenatlas-de-wit) for Atlas de Wit. Screenshot KB website d.d. 30-03-2021*</sub>
     
 7) If you are interested in the **metadata of the highlights**, you can find them in the [KB catalog](https://opc-kb.oclc.org/DB=1/SET=1/TTL=1/LNG=EN/). For instance,  [Buiten! Waar de vogels fluiten](https://resolver.kb.nl/resolve?urn=PPN:238308081) (*Outside! Where the birds are singing*), the [Egmond Gospels](https://resolver.kb.nl/resolve?urn=PPN:311779433) or [Hot printing by H.N. Werkman](https://resolver.kb.nl/resolve?urn=PPN:369506812).
@@ -65,21 +65,19 @@ Recent project
 - Topstukkenproject 2020 --> Wikifiocering --> gebruik slides uit presentatie
 - Rationale achter project = meer zichtbaarhei en meer herbruikbaarheid
 
-<kbd><img src="images/image-p1-022.png" width="66%" align="right"/></kbd><br/><sub>**</sub>
+<kbd><img src="images/image-p1-022.png" height="200"/><img src="images/image-p1-023.png" width="200"/><br/><sub>**</sub></kbd>
 
-<kbd><img src="images/image-p1-023.png" width="66%" align="right"/></kbd><br/><sub>**</sub>
+<kbd><img src="images/image-p1-020.png" width="50%" align="left"/><br/><sub>**</sub>
 
-<kbd><img src="images/image-p1-020.png" width="66%" align="right"/></kbd><br/><sub>**</sub>
+<kbd><img src="images/image-p1-024.png" width="50%" align="left"/></kbd><br/><sub>**</sub>
 
-<kbd><img src="images/image-p1-024.png" width="66%" align="right"/></kbd><br/><sub>**</sub>
+<kbd><img src="images/image-p1-025.png" width="50%" align="left"/></kbd><br/><sub>**</sub>
 
-<kbd><img src="images/image-p1-025.png" width="66%" align="right"/></kbd><br/><sub>**</sub>
+<kbd><img src="images/image-p1-026.png" width="50%" align="left"/></kbd><br/><sub>**</sub>
 
-<kbd><img src="images/image-p1-026.png" width="66%" align="right"/></kbd><br/><sub>**</sub>
+<kbd><img src="images/image-p1-027.png" width="50%" align="left"/></kbd><br/><sub>**</sub>
 
-<kbd><img src="images/image-p1-027.png" width="66%" align="right"/></kbd><br/><sub>**</sub>
-
-<kbd><img src="images/image-p1-028.png" width="66%" align="right"/></kbd><br/><sub>**</sub>
+<kbd><img src="images/image-p1-028.png" width="50%" align="left"/></kbd><br/><sub>**</sub>
     
 https://commons.wikimedia.org/wiki/File:Zichtbaarheid_%26_hergebruik_KB-Topstukken-_HNI_-_14_januari_2021.pdf 
 https://www.wikidata.org/wiki/Wikidata:WikiProject_Collection_highlights_National_Library_of_the_Netherlands
