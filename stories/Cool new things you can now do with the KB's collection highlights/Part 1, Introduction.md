@@ -17,13 +17,12 @@ The more than 70 highlights of the KB are collection items that are of particula
 Peeking at the left hand knife, I would like to look at our own KB webservices and the things you could already do with the highlights, before we decided to Wikify them. So let's make a list. Some screenshots below show Dutch language web interfaces, due to the KB not fully offering all interfaces in English.    
 
 1) Request an alphabetical **list of the highlights**, in HTML format. This overview is not available in CSV, XML, JSON or any other standard stuctured format
-
 <kbd><img src="images/image-p1-006.png" width="66%"/></kbd>
 <sub>*Overview of [KB collection highlights](https://www.kb.nl/galerij/digitale-topstukken), screenshot KB website d.d. 30-03-2021*</sub>
 
 2) **View the works as browsable books**, in high resolution, using an image viewer - see, for example, the [Zweder Book of Hours](https://galerij.kb.nl/kb.html#/nl/zweder/page/14/zoom/2/lat/-42.03297433244139/lng/-10.546875) or the [Album amicorum of Jacob Heyblocq](https://galerij.kb.nl/kb.html#/nl/heyblocq/page/129/zoom/3/lat/-77.50411917973987/lng/75.41015624999999).
-    <kbd><img src="images/image-p1-008.png" width="66%"/></kbd>
-    <sub>*Album amicorum of Jacob Heyblocq hires Image viewer, screenshot KB website d.d. 30-03-2021*</sub>
+<kbd><img src="images/image-p1-008.png" width="66%"/></kbd>
+<sub>*Album amicorum of Jacob Heyblocq hires Image viewer, screenshot KB website d.d. 30-03-2021*</sub>
 
 3) Bij sommige topstukken zijn er in dit bladerboek transcripties, vertalingen, annotaties en/of rondleidingen beschikbaar, zoals bij bovengenoemd vriendenboek.
 3) For some highlights, **transcriptions, translations, annotations and / or guided tours** are available as part of the presenation, such as with the aforementioned album amicorum.
