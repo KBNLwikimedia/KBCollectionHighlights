@@ -64,14 +64,30 @@ Look at, consumne, view, read : OK
 Recent project
 - Topstukkenproject 2020 --> Wikifiocering --> gebruik slides uit presentatie
 - Rationale achter project = meer zichtbaarhei en meer herbruikbaarheid
-    <kbd><img src="images/image-p1-020.png" width="50%" align="right"/></kbd>
-    <sub>**</sub>
+
+<kbd><img src="images/image-p1-022.png" width="66%" align="right"/></kbd><br/><sub>**</sub>
+
+<kbd><img src="images/image-p1-023.png" width="66%" align="right"/></kbd><br/><sub>**</sub>
+
+<kbd><img src="images/image-p1-020.png" width="66%" align="right"/></kbd><br/><sub>**</sub>
+
+<kbd><img src="images/image-p1-024.png" width="66%" align="right"/></kbd><br/><sub>**</sub>
+
+<kbd><img src="images/image-p1-025.png" width="66%" align="right"/></kbd><br/><sub>**</sub>
+
+<kbd><img src="images/image-p1-026.png" width="66%" align="right"/></kbd><br/><sub>**</sub>
+
+<kbd><img src="images/image-p1-027.png" width="66%" align="right"/></kbd><br/><sub>**</sub>
+
+<kbd><img src="images/image-p1-028.png" width="66%" align="right"/></kbd><br/><sub>**</sub>
+    
 https://commons.wikimedia.org/wiki/File:Zichtbaarheid_%26_hergebruik_KB-Topstukken-_HNI_-_14_januari_2021.pdf 
 https://www.wikidata.org/wiki/Wikidata:WikiProject_Collection_highlights_National_Library_of_the_Netherlands
 
 ## The next 4 articles
 
 In de volgende vier Plein-berichten wil ik de komende tijd al deze nieuwe mogelijkheden met jullie delen, steeds ongeveer 10 per bericht, om het enigszins behapbaar te houden. Hier meteen Deel 2, waarin ik allerlei handige overzichten voor alle 70 topstukken samen bespreek.
+
 In the next four Plein messages I want to share all these new possibilities with you in the coming period, each time about 10 per message, to keep it somewhat manageable. Right here Part 2, in which I discuss all kinds of useful overviews for all 70 masterpieces together. 
 
 Part 1, Introduction // [Part 2, Overviews of all highlights](Part%202%2C%20Overviews%20of%20all%20highlights.html) // [Part 3, Overviews per highlight](Part%203%2C%20Overviews%20per%20highlight.html) // [Part 4, Images](Part%204%2C%20Images.html) // [Part 5, Reuse](Part%205%2C%20Reuse.html)
