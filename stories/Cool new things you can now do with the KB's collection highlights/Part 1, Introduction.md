@@ -6,7 +6,7 @@
 *In this [series of 5 articles](index.md) I show the added value of putting images and metadata of [digitised collection highlights](https://www.kb.nl/galerij/digitale-topstukken) of the KB, national library of the Netherlands, into the Wikimedia infrastructure. By putting our collection highlights into Wikidata, Wikimedia Commons and Wikipedia, dozens of new functionalities have been added. As a result of Wikifying this collection, you can now do things with these highlights that were not possible before.*
 
 ## Collection highlights of the KB
-Before I begin to unfold the parts in the right hand knife one by one in the next four articles, let me tell a bit more about the collection highlights of the KB, and which things you can do with them on the native websites of the KB.   
+Before I begin to unfold the bits & tools in the right hand knife one by one in the next four articles, let me tell a bit more about the collection highlights of the KB, and which things you can do with them on the native websites of the KB.   
 
 The more than 70 highlights of the KB are collection items that are of particular cultural or historical value. Ranging from the early Middle Ages to the 20th century, they comprise manuscripts, books, magazines, armorials, atlases, alba amicorum, childrens's books and even photo albums. All objects have been digitised in high resolution and are presented as [browse books on the KB website](https://www.kb.nl/galerij/digitale-topstukken).  
 
@@ -35,8 +35,8 @@ Peeking at the left hand knife, I would like to look at our own KB webservices a
     <sub>*Downloadable jpg : [folio 3r](https://resolver.kb.nl/resolve?urn=EuropeanaTravel:79L5:003r)* from the [album amicorum book of Petronella Moens](https://galerij.kb.nl/kb.html#/nl/moens/page/4/zoom/3/lat/-79.71860546904043/lng/-28.828124999999996)</sub>
 
 5) Read **contextual information** about the highlights. See for example the introductions to [Atlas Ortelius](https://www.kb.nl/themas/atlassen/atlas-ortelius) or to [Naenia en Jan Toorop](https://www.kb.nl/themas/boekkunst-en-geillustreerde-boeken/naenia-en-jan-toorop)
-    <kbd><img src="images/image-p1-015.png" width="66%" />
-    <sub>*Introduction to [Naenia en Jan Toorop](https://www.kb.nl/themas/boekkunst-en-geillustreerde-boeken/naenia-en-jan-toorop). Screenshot KB website d.d. 30-03-2021*</sub>
+    <kbd><img src="images/image-p1-015.png" width="66%" /></kbd>
+    <sub>*Contextual information: introduction to [Naenia en Jan Toorop](https://www.kb.nl/themas/boekkunst-en-geillustreerde-boeken/naenia-en-jan-toorop) on kb.nl. Screenshot KB website d.d. 30-03-2021*</sub>
 
 6) For a number of highlights **browse indices** are available , such as for [Nederlandsche Vogelen](https://www.kb.nl/themas/boekkunst-en-geillustreerde-boeken/nederlandsche-vogelen-van-nozeman-en-sepp/nederlandsche-vogelen-index), a [film title register](https://www.kb.nl/themas/boekgeschiedenis/populair-drukwerk/asta-theater-programmaboeken) of the [ASTA theater](https://nl.wikipedia.org/wiki/ASTA) or a [place name index](https://www.kb.nl/themas/atlassen/stedenatlas-de-wit) for Atlas de Wit. However, these indices are not searchable and only available in a HTML format (as a web page).
     <img src="images/image-p1-017.png" width="66%" /></kbd>
@@ -46,7 +46,6 @@ Peeking at the left hand knife, I would like to look at our own KB webservices a
     <kbd><img src="images/image-p1-019.png" width="66%" /></kbd>
     <sub>*[KB catalog record](https://resolver.kb.nl/resolve?urn=PPN:369506812) for [Hot printing van H.N. Werkman](http://www.kb.nl/hotprinting). Screenshot KB catalog d.d. 30-03-2021*</sub>
     
-8) Tot slot: als je liever die metadata in gestructureerd formaat wilt hebben, dan kun je die via onze jSRU- en OAI-diensten opvragen, bv. Wat is er op de kermis te zien? (via jSRU) of deze albumbijdrage (via OAI) uit het vriendenboek van Samuel Johannes van den Bergh. Wel alleen hele records, uitsluitend in XML, en voor de OAI-services moet je VPN aan hebben staan, of in het KB-gebouw zijn.
 8) Finally: if you prefer to have that **metadata in a structured format**, you can request it via our jSRU and OAI-PMH services, eg [Wat is er op de kermis te zien?](http://jsru.kb.nl/sru/sru?x-collection=GGC&recordSchema=dcx&operation=searchRetrieve&query=%22KW%20XKZ%20160%22) (What can be seen at the fair?) (via jSRU) or [this album contribution](http://services.kb.nl/mdo/oai?verb=GetRecord&identifier=PPN:310920310) (via OAI-PMH) from the Album amicorum of Samuel Johannes van den Bergh. This metadata is only available as whole records, only in XML.
     <kbd><img src="images/image-p1-021.png" width="66%"/></kbd>
     <sub>*[XML response](http://jsru.kb.nl/sru/sru?x-collection=GGC&recordSchema=dcx&operation=searchRetrieve&query=%22KW%20XKZ%20160%22) for [Wat is er op de kermis te zien?](https://resolver.kb.nl/resolve?urn=PPN:205278043) from the KB SRU service. Screenshot d.d. 30-03-2021*</sub>
