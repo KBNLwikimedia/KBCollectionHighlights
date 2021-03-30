@@ -18,8 +18,8 @@ Peeking at the left hand knife, I would like to look at our own KB webservices a
 
 1) Request an alphabetical list of the highlights, in HTML format. This overview is not available in CSV, XML, JSON or any other standard stuctured format
 
-<kbd><img src="images/image-p1-006.png" width="100%"/></kbd>
-<sub>*Overview of [KB collection highlights](https://www.kb.nl/galerij/digitale-topstukken), screenshot KB website d.d. 30-03-2021*</sub>
+    <kbd><img src="images/image-p1-006.png" width="66%"/></kbd>
+    <sub>*Overview of [KB collection highlights](https://www.kb.nl/galerij/digitale-topstukken), screenshot KB website d.d. 30-03-2021*</sub>
 
 2) View the works in high resolution as browsable books, using an image viewer - see, for example, the [Zweder Book of Hours]() or the [Album amicorum of Jacob Heyblocq]().
 <kbd><img src="images/image-p1-008.png" width="100%"/></kbd>
