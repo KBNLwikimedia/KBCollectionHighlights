@@ -16,27 +16,27 @@ The more than 70 highlights of the KB are collection items that are of particula
 ## Functionalities on kb.nl
 Peeking at the left hand knife, I would like to look at our own KB webservices and the things you could already do with the highlights, before we decided to Wikify them. So let's make a list. Some screenshots below show Dutch language web interfaces, due to the KB not fully offering all interfaces in English.    
 
-1) Request an alphabetical list of the highlights, in HTML format. This overview is not available in CSV, XML, JSON or any other standard stuctured format
+1) Request an alphabetical **list of the highlights**, in HTML format. This overview is not available in CSV, XML, JSON or any other standard stuctured format
 
-    <kbd><img src="images/image-p1-006.png" width="66%"/></kbd>
-    <sub>*Overview of [KB collection highlights](https://www.kb.nl/galerij/digitale-topstukken), screenshot KB website d.d. 30-03-2021*</sub>
+<kbd><img src="images/image-p1-006.png" width="66%"/></kbd>
+<sub>*Overview of [KB collection highlights](https://www.kb.nl/galerij/digitale-topstukken), screenshot KB website d.d. 30-03-2021*</sub>
 
-2) View the works in high resolution as browsable books, using an image viewer - see, for example, the [Zweder Book of Hours]() or the [Album amicorum of Jacob Heyblocq]().
-<kbd><img src="images/image-p1-008.png" width="100%"/></kbd>
-<sub>*Album amicorum of Jacob Heyblocq hires Image viewer, screenshot KB website d.d. 30-03-2021*</sub>
+2) **View the works as browsable books**, in high resolution, using an image viewer - see, for example, the [Zweder Book of Hours](https://galerij.kb.nl/kb.html#/nl/zweder/page/14/zoom/2/lat/-42.03297433244139/lng/-10.546875) or the [Album amicorum of Jacob Heyblocq](https://galerij.kb.nl/kb.html#/nl/heyblocq/page/129/zoom/3/lat/-77.50411917973987/lng/75.41015624999999).
+    <kbd><img src="images/image-p1-008.png" width="66%"/></kbd>
+    <sub>*Album amicorum of Jacob Heyblocq hires Image viewer, screenshot KB website d.d. 30-03-2021*</sub>
 
 3) Bij sommige topstukken zijn er in dit bladerboek transcripties, vertalingen, annotaties en/of rondleidingen beschikbaar, zoals bij bovengenoemd vriendenboek.
-3) For some masterpieces, transcriptions, translations, annotations and / or guided tours are available in this leaflet, such as with the aforementioned friends book.
-<img src="images/image-p1-010.png" width="100%"/>
-<img src="images/image-p1-012.png" width="100%"/>
+3) For some highlights, **transcriptions, translations, annotations and / or guided tours** are available as part of the presenation, such as with the aforementioned album amicorum.
+    <img src="images/image-p1-010.png" width="100%"/>
+    <img src="images/image-p1-012.png" width="100%"/>
 
 4) Voor een klein aantal topstukken - de alba amicorum - kun je de losse afbeeldingen opvragen als downloadbare jpg, bv deze pagina uit het vriendenboek van Petronella Moens of dit gedicht uit het vriendenboek van Samuel Johannes van den Bergh. Maar dit zijn uitzonderingen, bij veruit de meeste topstukken zijn de beelden uit het bladerboek niet los te downloaden.
 4) For a small number of masterpieces - the alba amicorum - you can request the separate images as downloadable jpg, eg this page from the friend book of Petronella Moens or this poem from the friend book of Samuel Johannes van den Bergh. But these are exceptions, with the vast majority of masterpieces the images from the browse book cannot be downloaded separately.
-<img src="images/image-p1-013.png" width="70%"/>
+    <img src="images/image-p1-013.png" width="70%"/>
 
 5) Contextuele informatie over het topstuk lezen – zie bv de toelichtingen bij Atlas Ortelius of bij Naenia en Jan Toorop
 5) Read contextual information about the masterpiece - see, for example, the notes to Atlas Ortelius or to Naenia and Jan Toorop
-<img src="images/image-p1-015.png" width="70%" />
+    <img src="images/image-p1-015.png" width="70%" />
 
 6) Bij een aantal topstukken zijn bladerindexen beschikbaar, zoals bij Nederlandsche Vogelen, een filmtitelregister van het ASTA-theater of een plaatsnamenindex bij Stedenboek De Wit. Niet doorzoekbaar en alleen in HTML-formaat (als webpagina dus).
 6) Leaf indices are available for a number of masterpieces, such as at Nederlandsche Vogelen, a film title register of the ASTA theater or a place name index at Cities Book De Wit. Not searchable and only in HTML format (as a web page).
@@ -44,11 +44,11 @@ Peeking at the left hand knife, I would like to look at our own KB webservices a
 
 7) Als je geïnteresseerd bent in de metadata van de topstukken, kun je die in KB-catalogus vinden, bv Buiten! Waar de vogels fluiten, Evangeliarium van Egmond of Hot printing van H.N. Werkman.
 7) If you are interested in the metadata of the masterpieces, you can find them in the KB catalog, eg Outside! Where the birds are singing, Evangeliarium of Egmond or Hot printing by H.N. Workman.
-<img src="images/image-p1-019.png" width="70%" />
+    <img src="images/image-p1-019.png" width="70%" />
 
 8) Tot slot: als je liever die metadata in gestructureerd formaat wilt hebben, dan kun je die via onze jSRU- en OAI-diensten opvragen, bv. Wat is er op de kermis te zien? (via jSRU) of deze albumbijdrage (via OAI) uit het vriendenboek van Samuel Johannes van den Bergh. Wel alleen hele records, uitsluitend in XML, en voor de OAI-services moet je VPN aan hebben staan, of in het KB-gebouw zijn.
 8) Finally: if you prefer to have that metadata in a structured format, you can request it via our jSRU and OAI services, eg What can be seen at the fair? (via jSRU) or this album contribution (via OAI) from the friends book of Samuel Johannes van den Bergh. Only whole records, only in XML, and for the OAI services you must have VPN on, or be in the KB building.
-<img src="images/image-p1-021.png" width="70%" />
+    <img src="images/image-p1-021.png" width="70%" />
 
 ## Limitations
 
@@ -86,7 +86,7 @@ These options are already quite cool of course, but if you eg.
 ## Wikifying the collection highlights
 - Topstukkenproject 2020 --> Wikifiocering --> gebruik slides uit presentatie
 - Rationale achter project = meer zichtbaarhei en meer herbruikbaarheid
-<img src="images/image-p1-020.png" width="50%" align="right"/>
+    <img src="images/image-p1-020.png" width="50%" align="right"/>
 
 https://commons.wikimedia.org/wiki/File:Zichtbaarheid_%26_hergebruik_KB-Topstukken-_HNI_-_14_januari_2021.pdf 
 https://www.wikidata.org/wiki/Wikidata:WikiProject_Collection_highlights_National_Library_of_the_Netherlands
