@@ -67,9 +67,9 @@ Recent project
 
 <kbd><img src="images/image-p1-022.png" height="200"/></kbd><kbd><img src="images/image-p1-023.png" height="200"/></kbd><kbd><img src="images/image-p1-024.png" height="200"/></kbd><br/><sub>**</sub>
 
-<kbd><img src="images/image-p1-020.png" height="200" align="left"/></kbd><kbd><img src="images/image-p1-025.png" height="200" align="left"/></kbd><br/><sub>**</sub>
+<kbd><img src="images/image-p1-020.png" height="200" align="left"/></kbd><kbd><img src="images/image-p1-025.png" height="200" align="left"/></kbd><kbd><img src="images/image-p1-026.png" height="200" align="left"/></kbd><br/><sub>**</sub>
 
-<kbd><img src="images/image-p1-026.png" height="200" align="left"/></kbd><kbd><img src="images/image-p1-027.png" height="200" align="left"/></kbd><kbd><img src="images/image-p1-028.png" height="200" align="left"/></kbd><br/><sub>**</sub>
+<kbd><img src="images/image-p1-027.png" height="200" align="left"/></kbd><kbd><img src="images/image-p1-029.png" height="200" align="left"/></kbd><kbd><img src="images/image-p1-028.png" height="200" align="left"/></kbd><br/><sub>**</sub>
     
 https://commons.wikimedia.org/wiki/File:Zichtbaarheid_%26_hergebruik_KB-Topstukken-_HNI_-_14_januari_2021.pdf 
 https://www.wikidata.org/wiki/Wikidata:WikiProject_Collection_highlights_National_Library_of_the_Netherlands
