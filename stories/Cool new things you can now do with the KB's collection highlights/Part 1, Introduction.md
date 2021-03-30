@@ -3,10 +3,10 @@
 
 <img src="images/KBtopstukkenMemeEN.jpg" width="70%" align="right"/>
 
-*In this [series of 5 articles](index.md) I show the added value of putting images and metadata of [digitised collection highlights](https://www.kb.nl/galerij/digitale-topstukken) of the KB, national library of the Netherlands, into the Wikimedia infrastructure. By putting our collection highlights into Wikidata, Wikimedia Commons and Wikipedia, dozens of new functionalities have been added: now you can do things with these digital objects that were not possible before.*
+*In this [series of 5 articles](index.md) I show the added value of putting images and metadata of [digitised collection highlights](https://www.kb.nl/galerij/digitale-topstukken) of the KB, national library of the Netherlands, into the Wikimedia infrastructure. By putting our collection highlights into Wikidata, Wikimedia Commons and Wikipedia, dozens of new functionalities have been added. As a result of Wikifying this collection, you can now do things with these highlights that were not possible before.*
 
 ## Collection highlights of the KB
-Before I dive into the details, I need to explain a bit about the the collection highlights of the KB, and which things you can do with them on the 'native' websites of the KB.   
+Before I begin to unfold the parts in the right hand knife one by one in the next four articles, I need to tell a bit about the collection highlights of the KB, and which things you can do with them on the 'native' websites of the KB.   
 
 The more than 70 highlights of the KB are collection items that are of particular cultural or historical value. Ranging from the early Middle Ages to the 20th century, they comprise manuscripts, books, magazines, armorials, atlases, alba amicorum, childrens's books and even photo albums. All objects have been digitised in high resolution and are presented as [browse books on the KB website](https://www.kb.nl/galerij/digitale-topstukken).  
 
@@ -14,12 +14,8 @@ The more than 70 highlights of the KB are collection items that are of particula
 
 
 ## Functionalities on kb.nl
-- Wat kan er wel met deze topstukken
+Peeking at the left hand knife, I would like to look at our own KB web services and the things you could already do with the highlights, before we decided to Wikify them. Let's make a list:  
 
-Voordat ik in de volgende vier Plein-posts het rechter mes stukje voor stukje helemaal ga uitklappen, wil ik in deze inleiding eerst nog even het linker mes bespreken, dus nog even op een rijtje te zetten wat je voor het project al met de topstukken op kb.nl kon doen:
-Before I fully unfold the right knife piece by piece in the next four Square posts, I would first like to discuss the left knife in this introduction, so I would like to list what you already have with the masterpieces for the project. kb.nl could do: 
-
-1) een alfabetische lijst van de topstukken opvragen, in HTML-formaat
 1) request an alphabetical list of the highlights, in HTML format
 
 <img src="images/image-p1-006.png" width="100%"/>
