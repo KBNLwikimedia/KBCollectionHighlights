@@ -56,53 +56,47 @@ These options are already quite cool, but they have their limitations. For insta
 ... then in most cases you came home from a rude awakening. But thanks to a recent project to Wikify our highlights, these kinds of functionalities - and many more - have now become available.
 
 ## New audiences for our highlights
-If you are a *regular consumer* and want to simply *discover, view or read* KB's collection highlights, the 'read/view-only' functionalities offered on KB's native websites are probably good enough for you. In most cases you won't be bothered by the types of limitations mentioned above. 
+If you are a *regular consumer* and want to simply *discover, view or read* KB's collection highlights, the 'read/view-only' functionalities offered on KB's native websites are probably good enough for you. In many cases you won't be bothered by the types of limitations mentioned above. 
 
-However, if you are a *creator/developer* and want to actually *reuse or build upon* our highlights you are probably looking for ways to interact with these objects in more flexible, targeted or automated ways. Ideally, you would like the highlights to be 'decomposable' into individual building blocks (like LEGO bricks) which you can then rearrange into new custom apps, services, products or data streams.
+However, if you are a *creator/developer* and want to actually *reuse or build upon* our highlights you are probably looking for ways to interact with these objects in more flexible, targeted, automated or programmatic ways. Ideally, you would like the highlights to be 'decomposable' into individual building blocks (like LEGO® bricks) which you can then rearrange into new custom apps, services, products or data streams.
 
 <kbd><img src="images/image-p1-022.png" height="220"/></kbd><kbd><img src="images/image-p1-023.png" height="220"/></kbd><kbd><img src="images/image-p1-024.png" height="220"/></kbd>
 
 This reuse-centric approach was at the core of the [WikiProject Collection highlights](https://www.wikidata.org/wiki/Wikidata:WikiProject_Collection_highlights_National_Library_of_the_Netherlands) the KB ran in the second half of 2020. This project represents a new way of thinking about our collection highlights: in addition to the regular *view/read-only* functionalities for classical audiences (*consumers*), we are now also focusing on *reusability* of our highlights, providing building blocks and added value for *creators*: developers, app builders, digital humanities, data scientists, hackathons, LOD communities, GLAMs, Europeana, AIs, Big Tech etc.
 
-In other words, we are increasingly thinking about our set of collection highlights as a richly filled LEGO Technic box, with many sorts of building blocks, components and connectors that creators can pick and combine for their own purposes. 
+In other words, we are increasingly thinking about our set of collection highlights as a richly filled LEGO Technic® box, with many sorts of building blocks, components and connectors that creators can pick and combine for their own purposes. 
 
 <kbd><img src="images/image-p1-020.png" height="300" align="left"/></kbd><kbd><img src="images/image-p1-025.png" height="300" align="left"/></kbd>
 
 ## Wikifying KB's collection highlights
-If you look closely at our LEGO box, you'll notice that its powered by Wikidata, Wikimedia Commons and Wikipedia. This is no coincidence, as many of the building blocks we were looking for were readily available in the Wikimedia infrastructure. Think for instance: 
-* an open platform for uploading and describing 1000s of images of KB's highlights (*Wikimedia Commons*), 
-* an open platform for creating, managing, linking and sharing multilingual Linked Open Data (*Wikidata*), 
+If you look closely at our LEGO® box, you'll notice that its 'powered by' Wikidata, Wikimedia Commons and Wikipedia. This is no coincidence, as many of the building blocks we were looking for were readily available in the Wikimedia infrastructure. Think for instance: 
+* an open platform for uploading and describing 1000s of public domain images of KB's highlights (*Wikimedia Commons*), 
+* an open platform for creating, managing, linking and sharing multilingual Linked Open Data under CC0-licensing (*Wikidata*), 
 * an open platform for providing context for our highlights (*Wikipedia*), 
-* including SPARQL endpoints (*Wikidata and Wikimedia Commons*) 
-* REST APIs delivering outputs in CSV, JSON or RDF (*all three*) 
+* with SPARQL endpoints (*Wikidata and Wikimedia Commons*)
+* and data visualisation tools (*Wikidata and Wikimedia Commons*)
+* and REST APIs delivering outputs in CSV, JSON or RDF (*all three*) 
 * with good integrations for Python, PHP and many other popular languages. 
-
-
--  and their international communities -  
-offer a coherent infrastructure to greatly improve the reusability of KB collection highlights
 
 <kbd><img src="images/image-p1-026.png" height="250" align="left"/></kbd><kbd><img src="images/image-p1-027.png" height="250" align="left"/></kbd>
 
-Furthermore, 
-In addition, the contents of this box are
-Free - ”general utility”
-No license & management fees
-No burden for KB IT department
-Unlimited (hosting, traffic)
-Sustainable (Wikipedia > 20 years) 
-Publicly accessible
-Participative, international, the whole world can help build 
+Furthermore, the contents of this box are
+* *Free* - the Wikimedia infrastructure is a [public utility](https://en.wikipedia.org/wiki/Public_utility) that is just out there for anyone to use and benefit from, for free, without license and/or management fees.
+* *No burden* for KB's internal IT operations. Running all infrastructured outside the KB is putting no extra burden on our already overstressed IT department.
+* *Unlimited*, we never noticed any limits to the amount of images we were allowed to upload or download from Wikimedia Commons. OK, we noticed some throttling when making too many simultaneous Wikidata API calls, but that was never a major issue.   
+* *Sustainable*. Wikipedia has been around for over 20 years, Wikidata for nearly 10. In the meantime, quite a few websites of the KB (and other GLAMs) have disappeared from the public web and are now only accessible in non-public web archives.       
+* *Publicly accessible*, anyone can use the Wikimedia platforms and tools, without geografic or economic boundaries. All you need is a (free) account and some commitment to get familiar with the Wikimedia ecosystem and community.   
+* *Participative*, anyone can contribute to improving KB's collection highlights using the platforms and tools available in the Wikimedia infrastructure 
+ 
+<img src="images/image-p1-029.png" height="200" align="left"/></kbd>
+
+
+-  and  -  
+offer a coherent infrastructure to greatly improve the reusability of KB collection highlights
 
 Improved reusability for tech communities  Improved uptake into apps/sites/channels of 3rd parties  Improved visibility & findability for general audiences
 
-
-
-
-
-Recent project
-- Rationale achter project = meer zichtbaarhei en meer herbruikbaarheid
-
-<img src="images/image-p1-029.png" height="200" align="left"/></kbd><kbd><img src="images/image-p1-028.png" height="200" align="left"/></kbd><br/><sub>**</sub>
+<kbd><img src="images/image-p1-028.png" height="200" align="left"/></kbd><br/><sub>**</sub>
     
 
 
@@ -129,14 +123,9 @@ This text of this article is available under the [CC-BY 4.0](https://creativecom
 
 <sub><b>Image sources & credits</b></sub><br/>
 <sub>[Swiss_army_knife_open,_2012-(01)](https://commons.wikimedia.org/wiki/File:Swiss_army_knife_open,_2012-(01).jpg) -- Joe Loong, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0), via Wikimedia Commons</sub><br/>
-<sub>* [Victorinox_Swiss_Army_SwissChamp_XAVT](https://commons.wikimedia.org/wiki/File:Victorinox_Swiss_Army_SwissChamp_XAVT.jpg) -- Dave Taylor from Boulder, CO, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0>), via Wikimedia Commons</sub><br/>
-
-<sub>Old paradigm, butterfly in jar - https://commons.wikimedia.org/wiki/File:Monarch_Butterfly_Taxidermy_03.jpg - Jeremy Johnson, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons</sub><br/>
-
-<sub>New paradigm - Bricks by the Bay 2011 - https://www.flickr.com/photos/roninsfx/5568986878 - CC-BY- https://creativecommons.org/licenses/by/2.0/</sub><br/>
-
-<sub>Building blocks for the tech communities, Wikimedia hackathon San Francisco 2012 - https://commons.wikimedia.org/wiki/File:Wikimedia_Hackathon_San_Francisco_107.jpg - Matthew (WMF), CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0, via Wikimedia Commons</sub><br/>
-
-<sub>LEGO box - based upon the Villa Savoye box from the LEGO® Architecture series - https://i.ebayimg.com/images/g/n4AAAOSwjIpgTPWQ/s-l1600.jpg</sub><br/>
-
-<sub>Improved reusability for tech communities, butterflies in the sky - https://i.pinimg.com/originals/52/5d/30/525d30d3d8050e3b11edd23a219de37f.jpg </sub><br/>
+<sub>[Victorinox_Swiss_Army_SwissChamp_XAVT](https://commons.wikimedia.org/wiki/File:Victorinox_Swiss_Army_SwissChamp_XAVT.jpg) -- Dave Taylor from Boulder, CO, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0), via Wikimedia Commons</sub><br/>
+<sub>Old paradigm, [Taxidermied Monarch Butterfly in a bell jar](https://commons.wikimedia.org/wiki/File:Monarch_Butterfly_Taxidermy_03.jpg) -- Jeremy Johnson, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons</sub><br/>
+<sub>New paradigm, [Bricks by the Bay 2011](https://www.flickr.com/photos/roninsfx/5568986878) -- Roninsfx, [CC-BY 2.0](https://creativecommons.org/licenses/by/2.0/), via Flickr</sub><br/>
+<sub>Building blocks for the tech communities, [Wikimedia hackathon San Francisco 2012](https://commons.wikimedia.org/wiki/File:Wikimedia_Hackathon_San_Francisco_107.jpg) -- Matthew (WMF), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons</sub><br/>
+<sub>KB collection highlights LEGO® box - based upon the [Villa Savoye box from the LEGO® Architecture series](https://i.ebayimg.com/images/g/n4AAAOSwjIpgTPWQ/s-l1600.jpg)</sub><br/>
+<sub>Improved reusability for tech communities, [butterflies in the sky](https://i.pinimg.com/originals/52/5d/30/525d30d3d8050e3b11edd23a219de37f.jpg)</sub><br/>
