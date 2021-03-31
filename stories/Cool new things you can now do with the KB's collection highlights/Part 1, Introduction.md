@@ -56,14 +56,17 @@ These options are already quite cool, but they have their limitations. For insta
 ... then in most cases you came home from a rude awakening. But thanks to a recent project to Wikify our highlights, these kinds of functionalities - and many more - have now become available.
 
 ## New audiences for our highlights
-If you are a *regular consumer* and want to simply *view or read* KB's collection highlights, the functionalities offered on KB's native websites are probably good enough for you. In most cases you won't be bothered by the types of limitations mentioned above. 
+If you are a *regular consumer* and want to simply *discover, view or read* KB's collection highlights, the 'read/view-only' functionalities offered on KB's native websites are probably good enough for you. In most cases you won't be bothered by the types of limitations mentioned above. 
 
-However, if you are a *creator/developer* and want to actually *reuse or build upon* our highlights you are probably looking for ways to interact with these objects in more flexible and targeted ways. Ideally, you would like the highlights to be 'decomposable' into individual building blocks (like LEGO bricks) which you can then rearrange into new custom apps, services, products or data streams.
+However, if you are a *creator/developer* and want to actually *reuse or build upon* our highlights you are probably looking for ways to interact with these objects in more flexible, targeted or automated ways. Ideally, you would like the highlights to be 'decomposable' into individual building blocks (like LEGO bricks) which you can then rearrange into new custom apps, services, products or data streams.
 
 <kbd><img src="images/image-p1-022.png" height="200"/></kbd><kbd><img src="images/image-p1-023.png" height="200"/></kbd><kbd><img src="images/image-p1-024.png" height="200"/></kbd>
 
 This reuse-centric approach was at the core of the [WikiProject Collection highlights](https://www.wikidata.org/wiki/Wikidata:WikiProject_Collection_highlights_National_Library_of_the_Netherlands) the KB ran in the second half of 2020. This project represents a new way of thinking about our collection highlights: in addition to the regular *view/read-only* functionalities for classical audiences (*consumers*), we are now also focusing on *reusability* of our highlights, providing building blocks and added value for *creators*: developers, app builders, digital humanities, data scientists, hackathons, LOD communities, GLAMs, Europeana, AIs, Big Tech etc.
 
+In other words, we are increasingly thinking about our set of collection highlights as if they are in a richly filled LEGO box, with many sorts of building blocks, components and connectors that creators can pick and combine for their own purposes. 
+
+<kbd><img src="images/image-p1-020.png" height="300" align="left"/></kbd><kbd><img src="images/image-p1-025.png" height="300" align="left"/></kbd></kbd>
 
 ## Wikifying KB's collection highlights
 
@@ -91,9 +94,7 @@ Improved reusability for tech communities  Improved uptake into apps/sites/ch
 Recent project
 - Rationale achter project = meer zichtbaarhei en meer herbruikbaarheid
 
-
-
-<kbd><img src="images/image-p1-020.png" height="200" align="left"/></kbd><kbd><img src="images/image-p1-025.png" height="200" align="left"/></kbd><kbd><img src="images/image-p1-026.png" height="200" align="left"/></kbd><br/><sub>**</sub>
+<kbd><img src="images/image-p1-026.png" height="200" align="left"/></kbd><br/><sub>**</sub>
 
 <kbd><img src="images/image-p1-027.png" height="200" align="left"/></kbd><kbd><img src="images/image-p1-029.png" height="200" align="left"/></kbd><kbd><img src="images/image-p1-028.png" height="200" align="left"/></kbd><br/><sub>**</sub>
     
