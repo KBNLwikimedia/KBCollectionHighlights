@@ -60,22 +60,28 @@ If you are a *regular consumer* and want to simply *discover, view or read* KB's
 
 However, if you are a *creator/developer* and want to actually *reuse or build upon* our highlights you are probably looking for ways to interact with these objects in more flexible, targeted or automated ways. Ideally, you would like the highlights to be 'decomposable' into individual building blocks (like LEGO bricks) which you can then rearrange into new custom apps, services, products or data streams.
 
-<kbd><img src="images/image-p1-022.png" height="200"/></kbd><kbd><img src="images/image-p1-023.png" height="200"/></kbd><kbd><img src="images/image-p1-024.png" height="200"/></kbd>
+<kbd><img src="images/image-p1-022.png" height="220"/></kbd><kbd><img src="images/image-p1-023.png" height="220"/></kbd><kbd><img src="images/image-p1-024.png" height="220"/></kbd>
 
 This reuse-centric approach was at the core of the [WikiProject Collection highlights](https://www.wikidata.org/wiki/Wikidata:WikiProject_Collection_highlights_National_Library_of_the_Netherlands) the KB ran in the second half of 2020. This project represents a new way of thinking about our collection highlights: in addition to the regular *view/read-only* functionalities for classical audiences (*consumers*), we are now also focusing on *reusability* of our highlights, providing building blocks and added value for *creators*: developers, app builders, digital humanities, data scientists, hackathons, LOD communities, GLAMs, Europeana, AIs, Big Tech etc.
 
-In other words, we are increasingly thinking about our set of collection highlights as if they are a richly filled LEGO Technic box, with many sorts of building blocks, components and connectors that creators can pick and combine for their own purposes. 
+In other words, we are increasingly thinking about our set of collection highlights as a richly filled LEGO Technic box, with many sorts of building blocks, components and connectors that creators can pick and combine for their own purposes. 
 
-<kbd><img src="images/image-p1-020.png" height="300" align="left"/></kbd><kbd><img src="images/image-p1-025.png" height="300" align="left"/></kbd></kbd>
+<kbd><img src="images/image-p1-020.png" height="300" align="left"/></kbd><kbd><img src="images/image-p1-025.png" height="300" align="left"/></kbd>
 
 ## Wikifying KB's collection highlights
+If you look closely at our LEGO box, you'll notice that its powered by Wikidata, Wikimedia Commons and Wikipedia. This is no coincidence, as many of the building blocks we were looking for were readily available in the Wikimedia infrastructure. Think for instance: 
+* an open platform for uploading and describing 1000s of images of KB's highlights (*Wikimedia Commons*), 
+* an open platform for creating, managing, linking and sharing multilingual Linked Open Data (*Wikidata*), 
+* an open platform for providing context for our highlights (*Wikipedia*), 
+* including SPARQL endpoints (*Wikidata and Wikimedia Commons*) 
+* REST APIs delivering outputs in CSV, JSON or RDF (*all three*) 
+* with good integrations for Python, PHP and many other popular languages. 
 
-All these building blocks are readily available in 
 
-Wikidata, Wikimedia Commons and Wikipedia 
 -  and their international communities -  
 offer a coherent infrastructure to greatly improve the reusability of KB collection highlights
 
+Furthermore, 
 In addition, the contents of this box are
 Free - ”general utility”
 No license & management fees
