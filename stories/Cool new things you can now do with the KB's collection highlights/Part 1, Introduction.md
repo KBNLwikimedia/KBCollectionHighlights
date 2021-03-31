@@ -81,6 +81,8 @@ If you look closely at our LEGO box, you'll notice that its powered by Wikidata,
 -  and their international communities -  
 offer a coherent infrastructure to greatly improve the reusability of KB collection highlights
 
+<kbd><img src="images/image-p1-026.png" height="250" align="left"/></kbd><kbd><img src="images/image-p1-027.png" height="250" align="left"/></kbd>
+
 Furthermore, 
 In addition, the contents of this box are
 Free - ”general utility”
@@ -100,9 +102,7 @@ Improved reusability for tech communities  Improved uptake into apps/sites/ch
 Recent project
 - Rationale achter project = meer zichtbaarhei en meer herbruikbaarheid
 
-<kbd><img src="images/image-p1-026.png" height="200" align="left"/></kbd><br/><sub>**</sub>
-
-<kbd><img src="images/image-p1-027.png" height="200" align="left"/></kbd><kbd><img src="images/image-p1-029.png" height="200" align="left"/></kbd><kbd><img src="images/image-p1-028.png" height="200" align="left"/></kbd><br/><sub>**</sub>
+<img src="images/image-p1-029.png" height="200" align="left"/></kbd><kbd><img src="images/image-p1-028.png" height="200" align="left"/></kbd><br/><sub>**</sub>
     
 
 
