@@ -2,7 +2,7 @@
 # Wikifying KB's collection highlights - Stories & publications
 
 ## [50 cool new things you can now do with KB's collection highlights](Cool%20new%20things%20you%20can%20now%20do%20with%20the%20KB's%20collection%20highlights/) - March 2021
-*A five part series about welke handige & nuttige overzichten van alle 70 topstukken samen er als resultaat van het project XXXXX beschikbaar zijn gekomen.*
+*In this series of 5 articles we show the added value of putting images and metadata of [digitised collection highlights](https://www.kb.nl/galerij/digitale-topstukken) of the KB, national library of the Netherlands, into the Wikimedia infrastructure. By putting our collection highlights into Wikidata, Wikimedia Commons and Wikipedia, dozens of new functionalities have been added. As a result of Wikifying this collection, you can now do things with these highlights that were not possible before.*
 
 <a href="Cool%20new%20things%20you%20can%20now%20do%20with%20the%20KB's%20collection%20highlights/"><img src="Cool%20new%20things%20you%20can%20now%20do%20with%20the%20KB's%20collection%20highlights/images/KBtopstukkenMemeEN.jpg" width="70%"/></a>
 
