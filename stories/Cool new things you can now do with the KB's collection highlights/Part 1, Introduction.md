@@ -64,7 +64,7 @@ However, if you are a *creator/developer* and want to actually *reuse or build u
 
 This reuse-centric approach was at the core of the [WikiProject Collection highlights](https://www.wikidata.org/wiki/Wikidata:WikiProject_Collection_highlights_National_Library_of_the_Netherlands) the KB ran in the second half of 2020. This project represents a new way of thinking about our collection highlights: in addition to the regular *view/read-only* functionalities for classical audiences (*consumers*), we are now also focusing on *reusability* of our highlights, providing building blocks and added value for *creators*: developers, app builders, digital humanities, data scientists, hackathons, LOD communities, GLAMs, Europeana, AIs, Big Tech etc.
 
-In other words, we are increasingly thinking about our set of collection highlights as if they are in a richly filled LEGO box, with many sorts of building blocks, components and connectors that creators can pick and combine for their own purposes. 
+In other words, we are increasingly thinking about our set of collection highlights as if they are a richly filled LEGO Technic box, with many sorts of building blocks, components and connectors that creators can pick and combine for their own purposes. 
 
 <kbd><img src="images/image-p1-020.png" height="300" align="left"/></kbd><kbd><img src="images/image-p1-025.png" height="300" align="left"/></kbd></kbd>
 
@@ -123,4 +123,14 @@ This text of this article is available under the [CC-BY 4.0](https://creativecom
 
 <sub><b>Image credits</b></sub><br/>
 <sub>[Swiss_army_knife_open,_2012-(01)](https://commons.wikimedia.org/wiki/File:Swiss_army_knife_open,_2012-(01).jpg) -- Joe Loong, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0), via Wikimedia Commons</sub><br/>
-<sub>[Victorinox_Swiss_Army_SwissChamp_XAVT](https://commons.wikimedia.org/wiki/File:Victorinox_Swiss_Army_SwissChamp_XAVT.jpg) -- Dave Taylor from Boulder, CO, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0>), via Wikimedia Commons</sub>
+<sub>* [Victorinox_Swiss_Army_SwissChamp_XAVT](https://commons.wikimedia.org/wiki/File:Victorinox_Swiss_Army_SwissChamp_XAVT.jpg) -- Dave Taylor from Boulder, CO, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0>), via Wikimedia Commons</sub><br/>
+
+<sub>Old paradigm, butterfly in jar</sub><br/>
+
+<sub>New paradigm</sub><br/>
+
+<sub>Building blocks for the tech communities</sub><br/>
+
+<sub>LEGO Technic box</sub><br/>
+
+<sub>Improved reusability for tech communities, butterflies in the sky</sub><br/>
