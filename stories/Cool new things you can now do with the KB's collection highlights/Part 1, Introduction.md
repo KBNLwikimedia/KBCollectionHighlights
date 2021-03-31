@@ -21,8 +21,8 @@ Peeking at the left hand knife, I would like to look at the native KB webservice
 2) **View the works as browsable books**, in high resolution, using an image viewer. See for example the [Zweder Book of Hours](https://galerij.kb.nl/kb.html#/nl/zweder/page/14/zoom/2/lat/-42.03297433244139/lng/-10.546875) or the [Album amicorum of Jacob Heyblocq](https://galerij.kb.nl/kb.html#/nl/heyblocq/page/129/zoom/3/lat/-77.50411917973987/lng/75.41015624999999).<br/>
     <kbd><img src="images/image-p1-008.png" width="66%"/></kbd><br/><sub>*Album amicorum of Jacob Heyblocq [presented as a browse book](https://galerij.kb.nl/kb.html#/nl/heyblocq/page/129/zoom/3/lat/-78.6991059255054/lng/79.453125) in a high resolution image viewer. Screenshot KB website d.d. 30-03-2021*</sub>
 
-3) For some highlights, **transcriptions, translations, annotations and / or guided tours** are available as part of the presentation, such as with the aforementioned album amicorum.<br/>
-    <kbd><img src="images/image-p1-010.png" width="66%"/></kbd><br/><sub>*Transcription (top yellow box), translation (middle) and annotations (bottom) for [page 7](https://galerij.kb.nl/kb.html#/nl/heyblocq/page/6/zoom/3/lat/-76.88077457250164/lng/70.13671875) of the Album amicorum of Jacob Heyblocq . Screenshot KB website d.d. 30-03-2021*</sub>
+3) For some highlights, **transcriptions, translations, annotations and/or guided tours** are available as part of the presentation, such as with the Heyblocq album. <br/>
+    <kbd><img src="images/image-p1-010.png" width="66%"/></kbd><br/><sub>*Transcription (top yellow box), translation into English (middle) and annotations in English (bottom) for [page 7](https://galerij.kb.nl/kb.html#/nl/heyblocq/page/6/zoom/3/lat/-76.88077457250164/lng/70.13671875) of the Album amicorum of Jacob Heyblocq . Screenshot KB website d.d. 30-03-2021*</sub>
     
     <kbd><img src="images/image-p1-012.png" width="66%"/></kbd><br/><sub>*Guided tours in the Album amicorum of Jacob Heyblocq. Screenshot KB website d.d. 30-03-2021*</sub>
 
