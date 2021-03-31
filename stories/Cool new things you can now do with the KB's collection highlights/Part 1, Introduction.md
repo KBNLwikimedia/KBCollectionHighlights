@@ -24,21 +24,21 @@ Peeking at the left hand knife, I would like to look at the native KB webservice
 3) For some highlights, **transcriptions, translations, annotations and/or guided tours** are available as part of the presentation, such as with the Heyblocq album. <br/>
     <kbd><img src="images/image-p1-010.png" width="66%"/></kbd><br/><sub>*Transcription (top yellow box), translation into English (middle) and annotations in English (bottom) for [page 7](https://galerij.kb.nl/kb.html#/nl/heyblocq/page/6/zoom/3/lat/-76.88077457250164/lng/70.13671875) of the Album amicorum of Jacob Heyblocq . Screenshot KB website d.d. 30-03-2021*</sub>
     
-    <kbd><img src="images/image-p1-012.png" width="66%"/></kbd><br/><sub>*Guided tours in the Album amicorum of Jacob Heyblocq. Screenshot KB website d.d. 30-03-2021*</sub>
+    <kbd><img src="images/image-p1-012.png" width="66%"/></kbd><br/><sub>*Guided tours in Dutch in the Album amicorum of Jacob Heyblocq. Screenshot KB website d.d. 30-03-2021*</sub>
 
-4) For specific highlights - the alba amicorum - you can request the **separate images as downloadable jpgs**, such as [this page](https://resolver.kb.nl/resolve?urn=EuropeanaTravel:79L5:003r) from the [album amicorum of Petronella Moens](https://galerij.kb.nl/kb.html#/nl/moens/page/4/zoom/3/lat/-79.71860546904043/lng/-28.828124999999996) or [this poem](https://resolver.kb.nl/resolve?urn=EuropeanaTravel:133M117:016v) from the [album of Samuel Johannes van den Bergh](https://galerij.kb.nl/kb.html#/nl/vandenbergh/page/22/zoom/2/lat/-68.78414378041504/lng/-50.625). But these are exceptions, for the vast majority of highlights the individual from the browse book cannot be downloaded.
+4) For specific highlights - the alba amicorum - you can request the **separate images as downloadable jpgs**, such as [this page](https://resolver.kb.nl/resolve?urn=EuropeanaTravel:79L5:003r) from the [album amicorum of Petronella Moens](https://galerij.kb.nl/kb.html#/nl/moens/page/4/zoom/3/lat/-79.71860546904043/lng/-28.828124999999996) or [this poem](https://resolver.kb.nl/resolve?urn=EuropeanaTravel:133M117:016v) from the [album of Samuel Johannes van den Bergh](https://galerij.kb.nl/kb.html#/nl/vandenbergh/page/22/zoom/2/lat/-68.78414378041504/lng/-50.625). But these are exceptions, for the majority of highlights the individual images cannot be downloaded from the browse books.
     <kbd><img src="images/image-p1-013.png" width="66%"/></kbd><br/><sub>*Downloadable jpg : [folio 3r](https://resolver.kb.nl/resolve?urn=EuropeanaTravel:79L5:003r)* from the [album amicorum book of Petronella Moens](https://galerij.kb.nl/kb.html#/nl/moens/page/4/zoom/3/lat/-79.71860546904043/lng/-28.828124999999996)</sub>
 
 5) Read **contextual information** about the highlights. See for example the introductions to [Atlas Ortelius](https://www.kb.nl/themas/atlassen/atlas-ortelius) or to [Naenia en Jan Toorop](https://www.kb.nl/themas/boekkunst-en-geillustreerde-boeken/naenia-en-jan-toorop)<br/>
     <kbd><img src="images/image-p1-015.png" width="66%" /></kbd><br/><sub>*Contextual information: introduction to [Naenia en Jan Toorop](https://www.kb.nl/themas/boekkunst-en-geillustreerde-boeken/naenia-en-jan-toorop) on kb.nl. Screenshot KB website d.d. 30-03-2021*</sub>
 
-6) For a number of highlights **browse indexes** are available, such as for [Nederlandsche Vogelen](https://www.kb.nl/themas/boekkunst-en-geillustreerde-boeken/nederlandsche-vogelen-van-nozeman-en-sepp/nederlandsche-vogelen-index), a [film title register](https://www.kb.nl/themas/boekgeschiedenis/populair-drukwerk/asta-theater-programmaboeken) of the [ASTA theater](https://nl.wikipedia.org/wiki/ASTA) or a [place name index](https://www.kb.nl/themas/atlassen/stedenatlas-de-wit) for Atlas de Wit. However, these indexes are not searchable and only available in HTML format (ie. as web pages).<br/>
+6) For a number of highlights **browse indexes** are available, such as for [Nederlandsche Vogelen](https://www.kb.nl/themas/boekkunst-en-geillustreerde-boeken/nederlandsche-vogelen-van-nozeman-en-sepp/nederlandsche-vogelen-index) (*Birds of the Netherlands*), a [film title register](https://www.kb.nl/themas/boekgeschiedenis/populair-drukwerk/asta-theater-programmaboeken) of the [ASTA theatre](https://nl.wikipedia.org/wiki/ASTA) or a [place name index](https://www.kb.nl/themas/atlassen/stedenatlas-de-wit) for Atlas de Wit. However, these indexes are not searchable and only available in HTML format (ie. as web pages).<br/>
     <kbd><img src="images/image-p1-017.png" width="66%" /></kbd><br/><sub>*[Place name index](https://www.kb.nl/themas/atlassen/stedenatlas-de-wit) for Atlas de Wit. Screenshot KB website d.d. 30-03-2021*</sub>
     
 7) If you are interested in the **metadata of the highlights**, you can find them in the [KB catalog](https://opc-kb.oclc.org/DB=1/SET=1/TTL=1/LNG=EN/). For instance,  [Buiten! Waar de vogels fluiten](https://resolver.kb.nl/resolve?urn=PPN:238308081) (*Outside! Where the birds are singing*), the [Egmond Gospels](https://resolver.kb.nl/resolve?urn=PPN:311779433) or [Hot printing by H.N. Werkman](https://resolver.kb.nl/resolve?urn=PPN:369506812).<br/>
     <kbd><img src="images/image-p1-019.png" width="66%" /></kbd><br/><sub>*[KB catalog record](https://resolver.kb.nl/resolve?urn=PPN:369506812) for [Hot printing van H.N. Werkman](http://www.kb.nl/hotprinting). Screenshot KB catalog d.d. 30-03-2021*</sub>
     
-8) Finally: if you prefer to have that **metadata in a structured format**, you can request it via our jSRU service, eg for [Wat is er op de kermis te zien?](http://jsru.kb.nl/sru/sru?x-collection=GGC&recordSchema=dcx&operation=searchRetrieve&query=%22KW%20XKZ%20160%22) (*What can be seen at the fair?*). Please note: this metadata is only available as whole records (eg. you can't request only the *dc:title* field), and only in XML (you can't request it in JSON).<br/>
+8) Finally: if you prefer to have that **metadata in a structured format**, you can request it via our jSRU service, eg. for [Wat is er op de kermis te zien?](http://jsru.kb.nl/sru/sru?x-collection=GGC&recordSchema=dcx&operation=searchRetrieve&query=%22KW%20XKZ%20160%22) (*What can be seen at the fair?*). Please note: this metadata is only available as whole records (eg. you can't request only the *dc:title* field), and only in XML (you can't request it in JSON).<br/>
     <kbd><img src="images/image-p1-021.png" width="66%"/></kbd><br/><sub>*[XML response](http://jsru.kb.nl/sru/sru?x-collection=GGC&recordSchema=dcx&operation=searchRetrieve&query=%22KW%20XKZ%20160%22) for [Wat is er op de kermis te zien?](https://resolver.kb.nl/resolve?urn=PPN:205278043) from the KB SRU service. Screenshot d.d. 30-03-2021*</sub>
 
 ## Limitations
@@ -48,12 +48,12 @@ These options are already quite cool, but they have their limitations. For insta
 * want to have the highlights as PDFs
 * want to search for things and objects depicted in the highlights
 * want to request a list of all highlights and/or the above-mentioned browse indexes in CSV, XML or JSON formats
-* want to get an overview of which people (authors, makers, publishers, printers, illustrators, translators, owners, collectors) and locations are related to which highlights
-* want to make datavisualisations of the highlights (timelines, maps, bubble charts etc.)
-* want ready-to-use Python/PHP/Ruby scripts to be able to process the KB highlights in other (external) products & services
-* want to publish the metadata of the highlights as Linked Open Data
+* want to get overviews of which people (authors, makers, publishers, printers, illustrators, translators, owners, collectors) and locations (including lat-longs) are related to which highlights
+* want to make data visualisations of the highlights (timelines, maps, bubble charts etc.)
+* want ready-to-use Python/PHP/Java scripts to be able to process the KB highlights in other (external) products & services
+* want to publish the metadata of the highlights as 5* Linked Open Data
 
-... then in most cases you came home from a rude awakening. But thanks to a recent project to Wikify our highlights, these kinds of functionalities - and much, much more - have now become avaiable.
+... then in most cases you came home from a rude awakening. But thanks to a recent project to Wikify our highlights, these kinds of functionalities - and many more - have now become available.
 
 The above functionaliteis & their Limiotatins can be summarzi a follows
 Look at, consumne, view, read : OK
