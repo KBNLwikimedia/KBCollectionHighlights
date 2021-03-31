@@ -55,24 +55,49 @@ These options are already quite cool, but they have their limitations. For insta
 
 ... then in most cases you came home from a rude awakening. But thanks to a recent project to Wikify our highlights, these kinds of functionalities - and many more - have now become available.
 
-The above functionaliteis & their Limiotatins can be summarzi a follows
-Look at, consumne, view, read : OK
-<plaatje vlindr in pot)
-- Reulse, Build upon, create thing with, , : not OK
+## New audiences for our highlights
+If you are a *regular consumer* and want to simply *view or read* KB's collection highlights, the functionalities offered on KB's native websites are probably good enough for you. In most cases you won't be bothered by the types of limitations mentioned above. 
+
+However, if you are a *creator/developer* and want to actually *reuse or build upon* our highlights you are probably looking for ways to interact with these objects in more flexible and targeted ways. Ideally, you would like the highlights to be 'decomposable' into individual building blocks (like LEGO bricks) which you can then rearrange into new custom apps, services, products or data streams.
+
+<kbd><img src="images/image-p1-022.png" height="200"/></kbd><kbd><img src="images/image-p1-023.png" height="200"/></kbd><kbd><img src="images/image-p1-024.png" height="200"/></kbd>
+
+This reuse-centric approach was at the core of the [WikiProject Collection highlights](https://www.wikidata.org/wiki/Wikidata:WikiProject_Collection_highlights_National_Library_of_the_Netherlands) the KB ran in the second half of 2020. This project represents a new way of thinking about our collection highlights: in addition to the regular *view/read-only* functionalities for classical audiences (*consumers*), we are now also focusing on *reusability* of our highlights, providing building blocks and added value for *creators*: developers, app builders, digital humanities, data scientists, hackathons, LOD communities, GLAMs, Europeana, AIs, Big Tech etc.
+
 
 ## Wikifying KB's collection highlights
+
+All these building blocks are readily available in 
+
+Wikidata, Wikimedia Commons and Wikipedia 
+-  and their international communities -  
+offer a coherent infrastructure to greatly improve the reusability of KB collection highlights
+
+In addition, the contents of this box are
+Free - ”general utility”
+No license & management fees
+No burden for KB IT department
+Unlimited (hosting, traffic)
+Sustainable (Wikipedia > 20 years) 
+Publicly accessible
+Participative, international, the whole world can help build 
+
+Improved reusability for tech communities  Improved uptake into apps/sites/channels of 3rd parties  Improved visibility & findability for general audiences
+
+
+
+
+
 Recent project
-- Topstukkenproject 2020 --> Wikifiocering --> gebruik slides uit presentatie
 - Rationale achter project = meer zichtbaarhei en meer herbruikbaarheid
 
-<kbd><img src="images/image-p1-022.png" height="200"/></kbd><kbd><img src="images/image-p1-023.png" height="200"/></kbd><kbd><img src="images/image-p1-024.png" height="200"/></kbd><br/><sub>**</sub>
+
 
 <kbd><img src="images/image-p1-020.png" height="200" align="left"/></kbd><kbd><img src="images/image-p1-025.png" height="200" align="left"/></kbd><kbd><img src="images/image-p1-026.png" height="200" align="left"/></kbd><br/><sub>**</sub>
 
 <kbd><img src="images/image-p1-027.png" height="200" align="left"/></kbd><kbd><img src="images/image-p1-029.png" height="200" align="left"/></kbd><kbd><img src="images/image-p1-028.png" height="200" align="left"/></kbd><br/><sub>**</sub>
     
-https://commons.wikimedia.org/wiki/File:Zichtbaarheid_%26_hergebruik_KB-Topstukken-_HNI_-_14_januari_2021.pdf 
-https://www.wikidata.org/wiki/Wikidata:WikiProject_Collection_highlights_National_Library_of_the_Netherlands
+
 
 ## In the next 4 articles
 
