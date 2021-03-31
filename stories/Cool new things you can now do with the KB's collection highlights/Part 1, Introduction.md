@@ -42,7 +42,7 @@ Peeking at the left hand knife, I would like to look at the native KB webservice
     <kbd><img src="images/image-p1-021.png" width="66%"/></kbd><br/><sub>*[XML response](http://jsru.kb.nl/sru/sru?x-collection=GGC&recordSchema=dcx&operation=searchRetrieve&query=%22KW%20XKZ%20160%22) for [Wat is er op de kermis te zien?](https://resolver.kb.nl/resolve?urn=PPN:205278043) from the KB SRU service. Screenshot d.d. 30-03-2021*</sub>
 
 ## Limitations
-These options are already quite cool, but they have their limitations. For instance, if you  
+These functionalities offer decent ways to interact with the objects, but they have their limitations. For instance, if you  
 * want to get a quick visual impression/overview of all highlights combined
 * want to download all pm. 11.0000 images from the out-of-copyright (public domain) highlights in various resolutions
 * want to have the highlights as PDFs
@@ -53,7 +53,7 @@ These options are already quite cool, but they have their limitations. For insta
 * want ready-to-use Python/PHP/Java scripts to be able to process the KB highlights in other (external) products & services
 * want to publish the metadata of the highlights as 5* Linked Open Data
 
-... then in most cases you came home from a rude awakening. But thanks to a recent project to Wikify our highlights, these kinds of functionalities - and many more - have now become available.
+... then the KB websites can't help you. But thanks to a recent project to Wikify our highlights, these kinds of functionalities - and many more - have now become available.
 
 ## New audiences for our highlights
 If you are a *regular consumer* and want to simply *discover, view or read* KB's collection highlights, the 'read/view-only' functionalities offered on KB's native websites are probably good enough for you. In many cases you won't be bothered by the types of limitations mentioned above. 
@@ -70,7 +70,7 @@ In other words, we are increasingly thinking about our set of collection highlig
 
 ## Wikifying KB's collection highlights
 If you look closely at our LEGO® box, you'll notice that its 'powered by' Wikidata, Wikimedia Commons and Wikipedia. This is no coincidence, as many of the building blocks we were looking for were readily available in the Wikimedia infrastructure. Think for instance: 
-* an open platform for uploading and describing 1000s of public domain images of KB's highlights (*Wikimedia Commons*), 
+* an open platform for uploading, describing, curating and sharing 1000s of public domain images of KB's highlights (*Wikimedia Commons*), 
 * an open platform for creating, managing, linking and sharing multilingual Linked Open Data under CC0-licensing (*Wikidata*), 
 * an open platform for providing context for our highlights (*Wikipedia*), 
 * with SPARQL endpoints (*Wikidata and Wikimedia Commons*)
@@ -81,18 +81,17 @@ If you look closely at our LEGO® box, you'll notice that its 'powered by' Wikid
 <kbd><img src="images/image-p1-026.png" height="250" align="left"/></kbd><kbd><img src="images/image-p1-027.png" height="250" align="left"/></kbd>
 
 Furthermore, the contents of this box are
-* *Free* - the Wikimedia infrastructure is a [public utility](https://en.wikipedia.org/wiki/Public_utility) that is just out there for anyone to use and benefit from, for free, without license and/or management fees.
+* *Free* - the Wikimedia infrastructure is a [public utility](https://en.wikipedia.org/wiki/Public_utility) that is just out there for anyone to use and benefit from, for free, without license and/or management fees. This meant the KB could budget and run the project with personnel costs *only*, as no material costs for IT hosting, licensing, tooling etc. were needed.
 * *No burden* for KB's internal IT operations. Running all infrastructured outside the KB is putting no extra burden on our already overstressed IT department.
 * *Unlimited*, we never noticed any limits to the amount of images we were allowed to upload or download from Wikimedia Commons. OK, we noticed some throttling when making too many simultaneous Wikidata API calls, but that was never a major issue.   
-* *Sustainable*. Wikipedia has been around for over 20 years, Wikidata for nearly 10. In the meantime, quite a few websites of the KB (and other GLAMs) have disappeared from the public web and are now only accessible in non-public web archives.       
+* *Sustainable*. Wikipedia has been alive and kicking for over 20 years, Wikidata for nearly 10 and their futures look bright. In the meantime, quite a few websites of the KB (and other GLAMs) have disappeared from the public web and are now (at best) only accessible in non-public web archives.       
 * *Publicly accessible*, anyone can use the Wikimedia platforms and tools, without geografic or economic boundaries. All you need is a (free) account and some commitment to get familiar with the Wikimedia ecosystem and community.   
-* *Participative*, anyone can contribute to improving KB's collection highlights using the platforms and tools available in the Wikimedia infrastructure 
+* *Participative*, anyone can contribute to improving KB's collection highlights using the platforms and tools available in the Wikimedia infrastructure. 
  
 <img src="images/image-p1-029.png" height="200" align="left"/></kbd>
 
 
--  and  -  
-offer a coherent infrastructure to greatly improve the reusability of KB collection highlights
+All considerations combined Wikimedia ideal infrastrructue to greatly improve the reusability of KB collection highlights at very limoited costs & resources
 
 Improved reusability for tech communities  Improved uptake into apps/sites/channels of 3rd parties  Improved visibility & findability for general audiences
 
