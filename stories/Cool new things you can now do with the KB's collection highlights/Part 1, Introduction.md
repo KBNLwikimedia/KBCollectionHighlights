@@ -121,16 +121,16 @@ Olaf Janssen is the Wikimedia coordinator of the KB, the national library of the
 This text of this article is available under the [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. 
 <kbd><img src="../images/cc-by.png" width="80"/></kbd>
 
-<sub><b>Image credits</b></sub><br/>
+<sub><b>Image sources & credits</b></sub><br/>
 <sub>[Swiss_army_knife_open,_2012-(01)](https://commons.wikimedia.org/wiki/File:Swiss_army_knife_open,_2012-(01).jpg) -- Joe Loong, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0), via Wikimedia Commons</sub><br/>
 <sub>* [Victorinox_Swiss_Army_SwissChamp_XAVT](https://commons.wikimedia.org/wiki/File:Victorinox_Swiss_Army_SwissChamp_XAVT.jpg) -- Dave Taylor from Boulder, CO, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0>), via Wikimedia Commons</sub><br/>
 
-<sub>Old paradigm, butterfly in jar</sub><br/>
+<sub>Old paradigm, butterfly in jar - https://commons.wikimedia.org/wiki/File:Monarch_Butterfly_Taxidermy_03.jpg - Jeremy Johnson, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons</sub><br/>
 
-<sub>New paradigm</sub><br/>
+<sub>New paradigm - Bricks by the Bay 2011 - https://www.flickr.com/photos/roninsfx/5568986878 - CC-BY- https://creativecommons.org/licenses/by/2.0/</sub><br/>
 
-<sub>Building blocks for the tech communities</sub><br/>
+<sub>Building blocks for the tech communities, Wikimedia hackathon San Francisco 2012 - https://commons.wikimedia.org/wiki/File:Wikimedia_Hackathon_San_Francisco_107.jpg - Matthew (WMF), CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0, via Wikimedia Commons</sub><br/>
 
-<sub>LEGO Technic box</sub><br/>
+<sub>LEGO box - based upon the Villa Savoye box from the LEGO® Architecture series - https://i.ebayimg.com/images/g/n4AAAOSwjIpgTPWQ/s-l1600.jpg</sub><br/>
 
-<sub>Improved reusability for tech communities, butterflies in the sky</sub><br/>
+<sub>Improved reusability for tech communities, butterflies in the sky - https://i.pinimg.com/originals/52/5d/30/525d30d3d8050e3b11edd23a219de37f.jpg </sub><br/>
