@@ -88,7 +88,7 @@ Furthermore, the contents of this box are
 * *Publicly accessible*, anyone can use the Wikimedia platforms, contents and tools, without geografic or economic boundaries. All you need is a (free) account and some commitment to get familiar with the Wikimedia ecosystem and community.   
 * *Participative*, anyone can contribute to improving KB's collection highlights using the platforms and tools available in the Wikimedia infrastructure. 
 
-All considerations combined, Wikimedia offers a pretty complete and reliable infrastructue that enables us to greatly improve the reusability of our collection highlights at very limited costs & resources. This improved reusability will eventually lead to improved uptake into apps, sites, services and channels of 3rd parties, which will result into improved visibility & findability for general audiences. 
+All considerations combined, Wikimedia offers a pretty complete and reliable infrastructue that enables us to greatly improve the reusability of our collection highlights at very limited costs & resources. This improved reusability will eventually lead to improved uptake into apps, sites, services and channels of 3rd parties, which will result into improved visibility & findability for general audiences (consumers). 
 
 <kbd><img src="images/image-p1-028.png" height="250"/></kbd>
 
