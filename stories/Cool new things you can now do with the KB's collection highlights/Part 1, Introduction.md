@@ -78,7 +78,7 @@ If you look closely at our LEGO® box, you'll notice that its 'powered by' Wikid
 * and data visualisation tools (*Wikidata and Wikimedia Commons*)
 * with good integrations for Python, PHP and many other popular languages. 
 
-<kbd><img src="images/image-p1-026.png" height="250" align="left"/></kbd><kbd><img src="images/image-p1-027.png" height="250" align="left"/></kbd>
+<kbd><img src="images/image-p1-026.png" height="250"/></kbd><kbd><img src="images/image-p1-027.png" height="250"/></kbd>
 
 Furthermore, the contents of this box are
 * *Free* - the Wikimedia infrastructure is a [public utility](https://en.wikipedia.org/wiki/Public_utility) that is just out there for anyone to use and benefit from, for free, without any membership, license and/or management fees. This meant the KB could budget and run the project with personnel costs *only*, as no material costs for IT hosting, licensing, tooling etc. were needed.
