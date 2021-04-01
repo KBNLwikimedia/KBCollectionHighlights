@@ -70,12 +70,12 @@ In other words, we are increasingly thinking about our set of collection highlig
 
 ## Wikifying KB's collection highlights
 If you look closely at our LEGO® box, you'll notice that its 'powered by' Wikidata, Wikimedia Commons and Wikipedia. This is no coincidence, as many of the building blocks we were looking for were readily available in the Wikimedia infrastructure. Think for instance: 
-* an open platform for uploading, describing, curating and sharing 1000s of public domain images of KB's highlights (*Wikimedia Commons*), 
-* an open platform for creating, managing, linking and sharing multilingual 5* Linked Open Data under CC0-licensing (*Wikidata*), 
-* an open platform for providing context for our highlights (*Wikipedia*), 
+* an open platform for uploading, describing, curating and sharing 1000s of public domain images of KB's highlights (*Wikimedia Commons*) 
+* an open platform for creating, managing, linking and sharing multilingual 5* Linked Open Data under CC0-licensing (*Wikidata*) 
+* an open and extremely well-visited platform for providing context for our highlights (*Wikipedia*) 
 * with SPARQL endpoints (*Wikidata and Wikimedia Commons*)
-* and data visualisation tools (*Wikidata and Wikimedia Commons*)
 * and REST APIs delivering machine readable outputs in CSV, JSON or RDF (*all three*) 
+* and data visualisation tools (*Wikidata and Wikimedia Commons*)
 * with good integrations for Python, PHP and many other popular languages. 
 
 <kbd><img src="images/image-p1-026.png" height="250" align="left"/></kbd><kbd><img src="images/image-p1-027.png" height="250" align="left"/></kbd>
@@ -84,27 +84,18 @@ Furthermore, the contents of this box are
 * *Free* - the Wikimedia infrastructure is a [public utility](https://en.wikipedia.org/wiki/Public_utility) that is just out there for anyone to use and benefit from, for free, without any membership, license and/or management fees. This meant the KB could budget and run the project with personnel costs *only*, as no material costs for IT hosting, licensing, tooling etc. were needed.
 * *No burden* for KB's internal IT operations. Running all infrastructure outside the KB is putting no extra burden on our already overstressed IT department.
 * *Unlimited*, we never noticed any limits to the amount of images or data we could upload to or download from Wikimedia Commons or Wikidata. OK, we noticed some throttling when making too many simultaneous Wikidata API calls, but that was never a major issue.   
-* *Sustainable*. Wikipedia has been alive and kicking for over 20 years, Wikidata for nearly 10 and their futures look bright. In the meantime, quite a few websites of the KB (and other GLAMs) have disappeared from the public web, at best these are now only accessible in non-public web archives.       
-* *Publicly accessible*, anyone can use the Wikimedia platforms and tools, without geografic or economic boundaries. All you need is a (free) account and some commitment to get familiar with the Wikimedia ecosystem and community.   
+* *Sustainable*, Wikipedia has been alive and kicking for over 20 years, Wikidata for nearly 10 and their futures look bright. In the meantime, quite a few websites of the KB (and other GLAMs) have disappeared from the public web, at best these are now only accessible in non-public web archives.       
+* *Publicly accessible*, anyone can use the Wikimedia platforms, contents and tools, without geografic or economic boundaries. All you need is a (free) account and some commitment to get familiar with the Wikimedia ecosystem and community.   
 * *Participative*, anyone can contribute to improving KB's collection highlights using the platforms and tools available in the Wikimedia infrastructure. 
 
------------
-All considerations combined Wikimedia ideal infrastrructue to greatly improve the reusability of KB collection highlights at very limoited costs & resources
+All considerations combined, Wikimedia offers a pretty complete and reliable infrastructue that enables us to greatly improve the reusability of our collection highlights at very limited costs & resources. This improved reusability will eventually lead to improved uptake into apps, sites, services and channels of 3rd parties, which will result into improved visibility & findability for general audiences. 
 
-Improved reusability for tech communities  Improved uptake into apps/sites/channels of 3rd parties  Improved visibility & findability for general audiences
-
-<kbd><img src="images/image-p1-028.png" height="200" align="left"/></kbd><br/><sub>**</sub>
-
-*************
+<kbd><img src="images/image-p1-028.png" height="250"/></kbd>
 
 ## In the next 4 articles
+So far for this introduction. In the next four articles I want to share no fewer than 50 new possibilities that have become available as a result of the [WikiProject Collection highlights](https://www.wikidata.org/wiki/Wikidata:WikiProject_Collection_highlights_National_Library_of_the_Netherlands). To make it somewhat digestable, I'll split them up into pm. 10-13 functionalities per article. 
 
-In de volgende vier Plein-berichten wil ik de komende tijd al deze nieuwe mogelijkheden met jullie delen, steeds ongeveer 10 per bericht, om het enigszins behapbaar te houden. Hier meteen Deel 2, waarin ik allerlei handige overzichten voor alle 70 topstukken samen bespreek.
-
-So far for this introduction. In the next four articles I want to share 50 new possibilities that have becoen avaolabvle as a reult of thw  WikiProject Collection highlights. To make it ,somewhat manageable each time about 10 per message, to keep it somewhat manageable. Right here Part 2, in which I discuss all kinds of useful overviews for all highlights together. 
-
-Part 1, Introduction // [Part 2, Overviews of all highlights](Part%202%2C%20Overviews%20of%20all%20highlights.html) // [Part 3, Overviews per highlight](Part%203%2C%20Overviews%20per%20highlight.html) // [Part 4, Images](Part%204%2C%20Images.html) // [Part 5, Reuse](Part%205%2C%20Reuse.html)
-
+In [Part 2, Overviews of all highlights](Part%202%2C%20Overviews%20of%20all%20highlights.html) I'll talk about the useful overviews & listings that can be generated for all highlights combined. 
 
 <hr>
 
