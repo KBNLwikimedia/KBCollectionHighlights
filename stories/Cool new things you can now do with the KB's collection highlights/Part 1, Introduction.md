@@ -64,7 +64,7 @@ However, if you are a *creator/developer* and want to actually *reuse or build u
 
 This reuse-centric approach was at the core of the [WikiProject Collection highlights](https://www.wikidata.org/wiki/Wikidata:WikiProject_Collection_highlights_National_Library_of_the_Netherlands) the KB ran in the second half of 2020. This project represents a new way of thinking about our collection highlights: in addition to the regular *view/read-only* functionalities for classical audiences (*consumers*), we are now also focusing on *reusability* of our highlights, providing building blocks and added value for *creators*: developers, app builders, digital humanities, data scientists, hackathons, LOD communities, GLAMs, Europeana, AIs, Big Tech etc.
 
-In other words, we are increasingly thinking about our set of collection highlights as a richly filled LEGO Technic® box, with many sorts of building blocks, components and connectors that creators can pick and combine for their own purposes. 
+In other words, we are increasingly thinking about our set of collection highlights as a richly filled LEGO Technic® box, with many sorts of building blocks, components and connectors that creators/reusers can pick and combine for their own purposes. 
 
 <kbd><img src="images/image-p1-020.png" height="300" align="left"/></kbd><kbd><img src="images/image-p1-025.png" height="300" align="left"/></kbd>
 
@@ -93,9 +93,9 @@ All considerations combined, Wikimedia offers a pretty complete and reliable inf
 <kbd><img src="images/image-p1-028.png" height="250"/></kbd>
 
 ## In the next 4 articles
-So far for this introduction. In the next four articles I want to share no fewer than 50 new possibilities that have become available as a result of the [WikiProject Collection highlights](https://www.wikidata.org/wiki/Wikidata:WikiProject_Collection_highlights_National_Library_of_the_Netherlands). To make it somewhat digestable, I'll split them up into pm. 10-13 functionalities per article. 
+So far for this introduction. In the next four articles I want to share no fewer than 50 new possibilities that have become available as a result of the WikiProject Collection highlights. To make it somewhat digestable, I'll split them up into pm. 10-13 functionalities per article. 
 
-In [Part 2, Overviews of all highlights](Part%202%2C%20Overviews%20of%20all%20highlights.html) I'll talk about the useful overviews & listings that can be generated for all highlights combined. 
+In [Part 2, Overviews of all highlights](Part%202%2C%20Overviews%20of%20all%20highlights.html) I'll talk about the useful overviews & listings that can created from the LEGO® box for all highlights combined. 
 
 <hr>
 
