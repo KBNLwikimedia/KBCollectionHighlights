@@ -95,7 +95,7 @@ All considerations combined, Wikimedia offers a pretty complete and reliable inf
 ## In the next 4 articles
 So far for this introduction. In the next four articles I want to share no fewer than 50 new possibilities that have become available as a result of the WikiProject Collection highlights. To make it somewhat digestable, I'll split them up into pm. 10-13 functionalities per article. 
 
-In [Part 2, Overviews of all highlights](Part%202%2C%20Overviews%20of%20all%20highlights.html) I'll talk about the useful overviews & listings that can created from the LEGO® box for all highlights combined. 
+In [Part 2, Overviews of all highlights](Part%202%2C%20Overviews%20of%20all%20highlights.html) I'll talk about all sorts of useful overviews & listings that can created from the LEGO® box for all highlights combined. 
 
 <hr>
 
