@@ -29,20 +29,15 @@ Here we go:
 
    <kbd><img src="images/image-p2-013.png" width="100%"/></kbd><br/><sub>*[Source code](https://nl.wikipedia.org/w/index.php?title=Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Alfabetisch/A-H&action=edit) for the alphabetical overview. Note all the [{{wikidata}} templating](https://nl.wikipedia.org/wiki/Sjabloon:Wikidata) keeping the overview in sync with Wikidata. Screenshot Dutch Wikipedia d.d. 02-04-2021*</sub>
 
-5) Ook fijn, zo’n sorteerbare overzichtstabel met handig in 1 overzicht het KB-inventarisnummer, het PPN, en links naar de KB-catalogus en het bladerboek met toelichting op kb.nl.
-5) Also nice, such a **sortable overview table** with a handy overview of the KB inventory number, the PPN, and links to the KB catalog and the leaflet with explanatory notes on kb.nl.
+5) How nice, a **[sortable overview table](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Listeria)** providing a handy illustrated overview that you can sort by title, type, KB inventory number or catalog code.
 
-    <kbd><img src="images/image-p2-014.png" width="75%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
+    <kbd><img src="images/image-p2-014.png" width="100%"/></kbd><br/><sub>*[Sortable overview table](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Listeria)] of collection highlights. Screenshot Dutch Wikipedia d.d. 02-04-2021*</sub>
 
-6) In die tabel is rechts ook de manifeste auteursrechtenstatus van elk topstuk te zien, meestal is dat publiek domein, bij 11 topstukken is dat ‘auteursrechtelijk beschermd’ en bij Chassidische Legenden is het gemengd: de grafiek van H.N. Werkman is rechtenvrij, de teksten van Martin Buber niet.
-6) On the right, that table also shows the manifest copyright status of each highlight, usually that is public domain, with 11 highlights it is "copyright protected" and with Hasidic Legends it is mixed: the graph by H.N. Werkman is royalty-free, Martin Buber's lyrics are not.
+6) On the right hand side this table also shows the **manifest copyright status** of each highlight. For most objects it's [public domain](https://en.wikipedia.org/wiki/Public_domain), 11 highlights are copyright protected and with [Chassidische Legenden](https://www.wikidata.org/wiki/Q72752533) it is mixed: the graphics by [H.N. Werkman](https://en.wikipedia.org/wiki/Hendrik_Nicolaas_Werkman) are in the public domain, the texts by [Martin Buber](https://en.wikipedia.org/wiki/Martin_Buber) are not.
 
+7) Some of the KB highlights are also **[available as PDFs](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/PDFs)** . You will find them conveniently together on [this overview page](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/PDFs). Due to copyrights only for works in the public domain.
 
-
-7) Steeds meer KB-topstukken zijn ook als PDF beschikbaar. Je vindt ze handig bij elkaar op deze overzichtspagina. Wegens auteursrechten wel alleen voor de werken in het publieke domein.
-7) More and more KB highlights are also available as PDF. You will find them conveniently together on this overview page. Due to copyrights only for works in the public domain.
-
-    <kbd><img src="images/image-p2-016.png" width="75%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
+    <kbd><img src="images/image-p2-016.png" width="75%"/></kbd><br/><sub>*KB collection highlights as [available as PDFs](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/PDFs). Screenshot Dutch Wikipedia d.d. 02-04-2021*</sub>
 
 8) Welk topstuk is ouder, Atlas van der Hagen of het Visboeck Coenen? Wil je de topstukken in chronologische volgorde ontdekken, dan is deze interactieve tijdlijn erg handig.
 8) Which highlight is older, Atlas van der Hagen or Visboeck Coenen? If you want to discover the highlights in chronological order, this interactive timeline is very useful.
