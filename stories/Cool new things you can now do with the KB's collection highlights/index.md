@@ -12,6 +12,7 @@
 - [Part 3, Overviews per highlight](Part%203%2C%20Overviews%20per%20highlight.html) - add 1 line summary
 - [Part 4, Images](Part%204%2C%20Images.html) - add 1 line summary
 - [Part 5, Reuse](Part%205%2C%20Reuse.html) - add 1 line summary
+- [Part 6, Summary](Part%206%2C%20Summary.html) - all 50 new cool things in 1 list
 
 
 <sub><b>Image credits</b></sub><br/>
