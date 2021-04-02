@@ -1,7 +1,7 @@
 ![Banner](../images/banners/KBTopstukkenBannerWikimedia_EN.jpg)
 
 # 50 cool new things you can now do with KB's collection highlights
-*March 2021*
+*April 2021*
 
 *In this series of 5 articles we show the added value of putting images and metadata of [digitised collection highlights](https://www.kb.nl/galerij/digitale-topstukken) of the KB, national library of the Netherlands, into the Wikimedia infrastructure. By putting our collection highlights into Wikidata, Wikimedia Commons and Wikipedia, dozens of new functionalities have been added. As a result of Wikifying this collection, you can now do things with these highlights that were not possible before.*
 
