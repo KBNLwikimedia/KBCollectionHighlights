@@ -31,18 +31,17 @@ Here we go:
 
 5) How nice, a **[sortable overview table](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Listeria)** providing a handy illustrated overview that you can sort by title, type, KB inventory number or catalog code.
 
-    <kbd><img src="images/image-p2-014.png" width="100%"/></kbd><br/><sub>*[Sortable overview table](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Listeria)] of collection highlights. Screenshot Dutch Wikipedia d.d. 02-04-2021*</sub>
+    <kbd><img src="images/image-p2-014.png" width="100%"/></kbd><br/><sub>*[Sortable overview table](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Listeria) of collection highlights. Screenshot Dutch Wikipedia d.d. 02-04-2021*</sub>
 
 6) On the right hand side this table also shows the **manifest copyright status** of each highlight. For most objects it's [public domain](https://en.wikipedia.org/wiki/Public_domain), 11 highlights are copyright protected and with [Chassidische Legenden](https://www.wikidata.org/wiki/Q72752533) it is mixed: the graphics by [H.N. Werkman](https://en.wikipedia.org/wiki/Hendrik_Nicolaas_Werkman) are in the public domain, the texts by [Martin Buber](https://en.wikipedia.org/wiki/Martin_Buber) are not.
 
 7) Some of the KB highlights are also **[available as PDFs](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/PDFs)** . You will find them conveniently together on [this overview page](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/PDFs). Due to copyrights only for works in the public domain.
 
-    <kbd><img src="images/image-p2-016.png" width="75%"/></kbd><br/><sub>*KB collection highlights as [available as PDFs](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/PDFs). Screenshot Dutch Wikipedia d.d. 02-04-2021*</sub>
+    <kbd><img src="images/image-p2-016.png" width="75%"/></kbd><br/><sub>*Collection highlights as [available as PDFs](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/PDFs). Screenshot Dutch Wikipedia d.d. 02-04-2021*</sub>
 
-8) Welk topstuk is ouder, Atlas van der Hagen of het Visboeck Coenen? Wil je de topstukken in chronologische volgorde ontdekken, dan is deze interactieve tijdlijn erg handig.
-8) Which highlight is older, Atlas van der Hagen or Visboeck Coenen? If you want to discover the highlights in chronological order, this interactive timeline is very useful.
+8) Which highlight is older, [Atlas van der Hagen](https://www.kb.nl/themas/atlassen/meer-atlassen/atlas-van-dirk-van-der-hagen) or [Visboeck Coenen](https://www.kb.nl/themas/middeleeuwen/visboek-van-adriaen-coenen)? If you want to discover the highlights in chronological order, this **[interactive timeline](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Chronologie)** is very useful.
 
-    <kbd><img src="images/image-p2-Histropedia timeline of KB collection highlights 1.png" width="75%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
+    <kbd><img src="images/image-p2-Histropedia timeline of KB collection highlights 1.png" width="85%"/></kbd><br/><sub>*[Interactive timeline](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Chronologie) of KB collection highlights. Screenshot Dutch Wikipedia d.d. 02-04-2021*</sub>
 
 9) Met behulp van het bij punt 4 genoemde alfabetisch overzicht kun je ook zicht krijgen op bij de topstukken betrokken personen & instellingen, en welke rol zij daarbij vervulden: denk o.a. aan auteur, vervaardiger, bijdrager, uitgever, drukker, illustrator, vertaler, eigenaar of verzamelaar. Bovendien kun je doorklikken naar Wikipedia-artikelen over die personen (blauwe links).
 9) With the help of the alphabetical overview mentioned in point 4, you can also gain insight into the persons & institutions involved in the highlights, and what role they played in this: think of author, maker, contributor, publisher, printer, illustrator, translator, etc. owner or collector. You can also click through to Wikipedia articles about those people (blue links).
