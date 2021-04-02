@@ -17,22 +17,28 @@ Here we go:
 
    <kbd><img src="images/image-p2-008.png" width="75%"/></kbd><br/><sub>*[Gallery overview](https://commons.wikimedia.org/wiki/Collection_highlights_of_Koninklijke_Bibliotheek) of KB collection highlights in the public domain. Screenshot Wikimedia Commons d.d. 02-04-2021*</sub>
 
-3) It can be useful to see the **[highlights grouped by type/sort](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Type)**, so all medieval manuscripts together, the atlases together, all children's picture books grouped, and the same for the alba amicorum and the magazines. This is available on [this page](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Type), again with a maximum of six previews per work. As before, you can click to see all individual images (for public domain works), or go the browse books on the KB website for copyright protected highlights.
+3) It can be useful to see the highlights **[grouped by type/sort](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Type)**, so all medieval manuscripts together, the atlases together, all children's picture books grouped, and the same for the alba amicorum and the magazines. This is available on [this page](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Type), again with a maximum of six previews per work. As before, you can click to see all individual images (for public domain works), or go the browse books on the KB website for copyright protected highlights.
 
     <kbd><img src="images/image-p2-010.png" width="75%"/></kbd><br/><sub>*[KB highlights grouped by type/sort](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Type). Screenshot Dutch Wikipedia d.d. 02-04-2021*</sub>
 
-4) Maar heb je liever een alfabetisch overzicht van alle 70 topstukken, dat kan ook. Naast de metadata zie je bij rechtenvrije werken steeds een grote thumbnail, bij auteursrechtelijk beschermde topstukken zie je een passend copyrighticoon. Ook zijn er consequent doorverwijzingen naar het bladerboek en de toelichting op kb.nl, de KB-catalogus en - indien beschikbaar - het Wikipedia-artikel over het topstuk.
-4) But if you prefer an **alphabetical overview** of all 70 highlights, that is also possible. In addition to the metadata, you will always see a large thumbnail for copyright-free works, and for copyright-protected highlights you will see an appropriate copyright icon. There are also consistent references to the browse book and the explanatory notes on kb.nl, the KB catalog and - if available - the Wikipedia article about the highlight.
+4) But if you prefer an **[alphabetical overview](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Alfabetisch/A-H)** of all highlights, that is also possible. In addition to the metadata, large thumbnails are displayed for works that are out of copyright. There are also consistent references to the browse book and the explanatory notes on the KB website, the KB catalog and - if available - the Dutch Wikipedia article about the highlight.
+
+    <kbd><img src="images/image-p2-012.png" width="100%"/></kbd><br/><sub>*[Alphabetical overview](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Alfabetisch/A-H) of KB collection highlights. Screenshot Dutch Wikipedia d.d. 02-04-2021*</sub>
+
+Source code. Wikidata templates on Dutch Wikipedia, rather than classiccal Wiki source code
+https://nl.wikipedia.org/wiki/Categorie:Wikipedia:Sjablonen_Wikidata-informatie
+
+   <kbd><img src="images/image-p2-013.png" width="100%"/></kbd><br/><sub>*[Source code](https://nl.wikipedia.org/w/index.php?title=Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Alfabetisch/A-H&action=edit) for the alphabetical overview. Note all the {{wikidata}} templating. Screenshot Dutch Wikipedia d.d. 02-04-2021*</sub>
 
 5) Ook fijn, zo’n sorteerbare overzichtstabel met handig in 1 overzicht het KB-inventarisnummer, het PPN, en links naar de KB-catalogus en het bladerboek met toelichting op kb.nl.
 5) Also nice, such a **sortable overview table** with a handy overview of the KB inventory number, the PPN, and links to the KB catalog and the leaflet with explanatory notes on kb.nl.
 
-    <kbd><img src="images/image-p2-012.png" width="75%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
+    <kbd><img src="images/image-p2-014.png" width="75%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
 
 6) In die tabel is rechts ook de manifeste auteursrechtenstatus van elk topstuk te zien, meestal is dat publiek domein, bij 11 topstukken is dat ‘auteursrechtelijk beschermd’ en bij Chassidische Legenden is het gemengd: de grafiek van H.N. Werkman is rechtenvrij, de teksten van Martin Buber niet.
 6) On the right, that table also shows the manifest copyright status of each highlight, usually that is public domain, with 11 highlights it is "copyright protected" and with Hasidic Legends it is mixed: the graph by H.N. Werkman is royalty-free, Martin Buber's lyrics are not.
 
-    <kbd><img src="images/image-p2-014.png" width="75%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
+
 
 7) Steeds meer KB-topstukken zijn ook als PDF beschikbaar. Je vindt ze handig bij elkaar op deze overzichtspagina. Wegens auteursrechten wel alleen voor de werken in het publieke domein.
 7) More and more KB highlights are also available as PDF. You will find them conveniently together on this overview page. Due to copyrights only for works in the public domain.
