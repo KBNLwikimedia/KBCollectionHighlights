@@ -57,7 +57,7 @@ Here we go:
 
  <kbd><img src="images/image-p2-024.png" width="100%"/></kbd><br/><sub>*[Overview of existing (blue) and wanted (red) Dutch Wikipeda articles](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Artikelen) related to KB's collection highlights. Screenshot Dutch Wikipedia d.d. 02-04-2021*</sub>
 
-OK, so far for this second article. In [Part 3](Part%203%2C%20Overviews%20per%20highlight.html), I'll discuss which new functionalities *for individual highlights* have become  available as a result of the project. 
+OK, so far for this second article. In [Part 3, Overviews per highlight](Part%203%2C%20Overviews%20per%20highlight.html), I'll discuss which new functionalities *for individual highlights* have become  available as a result of the project. 
 
 <hr>
 
