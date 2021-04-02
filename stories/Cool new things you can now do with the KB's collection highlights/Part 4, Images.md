@@ -6,57 +6,119 @@
 *In this [series of 5 articles](index.md) I show the added value of putting images and metadata of [digitised collection highlights](https://www.kb.nl/galerij/digitale-topstukken) of the KB, national library of the Netherlands, into the Wikimedia infrastructure. By putting our collection highlights into Wikidata, Wikimedia Commons and Wikipedia, dozens of new functionalities have been added. As a result of Wikifying this collection, you can now do things with these highlights that were not possible before.*
 
 In het vorige (derde) deel van deze vijfdelige Plein-serie heb ik 14 hulpstukken van het rechter mes uitgeklapt We zagen welke vernieuwende functionaliteiten er voor individuele topstukken beschikbaar zijn gekomen; denk aan losse beelden, bladopeningen, miniaturen & paginadetails, vrij herbruikbare video, audio en teksten, een smoelenboek of een interactieve stedenkaart.
+In the previous (third) part of this five-part Plein series I folded out 14 attachments of the right knife. We saw which innovative functionalities have become available for individual highlights; think of individual images, page openings, thumbnails & page details, freely reusable video, audio and texts, a face book or an interactive city map.
 
 In dit vierde deel ga ik het volgende groepje van 11 tools van het mes uitklappen, d.w.z. laten zien welke (ver)nieuwe(nde) functionaliteiten er vanaf nu voor de losse Topstukafbeeldingen beschikbaar zijn..
+In this fourth part I am going to expand the next group of 11 tools of the knife, i.e. show which (re) new (nth) functionalities are available for the individual highlight images from now on.
 
-OK, de beer is los…
+OK, let's rock 'n roll...
 
 Als resultaat van het Topstukkenproject zijn er ruim 10.000 mediabestanden, meestal afbeeldingen, uit de KB-collectie aan Wikimedia Commons toegevoegd. Een typische bestandspagina op Commons ziet er zo uit.
+As a result of the highlights project, more than 10,000 media files, mostly images, from the KB collection have been added to Wikimedia Commons. A typical file page on Commons looks like this.
+
+   <kbd><img src="images/image-p4-006.png" width="75%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
 
 Zo’n pagina bevat dus niet alleen het beeld zelf (de .jpg), maar biedt ook allerlei extra functionaliteiten. Welke zijn dat zoal?
+Such a page does not only contain the image itself (the .jpg), but also offers all kinds of extra functionalities. What are they?
 
 27) Je kunt het beeld downloaden, en bovendien in verschillende resoluties. In het overeenkomstige bladerboek op kb.nl is het niet mogelijk om beelden te downloaden.
+You can download the image, and in different resolutions. It is not possible to download images in the corresponding browse book on kb.nl.
+
+   <kbd><img src="images/image-p4-008.png" width="75%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
 
 28) Elk beeld is voorzien van aparte metadata, waarin in belangrijkste bibliografische kenmerken van de afbeelding samengevat zijn, met (waar mogelijk) directe links naar verdiepende informatie op Wikipedia over bv. de makers of gebruikte vervaardigingstechnieken.
+Each image is provided with separate metadata, in which the most important bibliographic characteristics of the image are summarized, with (where possible) direct links to in-depth information on Wikipedia about, for example, the makers or the manufacturing techniques used.
+
+   <kbd><img src="images/image-p4-010.png" width="75%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
 
 29) Wat opvalt is de (welhaast overdadige) manifeste bronvermelding, op meerdere plekken, zowel in tekst als in beeld, d.m.v. het KB-logo
+What is striking is the (almost lavish) manifest acknowledgment of the source, in several places, both in text and in images, by means of the KB logo
+
+   <kbd><img src="images/image-p4-012.png" width="75%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
 
 30) Daarnaast is elk KB-beeld op Commons standaard voorzien van een manifeste rechtenstatus. Dit is vrijwel altijd publiek domein, wegens de ouderdom van het materiaal rusten er geen rechten meer op.
+In addition, every KB image on Commons has a manifest rights status as standard. This is almost always public domain, due to the age of the material no rights rest on it anymore.
+
+   <kbd><img src="images/image-p4-014.png" width="75%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
 
 31) Alle KB-beelden op Commons zijn ingedeeld in één of meerdere categorieën. Bovenstaande 17e eeuwse afbeelding van het Iberisch schiereiland van de hand van Nicolaes Visscher II uit Altas van der Hagen is niet alleen ingedeeld in zijn ‘thuiscategorie’ Category:Atlas van der Hagen , maar ook in de thematische categorieën Category:17th-century maps of Spain, Category:Old maps of the Iberian Peninsula, Category:Maps with cartouches en Category:Nicolaes Visscher II. Superhandig als je op zoek bent naar andere oude afbeeldingen van Spanje en/of van die kaartenmaker.
 Daarnaast zie je nog een hoop verborgen, administratieve categorieën, die laat ik hier verder onbesproken.
+All KB images on Commons are divided into one or more categories. The above 17th century image of the Iberian peninsula by Nicolaes Visscher II from Altas van der Hagen is not only classified in his 'home category' Category: Atlas van der Hagen, but also in the thematic categories Category: 17th-century maps of Spain , Category: Old maps of the Iberian Peninsula, Category: Maps with cartouches and Category: Nicolaes Visscher II. Very handy if you are looking for other old images of Spain and / or that mapmaker. You also see a lot of hidden, administrative categories, which I will not discuss further here.
 
+   <kbd><img src="images/image-p4-016.png" width="75%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
+   
 32) KB-kaartmateriaal is soms voorzien van geo-coördinaten, zoals het Gezicht bij de Doelen over de Korte Vijverberg, tot aan het Plein uit het Viervoudig Schouwspel van Wonderen.
 De ‘cameralocatie’ van waaruit deze tekening gemaakt is, is precies bekend en kan via diverse kaartdiensten (OpenStreetMap, Google Maps etc.) direct verbonden worden met het hedendaagse aanzicht vanaf dezelfde locatie. Zo kun je heel makkelijk de overeenkomsten én verschillen tussen beide aanzichten ontdekken.
+KB map material is sometimes provided with geo-coordinates, such as the View at the Doelen over the Korte Vijverberg, up to the Plein from the Fourfold Spectacle of Miracles. The "camera location" from which this drawing was made is precisely known and can be directly connected to the contemporary view from the same location via various map services (OpenStreetMap, Google Maps, etc.). This way you can easily discover the similarities and differences between both views.
+
+   <kbd><img src="images/image-p4-018.png" width="75%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
 
 33) Steeds meer KB-topstukafbeeldingen zijn, naast de bij 28) genoemde bibliografische metadata, ook voorzien van gestructureerde, machineleesbare data. Hiermee worden deze afbeeldingen met Wikidata verbonden. Omdat Wikidata onderdeel is van de Linked Open Data Cloud, worden de KB-beelden verbonden met andere databronnen buiten de KB. Daardoor worden onze topstukken uiteindelijk beter vindbaar, zichtbaar en herbruikbaar.
+More and more KB highlight images are, in addition to the bibliographic metadata mentioned at 28), also provided with structured, machine-readable data. This will associate these images with Wikidata. Because Wikidata is part of the Linked Open Data Cloud, the KB images are connected to other data sources outside the KB. This ultimately makes our highlights easier to find, visible and reusable.
 
+   <kbd><img src="images/image-p4-020.png" width="75%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
+   
 Bij bovengenoemd uitzicht op het Mauritshuis zijn in het tabblad “Gestructureerde data” diverse kenmerken van de afbeelding opgenomen. Deze zijn deels ook al als vrije tekst in de bibliografische metadata te zien (tabblad “Bestandsinformatie”), maar hier zijn ze als 100% gestructureerde - en dus machineleesbare – data vermeld.
+With the above view of the Mauritshuis, various features of the image have been included in the “Structured data” tab. These can partly also be seen as free text in the bibliographic metadata (tab “File information”), but here they are listed as 100% structured - and therefore machine-readable - data.
 
+   <kbd><img src="images/image-p4-021.png" width="75%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
+   
 34) Zoals je ziet is de gestructureerde data hierboven in het Nederlands weergegeven. De gewone bibliografische metadata (tabblad “Bestandsinformatie”) is deels in het Nederlands, deels in het Engels. Maar wat nu als je noch Nederlands, noch goed Engels kan lezen, hoe ontdek je deze afbeelding dan? Gelukkig is Wikidata een dienst waarin gegevens in zoveel mogelijk talen worden opgeslagen, waardoor automatische meertaligheid mogelijk wordt. Zo kun je bovenstaande gestructureerde gegevens (grotendeels) ook in bv. het Duits, Frans, Russisch of Chinees opvragen, waardoor honderden miljoenen mensen (en machines!) opeens wél kunnen begrijpen waar de afbeelding over gaat. Bovendien kun je ook meertalig zoeken, je kunt dus bv. een zoekwoord in het Russisch of Frans opgeven en dan toch deze Nederlandse prent vinden.
-
+As you can see, the structured data above is shown in Dutch. The normal bibliographic metadata (tab “File information”) is partly in Dutch, partly in English. But what if you cannot read Dutch or English well, how do you discover this image? Fortunately, Wikidata is a service that stores data in as many languages ​​as possible, enabling automatic multilingualism. For example, you can (largely) also request the above structured data in German, French, Russian or Chinese, for example, so that hundreds of millions of people (and machines!) Can suddenly understand what the image is about. Moreover, you can also search multilingual, so you can enter a keyword in Russian or French, for example, and still find this Dutch print.
+   
+   <kbd><img src="images/image-p4-023.png" width="75%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
+   
 35) Ik wil ik graag wat verder inzoomen op één specifiek aspect van de gestructureerde data, nl. de beschrijving van wat er op KB-afbeeldingen te zien is. In bovenstaand voorbeeld staat dat bij “Items getoond in dit bestand - beeldt af”. Hier worden dus op een gestructureerde manier allerlei zaken opgesomd die je op die afbeelding kunt zien: gebouwen, locaties, vijvers en pleinen. Hiermee wordt deze afbeelding niet alleen via de reguliere metadata, maar ook op inhoud (‘wat staat erop?’) doorzoekbaar.
+I would like to zoom in a little further on one specific aspect of the structured data, namely the description of what can be seen on KB images. In the example above, it says that at “Items shown in this file - displays”. So here are listed in a structured way all kinds of things that you can see in that image: buildings, locations, ponds and squares. This makes this image searchable not only via the regular metadata, but also by content ("what's on it?").
+
+   <kbd><img src="images/image-p4-025.png" width="75%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
 
 Aan het begin van de coronacrisis het ik jullie hulp gevraagd om onze topstukken beter vindbaar, zichtbaar en herbruikbaar te maken door aan te geven (te taggen) welke dingen er te zien zijn op afbeeldingen uit KB-Topstukken.
-
+At the start of the corona crisis, I asked for your help to make our highlights easier to find, visible and reusable by indicating (tagging) which things can be seen in images from KB highlights.
+   
+   <kbd><img src="images/image-p4-025.png" width="75%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
+   
 Naar aanleiding van deze oproep – die overigens nog steeds geldig is - zijn enkelen van jullie fanatiek aan de slag gegaan. Inmiddels hebben jullie bij meer dan 2.500 topstukbeelden aangegeven welke dieren, personen, steden, dorpen, straten, gebouwen, rivieren, schepen, voertuigen, gebruiksvoorwerpen etc. er op te zien zijn.
 Onbetwiste KB-tagkampioene is @madeleinevandenberg, met inmiddels vele duizenden tags op haar naam. Lekker bezig!
+As a result of this call - which, incidentally, is still valid - some of you have set to work fanatically. In the meantime you have indicated in more than 2,500 highlight images which animals, people, cities, villages, streets, buildings, rivers, ships, vehicles, utensils, etc. can be seen.
+The undisputed KB tag champion is @madeleinevandenberg, with many thousands of tags to her name. On a roll!
+
+   <kbd><img src="images/image-p4-027.png" width="75%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
 
 36) Bij dit taggen zijn overigens niet alleen KB-medewerkers betrokken, het is ook een middel om publieksparticipatie rondom de collectie buiten de KB te stimuleren. Zo heeft Adam Harangozó uit Hongarije via deze publiekscampagne rond Der Naturen Bloeme ondertussen bij 183 van de 461 miniaturen uit dit handschrift 372 keer aangegeven wat er zoal op te zien is.
+36) Incidentally, not only KB employees are involved in this tagging, it is also a means of stimulating public participation around the collection outside the KB. Adam Harangozó from Hungary, for example, has indicated 372 times what can be seen in 183 of the 461 miniatures from this manuscript through this public campaign around Der Naturen Bloeme.
+
+   <kbd><img src="images/image-p4-029.png" width="75%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
 
 37) Hierboven vertelde ik dat door KB-afbeeldingen te taggen je ze ook op inhoud doorzoekbaar maakt. Dit leidt tot nieuwe zoekmogelijkheden binnen de KB-collectie. Wat kun je bv. zoeken & vinden? (met tussen haakjes het aantal beelden)
+37) Above I mentioned that by tagging KB images you also make them searchable by content. This leads to new search options within the KB collection. For example, what can you search & find? (with the number of images in brackets)
+
+
 
     Afbeeldingen uit onze topstukken waar bruggen op staan (20)
-
+    Images from our highlights with bridges (20)
+       <kbd><img src="images/image-p4-031.png" width="75%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
+  
     of waar honden op staan (57)
+    or where dogs stand (57)
     of waar zowel honden als katten op staan (2)
+    or where both dogs and cats are on (2)
     of waar een wandelstok op te zien is (27) - je moet soms héél goed kijken!
-    Steden aan de Zuiderzee (9)
-
-    Pagina’s uit het Vriendenboek van Jacob Heyblocq waar zeilboten op staan afgebeeld (6)
-    Miniaturen uit Der Naturen Bloeme waarop een boom te zien is (108), of vissen (17)
-
+    or where a walking stick can be seen (27) - sometimes you have to look very carefully!
+  
+  Steden aan de Zuiderzee (9)
+    Cities on the Zuiderzee (9)
+     <kbd><img src="images/image-p4-033.png" width="75%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
+  
+  Pagina’s uit het Vriendenboek van Jacob Heyblocq waar zeilboten op staan afgebeeld (6)
+  Pages from Jacob Heyblocq's Friends Book depicting sailing boats (6)
+  
+  Miniaturen uit Der Naturen Bloeme waarop een boom te zien is (108), of vissen (17)
+  Miniatures from Der Naturen Bloeme showing a tree (108), or fish (17)
+   <kbd><img src="images/image-p4-035.png" width="75%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
+   
 OK, die beer is nu wel uitgerend, tot zover dit vierde deel. Volgende maand het vijfde, tevens laatste deel. Daarin zal ik uitleggen hoe je de Topstukken kunt gebruiken buiten de Wikimedia-context, dus t.b.v. je eigen websites, diensten, apps, hackathons en projecten. Dan ga ik het hebben over REST APIs, SPARQL, datadumps, Python en script- en machinematige interacties met onze topstukken.
+OK, that bear has now run, so far this fourth part. Next month the fifth, also last part. In it I will explain how you can use the highlights outside the Wikimedia context, so for your own websites, services, apps, hackathons and projects. Then I'm going to talk about REST APIs, SPARQL, data dumps, Python and script and machine interactions with our top pieces. 
 
 <hr>
 
