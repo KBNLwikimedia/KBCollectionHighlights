@@ -21,12 +21,11 @@ Here we go:
 
     <kbd><img src="images/image-p2-010.png" width="75%"/></kbd><br/><sub>*[KB highlights grouped by type/sort](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Type). Screenshot Dutch Wikipedia d.d. 02-04-2021*</sub>
 
-4) But if you prefer an **[alphabetical overview](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Alfabetisch/A-H)** of all highlights, that is also possible. In addition to the metadata, large thumbnails are displayed for works that are out of copyright. There are also consistent references to the browse book and the explanatory notes on the KB website, the KB catalog and - if available - the Dutch Wikipedia article about the highlight.
+4) But if you prefer an **[alphabetical overview](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Alfabetisch/A-H)** of all highlights, that is also possible. In addition to the metadata, large thumbnails are displayed for works that are out of copyright. There are also consistent references to the browse books and the explanatory notes on the KB website, the KB catalog and - if available - the Dutch Wikipedia articles about the highlights.
 
     <kbd><img src="images/image-p2-012.png" width="100%"/></kbd><br/><sub>*[Alphabetical overview](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Alfabetisch/A-H) of KB collection highlights. Screenshot Dutch Wikipedia d.d. 02-04-2021*</sub>
 
-Source code. Wikidata templates on Dutch Wikipedia, rather than classiccal Wiki source code
-https://nl.wikipedia.org/wiki/Categorie:Wikipedia:Sjablonen_Wikidata-informatie
+The cool thing about this overview is that it is mostly 'powered by Wikidata'. When you look at the [source code](https://nl.wikipedia.org/w/index.php?title=Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Alfabetisch/A-H&action=edit), you'll notice all the [Wikidata templates](https://nl.wikipedia.org/wiki/Categorie:Wikipedia:Sjablonen_Wikidata-informatie), replacing the traditional static Wiki source code. This way the contents of the page will always be in sync with the information in Wikidata, without needing to update the source code whenever changes in Wikidata are made.
 
    <kbd><img src="images/image-p2-013.png" width="100%"/></kbd><br/><sub>*[Source code](https://nl.wikipedia.org/w/index.php?title=Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Alfabetisch/A-H&action=edit) for the alphabetical overview. Note all the {{wikidata}} templating. Screenshot Dutch Wikipedia d.d. 02-04-2021*</sub>
 
