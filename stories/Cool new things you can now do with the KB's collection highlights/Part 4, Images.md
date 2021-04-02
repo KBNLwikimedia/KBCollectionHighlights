@@ -3,7 +3,7 @@
 
 <img src="images/KBtopstukkenMemeEN.jpg" width="70%" align="right"/>
 
-*In this [series of 5 articles](index.md) I show the added value of putting images and metadata of [digitised collection highlights](https://www.kb.nl/galerij/digitale-topstukken) of the KB, national library of the Netherlands, into the Wikimedia infrastructure. By putting our collection highlights into Wikidata, Wikimedia Commons and Wikipedia, dozens of new functionalities have been added: now you can do things with this digital collection that were not possible before.*
+*In this [series of 5 articles](index.md) I show the added value of putting images and metadata of [digitised collection highlights](https://www.kb.nl/galerij/digitale-topstukken) of the KB, national library of the Netherlands, into the Wikimedia infrastructure. By putting our collection highlights into Wikidata, Wikimedia Commons and Wikipedia, dozens of new functionalities have been added. As a result of Wikifying this collection, you can now do things with these highlights that were not possible before.*
 
 In het vorige (derde) deel van deze vijfdelige Plein-serie heb ik 14 hulpstukken van het rechter mes uitgeklapt We zagen welke vernieuwende functionaliteiten er voor individuele topstukken beschikbaar zijn gekomen; denk aan losse beelden, bladopeningen, miniaturen & paginadetails, vrij herbruikbare video, audio en teksten, een smoelenboek of een interactieve stedenkaart.
 
@@ -70,6 +70,6 @@ Olaf Janssen is the Wikimedia coordinator of the KB, the national library of the
 This text of this article is available under the [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. 
 <kbd><img src="../images/cc-by.png" width="80"/></kbd>
 
-<sub><b>Image credits</b></sub><br/>
+<sub><b>Image sources & credits</b></sub><br/>
 <sub>[Swiss_army_knife_open,_2012-(01)](https://commons.wikimedia.org/wiki/File:Swiss_army_knife_open,_2012-(01).jpg) -- Joe Loong, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0), via Wikimedia Commons</sub><br/>
 <sub>[Victorinox_Swiss_Army_SwissChamp_XAVT](https://commons.wikimedia.org/wiki/File:Victorinox_Swiss_Army_SwissChamp_XAVT.jpg) -- Dave Taylor from Boulder, CO, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0>), via Wikimedia Commons</sub>
