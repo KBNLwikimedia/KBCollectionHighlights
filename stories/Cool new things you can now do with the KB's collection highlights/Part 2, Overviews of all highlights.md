@@ -7,6 +7,7 @@
 
 In [Part 1](Part%201%2C%20Introduction.html) of this series, I discussed the bits of the left hand knife, so things you could already do with KB's collection highlights before we started the [WikiProject Collection highlights](https://www.wikidata.org/wiki/Wikidata:WikiProject_Collection_highlights_National_Library_of_the_Netherlands) in 2020. In this second article I'm going to unfold the first few tools of the right hand knife, ie. I'm going to look at which handy & useful *overviews of all highlights together* have become available as a result of the project.
 
+## Overviews of all highlights
 Here we go:
 
 1) A **[thumbnail gallery](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Galerij)** of all highlights: a central visual entrance to the images of all highlights. By clicking on a thumb you will go to a gallery page (on Wikimedia Commons) containing all individual images of the highlight, if it is a public domain work. If the work is protected by copyright, you'll go to the browsable book on the KB website.
@@ -57,7 +58,24 @@ Here we go:
 
  <kbd><img src="images/image-p2-024.png" width="100%"/></kbd><br/><sub>*[Overview of existing (blue) and wanted (red) Dutch Wikipeda articles](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Artikelen) related to KB's collection highlights. Screenshot Dutch Wikipedia d.d. 02-04-2021*</sub>
 
-OK, so far for this second article. In [Part 3, Overviews per highlight](Part%203%2C%20Overviews%20per%20highlight.html), I'll discuss which new functionalities *for individual highlights* have become  available as a result of the project. 
+## Summary
+For convienence and overview, let's sum up all the new cool things for KB's collection highlights we have discussed so far:
+
+1) A [thumbnail gallery](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Galerij) for all highlights 
+2) A [visual gallery page](https://commons.wikimedia.org/wiki/Collection_highlights_of_Koninklijke_Bibliotheek) with 6 previews for each highlight
+3) An overview of highlights [grouped by type/sort](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Type)
+4) An [alphabetical overview](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Alfabetisch/A-H) for all highlights, [powered by Wikidata](https://nl.wikipedia.org/w/index.php?title=Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Alfabetisch/A-H&action=edit) and [templates](https://nl.wikipedia.org/wiki/Sjabloon:Wikidata)
+5) A [sortable overview table](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Listeria) for all highlights
+6) Manifest copyright status for all highlights
+7) Highlights [available as PDFs](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/PDFs)
+8) An [interactive timeline](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Chronologie) for all highlights
+9) Overviews of [perons & institutions](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Alfabetisch) related to the highlights, including 
+10) A table of related persons [sortable by role](https://www.wikidata.org/wiki/Wikidata:WikiProject_Collection_highlights_National_Library_of_the_Netherlands/Admin/Overview/People)
+11) Overviews of [locations and dates](https://www.wikidata.org/wiki/Wikidata:WikiProject_Collection_highlights_National_Library_of_the_Netherlands/Admin/Overview/Locations_and_dates), [physical characteristics](https://www.wikidata.org/wiki/Wikidata:WikiProject_Collection_highlights_National_Library_of_the_Netherlands/Admin/Overview/Physical_characteristics) and [sources](https://www.wikidata.org/wiki/Wikidata:WikiProject_Collection_highlights_National_Library_of_the_Netherlands/Admin/Overview/Sources) for the highlights, was well as descriptions in [3rd party databases](https://www.wikidata.org/wiki/Wikidata:WikiProject_Collection_highlights_National_Library_of_the_Netherlands/Admin/Overview/External_IDs).
+12) A [separate overview of existing and wanted Dutch Wikipeda articles](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Artikelen) related to KB's collection highlights
+
+## Up next
+So far for this second article. In [Part 3, Overviews per highlight](Part%203%2C%20Overviews%20per%20highlight.html), I'll discuss which new functionalities *for individual highlights* have become  available as a result of the project. 
 
 <hr>
 
