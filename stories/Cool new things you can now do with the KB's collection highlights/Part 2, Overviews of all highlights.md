@@ -59,7 +59,7 @@ Here we go:
  <kbd><img src="images/image-p2-024.png" width="100%"/></kbd><br/><sub>*[Overview of existing (blue) and wanted (red) Dutch Wikipeda articles](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Artikelen) related to KB's collection highlights. Screenshot Dutch Wikipedia d.d. 02-04-2021*</sub>
 
 ## Summary
-For convienence and overview, let's sum up all the new cool things for KB's collection highlights we have discussed so far:
+For convenience and overview, let's sum up all the cool new things for KB's collection highlights we have discussed so far:
 
 1) A [thumbnail gallery](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Galerij) for all highlights 
 2) A [visual gallery page](https://commons.wikimedia.org/wiki/Collection_highlights_of_Koninklijke_Bibliotheek) with 6 previews for each highlight
