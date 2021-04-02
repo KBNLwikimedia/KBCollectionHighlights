@@ -56,7 +56,7 @@ These functionalities offer decent ways to interact with the objects, but they h
 ... then the KB websites can't help you. But thanks to a recent project to Wikify our highlights, these kinds of functionalities - and many more - have now become available.
 
 ## New audiences for our highlights
-If you are a *regular consumer* and want to simply *discover, view or read* KB's collection highlights, the 'read/view-only' functionalities offered on KB's native websites are probably good enough for you. In many cases you won't be bothered by the types of limitations mentioned above. 
+If you are a *classical heritage consumer* and want to simply *discover, view or read* KB's collection highlights, the 'read/view-only' functionalities offered on KB's native websites are probably good enough for you. In many cases you won't be bothered by the types of 'technical' limitations mentioned above. 
 
 However, if you are a *creator/developer* and want to actually *reuse or build upon* our highlights you are probably looking for ways to interact with these objects in more flexible, targeted, automated or programmatic ways. Ideally, you would like the highlights to be 'decomposable' into individual building blocks (like LEGO® bricks) which you can then rearrange into new custom apps, services, products or data streams.
 
