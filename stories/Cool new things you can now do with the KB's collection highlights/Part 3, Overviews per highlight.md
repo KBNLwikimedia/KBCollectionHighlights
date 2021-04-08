@@ -5,14 +5,11 @@
 
 *In this [series of 5 articles](index.md) I show the added value of putting images and metadata of [digitised collection highlights](https://www.kb.nl/galerij/digitale-topstukken) of the KB, national library of the Netherlands, into the Wikimedia infrastructure. By putting our collection highlights into Wikidata, Wikimedia Commons and Wikipedia, dozens of new functionalities have been added: now you can do things with this digital collection that were not possible before.*
 
-In het vorige deel van deze vijfdelige Plein-serie heb ik de eerste 12 hulpstukken van het rechter mes uitgeklapt We zagen welke handige & nuttige overzichten van alle 70 topstukken samen er als resultaat van het Topstukkenproject beschikbaar zijn gekomen; denk aan beeldoverzichten, alfabetisch overzichten & tabellen en een overzicht van bestaande en gewenste artikelen over onze topstukken.
-In the previous part of this five-part Plein-series I folded out the first 12 attachments of the right knife. We saw which handy & useful overviews of all 70 masterpieces together became available as a result of the Masterpieces project; think of image overviews, alphabetical overviews & tables and an overview of existing and desired articles about our masterpieces.
+In the previous part of this series I folded out the first 12 bits of the right knife. We saw which [handy & useful overviews of all 70  highlights combined](Part%202%2C%20Overviews%20of%20all%20highlights.html) have become available as a result of the [WikiProject Collection highlights](https://www.wikidata.org/wiki/Wikidata:WikiProject_Collection_highlights_National_Library_of_the_Netherlands). These include [image galleries](https://commons.wikimedia.org/wiki/Collection_highlights_of_Koninklijke_Bibliotheek), [alphabetical overviews](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Alfabetisch) & [tables](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Listeria) and an [overview of existing and desired Wikipedia articles](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Artikelen) for our highlights.
 
-In dit derde deel ga ik het volgende groepje van 14 tools van het rechter mes uitklappen, d.w.z. laten zien welke (ver)nieuwe(nde) functionaliteiten er vanaf nu voor de individuele topstukken beschikbaar zijn.
-In this third part I am going to unfold the next group of 14 tools of the right knife, i.e. show which (re) new (nth) functionalities are available for the individual masterpieces from now on.
+In this third article I'm going to discuss the next group of 14 tools of the right hand knife, ie. I'm going to look at which new functionalities *for individual highlights* are available from now on.
 
-Allee, vooruit met de geit:
-Allee, ahead with the goat:
+OK, time to start riunning....
 
 13) Ik wil nog even stilstaan bij de metadatering per topstuk in het eerder getoonde alfabetische overzicht. Hier worden in één oogopslag twee werelden bij elkaar gebracht worden. In het rode kader de Topstukkenwereld van de KB, met het bladerboek incl. toelichting, het inventarisnummer, de KB-catalogus en de PPN. In het blauwe kader de wereld van Wikimedia, met uitleg over het topstuk op Wikipedia, de beelden (en pdf) in Wikimedia Commons en de gestructureerde data in Wikidata.
 13) I would like to dwell a moment on the metadata per masterpiece in the alphabetical overview shown earlier. Here, two worlds are brought together at a glance. In the red frame the KB's World of Highlights, with the leaflet including explanatory notes, the inventory number, the KB catalog and the PPN. In the blue box the world of Wikimedia, with an explanation of the masterpiece on Wikipedia, the images (and pdf) in Wikimedia Commons and the structured data in Wikidata.
@@ -122,6 +119,27 @@ See also this earlier Plein post about Atlas de Wit's structured data from @dani
 
 OK, deze geit is nu wel leeggemolken, tot zover dit derde deel. In Deel 4 bespreek ik welke vernieuwde functionaliteiten er vanaf nu voor de losse Topstukafbeeldingen beschikbaar zijn.
 OK, this goat has been milked empty now, so far this third part. In Part 4 I discuss which renewed functionalities are now available for the individual Masterpiece images. 
+
+## Summary
+For convenience and overview, let's sum up all the cool new things for KB's collection highlights we have discussed in this article:
+
+13)
+14)
+15)
+16)
+17)
+18)
+19)
+20)
+21)
+22)
+23)
+24)
+25)
+26)
+
+## Up next
+So far for this third article. In [Part 4, Images](Part%204%2C%20Images.html), I'll discuss which new & innovative functionalities *for individual highlight images* have become  available as a result of the project. 
 
 <hr>
 
