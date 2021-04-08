@@ -14,19 +14,18 @@ OK, time to start running....
 ## Overviews per highlight
 
 13) As a start, I'd like to briefly go back to the metadata in the [alphabetical overview](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Alfabetisch) we discussed in Part 2. 
-Here, two worlds are merged into a single overview. In the red box the world of KB's collection highlights, with the browse book (*Bekijk het topstuk op*) and the explanatory notes (*Toelichting*), the inventory number (*Inventarisnummer KB*), and the persistent URL of the object in the KB catalog (*KB catalogus - http://resolver.kb.nl...*). In the blue box the world of Wikimedia, with the context of the highlight in Wikipedia, the images (and pdf) in Wikimedia Commons and the structured data in Wikidata.
+Here, **two worlds are merged** into a single overview. In the red box the world of KB's collection highlights, with the browse book (*Bekijk het topstuk op*) and the explanatory notes (*Toelichting*), the inventory number (*Inventarisnummer KB*), and the persistent URL of the object in the KB catalog (*KB catalogus - http://resolver.kb.nl...*). In the blue box the world of Wikimedia, with the context of the highlight in Wikipedia, the images (and pdf) in Wikimedia Commons and the structured data in Wikidata.
 
- <kbd><img src="images/image-p3-006.png" width="100%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
+ <kbd><img src="images/image-p3-006.png" width="100%"/></kbd><br/><sub>*Two metadata worlds in a single overview. Red box: KB links to KB's collection highlights. Blue box: Wikimedia links to KB's collection highlights. Screenshot Wikipedia d.d. 02-04-2021*</sub>
 
-14) Voor elk (rechtenvrij) topstuk is een overzichtspagina met alle losse beelden beschikbaar, waarop die in de juiste (blader)volgorde gepresenteerd worden. Erboven staat een blokje metadata voor het hele werk, incl. links naar KB-bronnen. Handig om snel en eenvoudig een overzicht van het hele topstuk te krijgen. Bekijk bv. Buiten! Waar de vogels fluiten of het Getijdenboek Wolfgang Hopyl.
-14) For each (royalty-free) highlight, an overview page with all individual images is available, on which they are presented in the correct (scrolling) order. Above it is a block of metadata for the entire work, including links to KB sources. Handy to quickly and easily get an overview of the entire highlight. View eg Outside! Where the birds are singing or the Wolfgang Hopyl Book of Hours.
+14) For each (public domain) highlight, an **gallery page with all individual images** is available, on which the pages are presented in the correct order. Above the images a block of Wikidata-driven metadata for the entire work is displayed, including links to KB sources. Very handy to quickly and easily get an overview of the entire highlight. See for example the galleries of [Buiten! Waar de vogels fluiten](https://commons.wikimedia.org/wiki/Buiten!_Waar_de_vogels_fluiten) (*Outside! Where the birds are singing*) or the [Wolfgang Hopyl Book of Hours](https://commons.wikimedia.org/wiki/Book_of_hours_Wolfgang_Hopyl).
 
-   <kbd><img src="images/image-p3-008.png" width="100%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
+ <kbd><img src="images/image-p3-008.png" width="100%"/></kbd><br/><sub>*Gallery page for [Buiten! Waar de vogels fluiten](https://commons.wikimedia.org/wiki/Buiten!_Waar_de_vogels_fluiten). Screenshot Wikimedia Commons d.d. 02-04-2021*</sub>
 
 15) Naast de losse afbeeldingen zijn er voor de meeste topstukken ook nog (blad)openingen – zoals bij de KB-bladerboeken – beschikbaar. Zie bv. de openingen van Visboek Coenen of die van Die hystorie vanden grooten Coninck Alexander
 15) In addition to the separate images, there are also (leaf) openings available for most highlights - such as with the KB browse books. See, for example, the openings of Visboek Coenen or those of Die hystorie vanden grooten Coninck Alexander
  
-    <kbd><img src="images/image-p3-010.png" width="100%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
+    <kbd><img src="images/image-p3-010.png" width="100%"/></kbd><br/><sub>*aaaa. Screenshot Wikimedia Commons d.d. 02-04-2021*</sub>
 
 16) Bij steeds meer topstukken zijn er, naast de losse beelden en de openingen, ook aparte miniaturen en/of uitsneden van interessante pagina-onderdelen beschikbaar. Zie bv. de 461 miniaturen uit Der Naturen Bloeme, die uit Chroniques de Froissart) of de Escherachtige grafiek uit Kunst en samenleving.
 16) With more and more highlights there are, in addition to the individual images and openings, also separate miniatures and / or cut-outs of interesting page parts available. See, for example, the 461 miniatures from Der Naturen Bloeme, those from Chroniques de Froissart) or the Escher-like graphics from Art and Society.
