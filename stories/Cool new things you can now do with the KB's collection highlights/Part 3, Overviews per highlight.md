@@ -30,13 +30,11 @@ Here, **two worlds are merged** into a single overview. In the red box the world
 
  <kbd><img src="images/image-p3-012.png" width="100%"/></kbd><br/><sub>*[Escher](https://en.wikipedia.org/wiki/M._C._Escher)-like [graphics](https://commons.wikimedia.org/wiki/Category:Kunst_en_samenleving_(KB_-_KW_1310_F_3_-_details)) from [Kunst en Samenleving](https://commons.wikimedia.org/wiki/Kunst_en_samenleving_(KB_-_KW_1310_F_3)) . Screenshot Wikimedia Commons d.d. 02-04-2021*</sub>
 
-Naast afbeeldingen zijn ook andere mediatypen m.b.t. de topstukken beschikbaar gekomen.
-In addition to images, other media types regarding the highlights have also become available.
+So far we looked at images related to KB's collection highlights. However, besides images, **other media types** are now available as well.
 
-17) Zo kun je luisteren naar 11 audiotracks van de Beatrijs, waarin belangrijke strofes uit het gedicht worden voorgelezen door oud-KBer Ad Leerintvelt. Deze mp3s stonden tamelijk verborgen in het Soundcloud-hoekje van de KB en waren nog niet onder een vrije licentie beschikbaar en daarmee niet herbruikbaar. Nu ze ook op Wikimedia Commons staan, zijn ze zichtbaar(der) en wel herbruikbaar onder een vrije licentie , zo zijn ze bv. opgenomen in het artikel over Beatrijs als ‘auditieve illustratie’.
-17) You can listen to 11 audio tracks by the Beatrijs, in which important stanzas from the poem are read by former KBer Ad Leerintvelt. These mp3s were quite hidden in the Soundcloud corner of the KB and were not yet available under a free license and therefore not reusable. Now that they are also on Wikimedia Commons, they are visible (more) and can be reused under a free license, for example, they are included in the article about Beatrijs as "auditory illustration".
+17) You can listen to **[11 audio tracks](https://commons.wikimedia.org/wiki/Category:Beatrijs_(audio)) from the [Beatrijs](https://commons.wikimedia.org/wiki/Category:Beatrijs)** in which important stanzas from this poem are read by a former KB curator. These mp3s were 'forgotten about' in [KB's Soundcloud account](https://soundcloud.com/koninklijke-bibliotheek) and not yet available under Creative Commons licenses, making them unsuitable for Wikimedia purposes. We fixed the licensing and uploaded the files to Commons, making them more visible and reusable under free licenses. As a result, tracks are now included as 'auditory illustrations' in the [Dutch Wikipedia article](https://nl.wikipedia.org/wiki/Beatrijs#Auteur) about Beatrijs.
 
-   <kbd><img src="images/image-p3-014.png" width="100%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
+ <kbd><img src="images/image-p3-014.png" width="100%"/></kbd><br/><sub>*[Audio tracks](https://commons.wikimedia.org/wiki/Category:Beatrijs_(audio)) from the [Beatrijs](https://commons.wikimedia.org/wiki/Category:Beatrijs). Screenshot Wikimedia Commons d.d. 02-04-2021*</sub>
 
 18) De video De Nieuwe Rijschool van @karinv die tot nu toe alleen op Youtube te zien was, is voorzien van een vrije licentie en zal binnenkort via Wikimedia Commons en in het artikel De nieuwe rijschool te zien zijn.
 18) The video De Nieuwe Rijschool by @karinv, which until now could only be seen on Youtube, has a free license and will soon be available via Wikimedia Commons and in the article The new driving school.
