@@ -48,7 +48,8 @@ Similarly, we are planning to make the [Beatrijs video](https://www.youtube.com/
  
  <kbd><img src="images/image-p3-018.png" width="100%"/></kbd><br/><sub>*Introduction text for the [Zweder Book of Hours](https://www.kb.nl/themas/middeleeuwen/zweder-getijdenboek), released under the [CC0 Public Domain Mark](https://creativecommons.org/publicdomain/mark/1.0/deed.en). Screenshot KB website d.d. 12-04-2021*</sub>
 
-20) To summarize the points above: **openly licensed and freely reusable building blocks** are becoming increasingly available for our collection highlights: <kbd><img src="images/image-p1-020.png" height="150" align="right" clear="left"/></kbd>
+20) To summarize the points above: **openly licensed and freely reusable building blocks** are becoming increasingly available for our collection highlights: 
+ <kbd><img src="images/image-p1-020.png" height="150" clear="left"/></kbd>
  * *Images* - single pages, double openings, miniatures, page details
  * *Audio files* (see *Beatrijs* above)
  * *Video files*
