@@ -42,10 +42,11 @@ So far we looked at images related to KB's collection highlights. However, besid
 
 Similarly, we are planning to make the [Beatrijs video](https://www.youtube.com/watch?v=ZhuLooAebcg) and the [Gruuthuse manuscript video](https://www.youtube.com/watch?v=hjk53XtWAao) reusable for Wikimedia purposes as well.
 
-19) Alle toelichtende teksten op kb.nl over de topstukken zijn onlangs vrijgegeven onder een CC0-publiekdomeinverklaring. Hierdoor zijn de teksten bij het Zweder getijdenboek, Prentenboek 'De boerderij' en de 68 andere topstukken dus opeens vrij herbruikbaar voor iedereen.
-19) All explanatory texts on kb.nl about the highlights have recently been released under a CC0 public domain statement. As a result, the texts for the Zweder Book of Hours, Picture Book 'The Farm' and the 68 other highlights are suddenly freely reusable for everyone.
+19) All **[introduction texts](https://www.kb.nl/galerij/digitale-topstukken)** for the highlights on the KB website have [been released](https://web.archive.org/web/20210126072215/https://www.kb.nl/auteursrecht) under a [CC0 Public Domain Mark](https://creativecommons.org/publicdomain/mark/1.0/deed.en). As a result, the texts for the [Zweder Book of Hours](https://www.kb.nl/themas/middeleeuwen/zweder-getijdenboek), the ['De boerderij' picture book](https://www.kb.nl/themas/kinderboeken-en-strips/klassieke-kinderboeken/prentenboek-de-boerderij) and all the other highlights have become freely reusable for everyone.
 
-   <kbd><img src="images/image-p3-018.png" width="100%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
+ <kbd><img src="images/image-p3-019.png" width="100%"/></kbd><br/><sub>*The paragraph in the red brackets explains the [CC0 Public Domain Mark](https://creativecommons.org/publicdomain/mark/1.0/deed.en) for the highlights introduction texts. Screenshot of the [copyright section](https://web.archive.org/web/20210126072215/https://www.kb.nl/auteursrecht) on KB's website d.d. 12-04-2021*</sub>
+ 
+ <kbd><img src="images/image-p3-018.png" width="100%"/></kbd><br/><sub>*Introduction text for the [Zweder Book of Hours](https://www.kb.nl/themas/middeleeuwen/zweder-getijdenboek), released under the [CC0 Public Domain Mark](https://creativecommons.org/publicdomain/mark/1.0/deed.en). Screenshot KB website d.d. 12-04-2021*</sub>
 
 20) Bovenstaande punten samenvattend: er komen dus steeds meer vrij herbruikbare bouwstenen onder open licenties voor onze topstukken beschikbaar:
 20) Summarizing the above points: more and more freely reusable building blocks under open licenses are becoming available for our highlights:
