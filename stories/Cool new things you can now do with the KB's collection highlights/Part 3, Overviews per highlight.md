@@ -44,24 +44,18 @@ Similarly, we are planning to make the [Beatrijs video](https://www.youtube.com/
 
 19) All **[introduction texts](https://www.kb.nl/galerij/digitale-topstukken)** for the highlights on the KB website have [been released](https://web.archive.org/web/20210126072215/https://www.kb.nl/auteursrecht) under a [CC0 Public Domain Mark](https://creativecommons.org/publicdomain/mark/1.0/deed.en). As a result, the texts for the [Zweder Book of Hours](https://www.kb.nl/themas/middeleeuwen/zweder-getijdenboek), the ['De boerderij' picture book](https://www.kb.nl/themas/kinderboeken-en-strips/klassieke-kinderboeken/prentenboek-de-boerderij) and all the other highlights have become freely reusable for everyone.
 
- <kbd><img src="images/image-p3-019.png" width="100%"/></kbd><br/><sub>*The paragraph in the red brackets explains the [CC0 Public Domain Mark](https://creativecommons.org/publicdomain/mark/1.0/deed.en) for the highlights introduction texts. Screenshot of the [copyright section](https://web.archive.org/web/20210126072215/https://www.kb.nl/auteursrecht) on KB's website d.d. 12-04-2021*</sub>
+ <kbd><img src="images/image-p3-019.png" width="100%"/></kbd><br/><sub>*The paragraph in the red brackets explains the [CC0 Public Domain Mark](https://creativecommons.org/publicdomain/mark/1.0/deed.en) for the highlights' introduction texts. Screenshot of the [copyright section](https://web.archive.org/web/20210126072215/https://www.kb.nl/auteursrecht) on KB's website d.d. 12-04-2021*</sub>
  
  <kbd><img src="images/image-p3-018.png" width="100%"/></kbd><br/><sub>*Introduction text for the [Zweder Book of Hours](https://www.kb.nl/themas/middeleeuwen/zweder-getijdenboek), released under the [CC0 Public Domain Mark](https://creativecommons.org/publicdomain/mark/1.0/deed.en). Screenshot KB website d.d. 12-04-2021*</sub>
 
-20) Bovenstaande punten samenvattend: er komen dus steeds meer vrij herbruikbare bouwstenen onder open licenties voor onze topstukken beschikbaar:
-20) Summarizing the above points: more and more freely reusable building blocks under open licenses are becoming available for our highlights:
+20) To summarize the points above: openly licensed and freely reusable building blocks are becoming increasingly available for our collection highlights:
 
-    <kbd><img src="images/image-p1-020.png" width="50%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
+    <kbd><img src="images/image-p1-020.png" height="150" align="right"/></kbd>
 
- * Beelden: losse pagina’s, openingen, miniaturen, detailuitsneden
- * Audiobestanden (zie Beatrijs hierboven)
- * Videobestanden
- * Teksten van kb.nl
-
- * Images: single pages, openings, thumbnails, detail cuts
- * Audio files (see Beatrijs above)
- * Video files
- * Texts from kb.nl
+ * *Images* - single pages, double openings, miniatures, page details
+ * *Audio files* (see *Beatrijs* above)
+ * *Video files*
+ * *Texts* from the KB website
 
 Dankzij deze herbruikbare componenten wordt het steeds laagdrempeliger voor schrijvers van Wikipedia om een artikel over een KB-topstuk aan te maken of uit te breiden. Je kunt nu immers (delen van) de KB-webteksten zonder gevaar van copyvio overnemen in het artikel, en er is allerhande illustrerend beeld-, video- en audiomateriaal beschikbaar om een artikel mee te verrijken.
 Thanks to these reusable components, it is becoming increasingly accessible for writers of Wikipedia to create or expand an article about a KB highlight. After all, you can now copy (parts of) the KB web texts into the article without the risk of copying, and all kinds of illustrative image, video and audio material are available to enrich an article.
