@@ -76,9 +76,9 @@ To conclude this article, I would like to return to the **people related to KB's
 
 <kbd><img src="images/image-p3-028.png" width="100%"/></kbd><br/><sub>*Gender distribution of contributors to the Album amicorum Jacob Heyblocq, 3 women. Screenshot Wikidata d.d. 15-04-2021*</sub>
 
-24) in terms of the **occupations**, mainly [professors, clergy, poets, writers and painters](https://w.wiki/F5N) have contributed to the album....
+24) in terms of **occupations**, mainly [professors, clergy, poets, writers and painters](https://w.wiki/F5N) have contributed to the album....
 
-  <kbd><img src="images/image-p3-030.png" width="100%"/></kbd><br/><sub>*Occupation of the contributors to the Album amicorum Jacob Heyblocq. Screenshot Wikidata d.d. 15-04-2021*</sub>
+  <kbd><img src="images/image-p3-030.png" width="100%"/></kbd><br/><sub>*Occupations of the contributors to the Album amicorum Jacob Heyblocq. Screenshot Wikidata d.d. 15-04-2021*</sub>
 
 25) and in terms of **life spans**, [Caspar Staphorst](https://www.wikidata.org/wiki/Q80694251) is the [contributor who lived longest](https://w.wiki/qzx), no less than 93 years. He is closely followed by the poet and writer [Joost van den Vondel](https://nl.wikipedia.org/wiki/Joost_van_den_Vondel) (92), slighlty older than [Constantijn Huygens](https://www.wikidata.org/wiki/Q560746) (91).
 
@@ -93,22 +93,22 @@ The [alphabetical place name index](https://www.kb.nl/themas/atlassen/stedenatla
 OK, that's it for this third part. In [Part 4, Images](Part%204%2C%20Images.html) I'll discuss which functionalities are available for the *individual images* of KB's collection highlights. 
 
 ## Summary
-For convenience and overview, let's sum up all the cool new things for KB's collection highlights we have discussed in this article:
+For convenience and overview, let me summarize all the cool new things for KB's collection highlights we have seen in this article:
 
-13)
-14)
-15)
-16)
-17)
-18)
-19)
-20)
-21)
-22)
-23)
-24)
-25)
-26)
+13) two worlds are merged
+14)gallery page with all individual images
+15)double page openings
+16)miniatures and/or cut-outs of interesting page sections 
+17)[11 audio tracks]
+18)[video]
+19)introduction texts]
+20)openly licensed and freely reusable building blocks
+21)[KB citation template]
+22)[facebook]
+23)gender distribution
+24)occupations
+25)life spans
+26)locations and places
 
 ## Up next
 So far for this third article. In [Part 4, Images](Part%204%2C%20Images.html), I'll discuss which new & innovative functionalities *for individual highlight images* have become  available as a result of the project. 
