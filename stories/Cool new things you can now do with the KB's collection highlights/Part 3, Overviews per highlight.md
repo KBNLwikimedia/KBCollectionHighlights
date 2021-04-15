@@ -64,7 +64,7 @@ As a result, the recently created article about [Koninklijke Bibliotheek 79 K 2]
 
 21) To clearly indicate that the text in a Wikipedia article is based on a text from the KB website, a **[KB citation template](https://nl.wikipedia.org/wiki/Sjabloon:Bronvermelding_kb.nl)** has been created. It states (in Dutch) that 'the information on this page, or an earlier version of it, fully or partly originates from the KB website (kb.nl)'. You can see this template at the bottom of the [Zweder Book of Hours](https://nl.wikipedia.org/wiki/Koninklijke_Bibliotheek_79_K_2) article.
 
- <kbd><img src="images/image-p3-024.png" width="100%"/></kbd><br/><sub>*[KB citation template](https://nl.wikipedia.org/wiki/Sjabloon:Bronvermelding_kb.nl) at the bottom of the [Zweder Book of Hours](https://nl.wikipedia.org/wiki/Koninklijke_Bibliotheek_79_K_2) article. Screenshot Wikipedia d.d. 14-04-2021*</sub>
+  <kbd><img src="images/image-p3-024.png" width="100%"/></kbd><br/><sub>*[KB citation template](https://nl.wikipedia.org/wiki/Sjabloon:Bronvermelding_kb.nl) at the bottom of the [Zweder Book of Hours](https://nl.wikipedia.org/wiki/Koninklijke_Bibliotheek_79_K_2) article. Screenshot Wikipedia d.d. 14-04-2021*</sub>
 
 To conclude this article, I would like to return to the **people related to KB's highlights**, as we already did in points 9 and 10 in [Part 2](Part%202%2C%20Overviews%20of%20all%20highlights.html). More specifically: to the 141 people who contributed to the [Album amicorum Jacob Heyblocq](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Alfabetisch#Album_amicorum_van_Jacobus_Heyblocq_(1623-1690),_rector_van_de_Latijnse_school_te_Amsterdam). We know [all their names](https://www.kb.nl/themas/vriendenboeken/verwoede-verzamelaars/jacob-heyblocqs-vriendenboek) (see bottom of that page), but from that overview we don't know what they looked like, what occupations they had, or what age they died at. But because all those contributors have been described in Wikidata, we can easily answer all these questions:
 
@@ -76,27 +76,21 @@ To conclude this article, I would like to return to the **people related to KB's
 
 <kbd><img src="images/image-p3-028.png" width="100%"/></kbd><br/><sub>*Gender distribution of contributors to the Album amicorum Jacob Heyblocq, 3 women. Screenshot Wikidata d.d. 15-04-2021*</sub>
 
-24) mainly **[professors, clergy, poets, writers and painters](https://w.wiki/F5N)** have contributed to the album....
+24) in terms of the **occupations**, mainly [professors, clergy, poets, writers and painters](https://w.wiki/F5N) have contributed to the album....
 
   <kbd><img src="images/image-p3-030.png" width="100%"/></kbd><br/><sub>*Occupation of the contributors to the Album amicorum Jacob Heyblocq. Screenshot Wikidata d.d. 15-04-2021*</sub>
 
-25) and [Caspar Staphorst](https://www.wikidata.org/wiki/Q80694251) is the [contributor who lived longest](https://w.wiki/qzx), no less than 93 years. He is closely followed by the poet and writer [Joost van den Vondel](https://nl.wikipedia.org/wiki/Joost_van_den_Vondel) (92), slighlty older than [Constantijn Huygens](https://www.wikidata.org/wiki/Q560746) (91).
+25) and in terms of **life spans**, [Caspar Staphorst](https://www.wikidata.org/wiki/Q80694251) is the [contributor who lived longest](https://w.wiki/qzx), no less than 93 years. He is closely followed by the poet and writer [Joost van den Vondel](https://nl.wikipedia.org/wiki/Joost_van_den_Vondel) (92), slighlty older than [Constantijn Huygens](https://www.wikidata.org/wiki/Q560746) (91).
 
   <kbd><img src="images/image-p3-032.png" width="100%"/></kbd><br/><sub>*Life spans of the contributors to the Album amicorum Jacob Heyblocq. Screenshot Wikidata d.d. 15-04-2021*</sub>
 
-26) OK, nog een allerlaatste dan: voor topstukken waarin locaties & plaatsen centraal staan – denk aan Stedenatlas Frederik de Wit, Viervoudig schouwspel van wonderen of Atlas van der Hagen – zijn ook allerlei nuttige datavisualisaties te maken.
-26) OK, to finish off with,  last but not least: all kinds of useful data visualisations can be made for highlights in which locations and places are central - think of the [Frederik de Wit City Atlas](https://commons.wikimedia.org/wiki/Atlas_de_Wit_1698), the [Fourfold spectacle of miracles](https://commons.wikimedia.org/wiki/Admirandorum_quadruplex_spectaculum) or [Atlas van der Hagen](https://commons.wikimedia.org/wiki/Atlas_van_der_Hagen).
+26) OK, to finish off with, one last item: For highlights in which **locations and places** play key roles - eg. [Atlas de Wit](https://commons.wikimedia.org/wiki/Atlas_de_Wit_1698), [Admirandorum quadruplex spectaculum ](https://commons.wikimedia.org/wiki/Admirandorum_quadruplex_spectaculum) (*Fourfold spectacle of miracles*) or [Atlas van der Hagen](https://commons.wikimedia.org/wiki/Atlas_van_der_Hagen) - all kinds of useful data visualisations can be made. 
 
-De alfabetische plaatsnaamindex van Atlas de Wit op kb.nl is natuurlijk een mooi begin, maar het is veel toffer & handiger om in 1 oogopslag al die plaatsen op de kaart te kunnen zien, gekoppeld aan de historische kaart uit de atlas.
-The [alphabetical place name index](https://www.kb.nl/themas/atlassen/stedenatlas-de-wit) of Atlas de Wit on kb.nl is of course a good start, but it is much cooler & more convenient to be able to see [all those places on the map](https://tinyurl.com/y2y7pfbj) at a glance, linked to the historical map from the atlas.
+The [alphabetical place name index](https://www.kb.nl/themas/atlassen/stedenatlas-de-wit) of Atlas de Wit on the KB website is a nice functionality, but visualising [all those cities on a map](https://tinyurl.com/y2y7pfbj) and linking them to the historical maps is a pretty neat feature as well.
 
-Zie ook deze eerdere Plein-post over de gestructureerde data van Atlas de Wit van @daniellejansen
-See also [this Medium article](https://tinyurl.com/y2y7pfbj) XXXX about Atlas de Wit's structured data.
+  <kbd><img src="images/image-p3-034.png" width="100%"/></kbd><br/><sub>*Map of cities in [Atlas de Wit](https://commons.wikimedia.org/wiki/Atlas_de_Wit_1698). Screenshot Wikimedia Commons d.d. 02-04-2021*</sub>
 
-   <kbd><img src="images/image-p3-034.png" width="100%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
-
-OK, deze geit is nu wel leeggemolken, tot zover dit derde deel. In Deel 4 bespreek ik welke vernieuwde functionaliteiten er vanaf nu voor de losse Topstukafbeeldingen beschikbaar zijn.
-OK, this goat has been milked empty now, so far this third part. In [Part 4]()XXXXX I discuss which renewed functionalities are now available for the individual highlight images. 
+OK, that's it for this third part. In [Part 4, Images](Part%204%2C%20Images.html) I'll discuss which functionalities are available for the *individual images* of KB's collection highlights. 
 
 ## Summary
 For convenience and overview, let's sum up all the cool new things for KB's collection highlights we have discussed in this article:
