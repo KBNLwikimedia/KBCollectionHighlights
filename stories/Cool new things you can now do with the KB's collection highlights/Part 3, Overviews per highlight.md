@@ -66,30 +66,26 @@ As a result, the recently created article about [Koninklijke Bibliotheek 79 K 2]
 
  <kbd><img src="images/image-p3-024.png" width="100%"/></kbd><br/><sub>*[KB citation template](https://nl.wikipedia.org/wiki/Sjabloon:Bronvermelding_kb.nl) at the bottom of the [Zweder Book of Hours](https://nl.wikipedia.org/wiki/Koninklijke_Bibliotheek_79_K_2) article. Screenshot Wikipedia d.d. 14-04-2021*</sub>
 
-To conclude this article, I would like to return to the **people related to KB's highlights**, as we already did in points 9 and 10 in [Part 2](Part%202%2C%20Overviews%20of%20all%20highlights.html). More specifically: to the 141 people who contributed to the [Album amicorum Jacob Heyblocq](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Alfabetisch#Album_amicorum_van_Jacobus_Heyblocq_(1623-1690),_rector_van_de_Latijnse_school_te_Amsterdam). We know [all their names](https://www.kb.nl/themas/vriendenboeken/verwoede-verzamelaars/jacob-heyblocqs-vriendenboek) (see bottom of that page), but from that overview we don't know what they looked like, what kind of occupations they had and what age they died at. Because all those contributors are described in Wikidata, we can answer all these questions:
+To conclude this article, I would like to return to the **people related to KB's highlights**, as we already did in points 9 and 10 in [Part 2](Part%202%2C%20Overviews%20of%20all%20highlights.html). More specifically: to the 141 people who contributed to the [Album amicorum Jacob Heyblocq](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Alfabetisch#Album_amicorum_van_Jacobus_Heyblocq_(1623-1690),_rector_van_de_Latijnse_school_te_Amsterdam). We know [all their names](https://www.kb.nl/themas/vriendenboeken/verwoede-verzamelaars/jacob-heyblocqs-vriendenboek) (see bottom of that page), but from that overview we don't know what they looked like, what occupations they had, or what age they died at. But because all those contributors have been described in Wikidata, we can easily answer all these questions:
 
-22) Zo is er een smoelenboek (van slechts 52 bijdragers is een afbeelding bekend) ……
-22) There is a **[facebook](https://w.wiki/phx)** (an image of only 52 contributors is known) ……
+22) There is a **[facebook](https://w.wiki/phx)**, currently images of (only) 52 contributors are known...
 
-   <kbd><img src="images/image-p3-026.png" width="100%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
+  <kbd><img src="images/image-p3-026.png" width="100%"/></kbd><br/><sub>*[Gallery of contributors](https://w.wiki/phx) to the [Album amicorum Jacob Heyblocq](https://www.kb.nl/themas/vriendenboeken/verwoede-verzamelaars/jacob-heyblocqs-vriendenboek). Screenshot Wikidata d.d. 14-04-2021*</sub>
 
-23) hebben er qua M/V-verdeling slechts drie vrouwen in dit vriendenboek geschreven (Anna Maria van Schurman, Sara van Schilde en Cornelia van der Veer) ….
-23), in terms of **M/F distribution**, only [three women](https://w.wiki/F5J) have written in this book of friends ([Anna Maria van Schurman](http://www.wikidata.org/entity/Q255261), [Sara van Schilde](http://www.wikidata.org/entity/Q80694244) and [Cornelia van der Veer](http://www.wikidata.org/entity/Q2291725))….
+23) in terms of the **gender distribution**, only [three women](https://w.wiki/F5J) have contributed to this album: ([Anna Maria van Schurman](http://www.wikidata.org/entity/Q255261), [Sara van Schilde](http://www.wikidata.org/entity/Q80694244) and [Cornelia van der Veer](http://www.wikidata.org/entity/Q2291725))...
 
-<kbd><img src="images/image-p3-028.png" width="100%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
+<kbd><img src="images/image-p3-028.png" width="100%"/></kbd><br/><sub>*Gender distribution of contributors to the Album amicorum Jacob Heyblocq, 3 women. Screenshot Wikidata d.d. 15-04-2021*</sub>
 
-24) hebben vooral professoren, geestelijken, dichters, schrijvers en schilders aan het album bijgedragen….
-24) mainly **[professors, clergy, poets, writers and painters](https://w.wiki/F5N)** contributed to the album….
+24) mainly **[professors, clergy, poets, writers and painters](https://w.wiki/F5N)** have contributed to the album....
 
-   <kbd><img src="images/image-p3-030.png" width="100%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
+  <kbd><img src="images/image-p3-030.png" width="100%"/></kbd><br/><sub>*Occupation of the contributors to the Album amicorum Jacob Heyblocq. Screenshot Wikidata d.d. 15-04-2021*</sub>
 
-25) en is de bijdrager die het langst leefde maar liefs 93 jaar geworden (Caspar Staphorst, op de voet gevolgd door Joost van den Vondel, die slechts 92 werd, maar wel ouder dan Constantijn Huygens)
-25) and the [contributor who lived the longest](https://w.wiki/qzx) lived no less than 93 years old ([Caspar Staphorst](https://www.wikidata.org/wiki/Q80694251), closely followed by [Joost van den Vondel](https://nl.wikipedia.org/wiki/Joost_van_den_Vondel), who only turned 92, but older than Constantijn Huygens)
+25) and [Caspar Staphorst](https://www.wikidata.org/wiki/Q80694251) is the [contributor who lived longest](https://w.wiki/qzx), no less than 93 years. He is closely followed by the poet and writer [Joost van den Vondel](https://nl.wikipedia.org/wiki/Joost_van_den_Vondel) (92), slighlty older than [Constantijn Huygens](https://www.wikidata.org/wiki/Q560746) (91).
 
-   <kbd><img src="images/image-p3-032.png" width="100%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
+  <kbd><img src="images/image-p3-032.png" width="100%"/></kbd><br/><sub>*Life spans of the contributors to the Album amicorum Jacob Heyblocq. Screenshot Wikidata d.d. 15-04-2021*</sub>
 
 26) OK, nog een allerlaatste dan: voor topstukken waarin locaties & plaatsen centraal staan – denk aan Stedenatlas Frederik de Wit, Viervoudig schouwspel van wonderen of Atlas van der Hagen – zijn ook allerlei nuttige datavisualisaties te maken.
-26) OK, last but not least: all kinds of useful data visualisations can be made for highlights in which locations and places are central - think of the [Frederik de Wit City Atlas](https://commons.wikimedia.org/wiki/Atlas_de_Wit_1698), the [Fourfold spectacle of miracles](https://commons.wikimedia.org/wiki/Admirandorum_quadruplex_spectaculum) or [Atlas van der Hagen](https://commons.wikimedia.org/wiki/Atlas_van_der_Hagen).
+26) OK, to finish off with,  last but not least: all kinds of useful data visualisations can be made for highlights in which locations and places are central - think of the [Frederik de Wit City Atlas](https://commons.wikimedia.org/wiki/Atlas_de_Wit_1698), the [Fourfold spectacle of miracles](https://commons.wikimedia.org/wiki/Admirandorum_quadruplex_spectaculum) or [Atlas van der Hagen](https://commons.wikimedia.org/wiki/Atlas_van_der_Hagen).
 
 De alfabetische plaatsnaamindex van Atlas de Wit op kb.nl is natuurlijk een mooi begin, maar het is veel toffer & handiger om in 1 oogopslag al die plaatsen op de kaart te kunnen zien, gekoppeld aan de historische kaart uit de atlas.
 The [alphabetical place name index](https://www.kb.nl/themas/atlassen/stedenatlas-de-wit) of Atlas de Wit on kb.nl is of course a good start, but it is much cooler & more convenient to be able to see [all those places on the map](https://tinyurl.com/y2y7pfbj) at a glance, linked to the historical map from the atlas.
