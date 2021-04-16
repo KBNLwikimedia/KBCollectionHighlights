@@ -95,20 +95,20 @@ OK, that's it for this third part. In [Part 4, Images](Part%204%2C%20Images.html
 ## Summary
 For convenience and overview, let me summarize all the cool new things for KB's collection highlights we have seen in this article:
 
-13) two worlds are merged
-14)gallery page with all individual images
-15)double page openings
-16)miniatures and/or cut-outs of interesting page sections 
-17)[11 audio tracks]
-18)[video]
-19)introduction texts]
-20)openly licensed and freely reusable building blocks
-21)[KB citation template]
-22)[facebook]
-23)gender distribution
-24)occupations
-25)life spans
-26)locations and places
+13) two worlds are merged <br/>
+14)gallery page with all individual images <br/>
+15)double page openings <br/>
+16)miniatures and/or cut-outs of interesting page sections  <br/>
+17)[11 audio tracks] <br/>
+18)[video] <br/>
+19)introduction texts] <br/>
+20)openly licensed and freely reusable building blocks <br/>
+21)[KB citation template] <br/>
+22)[facebook] <br/>
+23)gender distribution <br/>
+24)occupations <br/>
+25)life spans <br/>
+26)locations and places <br/>
 
 ## Up next
 So far for this third article. In [Part 4, Images](Part%204%2C%20Images.html), I'll discuss which new & innovative functionalities *for individual highlight images* have become  available as a result of the project. 
