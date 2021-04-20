@@ -18,7 +18,7 @@ Here, **KB's institutional and Wikimedia's participative worlds are merged** int
 
  <kbd><img src="images/image-p3-006.png" width="100%"/></kbd><br/><sub>*Two metadata worlds in a single overview. Red box: KB links to KB's collection highlights. Blue box: Wikimedia links to KB's collection highlights. Screenshot Wikipedia d.d. 02-04-2021*</sub>
 
-14) For each (public domain) highlight, an **gallery page with all individual images** is available, on which the images are presented in the correct order. Above the images a block of Wikidata-driven metadata for the entire work is displayed, including links to KB sources. Very handy to quickly and easily get an overview of the entire highlight. See for example the galleries of [Buiten! Waar de vogels fluiten](https://commons.wikimedia.org/wiki/Buiten!_Waar_de_vogels_fluiten) (*Outside! Where the birds are singing*) or the [Wolfgang Hopyl Book of Hours](https://commons.wikimedia.org/wiki/Book_of_hours_Wolfgang_Hopyl).
+14) For each (public domain) highlight, an **gallery page with individual images** is available, on which the images are presented in the correct order. Above the images a block of Wikidata-driven metadata for the entire work is displayed, including links to KB sources. Very handy to quickly and easily get an overview of the entire highlight. See for example the galleries of [Buiten! Waar de vogels fluiten](https://commons.wikimedia.org/wiki/Buiten!_Waar_de_vogels_fluiten) (*Outside! Where the birds are singing*) or the [Wolfgang Hopyl Book of Hours](https://commons.wikimedia.org/wiki/Book_of_hours_Wolfgang_Hopyl).
 
  <kbd><img src="images/image-p3-008.png" width="100%"/></kbd><br/><sub>*Gallery page for [Buiten! Waar de vogels fluiten](https://commons.wikimedia.org/wiki/Buiten!_Waar_de_vogels_fluiten). Screenshot Wikimedia Commons d.d. 02-04-2021*</sub>
 
@@ -96,9 +96,9 @@ OK, that's it for this third part. In [Part 4, Images](Part%204%2C%20Images.html
 For convenience and overview, let me summarize all the cool new things for KB's collection highlights we have seen in this article:
 
 13) Merging KB's institutional and Wikimedia's participative worlds for each highlight<br/>
-14) A gallery page with all individual images for each public domain highlight<br/>
-15) Double page openings for most public domain highlights<br/>
-16) Miniatures and/or cut-outs of interesting page sections for selected public domain highlights<br/>
+14) A [gallery page with individual images](https://commons.wikimedia.org/wiki/Buiten!_Waar_de_vogels_fluiten) for each public domain highlight<br/>
+15) [Double page openings]((https://commons.wikimedia.org/wiki/Category:Visboeck_Coenen_(openings))) for most public domain highlights<br/>
+16) [Miniatures](https://commons.wikimedia.org/wiki/Category:Miniatures_from_Der_naturen_bloeme_-_KB_KA_16) and/or cut-outs of [interesting page sections]((https://commons.wikimedia.org/wiki/Category:Kunst_en_samenleving_(KB_-_KW_1310_F_3_-_details))) for selected public domain highlights<br/>
 17) Openly licensed [audio tracks](https://commons.wikimedia.org/wiki/Category:Beatrijs_(audio)) and <br/>
 18) [explainer videos](https://www.youtube.com/watch?v=Vnvr6WoyPKk) for selected highlights<br/>
 19) Reusable [introduction texts under CC0-licensing](https://web.archive.org/web/20210126072215/https://www.kb.nl/auteursrecht) for each highligt <br/>
