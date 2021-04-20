@@ -98,7 +98,7 @@ For convenience and overview, let me summarize all the cool new things for KB's 
 13) Merging KB's institutional and Wikimedia's participative worlds for each highlight<br/>
 14) A [gallery page with individual images](https://commons.wikimedia.org/wiki/Buiten!_Waar_de_vogels_fluiten) for each public domain highlight<br/>
 15) [Double page openings](https://commons.wikimedia.org/wiki/Category:Visboeck_Coenen_(openings)) for most public domain highlights<br/>
-16) [Miniatures](https://commons.wikimedia.org/wiki/Category:Miniatures_from_Der_naturen_bloeme_-_KB_KA_16) and/or cut-outs of [interesting page sections]((https://commons.wikimedia.org/wiki/Category:Kunst_en_samenleving_(KB_-_KW_1310_F_3_-_details))) for selected public domain highlights<br/>
+16) [Miniatures](https://commons.wikimedia.org/wiki/Category:Miniatures_from_Der_naturen_bloeme_-_KB_KA_16) and/or cut-outs of [interesting page sections](https://commons.wikimedia.org/wiki/Category:Kunst_en_samenleving_(KB_-_KW_1310_F_3_-_details)) for selected public domain highlights<br/>
 17) Openly licensed [audio tracks](https://commons.wikimedia.org/wiki/Category:Beatrijs_(audio)) and <br/>
 18) [explainer videos](https://www.youtube.com/watch?v=Vnvr6WoyPKk) for selected highlights<br/>
 19) Reusable [introduction texts under CC0-licensing](https://web.archive.org/web/20210126072215/https://www.kb.nl/auteursrecht) for each highligt <br/>
