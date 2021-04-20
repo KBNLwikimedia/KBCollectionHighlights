@@ -14,7 +14,7 @@ OK, time to start running....
 ## Overviews per highlight
 
 13) As a start, I'd like to briefly go back to the metadata in the [alphabetical overview](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Alfabetisch) we discussed in Part 2. 
-Here, **two worlds are merged** into a single overview. In the red box the world of KB's collection highlights, with the browse book (*Bekijk het topstuk op*) and the explanatory notes (*Toelichting*), the inventory number (*Inventarisnummer KB*), and the persistent URL of the object in the KB catalog (*KB catalogus - http://resolver.kb.nl...*). In the blue box the world of Wikimedia, with the context of the highlight in Wikipedia, the images (and pdf) in Wikimedia Commons and the structured data in Wikidata.
+Here, **KB's institutional and Wikimedia's participative worlds are merged** into a single overview. In the red box the world of KB's collection highlights, with the browse book (*Bekijk het topstuk op*) and the explanatory notes (*Toelichting*), the inventory number (*Inventarisnummer KB*), and the persistent URL of the object in the KB catalog (*KB catalogus - http://resolver.kb.nl...*). In the blue box the world of Wikimedia, with the context of the highlight in Wikipedia, the images (and pdf) in Wikimedia Commons and the structured data in Wikidata.
 
  <kbd><img src="images/image-p3-006.png" width="100%"/></kbd><br/><sub>*Two metadata worlds in a single overview. Red box: KB links to KB's collection highlights. Blue box: Wikimedia links to KB's collection highlights. Screenshot Wikipedia d.d. 02-04-2021*</sub>
 
@@ -36,7 +36,7 @@ So far we looked at images related to KB's collection highlights. However, besid
 
  <kbd><img src="images/image-p3-014.png" width="100%"/></kbd><br/><sub>*[Audio tracks](https://commons.wikimedia.org/wiki/Category:Beatrijs_(audio)) from the [Beatrijs](https://commons.wikimedia.org/wiki/Category:Beatrijs). Screenshot Wikimedia Commons d.d. 02-04-2021*</sub>
 
-18) The KB curator for childrens's books created a **[video](https://www.youtube.com/watch?v=Vnvr6WoyPKk)** about [De Nieuwe Rijschool](https://commons.wikimedia.org/wiki/Category:De_Nieuwe_Rijschool_(photos)) (*The New Riding school*). So far this video is only availabe on YouTube, but because the KB released it under a free license it will be uploaded to Wikimedia Commons and included in the Dutch Wikipedia article [De Nieuwe Rijschool](https://nl.wikipedia.org/wiki/De_nieuwe_rijschool) a.s.a.p.
+18) The KB curator for childrens's books created an **[explainer video](https://www.youtube.com/watch?v=Vnvr6WoyPKk)** about [De Nieuwe Rijschool](https://commons.wikimedia.org/wiki/Category:De_Nieuwe_Rijschool_(photos)) (*The New Riding school*). So far this video is only availabe on YouTube, but because the KB released it under a free license it will be uploaded to Wikimedia Commons and included in the Dutch Wikipedia article [De Nieuwe Rijschool](https://nl.wikipedia.org/wiki/De_nieuwe_rijschool) a.s.a.p.
 
  <kbd><img src="images/image-p3-016.png" width="100%"/></kbd><br/><sub>*[Video](https://www.youtube.com/watch?v=Vnvr6WoyPKk) about [De Nieuwe Rijschool](https://commons.wikimedia.org/wiki/Category:De_Nieuwe_Rijschool_(photos)). Screenshot Youtube d.d. 02-04-2021*</sub>
 
@@ -95,20 +95,20 @@ OK, that's it for this third part. In [Part 4, Images](Part%204%2C%20Images.html
 ## Summary
 For convenience and overview, let me summarize all the cool new things for KB's collection highlights we have seen in this article:
 
-13) two worlds are merged <br/>
-14)gallery page with all individual images <br/>
-15)double page openings <br/>
-16)miniatures and/or cut-outs of interesting page sections  <br/>
-17)[11 audio tracks] <br/>
-18)[video] <br/>
-19)introduction texts] <br/>
-20)openly licensed and freely reusable building blocks <br/>
-21)[KB citation template] <br/>
-22)[facebook] <br/>
-23)gender distribution <br/>
-24)occupations <br/>
-25)life spans <br/>
-26)locations and places <br/>
+13) Merging KB's institutional and Wikimedia's participative worlds for each highlight<br/>
+14) A gallery page with all individual images for each public domain highlight<br/>
+15) Double page openings for most public domain highlights<br/>
+16) Miniatures and/or cut-outs of interesting page sections for selected public domain highlights<br/>
+17) Openly licensed [audio tracks](https://commons.wikimedia.org/wiki/Category:Beatrijs_(audio)) and <br/>
+18) [explainer videos](https://www.youtube.com/watch?v=Vnvr6WoyPKk) for selected highlights<br/>
+19) Reusable [introduction texts under CC0-licensing](https://web.archive.org/web/20210126072215/https://www.kb.nl/auteursrecht) for each highligt <br/>
+20) Openly licensed and freely reusable building blocks (images, audio, videos, texts) for each highligt<br/>
+21) A [KB citation template](https://nl.wikipedia.org/wiki/Sjabloon:Bronvermelding_kb.nl) for use on Dutch Wikipedia <br/>
+22) A [facebook](https://w.wiki/phx) of contributors to the [Album amicorum Jacob Heyblocq](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Alfabetisch#Album_amicorum_van_Jacobus_Heyblocq_(1623-1690),_rector_van_de_Latijnse_school_te_Amsterdam)<br/>
+23) Overviews of the [gender distribution](https://w.wiki/F5J), <br/>
+24) the [occupations](https://w.wiki/F5N) and <br/>
+25) the [life spans](https://w.wiki/qzx) of those contributors<br/>
+26) [Map visualisations](https://tinyurl.com/y2y7pfbj) for selected highlights in which locations and places play key roles<br/>
 
 ## Up next
 So far for this third article. In [Part 4, Images](Part%204%2C%20Images.html), I'll discuss which new & innovative functionalities *for individual highlight images* have become  available as a result of the project. 
