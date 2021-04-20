@@ -11,38 +11,35 @@ In this fourth part I am going to expand the next group of 11 tools of this knif
 
 OK, let's rock 'n roll...
 
-As a result of the [WikiProject Collection highlights](https://www.wikidata.org/wiki/Wikidata:WikiProject_Collection_highlights_National_Library_of_the_Netherlands), [over 10,000 media files](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Resultaten/KPIs/KPI2/KPI2_KB_18-12-2020), mostly images, from the KB collection have been [added to Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Media_contributed_by_Koninklijke_Bibliotheek). A [typical file page](https://commons.wikimedia.org/wiki/File:Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg) (in the Dutch language interface) on Commons looks like this:
+As a result of the [WikiProject Collection highlights](https://www.wikidata.org/wiki/Wikidata:WikiProject_Collection_highlights_National_Library_of_the_Netherlands), over 10,000 media files, mostly images, from the KB collection have been [added to Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Media_contributed_by_Koninklijke_Bibliotheek). A [typical file page](https://commons.wikimedia.org/wiki/File:Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg) (in the Dutch language interface) on Commons looks like this:
 
-  <kbd><img src="images/image-p4-006.png" width="75%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
+  <kbd><img src="images/image-p4-006.png" width="75%"/></kbd><br/><sub>*File page for a [map of the Iberian Peninsula](https://commons.wikimedia.org/wiki/File:Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg) from [Atlas van der Hagen](https://commons.wikimedia.org/wiki/Atlas_van_der_Hagen_(Volume_3)). Screenshot Wikimedia Commons d.d. 12-04-2021*</sub>
 
-Zo’n pagina bevat dus niet alleen het beeld zelf (de .jpg), maar biedt ook allerlei extra functionaliteiten. Welke zijn dat zoal?
-Such a page does not only contain the image itself (the .jpg), but also offers all kinds of extra functionalities. What are they?
+Such a page does not only contain the image itself (the .jpg), but also offers all kinds of extra functionalities. Let's have a look at those:
 
-27) Je kunt het beeld downloaden, en bovendien in verschillende resoluties. In het overeenkomstige bladerboek op kb.nl is het niet mogelijk om beelden te downloaden.
-You can download the image, and in different resolutions. It is not possible to download images in the corresponding browse book on kb.nl.
+27) You can **download the image**, and in **various resolutions**. In the corresponding [browse book on kb.nl] it is not possible to download images (https://galerij.kb.nl/kb.html#/nl/vanderhagen3/page/1/zoom/2/lat/-64.62387720204688/lng/-51.328125).
 
-   <kbd><img src="images/image-p4-008.png" width="75%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
+ <kbd><img src="images/image-p4-008.png" width="75%"/></kbd><br/><sub>*Image downloads in various resolutions for the [map of the Iberian Peninsula](https://commons.wikimedia.org/wiki/File:Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg). Screenshot Wikimedia Commons d.d. 12-04-2021*</sub>
 
-28) Elk beeld is voorzien van aparte metadata, waarin in belangrijkste bibliografische kenmerken van de afbeelding samengevat zijn, met (waar mogelijk) directe links naar verdiepende informatie op Wikipedia over bv. de makers of gebruikte vervaardigingstechnieken.
-Each image is provided with separate metadata, in which the most important bibliographic characteristics of the image are summarized, with (where possible) direct links to in-depth information on Wikipedia about, for example, the makers or the manufacturing techniques used.
+28) For each image **file level descriptive metadata** is available, in which the most important bibliographic characteristics of the image are summarized, often with direct links to Wikipedia articles, eg. about the makers or the manufacturing techniques that were used to create the original map.
 
-   <kbd><img src="images/image-p4-010.png" width="75%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
+ <kbd><img src="images/image-p4-010.png" width="75%"/></kbd><br/><sub>*File level descriptive metadata for the [map of the Iberian Peninsula](https://commons.wikimedia.org/wiki/File:Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg). Screenshot Wikimedia Commons d.d. 12-04-2021*</sub>
 
 29) Wat opvalt is de (welhaast overdadige) manifeste bronvermelding, op meerdere plekken, zowel in tekst als in beeld, d.m.v. het KB-logo
 What is striking is the (almost lavish) manifest acknowledgment of the source, in several places, both in text and in images, by means of the KB logo
 
-   <kbd><img src="images/image-p4-012.png" width="75%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
+   <kbd><img src="images/image-p4-012.png" width="75%"/></kbd><br/><sub>*aaaa. Screenshot Wikimedia Commons d.d. 12-04-2021*</sub>
 
 30) Daarnaast is elk KB-beeld op Commons standaard voorzien van een manifeste rechtenstatus. Dit is vrijwel altijd publiek domein, wegens de ouderdom van het materiaal rusten er geen rechten meer op.
 In addition, every KB image on Commons has a manifest rights status as standard. This is almost always public domain, due to the age of the material no rights rest on it anymore.
 
-   <kbd><img src="images/image-p4-014.png" width="75%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
+   <kbd><img src="images/image-p4-014.png" width="75%"/></kbd><br/><sub>*aaaa. Screenshot Wikimedia Commons d.d. 12-04-2021*</sub>
 
 31) Alle KB-beelden op Commons zijn ingedeeld in één of meerdere categorieën. Bovenstaande 17e eeuwse afbeelding van het Iberisch schiereiland van de hand van Nicolaes Visscher II uit Altas van der Hagen is niet alleen ingedeeld in zijn ‘thuiscategorie’ Category:Atlas van der Hagen , maar ook in de thematische categorieën Category:17th-century maps of Spain, Category:Old maps of the Iberian Peninsula, Category:Maps with cartouches en Category:Nicolaes Visscher II. Superhandig als je op zoek bent naar andere oude afbeeldingen van Spanje en/of van die kaartenmaker.
 Daarnaast zie je nog een hoop verborgen, administratieve categorieën, die laat ik hier verder onbesproken.
 All KB images on Commons are divided into one or more categories. The above 17th century image of the Iberian peninsula by Nicolaes Visscher II from Altas van der Hagen is not only classified in his 'home category' Category: Atlas van der Hagen, but also in the thematic categories Category: 17th-century maps of Spain , Category: Old maps of the Iberian Peninsula, Category: Maps with cartouches and Category: Nicolaes Visscher II. Very handy if you are looking for other old images of Spain and / or that mapmaker. You also see a lot of hidden, administrative categories, which I will not discuss further here.
 
-   <kbd><img src="images/image-p4-016.png" width="75%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
+   <kbd><img src="images/image-p4-016.png" width="75%"/></kbd><br/><sub>*aaaa. Screenshot Wikimedia Commons d.d. 12-04-2021*</sub>
    
 32) KB-kaartmateriaal is soms voorzien van geo-coördinaten, zoals het Gezicht bij de Doelen over de Korte Vijverberg, tot aan het Plein uit het Viervoudig Schouwspel van Wonderen.
 De ‘cameralocatie’ van waaruit deze tekening gemaakt is, is precies bekend en kan via diverse kaartdiensten (OpenStreetMap, Google Maps etc.) direct verbonden worden met het hedendaagse aanzicht vanaf dezelfde locatie. Zo kun je heel makkelijk de overeenkomsten én verschillen tussen beide aanzichten ontdekken.
