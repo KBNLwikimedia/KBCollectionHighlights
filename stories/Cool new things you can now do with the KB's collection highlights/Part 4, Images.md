@@ -17,7 +17,7 @@ As a result of the [WikiProject Collection highlights](https://www.wikidata.org/
 
 Such a page does not only contain the image itself (the .jpg), but also offers all kinds of extra functionalities. Let's have a look at those:
 
-27) You can **download the image**, and in **various resolutions**. In the corresponding [browse book on kb.nl] it is not possible to download images (https://galerij.kb.nl/kb.html#/nl/vanderhagen3/page/1/zoom/2/lat/-64.62387720204688/lng/-51.328125).
+27) You can **download the image**, and in **various resolutions**. In the corresponding [browse book on kb.nl](https://galerij.kb.nl/kb.html#/nl/vanderhagen3/page/1/zoom/2/lat/-64.62387720204688/lng/-51.328125) it is *not* possible to download images .
 
  <kbd><img src="images/image-p4-008.png" width="75%"/></kbd><br/><sub>*Image downloads in various resolutions for the [map of the Iberian Peninsula](https://commons.wikimedia.org/wiki/File:Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg). Screenshot Wikimedia Commons d.d. 12-04-2021*</sub>
 
@@ -25,10 +25,9 @@ Such a page does not only contain the image itself (the .jpg), but also offers a
 
  <kbd><img src="images/image-p4-010.png" width="75%"/></kbd><br/><sub>*File level descriptive metadata for the [map of the Iberian Peninsula](https://commons.wikimedia.org/wiki/File:Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg). Screenshot Wikimedia Commons d.d. 12-04-2021*</sub>
 
-29) Wat opvalt is de (welhaast overdadige) manifeste bronvermelding, op meerdere plekken, zowel in tekst als in beeld, d.m.v. het KB-logo
-What is striking is the (almost lavish) manifest acknowledgment of the source, in several places, both in text and in images, by means of the KB logo
+29) What stands out is the manifest, almost lavish attribution of the KB as the source provider, both textual and visual (KB logo) in multiple places.
 
-   <kbd><img src="images/image-p4-012.png" width="75%"/></kbd><br/><sub>*aaaa. Screenshot Wikimedia Commons d.d. 12-04-2021*</sub>
+  <kbd><img src="images/image-p4-012.png" width="75%"/></kbd><br/><sub>*Manifest source attribution of the KB, both textual and visual. Screenshot Wikimedia Commons d.d. 12-04-2021*</sub>
 
 30) Daarnaast is elk KB-beeld op Commons standaard voorzien van een manifeste rechtenstatus. Dit is vrijwel altijd publiek domein, wegens de ouderdom van het materiaal rusten er geen rechten meer op.
 In addition, every KB image on Commons has a manifest rights status as standard. This is almost always public domain, due to the age of the material no rights rest on it anymore.
