@@ -25,24 +25,21 @@ Such a page does not only contain the image itself (the .jpg), but also offers a
 
  <kbd><img src="images/image-p4-010.png" width="75%"/></kbd><br/><sub>*File level descriptive metadata for the [map of the Iberian Peninsula](https://commons.wikimedia.org/wiki/File:Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg). Screenshot Wikimedia Commons d.d. 12-04-2021*</sub>
 
-29) What stands out is the manifest, almost lavish attribution of the KB as the source provider, both textual (URLs, library name, catalog number, shelfmark) and visual (KB logo) in multiple places.
+29) What stands out is the manifest, almost lavish **source attribution of the KB** as the provider, both textual (URLs, library name, catalog number, shelfmark) and visual (KB logo) in multiple places.
 
   <kbd><img src="images/image-p4-012.png" width="75%"/></kbd><br/><sub>*Manifest source attribution of the KB, both textual and visual. Screenshot Wikimedia Commons d.d. 12-04-2021*</sub>
 
-30) In addition, every KB image on Commons has a manifest copyrights status. With very few exceptions this is Public Domain, due to the age of the KB materials no copyright restrictions apply.
+30) In addition, every KB image on Commons has a **manifest copyrights status**. With very few exceptions this is Public Domain, due to the age of the KB materials no copyright restrictions apply.
 
  <kbd><img src="images/image-p4-014.png" width="75%"/></kbd><br/><sub>*Typical Public Domain tag for a KB image on Wikimedia Commons. Screenshot Wikimedia Commons d.d. 12-04-2021*</sub>
 
-31) Alle KB-beelden op Commons zijn ingedeeld in één of meerdere categorieën. Bovenstaande 17e eeuwse afbeelding van het Iberisch schiereiland van de hand van Nicolaes Visscher II uit Altas van der Hagen is niet alleen ingedeeld in zijn ‘thuiscategorie’ Category:Atlas van der Hagen , maar ook in de thematische categorieën Category:17th-century maps of Spain, Category:Old maps of the Iberian Peninsula, Category:Maps with cartouches en Category:Nicolaes Visscher II. Superhandig als je op zoek bent naar andere oude afbeeldingen van Spanje en/of van die kaartenmaker.
-Daarnaast zie je nog een hoop verborgen, administratieve categorieën, die laat ik hier verder onbesproken.
+31) All KB images on Commons are **divided into one or more categories**. The above 17th century image of the Iberian Peninsula by Nicolaes Visscher II from *Altas van der Hagen* is not only divided into its 'home category' [Category:Atlas van der Hagen](https://commons.wikimedia.org/wiki/Category:Atlas_van_der_Hagen), but also into the thematic categories [Category:17th-century maps of Spain](https://commons.wikimedia.org/wiki/Category:17th-century_maps_of_Spain), [Category:Old maps of the Iberian Peninsula](https://commons.wikimedia.org/wiki/Category:Old_maps_of_the_Iberian_Peninsula), [Category:Maps with cartouches](https://commons.wikimedia.org/wiki/Category:Maps_with_cartouches) and [Category:Nicolaes Visscher II](https://commons.wikimedia.org/wiki/Category:Nicolaes_Visscher_II). Very handy if you are looking for other old maps of Spain and Portugal and/or from that specific map maker. You also see a lot of hidden, administrative categories, which I will not further discuss here.
 
-31) All KB images on Commons are divided into one or more categories. The above 17th century image of the Iberian peninsula by Nicolaes Visscher II from Altas van der Hagen is not only classified in his 'home category' Category: Atlas van der Hagen, but also in the thematic categories Category: 17th-century maps of Spain , Category: Old maps of the Iberian Peninsula, Category: Maps with cartouches and Category: Nicolaes Visscher II. Very handy if you are looking for other old images of Spain and / or that mapmaker. You also see a lot of hidden, administrative categories, which I will not discuss further here.
-
-  <kbd><img src="images/image-p4-016.png" width="75%"/></kbd><br/><sub>*aaaa. Screenshot Wikimedia Commons d.d. 12-04-2021*</sub>
+  <kbd><img src="images/image-p4-016.png" width="75%"/></kbd><br/><sub>*The 17th century [image of the Iberian Peninsula](https://commons.wikimedia.org/wiki/File:Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg) by Nicolaes Visscher II from Altas van der Hagen is divided into multiple (thematic) categories. Screenshot Wikimedia Commons d.d. 12-04-2021*</sub>
    
 32) KB-kaartmateriaal is soms voorzien van geo-coördinaten, zoals het Gezicht bij de Doelen over de Korte Vijverberg, tot aan het Plein uit het Viervoudig Schouwspel van Wonderen.
 De ‘cameralocatie’ van waaruit deze tekening gemaakt is, is precies bekend en kan via diverse kaartdiensten (OpenStreetMap, Google Maps etc.) direct verbonden worden met het hedendaagse aanzicht vanaf dezelfde locatie. Zo kun je heel makkelijk de overeenkomsten én verschillen tussen beide aanzichten ontdekken.
-32) KB map material is sometimes provided with geo-coordinates, such as the View at the Doelen over the Korte Vijverberg, up to the Plein from the Fourfold Spectacle of Miracles. The "camera location" from which this drawing was made is precisely known and can be directly connected to the contemporary view from the same location via various map services (OpenStreetMap, Google Maps, etc.). This way you can easily discover the similarities and differences between both views.
+32) KB map material is sometimes provided with **geo-coordinates**, such as the View at the Doelen over the Korte Vijverberg, up to the Plein from the Fourfold Spectacle of Miracles. The "camera location" from which this drawing was made is precisely known and can be directly connected to the contemporary view from the same location via various map services (OpenStreetMap, Google Maps, etc.). This way you can easily discover the similarities and differences between both views.
 
   <kbd><img src="images/image-p4-018.png" width="75%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
 
