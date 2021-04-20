@@ -7,13 +7,11 @@
 
 In the previous (third) part of this series I discussed 14 tools of the right hand knife. We saw [which new functionalities](Part%203%2C%20Overviews%20per%20highlight.html) have become available for individual highlights. These include [individual images](https://commons.wikimedia.org/wiki/Buiten!_Waar_de_vogels_fluiten), [double page openings](https://commons.wikimedia.org/wiki/Category:Visboeck_Coenen_(openings)), [miniatures](https://commons.wikimedia.org/wiki/Category:Miniatures_from_Der_naturen_bloeme_-_KB_KA_16) & [page details](https://commons.wikimedia.org/wiki/Category:Kunst_en_samenleving_(KB_-_KW_1310_F_3_-_details)), freely reusable video, [audio](https://commons.wikimedia.org/wiki/Category:Beatrijs_(audio)) and texts, a [facebook](https://w.wiki/phx) or an interactive [city map](https://tinyurl.com/y2y7pfbj).
 
-In dit vierde deel ga ik het volgende groepje van 11 tools van het mes uitklappen, d.w.z. laten zien welke (ver)nieuwe(nde) functionaliteiten er vanaf nu voor de losse Topstukafbeeldingen beschikbaar zijn..
-In this fourth part I am going to expand the next group of 11 tools of the knife, i.e. show which (re) new (nth) functionalities are available for the individual highlight images from now on.
+In this fourth part I am going to expand the next group of 11 tools of this knife, i.e. I'm going to show which new functionalities for *individual highlight images* are available from now on.
 
 OK, let's rock 'n roll...
 
-Als resultaat van het Topstukkenproject zijn er ruim 10.000 mediabestanden, meestal afbeeldingen, uit de KB-collectie aan Wikimedia Commons toegevoegd. Een typische bestandspagina op Commons ziet er zo uit.
-As a result of the highlights project, more than 10,000 media files, mostly images, from the KB collection have been added to Wikimedia Commons. A typical file page on Commons looks like this.
+As a result of the [WikiProject Collection highlights](https://www.wikidata.org/wiki/Wikidata:WikiProject_Collection_highlights_National_Library_of_the_Netherlands), [over 10,000 media files](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Resultaten/KPIs/KPI2/KPI2_KB_18-12-2020), mostly images, from the KB collection have been [added to Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Media_contributed_by_Koninklijke_Bibliotheek). A [typical file page](https://commons.wikimedia.org/wiki/File:Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg) on Commons looks like this:
 
    <kbd><img src="images/image-p4-006.png" width="75%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
 
