@@ -19,7 +19,7 @@ Such a page does not only contain the image itself (the .jpg), but also offers a
 
 27) You can **download the image**, in **various resolutions**. In the corresponding [browsable book on kb.nl](https://galerij.kb.nl/kb.html#/nl/vanderhagen3/page/1/zoom/2/lat/-64.62387720204688/lng/-51.328125) it is *not* possible to download images .
 
- <kbd><img src="images/image-p4-008.png" width="100%"/></kbd><br/><sub>*Image downloads in various resolutions for the [map of the Iberian Peninsula](https://commons.wikimedia.org/wiki/File:Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg). Screenshot Wikimedia Commons d.d. 12-04-2021*</sub>
+ <kbd><img src="images/image-p4-008.png" width="75%"/></kbd><br/><sub>*Image downloads in various resolutions for the [map of the Iberian Peninsula](https://commons.wikimedia.org/wiki/File:Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg). Screenshot Wikimedia Commons d.d. 12-04-2021*</sub>
 
 28) For each image **file level descriptive metadata** is available. Here the most important bibliographic characteristics of the image are summarized, often with direct links to Wikipedia articles, eg. about the makers or the techniques used to manufacture the original map.
 
