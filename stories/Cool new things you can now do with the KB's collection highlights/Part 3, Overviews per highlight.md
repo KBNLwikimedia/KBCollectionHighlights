@@ -90,8 +90,6 @@ The [alphabetical place name index](https://www.kb.nl/themas/atlassen/stedenatla
 
   <kbd><img src="images/image-p3-034.png" width="100%"/></kbd><br/><sub>*Map of cities in [Atlas de Wit](https://commons.wikimedia.org/wiki/Atlas_de_Wit_1698). Screenshot Wikimedia Commons d.d. 02-04-2021*</sub>
 
-OK, that's it for this third part. In [Part 4, Images](Part%204%2C%20Images.html) I'll discuss which functionalities are available for the *individual images* of KB's collection highlights. 
-
 ## Summary
 For convenience and overview, let me summarize all the cool new things for KB's collection highlights we have seen in this article:
 
