@@ -9,6 +9,7 @@ In the previous (third) part of this series I discussed 14 tools of the right ha
 
 In this fourth part I am going to expand the next group of 11 tools of this knife, i.e. I'm going to show which new functionalities for *individual highlight images* are available from now on.
 
+## Individual highlight images 
 OK, let's rock 'n roll...
 
 As a result of the [WikiProject Collection highlights](https://www.wikidata.org/wiki/Wikidata:WikiProject_Collection_highlights_National_Library_of_the_Netherlands) over 10,000 media files, mostly images, from the KB collection have been [added to Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Media_contributed_by_Koninklijke_Bibliotheek). A [typical file page](https://commons.wikimedia.org/wiki/File:Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg) (in the Dutch language interface) on Commons looks like this:
@@ -51,7 +52,7 @@ For the [file we looked at above](https://commons.wikimedia.org/wiki/File:Den_Ha
   
 Obviously, some of these statements can also be seen in the regular, free-text bibliographic metadata in the 'Bestandsinformatie' (*File information*) tab. However, in that tab this information is not listed as 100% structured data, making it very difficult (or even impossible) to reliably machine-read that data.
 
-34) As you can see from the screenshot above, the structured data is shown in Dutch. The regular bibliographic metadata is a mix of Dutch and English. But what if you cannot read Dutch and/or English very well? How can you discover this image when you can only read French, Russian or Chinese for example? Fortunately, Wikidata is a service that stores data in as many languages as possible, enabling **automatic multilinguality**. By changing the Wikimedia Commons interface language you can request that structured data in for example German, French, Russian or Chinese. The completeness of the translations on Commons depends on the completeness of the multilingual labeling in Wikidata, which is improving year by year. In this way, hundreds of millions of people (and machines!) can suddenly understand what this Dutch image is about. Moreover, you can also **search multilingually**, so you can enter a keyword in for example Russian or French and still find this Dutch print.
+34) As you can see from the screenshot above, the structured data is shown in Dutch. The regular bibliographic metadata is a mix of Dutch and English. But what if you cannot read Dutch and/or English very well? How can you discover this image when you can only read French, Russian or Chinese for example? Fortunately, Wikidata is a service that stores data in as many languages as possible, enabling **'automatic multilinguality'**. By changing the Wikimedia Commons interface language you can request that structured data in for example German, French, Russian or Chinese. The completeness of the translations on Commons depends on the completeness of the multilingual labeling in Wikidata, which is improving year by year. In this way, hundreds of millions of people (and machines!) can suddenly understand what this Dutch image is about. Moreover, you can also **search multilingually**, so you can enter a keyword in for example Russian or French and still find this Dutch print.
    
   <kbd><img src="images/image-p4-023.png" width="100%"/></kbd><br/><sub>*Example of multilingual interfaces (German, French, Russian and Chinese) for the structured data on Wikimedia Commons for [this media file](https://commons.wikimedia.org/wiki/File:Den_Haag,_gezicht_bij_de_Doelen_over_de_Korte_Vijverberg,_tot_aan_het_Plein_(7985085070).jpg). Screenshot Wikimedia Commons d.d. 02-04-2021*</sub>
    
@@ -81,8 +82,24 @@ As a result of this call my colleagues set to work, some with great enthusiasm. 
 * Images from the [Album amicorum Jacob Heyblocq](https://commons.wikimedia.org/wiki/Album_amicorum_van_Jacobus_Heyblocq) depicting [sailing boats](https://hay.toolforge.org/sdsearch/#q=incategory:%22Album%20amicorum%20van%20Jacobus%20Heyblocq%22%20haswbstatement:P180=Q1075310) (6)
 * Miniatures from *Der Naturen Bloeme* showing [trees](https://hay.toolforge.org/sdsearch/#q=incategory:%22Miniatures%20from%20Der%20naturen%20bloeme%20-%20KB%20KA%2016%22%20haswbstatement:P180=Q10884) (108) or [fish](https://hay.toolforge.org/sdsearch/#q=incategory:%22Miniatures%20from%20Der%20naturen%20bloeme%20-%20KB%20KA%2016%22%20haswbstatement:P180=Q152) (17)
   <kbd><img src="images/image-p4-035.png" width="66%"/></kbd>
-  
-OK, that's it for this fourth article. In the fifth and last part I will explain how you can reuse KB's collection highlights *outside of the Wikimedia context*, that is, for/in your own websites, services, apps, hackathons and projects. I'm going to talk about REST APIs, SPARQL, data dumps, Python scripts and machine interactions with our highlights. 
+
+## Summary
+For convenience and overview, let me summarize all the cool new things for KB's collection highlights we have seen in this article:
+
+27) download the image in various resolutions<br/>
+28) file level descriptive metadata<br/>
+29) source attribution of the KB<br/>
+30) manifest copyrights status<br/>
+31) divided into one or more categories // multiple thematic categorisations<br/>
+32) geo coordinates<br/>
+33) structured, machine-readable data<br/>
+34) automatic multilinguality and multilingual search<br/>
+35) what can be seen on KB images and searchable by content <br/>
+36) stimulate (inter)national public participation<br/>
+37) new search options in the KB collection<br/>
+
+## Up next
+OK, that's it for this fourth article. In [Part 5, Reuse](Part%205%2C%20Reuse.html) I will explain how you can reuse KB's collection highlights *outside of the Wikimedia context*, that is, for/in your own websites, services, apps, hackathons and projects. I'm going to talk about REST APIs, SPARQL, data dumps, Python scripts and machine interactions with our highlights. 
 
 <hr>
 
