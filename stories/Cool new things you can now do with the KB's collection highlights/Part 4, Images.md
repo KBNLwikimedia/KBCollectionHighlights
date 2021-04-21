@@ -69,35 +69,20 @@ As a result of this call my colleagues set to work, some with great enthusiasm. 
 
   <kbd><img src="images/image-p4-029.png" width="100%"/></kbd><br/><sub>*Miniature from [Der Naturen Bloeme](https://commons.wikimedia.org/wiki/Category:Miniatures_from_Der_naturen_bloeme_-_KB_KA_16) with three depicted Wikidata entities. Screenshot [ISA tool](https://isa.toolforge.org/) d.d. 02-04-2021*</sub>
 
-37) Hierboven vertelde ik dat door KB-afbeeldingen te taggen je ze ook op inhoud doorzoekbaar maakt. Dit leidt tot nieuwe zoekmogelijkheden binnen de KB-collectie. Wat kun je bv. zoeken & vinden? (met tussen haakjes het aantal beelden)
-37) Above I mentioned that by tagging KB images you also make them searchable by content. This leads to new search options within the KB collection. For example, what can you search & find? (with the number of images in brackets)
+37) I already mentioned that by tagging KB images you will also make them searchable by content, enabling **new search options in the KB collection**. Let's look at a number of examples. Between brackets the number of matching images (at the time of writing).
 
-
-
-    Afbeeldingen uit onze topstukken waar bruggen op staan (20)
-    Images from our highlights with bridges (20)
-       <kbd><img src="images/image-p4-031.png" width="100%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
+* Images from our highlights [depicting bridges](https://hay.toolforge.org/sdsearch/#q=incategory:%22Media%20contributed%20by%20Koninklijke%20Bibliotheek%22%20haswbstatement:P180=Q12280%20-incategory:%22Catchpenny%20prints%20from%20Koninklijke%20Bibliotheek%22) (27)
+  <kbd><img src="images/image-p4-031.png" width="66%"/></kbd>
+* or [dogs](https://hay.toolforge.org/sdsearch/#q=incategory:%22Media%20contributed%20by%20Koninklijke%20Bibliotheek%22%20haswbstatement:P180=Q144%20-incategory:%22Catchpenny%20prints%20from%20Koninklijke%20Bibliotheek%22) (99)
+* or [both cats and dogs](https://hay.toolforge.org/sdsearch/#q=incategory:%22Media%20contributed%20by%20Koninklijke%20Bibliotheek%22%20haswbstatement:P180=Q146%20haswbstatement:P180=Q144%20-incategory:%22Catchpenny%20prints%20from%20Koninklijke%20Bibliotheek%22) (5)
+* or [walking sticks](https://hay.toolforge.org/sdsearch/#q=incategory:%22Media%20contributed%20by%20Koninklijke%20Bibliotheek%22%20haswbstatement:P180=Q1347864%20-incategory:%22Catchpenny%20prints%20from%20Koninklijke%20Bibliotheek%22) (43) - you might need to look really closely!
+* [Cities bordering the Zuiderzee](https://hay.toolforge.org/sdsearch/#q=incategory:%22Media%20contributed%20by%20Koninklijke%20Bibliotheek%22%20haswbstatement:P180=Q228655%20-incategory:%22Catchpenny%20prints%20from%20Koninklijke%20Bibliotheek%22) (14)
+  <kbd><img src="images/image-p4-033.png" width="66%"/></kbd>
+* Images from the [Album amicorum Jacob Heyblocq](https://commons.wikimedia.org/wiki/Album_amicorum_van_Jacobus_Heyblocq) depicting [sailing boats](https://hay.toolforge.org/sdsearch/#q=incategory:%22Album%20amicorum%20van%20Jacobus%20Heyblocq%22%20haswbstatement:P180=Q1075310) (6)
+* Miniatures from *Der Naturen Bloeme* showing [trees](https://hay.toolforge.org/sdsearch/#q=incategory:%22Miniatures%20from%20Der%20naturen%20bloeme%20-%20KB%20KA%2016%22%20haswbstatement:P180=Q10884) (108) or [fish](https://hay.toolforge.org/sdsearch/#q=incategory:%22Miniatures%20from%20Der%20naturen%20bloeme%20-%20KB%20KA%2016%22%20haswbstatement:P180=Q152) (17)
+  <kbd><img src="images/image-p4-035.png" width="66%"/></kbd>
   
-    of waar honden op staan (57)
-    or where dogs stand (57)
-    of waar zowel honden als katten op staan (2)
-    or where both dogs and cats are on (2)
-    of waar een wandelstok op te zien is (27) - je moet soms héél goed kijken!
-    or where a walking stick can be seen (27) - sometimes you have to look very carefully!
-  
-  Steden aan de Zuiderzee (9)
-    Cities on the Zuiderzee (9)
-     <kbd><img src="images/image-p4-033.png" width="100%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
-  
-  Pagina’s uit het Vriendenboek van Jacob Heyblocq waar zeilboten op staan afgebeeld (6)
-  Pages from Jacob Heyblocq's Friends Book depicting sailing boats (6)
-  
-  Miniaturen uit Der Naturen Bloeme waarop een boom te zien is (108), of vissen (17)
-  Miniatures from Der Naturen Bloeme showing a tree (108), or fish (17)
-   <kbd><img src="images/image-p4-035.png" width="100%"/></kbd><br/><sub>*aaaa. Screenshot Wikipedia d.d. 02-04-2021*</sub>
-   
-OK, die beer is nu wel uitgerend, tot zover dit vierde deel. Volgende maand het vijfde, tevens laatste deel. Daarin zal ik uitleggen hoe je de Topstukken kunt gebruiken buiten de Wikimedia-context, dus t.b.v. je eigen websites, diensten, apps, hackathons en projecten. Dan ga ik het hebben over REST APIs, SPARQL, datadumps, Python en script- en machinematige interacties met onze topstukken.
-OK, that it for this fourth article. Next month the fifth, also last part. In it I will explain how you can use the highlights outside the Wikimedia context, so for your own websites, services, apps, hackathons and projects. Then I'm going to talk about REST APIs, SPARQL, data dumps, Python and script and machine interactions with our top pieces. 
+OK, that's it for this fourth article. In the fifth and last part I will explain how you can reuse KB's collection highlights *outside of the Wikimedia context*, that is, for/in your own websites, services, apps, hackathons and projects. I'm going to talk about REST APIs, SPARQL, data dumps, Python scripts and machine interactions with our highlights. 
 
 <hr>
 
