@@ -9,9 +9,9 @@ In the previous part of this series I folded out the first 12 bits of the right 
 
 In this third article I'm going to discuss the next group of 14 tools of the right hand knife, ie. I'm going to look at which new functionalities *for individual highlights* are available from now on.
 
-OK, time to start running....
-
 ## Overviews per highlight
+
+OK, time to start running....
 
 13) As a start, I'd like to briefly go back to the metadata in the [alphabetical overview](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Alfabetisch) we discussed in Part 2. 
 Here, **KB's institutional and Wikimedia's participative worlds are merged** into a single overview. In the red box the world of KB's collection highlights, with the browse book (*Bekijk het topstuk op*) and the explanatory notes (*Toelichting*), the inventory number (*Inventarisnummer KB*), and the persistent URL of the object in the KB catalog (*KB catalogus - http://resolver.kb.nl...*). In the blue box the world of Wikimedia, with the context of the highlight in Wikipedia, the images (and pdf) in Wikimedia Commons and the structured data in Wikidata.
