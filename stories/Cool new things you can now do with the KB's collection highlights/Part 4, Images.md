@@ -70,7 +70,7 @@ As a result of this call my colleagues set to work, some with great enthusiasm. 
 
   <kbd><img src="images/image-p4-029.png" width="100%"/></kbd><br/><sub>*Miniature from [Der Naturen Bloeme](https://commons.wikimedia.org/wiki/Category:Miniatures_from_Der_naturen_bloeme_-_KB_KA_16) with three depicted Wikidata entities. Screenshot [ISA tool](https://isa.toolforge.org/) d.d. 02-04-2021*</sub>
 
-37) I already mentioned that by tagging KB images you will also make them searchable by content, enabling **new search options in the KB collection**. Let's look at a number of examples. Between brackets the number of matching images (at the time of writing).
+37) I already mentioned that by tagging KB images you will also make them searchable by content, enabling **new search options for the KB collection**. Let's look at a number of examples. Between brackets the number of matching images (at the time of writing).
 
 * Images from our highlights [depicting bridges](https://hay.toolforge.org/sdsearch/#q=incategory:%22Media%20contributed%20by%20Koninklijke%20Bibliotheek%22%20haswbstatement:P180=Q12280%20-incategory:%22Catchpenny%20prints%20from%20Koninklijke%20Bibliotheek%22) (27)
   <kbd><img src="images/image-p4-031.png" width="66%"/></kbd>
@@ -86,17 +86,17 @@ As a result of this call my colleagues set to work, some with great enthusiasm. 
 ## Summary
 For convenience and overview, let me summarize all the cool new things for KB's collection highlights we have seen in this article:
 
-27) download the image in various resolutions<br/>
-28) file level descriptive metadata<br/>
-29) source attribution of the KB<br/>
-30) manifest copyrights status<br/>
-31) divided into one or more categories // multiple thematic categorisations<br/>
-32) geo coordinates<br/>
-33) structured, machine-readable data<br/>
-34) automatic multilinguality and multilingual search<br/>
-35) what can be seen on KB images and searchable by content <br/>
-36) stimulate (inter)national public participation<br/>
-37) new search options in the KB collection<br/>
+27) Image downloads in various resolutions<br/>
+28) [File level descriptive metadata](https://commons.wikimedia.org/wiki/File:Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg#Summary) including<br/>
+29) textual and visiual source attribution of the KB,<br/>
+30) manifest copyrights status (public domain) and <br/>
+31) multiple thematic categorisations.<br/>
+32) Geo coordinates for selected images, linking them to [various map services](https://geohack.toolforge.org/geohack.php?pagename=File:Den_Haag,_gezicht_bij_de_Doelen_over_de_Korte_Vijverberg,_tot_aan_het_Plein_(7985085070).jpg&params=052.081352_N_0004.313528_E_globe:Earth_type:camera_source:Flickr_&language=nl)<br/>
+33) Structured, machine-readable data, [linking images to Wikidata](https://commons.wikimedia.org/wiki/Commons:Structured_data), enabling <br/>
+34) 'automatic multilinguality' and multilingual search, and <br/>
+35) making them searchable by content (*What is depicted in the images?*).<br/>
+36) Stimulate (inter)national participation for enriching the KB collections by [public tagging campaigns](https://isa.toolforge.org/campaigns/74), enabling <br/>
+37) [new search options](https://hay.toolforge.org/sdsearch/) for these collections.<br/>
 
 ## Up next
 OK, that's it for this fourth article. In [Part 5, Reuse](Part%205%2C%20Reuse.html) I will explain how you can reuse KB's collection highlights *outside of the Wikimedia context*, that is, for/in your own websites, services, apps, hackathons and projects. I'm going to talk about REST APIs, SPARQL, data dumps, Python scripts and machine interactions with our highlights. 
