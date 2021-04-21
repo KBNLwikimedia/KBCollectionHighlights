@@ -95,7 +95,7 @@ For convenience and overview, let me summarize all the cool new things for KB's 
 33) Structured, machine-readable data, [linking images to Wikidata](https://commons.wikimedia.org/wiki/Commons:Structured_data), enabling <br/>
 34) 'automatic multilinguality' and multilingual search, and <br/>
 35) making them searchable by content (*What is depicted in the images?*).<br/>
-36) Stimulate (inter)national participation for enriching the KB collections by [public tagging campaigns](https://isa.toolforge.org/campaigns/74), enabling <br/>
+36) Stimulate (inter)national participation for enriching KB's collections by [public tagging campaigns](https://isa.toolforge.org/campaigns/74), enabling <br/>
 37) [new search options](https://hay.toolforge.org/sdsearch/) for these collections.<br/>
 
 ## Up next
