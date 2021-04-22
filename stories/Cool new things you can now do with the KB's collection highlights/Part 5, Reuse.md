@@ -11,7 +11,7 @@ In dit vijfde deel ga ik het laatste groepje gereedschappen van het rechter mes 
 
  In Part 5, Reuse I will explain how you can reuse KB's collection highlights outside of the Wikimedia context, that is, for/in your own websites, services, apps, hackathons and projects. I'm going to talk about REST APIs, SPARQL, data dumps, Python scripts and machine interactions with our highlights.
 
-<kbd><img src="images/image-p1-024.png" height="220" align="right"/></kbd>
+<img src="images/image-p1-024.png" height="220" align="right"/>
 
 Ik ga het m.a.w. hebben over APIs, SPARQL, datadumps, Python en script- en machinematige interacties met onze topstukken. Toffe dingen voor onze doelgroep van ontwikkelaars, appbouwers, digital humanists, data scientists, LOD-afficionados en andere leuke nerds.
 
