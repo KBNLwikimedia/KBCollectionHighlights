@@ -9,11 +9,14 @@ In het vorige (vierde) deel van deze vijfdelige Plein-serie heb ik 11 hulpstukke
 
 In dit vijfde deel ga ik het laatste groepje gereedschappen van het rechter mes uitklappen. Ik ga uitleggen hoe je op basis van de Wikimedia-infrastructuur onze topstukken buiten de Wikimedia-context kunt hergebruiken. Hoe je de topstukken als technisch LEGO kunt gebruiken t.b.v. je eigen websites, diensten, apps, hackathons en projecten.
 
+<img src="images/image-p1-024.png" height="220" align="right"/>
  In Part 5, Reuse I will explain how you can reuse KB's collection highlights outside of the Wikimedia context, that is, for/in your own websites, services, apps, hackathons and projects. I'm going to talk about REST APIs, SPARQL, data dumps, Python scripts and machine interactions with our highlights.
 
-<img src="images/image-p1-024.png" height="220" align="right"/>
+
 
 Ik ga het m.a.w. hebben over APIs, SPARQL, datadumps, Python en script- en machinematige interacties met onze topstukken. Toffe dingen voor onze doelgroep van ontwikkelaars, appbouwers, digital humanists, data scientists, LOD-afficionados en andere leuke nerds.
+
+## Reusing KB collection highlights outside Wikimedia
 
 Try to Follow the same orfer as in parts 2, 3 and 4, so 
 - all highlights
@@ -51,6 +54,26 @@ https://tools.wmflabs.org/magnus-toolserver/commonsapi.php - request image info
 4x) Request the images from [Armorial de Beyeren](https://commons.wikimedia.org/wiki/Category:Armorial_de_Beyeren) as a JSON file
 as json https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:Armorial%20de%20Beyeren&format=json&gcmnamespace=6
 as xml https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:Armorial%20de%20Beyeren&format=xml&gcmnamespace=6
+
+## Summary
+OK, that's it for this fifth and last article.  For convenience and overview, let me summarize all the cool new things for KB's collection highlights we have seen in this article:
+
+38) <br/>
+39) <br/>
+40) <br/>
+41) <br/>
+42) <br/>
+43) <br/>
+44) <br/>
+45) <br/>
+46) <br/>
+47) <br/>
+48) <br/>
+49) <br/>
+50) <br/>
+
+## Summary of summaries
+As a bonus, amd for overview., part 6 is a summary of all 50 new cool things
 
 
 <hr>
