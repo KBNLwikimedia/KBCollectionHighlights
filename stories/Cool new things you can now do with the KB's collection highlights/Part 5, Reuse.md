@@ -15,6 +15,44 @@ In dit vijfde deel ga ik het laatste groepje gereedschappen van het rechter mes 
 
 Ik ga het m.a.w. hebben over APIs, SPARQL, datadumps, Python en script- en machinematige interacties met onze topstukken. Toffe dingen voor onze doelgroep van ontwikkelaars, appbouwers, digital humanists, data scientists, LOD-afficionados en andere leuke nerds.
 
+Try to Follow the same orfer as in parts 2, 3 and 4, so 
+- all highlights
+- indivdial highlghts
+- individual highlght images
+
+=====================================
+
+38) -- **List of KB collection highlights** -- The [list of KB collection highlights]() on the KB website is only availabe as HTML. This is nut handy fo effectievd reuse, ehere you prefer json, xml or csv Let's start by looking at how wqe can request a simple list of KB collections highligjhigh in sjon, xml, o as csv
+
+SIMPLE
+Wikidata SPARQL endpoint (WDQS) https://w.wiki/3Du9
+result as JSON - https://query.wikidata.org/sparql?query=select%20%3Fitem%20%3FitemLabel%20%0Awhere%20{%0A%20%20%3Fitem%20p%3AP195%20%3Fst%20.%0A%20%20%3Fst%20ps%3AP195%20wd%3AQ1526131%20.%0A%20%20%3Fst%20pq%3AP2868%20wd%3AQ29188408%0A%20%20%20%20%20%20%20%20SERVICE%20wikibase%3Alabel%20{%20bd%3AserviceParam%20wikibase%3Alanguage%20%22nl%22.%20}%0A}&format=json![afbeelding](https://user-images.githubusercontent.com/6546244/115771075-cc77b900-a3ad-11eb-9fb2-a5624e4c970e.png)
+
+ELABORATE
+Moe elabvorate list, we [alreay saw in part 2](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Listeria)
+--m aar dan als ruwe sparql en json
+SPARQL https://w.wiki/3DuJ (maar nog verbeteen)
+JSON
+
+
+===================================================
+
+39) Wikipedia aricles about KB high;iogfhts in Dutch,
+39a) and in othger languiqwges
+
+=============================================
+-----------
+Commons API documentation:
+https://commons.wikimedia.org/w/api.php?action=help&modules=main - General, with 
+https://commons.wikimedia.org/w/api.php?action=help&modules=query - Fetch data from and about Wikimedia Commons. Mostly used, with here some 
+https://commons.wikimedia.org/wiki/Commons:API/MediaWiki - Examples of using the MediaWiki API to request Commons content. 
+https://tools.wmflabs.org/magnus-toolserver/commonsapi.php - request image info
+
+4x) Request the images from [Armorial de Beyeren](https://commons.wikimedia.org/wiki/Category:Armorial_de_Beyeren) as a JSON file
+as json https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:Armorial%20de%20Beyeren&format=json&gcmnamespace=6
+as xml https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:Armorial%20de%20Beyeren&format=xml&gcmnamespace=6
+
+
 <hr>
 
 ### About the author
