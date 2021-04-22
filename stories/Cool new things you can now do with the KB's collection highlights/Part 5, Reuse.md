@@ -29,7 +29,7 @@ Try to Follow the same orfer as in parts 2, 3 and 4, so
 
 SIMPLE
 Wikidata SPARQL endpoint (WDQS) https://w.wiki/3Du9
-result as JSON - https://query.wikidata.org/sparql?query=select%20%3Fitem%20%3FitemLabel%20%0Awhere%20{%0A%20%20%3Fitem%20p%3AP195%20%3Fst%20.%0A%20%20%3Fst%20ps%3AP195%20wd%3AQ1526131%20.%0A%20%20%3Fst%20pq%3AP2868%20wd%3AQ29188408%0A%20%20%20%20%20%20%20%20SERVICE%20wikibase%3Alabel%20{%20bd%3AserviceParam%20wikibase%3Alanguage%20%22nl%22.%20}%0A}&format=json![afbeelding](https://user-images.githubusercontent.com/6546244/115771075-cc77b900-a3ad-11eb-9fb2-a5624e4c970e.png)
+result as JSON - https://query.wikidata.org/sparql?query=select%20%3Fitem%20%3FitemLabel%20%0Awhere%20{%0A%20%20%3Fitem%20p%3AP195%20%3Fst%20.%0A%20%20%3Fst%20ps%3AP195%20wd%3AQ1526131%20.%0A%20%20%3Fst%20pq%3AP2868%20wd%3AQ29188408%0A%20%20%20%20%20%20%20%20SERVICE%20wikibase%3Alabel%20{%20bd%3AserviceParam%20wikibase%3Alanguage%20%22nl%22.%20}%0A}&format=json
 
 ELABORATE
 Moe elabvorate list, we [alreay saw in part 2](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Listeria)
