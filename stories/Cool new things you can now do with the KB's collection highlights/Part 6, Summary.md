@@ -5,7 +5,13 @@
 
 *In this [series of 5 articles](index.md) I show the added value of putting images and metadata of [digitised collection highlights](https://www.kb.nl/galerij/digitale-topstukken) of the KB, national library of the Netherlands, into the Wikimedia infrastructure. By putting our collection highlights into Wikidata, Wikimedia Commons and Wikipedia, dozens of new functionalities have been added. As a result of Wikifying this collection, you can now do things with these highlights that were not possible before.*
 
-[Part 2, Overviews of all highlights](Part%202%2C%20Overviews%20of%20all%20highlights.html)
+## [Part 1, Introduction](Part%201%2C%20Introduction.html)
+
+<kbd><img src="images/image-p1-022.png" height="220"/></kbd><kbd><img src="images/image-p1-023.png" height="220"/></kbd><kbd><img src="images/image-p1-024.png" height="220"/></kbd>
+
+<kbd><img src="images/image-p1-020.png" height="300" align="left"/></kbd><kbd><img src="images/image-p1-025.png" height="300" align="left"/></kbd>
+
+## [Part 2, Overviews of all highlights](Part%202%2C%20Overviews%20of%20all%20highlights.html)
 
 1) A [thumbnail gallery](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Galerij) for all highlights <br/>
 2) A [visual gallery page](https://commons.wikimedia.org/wiki/Collection_highlights_of_Koninklijke_Bibliotheek) with 6 previews for each highlight<br/>
@@ -20,7 +26,7 @@
 11) Overviews of [locations and dates](https://www.wikidata.org/wiki/Wikidata:WikiProject_Collection_highlights_National_Library_of_the_Netherlands/Admin/Overview/Locations_and_dates), [physical characteristics](https://www.wikidata.org/wiki/Wikidata:WikiProject_Collection_highlights_National_Library_of_the_Netherlands/Admin/Overview/Physical_characteristics) and [sources](https://www.wikidata.org/wiki/Wikidata:WikiProject_Collection_highlights_National_Library_of_the_Netherlands/Admin/Overview/Sources) for the highlights, as was well as descriptions in [3rd party databases](https://www.wikidata.org/wiki/Wikidata:WikiProject_Collection_highlights_National_Library_of_the_Netherlands/Admin/Overview/External_IDs).<br/>
 12) A [separate overview of existing and wanted Dutch Wikipeda articles](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Artikelen) related to KB's collection highlights<br/>
 
-[Part 3, Overviews per highlight](Part%203%2C%20Overviews%20per%20highlight.html)
+## [Part 3, Overviews per highlight](Part%203%2C%20Overviews%20per%20highlight.html)
 
 13) Merging KB's institutional and Wikimedia's participative worlds for each highlight<br/>
 14) A [gallery page with individual images](https://commons.wikimedia.org/wiki/Buiten!_Waar_de_vogels_fluiten) for each public domain highlight<br/>
@@ -37,7 +43,7 @@
 25) the [life spans](https://w.wiki/qzx) of those contributors<br/>
 26) [Map visualisations](https://tinyurl.com/y2y7pfbj) for selected highlights in which locations and places play key roles<br/>
 
-[Part 4, Images](Part%204%2C%20Images.html)
+## [Part 4, Images](Part%204%2C%20Images.html)
 
 27) Image downloads in various resolutions<br/>
 28) [File level descriptive metadata](https://commons.wikimedia.org/wiki/File:Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg#Summary) including<br/>
@@ -51,4 +57,25 @@
 36) Stimulate (inter)national participation for enriching KB's collections by [public tagging campaigns](https://isa.toolforge.org/campaigns/74), enabling <br/>
 37) [new search options](https://hay.toolforge.org/sdsearch/) for these collections.<br/>
 
-[Part 5, Reuse](Part%205%2C%20Reuse.html)
+## [Part 5, Reuse](Part%205%2C%20Reuse.html)
+
+
+<hr>
+
+### About the author
+<img align="left" src="../images/800px-Olaf_Janssen_at_GLAM_WIKI_Tel_Aviv_Conference_2018.JPG" width="50"/>
+
+Olaf Janssen is the Wikimedia coordinator of the KB, the national library of the Netherlands. He contributes to
+[Wikipedia](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief), [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Koninklijke_Bibliotheek) and [Wikidata](https://www.wikidata.org/wiki/Wikidata:GLAM/Koninklijke_Bibliotheek_Nederland) as [User:OlafJanssen](https://nl.wikipedia.org/wiki/Gebruiker:OlafJanssen)<br>
+
+### Reusing this article
+This text of this article is available under the [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. 
+<kbd><img src="../images/cc-by.png" width="80"/></kbd>
+
+### Image sources & credits
+* [Swiss_army_knife_open,_2012-(01)](https://commons.wikimedia.org/wiki/File:Swiss_army_knife_open,_2012-(01).jpg) -- Joe Loong, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0), via Wikimedia Commons
+* [Victorinox_Swiss_Army_SwissChamp_XAVT](https://commons.wikimedia.org/wiki/File:Victorinox_Swiss_Army_SwissChamp_XAVT.jpg) -- Dave Taylor from Boulder, CO, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0), via Wikimedia Commons
+* Old paradigm, [Taxidermied Monarch Butterfly in a bell jar](https://commons.wikimedia.org/wiki/File:Monarch_Butterfly_Taxidermy_03.jpg) -- Jeremy Johnson, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons
+* New paradigm, [Bricks by the Bay 2011](https://www.flickr.com/photos/roninsfx/5568986878) -- Roninsfx, [CC-BY 2.0](https://creativecommons.org/licenses/by/2.0/), via Flickr
+* Building blocks for the tech communities, [Wikimedia hackathon San Francisco 2012](https://commons.wikimedia.org/wiki/File:Wikimedia_Hackathon_San_Francisco_107.jpg) -- Matthew (WMF), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons
+* KB collection highlights LEGO® box - based upon the [Villa Savoye box from the LEGO® Architecture series](https://i.ebayimg.com/images/g/n4AAAOSwjIpgTPWQ/s-l1600.jpg)
