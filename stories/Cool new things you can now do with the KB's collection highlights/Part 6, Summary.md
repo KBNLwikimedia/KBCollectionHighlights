@@ -6,13 +6,13 @@
 *In this [series of 5 articles](index.md) I show the added value of putting images and metadata of [digitised collection highlights](https://www.kb.nl/galerij/digitale-topstukken) of the KB, national library of the Netherlands, into the Wikimedia infrastructure. By putting our collection highlights into Wikidata, Wikimedia Commons and Wikipedia, dozens of new functionalities have been added. As a result of Wikifying this collection, you can now do things with these highlights that were not possible before.*
 
 ## [Part 1, Introduction](Part%201%2C%20Introduction.html)
-
+Short intro to this section...
 <kbd><img src="images/image-p1-022.png" height="220"/></kbd><kbd><img src="images/image-p1-023.png" height="220"/></kbd><kbd><img src="images/image-p1-024.png" height="220"/></kbd>
 
 <kbd><img src="images/image-p1-020.png" height="300" align="left"/></kbd><kbd><img src="images/image-p1-025.png" height="300" align="left"/></kbd>
 
 ## [Part 2, Overviews of all highlights](Part%202%2C%20Overviews%20of%20all%20highlights.html)
-
+Short intro to this section...
 1) A [thumbnail gallery](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Galerij) for all highlights <br/>
 2) A [visual gallery page](https://commons.wikimedia.org/wiki/Collection_highlights_of_Koninklijke_Bibliotheek) with 6 previews for each highlight<br/>
 3) An overview of highlights [grouped by type/sort](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Type)<br/>
@@ -27,7 +27,7 @@
 12) A [separate overview of existing and wanted Dutch Wikipeda articles](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Artikelen) related to KB's collection highlights<br/>
 
 ## [Part 3, Overviews per highlight](Part%203%2C%20Overviews%20per%20highlight.html)
-
+Short intro to this section...
 13) Merging KB's institutional and Wikimedia's participative worlds for each highlight<br/>
 14) A [gallery page with individual images](https://commons.wikimedia.org/wiki/Buiten!_Waar_de_vogels_fluiten) for each public domain highlight<br/>
 15) [Double page openings](https://commons.wikimedia.org/wiki/Category:Visboeck_Coenen_(openings)) for most public domain highlights<br/>
@@ -44,7 +44,7 @@
 26) [Map visualisations](https://tinyurl.com/y2y7pfbj) for selected highlights in which locations and places play key roles<br/>
 
 ## [Part 4, Images](Part%204%2C%20Images.html)
-
+Short intro to this section...
 27) Image downloads in various resolutions<br/>
 28) [File level descriptive metadata](https://commons.wikimedia.org/wiki/File:Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg#Summary) including<br/>
 29) textual and visiual source attribution of the KB,<br/>
@@ -58,7 +58,20 @@
 37) [new search options](https://hay.toolforge.org/sdsearch/) for these collections.<br/>
 
 ## [Part 5, Reuse](Part%205%2C%20Reuse.html)
-
+Short intro to this section...
+38) <br/>
+39) <br/>
+40) <br/>
+41) <br/>
+42) <br/>
+43) <br/>
+44) <br/>
+45) <br/>
+46) <br/>
+47) <br/>
+48) <br/>
+49) <br/>
+50) <br/>
 
 <hr>
 
