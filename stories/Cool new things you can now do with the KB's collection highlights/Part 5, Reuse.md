@@ -16,12 +16,16 @@ In dit vijfde deel ga ik het laatste groepje gereedschappen van het rechter mes 
 
 Ik ga het m.a.w. hebben over APIs, SPARQL, datadumps, Python en script- en machinematige interacties met onze topstukken. Toffe dingen voor onze doelgroep van ontwikkelaars, appbouwers, digital humanists, data scientists, LOD-afficionados en andere leuke nerds.
 
-## Reusing KB collection highlights outside Wikimedia
-
-Try to Follow the same orfer as in parts 2, 3 and 4, so 
+I'll Try to Follow the same orfer as in parts 2, 3 and 4, so 
 - all highlights
 - indivdial highlghts
 - individual highlght images
+
+
+
+
+
+## Reuse - all highlights
 
 =====================================
 
@@ -44,16 +48,20 @@ JSON
 39a) and in othger languiqwges
 
 =============================================
------------
-Commons API documentation:
+
+Wikimedia Commons API documentation:
 https://commons.wikimedia.org/w/api.php?action=help&modules=main - General, with 
 https://commons.wikimedia.org/w/api.php?action=help&modules=query - Fetch data from and about Wikimedia Commons. Mostly used, with here some 
 https://commons.wikimedia.org/wiki/Commons:API/MediaWiki - Examples of using the MediaWiki API to request Commons content. 
-https://tools.wmflabs.org/magnus-toolserver/commonsapi.php - request image info
+
+## Reuse - individual highlights
 
 4x) Request the images from [Armorial de Beyeren](https://commons.wikimedia.org/wiki/Category:Armorial_de_Beyeren) as a JSON file
 as json https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:Armorial%20de%20Beyeren&format=json&gcmnamespace=6
 as xml https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:Armorial%20de%20Beyeren&format=xml&gcmnamespace=6
+
+## Reuse - individual highlight images
+https://tools.wmflabs.org/magnus-toolserver/commonsapi.php - request image info
 
 ## Summary
 OK, that's it for this fifth and last article.  For convenience and overview, let me summarize all the cool new things for KB's collection highlights we have seen in this article:
