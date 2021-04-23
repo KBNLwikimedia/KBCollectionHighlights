@@ -42,6 +42,7 @@ resulting into a **[SPARQL driven thumbnail gallery](https://w.wiki/3E8z)** of K
    * result as JSON - https://query.wikidata.org/sparql?query=select%20%3Fitem%20%3FitemLabel%20%0Awhere%20{%0A%20%20%3Fitem%20p%3AP195%20%3Fst%20.%0A%20%20%3Fst%20ps%3AP195%20wd%3AQ1526131%20.%0A%20%20%3Fst%20pq%3AP2868%20wd%3AQ29188408%0A%20%20%20%20%20%20%20%20SERVICE%20wikibase%3Alabel%20{%20bd%3AserviceParam%20wikibase%3Alanguage%20%22nl%22.%20}%0A}&format=json
    * https://query.wikidata.org/bigdata/namespace/wdq/sparql?query=select%20%3Fitem%20%3FitemLabel%20%0Awhere%20{%0A%20%20%3Fitem%20p%3AP195%20%3Fst%20.%0A%20%20%3Fst%20ps%3AP195%20wd%3AQ1526131%20.%0A%20%20%3Fst%20pq%3AP2868%20wd%3AQ29188408%0A%20%20%20%20%20%20%20%20SERVICE%20wikibase%3Alabel%20{%20bd%3AserviceParam%20wikibase%3Alanguage%20%22nl%22.%20}%0A} (XML download)
 
+
   **b) Elaborate list**<br/>
 Moe elabvorate list, we [alreay saw in part 2](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Listeria)
 --m aar dan als ruwe sparql en json
@@ -49,12 +50,13 @@ SPARQL https://w.wiki/3DuJ (maar nog verbeteen)
 JSON
 (XML download)
 
+
 ===================================================
 
-39) Tables about conytributotrs sortable by role
+39) Tables about conytributotrs & roles sortable by role
 
-40) Wikipedia aricles about KB high;iogfhts in Dutch,
-40a) and in othger languiqwges
+40) Request which Wikipedia aricles about KB high;iogfhts in Dutch,
+40a) and in othger languiqwges are availabe
 
 =============================================
 
