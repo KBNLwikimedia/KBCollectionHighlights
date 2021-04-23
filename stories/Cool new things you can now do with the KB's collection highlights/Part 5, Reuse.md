@@ -35,7 +35,7 @@ resulting into a **[SPARQL driven thumbnail gallery](https://w.wiki/3E8z)** of K
 
  <kbd><img src="images/image-p5-002.png" width="100%"/></kbd><br/><sub>*The [image grid](https://w.wiki/3E8z) of KB highlights for the above SPARQL query. Screenshot Wikidata query service d.d. 23-04-2021*</sub>
 
-39) Next, let's look at lists and tables. The [list of highlights](https://www.kb.nl/galerij/digitale-topstukken) on the KB website is only availabe as HTML. For effective resue you'd prefer a **structured list of all KB collections highlights** in open formats such as json, xml or csv. Let's look how we can request both simple and more elaborate lists from the [Wikidata SPARQL query service](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service). 
+39) Next, let's look at lists and tables. The [list of highlights](https://www.kb.nl/galerij/digitale-topstukken) on the KB website is only availabe as HTML. For effective reuse you'd prefer it in a structured and open format such as JSON, XML or RDF. Let's look how we can request **structured list of KB highlights, both simple and more elaborate** from the Wikidata query service: 
 
   **a) Basic list**, with only the names and descriptions of the highlights<br/>
    * Wikidata SPARQL endpoint (WDQS) https://w.wiki/3Du9
@@ -51,17 +51,21 @@ JSON
 
 ===================================================
 
-39) Wikipedia aricles about KB high;iogfhts in Dutch,
-39a) and in othger languiqwges
+39) Tables about conytributotrs sortable by role
+
+40) Wikipedia aricles about KB high;iogfhts in Dutch,
+40a) and in othger languiqwges
 
 =============================================
+
+## Reuse - individual highlights
 
 Wikimedia Commons API documentation:
 https://commons.wikimedia.org/w/api.php?action=help&modules=main - General, with 
 https://commons.wikimedia.org/w/api.php?action=help&modules=query - Fetch data from and about Wikimedia Commons. Mostly used, with here some 
 https://commons.wikimedia.org/wiki/Commons:API/MediaWiki - Examples of using the MediaWiki API to request Commons content. 
 
-## Reuse - individual highlights
+
 
 4x) Request the images from [Armorial de Beyeren](https://commons.wikimedia.org/wiki/Category:Armorial_de_Beyeren) as a JSON file
 as json https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:Armorial%20de%20Beyeren&format=json&gcmnamespace=6
@@ -78,7 +82,7 @@ https://tools.wmflabs.org/magnus-toolserver/commonsapi.php - request image info
 OK, that's it for this fifth and last article.  For convenience and overview, let me summarize all the cool new things for KB's collection highlights we have seen in this article:
 
 38) A [SPARQL driven thumbnail gallery](https://w.wiki/3E8z) of KB highlights<br/>
-39) A structured list of all KB collections highlights, both [basic]() and [more elaborate]() in varrious formats (json, xml..)<br/>
+39) A structured list of all KB highlights, both [basic]() and [more elaborate]() in varrious formats (json, xml..)<br/>
 40) <br/>
 41) <br/>
 42) <br/>
