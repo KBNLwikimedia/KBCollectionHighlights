@@ -9,10 +9,10 @@ In het vorige (vierde) deel van deze vijfdelige Plein-serie heb ik 11 hulpstukke
 
 In dit vijfde deel ga ik het laatste groepje gereedschappen van het rechter mes uitklappen. Ik ga uitleggen hoe je op basis van de Wikimedia-infrastructuur onze topstukken buiten de Wikimedia-context kunt hergebruiken. Hoe je de topstukken als technisch LEGO kunt gebruiken t.b.v. je eigen websites, diensten, apps, hackathons en projecten.
 
-<img src="images/image-p1-024.png" height="220" align="right"/>
+<kbd><img src="images/image-p1-024.png" height="200"/></kbd><kbd><img src="images/image-p1-020.png" height="200"/></kbd><kbd><img src="images/image-p1-025.png" height="200"/></kbd>
+
+
  In Part 5, Reuse I will explain how you can reuse KB's collection highlights outside of the Wikimedia context, that is, for/in your own websites, services, apps, hackathons and projects. I'm going to talk about REST APIs, SPARQL, data dumps, Python scripts and machine interactions with our highlights.
-
-
 
 Ik ga het m.a.w. hebben over APIs, SPARQL, datadumps, Python en script- en machinematige interacties met onze topstukken. Toffe dingen voor onze doelgroep van ontwikkelaars, appbouwers, digital humanists, data scientists, LOD-afficionados en andere leuke nerds.
 
@@ -20,27 +20,37 @@ I'll Try to Follow the same orfer as in parts 2, 3 and 4, so
 - all highlights
 - indivdial highlghts
 - individual highlght images
-
-
-
+and explain how you can retrieve some of the images, data, and texts we requested requested via the GUI (so in HTML)  in the previos parts now in their machine readable fromats(json, rdf, xnl, csv) via API and sparql services in the wikimedia infra, giving more controll & felixibilty over the excat ouptut, cutom made for ypour needs
 
 
 ## Reuse - all highlights
 
 =====================================
 
-38) -- **List of KB collection highlights** -- The [list of KB collection highlights]() on the KB website is only availabe as HTML. This is nut handy fo effectievd reuse, ehere you prefer json, xml or csv Let's start by looking at how wqe can request a simple list of KB collections highligjhigh in sjon, xml, o as csv
+38) Let's start with recreating the [thumbnail gallery](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Galerij) we started out with in [Part 2](Part%202%2C%20Overviews%20of%20all%20highlights.html) using the [Wikidata SPARQL query service](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service). A short [SPARQL query](https://w.wiki/3E8w) does the job: 
 
-SIMPLE
-Wikidata SPARQL endpoint (WDQS) https://w.wiki/3Du9
-result as JSON - https://query.wikidata.org/sparql?query=select%20%3Fitem%20%3FitemLabel%20%0Awhere%20{%0A%20%20%3Fitem%20p%3AP195%20%3Fst%20.%0A%20%20%3Fst%20ps%3AP195%20wd%3AQ1526131%20.%0A%20%20%3Fst%20pq%3AP2868%20wd%3AQ29188408%0A%20%20%20%20%20%20%20%20SERVICE%20wikibase%3Alabel%20{%20bd%3AserviceParam%20wikibase%3Alanguage%20%22nl%22.%20}%0A}&format=json
+ <kbd><img src="images/image-p5-001.png" width="100%"/></kbd><br/><sub>*[SPARQL query](https://w.wiki/3E8w) for generating an thumbnail gallery of KB collection highlights using the Wikidata query service. Screenshot Wikidata query service d.d. 23-04-2021*</sub>
 
-ELABORATE
+resulting into an [image grid](https://w.wiki/3E8z) of KB highlights
+
+ <kbd><img src="images/image-p5-002.png" width="100%"/></kbd><br/><sub>*The [image grid](https://w.wiki/3E8z) of KB highlights for the above query. Screenshot Wikidata query service d.d. 23-04-2021*</sub>
+
+
+
+
+39) The [list of highlights](https://www.kb.nl/galerij/digitale-topstukken) on the KB website is only availabe as HTML. For effective resue you'd prefer a **structured list of all KB collections highlights** in open formats such as json, xml or csv. Let's look how we can request both simple and more elaborate lists from the [Wikidata SPARQL query service](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service). 
+
+  **a) Basic list**, with only the names and descriptions of the highlights<br/>
+   * Wikidata SPARQL endpoint (WDQS) https://w.wiki/3Du9
+   * result as JSON - https://query.wikidata.org/sparql?query=select%20%3Fitem%20%3FitemLabel%20%0Awhere%20{%0A%20%20%3Fitem%20p%3AP195%20%3Fst%20.%0A%20%20%3Fst%20ps%3AP195%20wd%3AQ1526131%20.%0A%20%20%3Fst%20pq%3AP2868%20wd%3AQ29188408%0A%20%20%20%20%20%20%20%20SERVICE%20wikibase%3Alabel%20{%20bd%3AserviceParam%20wikibase%3Alanguage%20%22nl%22.%20}%0A}&format=json
+   * https://query.wikidata.org/bigdata/namespace/wdq/sparql?query=select%20%3Fitem%20%3FitemLabel%20%0Awhere%20{%0A%20%20%3Fitem%20p%3AP195%20%3Fst%20.%0A%20%20%3Fst%20ps%3AP195%20wd%3AQ1526131%20.%0A%20%20%3Fst%20pq%3AP2868%20wd%3AQ29188408%0A%20%20%20%20%20%20%20%20SERVICE%20wikibase%3Alabel%20{%20bd%3AserviceParam%20wikibase%3Alanguage%20%22nl%22.%20}%0A} (XML download)
+
+  **b) Elaborate list**<br/>
 Moe elabvorate list, we [alreay saw in part 2](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Listeria)
 --m aar dan als ruwe sparql en json
 SPARQL https://w.wiki/3DuJ (maar nog verbeteen)
 JSON
-
+(XML download)
 
 ===================================================
 
@@ -60,13 +70,17 @@ https://commons.wikimedia.org/wiki/Commons:API/MediaWiki - Examples of using the
 as json https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:Armorial%20de%20Beyeren&format=json&gcmnamespace=6
 as xml https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:Armorial%20de%20Beyeren&format=xml&gcmnamespace=6
 
+List of deicted things in a highlight via sparql: 
+
 ## Reuse - individual highlight images
 https://tools.wmflabs.org/magnus-toolserver/commonsapi.php - request image info
+
+
 
 ## Summary
 OK, that's it for this fifth and last article.  For convenience and overview, let me summarize all the cool new things for KB's collection highlights we have seen in this article:
 
-38) <br/>
+38) A structured list of all KB collections highlights, both [basic]() and [more elaborate]()<br/>
 39) <br/>
 40) <br/>
 41) <br/>
