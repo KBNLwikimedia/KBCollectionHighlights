@@ -27,18 +27,15 @@ and explain how you can retrieve some of the images, data, and texts we requeste
 
 =====================================
 
-38) Let's start with recreating the [thumbnail gallery](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Galerij) we started out with in [Part 2](Part%202%2C%20Overviews%20of%20all%20highlights.html) using the [Wikidata SPARQL query service](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service). A short [SPARQL query](https://w.wiki/3E8w) does the job: 
+38) Let's start with recreating the [image grid](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Galerij) we started out with in [Part 2](Part%202%2C%20Overviews%20of%20all%20highlights.html) using the [Wikidata SPARQL query service](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service). A short [SPARQL query](https://w.wiki/3E8w) does the job: 
 
- <kbd><img src="images/image-p5-001.png" width="100%"/></kbd><br/><sub>*[SPARQL query](https://w.wiki/3E8w) for generating an thumbnail gallery of KB collection highlights using the Wikidata query service. Screenshot Wikidata query service d.d. 23-04-2021*</sub>
+ <kbd><img src="images/image-p5-001.png" width="100%"/></kbd><br/><sub>*[SPARQL query](https://w.wiki/3E8w) for generating a thumbnail gallery of KB collection highlights using the Wikidata query service. Screenshot Wikidata query service d.d. 23-04-2021*</sub>
 
-resulting into an [image grid](https://w.wiki/3E8z) of KB highlights
+resulting into a **[SPARQL driven thumbnail gallery](https://w.wiki/3E8z)** of KB highlights.
 
- <kbd><img src="images/image-p5-002.png" width="100%"/></kbd><br/><sub>*The [image grid](https://w.wiki/3E8z) of KB highlights for the above query. Screenshot Wikidata query service d.d. 23-04-2021*</sub>
+ <kbd><img src="images/image-p5-002.png" width="100%"/></kbd><br/><sub>*The [image grid](https://w.wiki/3E8z) of KB highlights for the above SPARQL query. Screenshot Wikidata query service d.d. 23-04-2021*</sub>
 
-
-
-
-39) The [list of highlights](https://www.kb.nl/galerij/digitale-topstukken) on the KB website is only availabe as HTML. For effective resue you'd prefer a **structured list of all KB collections highlights** in open formats such as json, xml or csv. Let's look how we can request both simple and more elaborate lists from the [Wikidata SPARQL query service](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service). 
+39) Next, let's look at lists and tables. The [list of highlights](https://www.kb.nl/galerij/digitale-topstukken) on the KB website is only availabe as HTML. For effective resue you'd prefer a **structured list of all KB collections highlights** in open formats such as json, xml or csv. Let's look how we can request both simple and more elaborate lists from the [Wikidata SPARQL query service](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service). 
 
   **a) Basic list**, with only the names and descriptions of the highlights<br/>
    * Wikidata SPARQL endpoint (WDQS) https://w.wiki/3Du9
@@ -80,8 +77,8 @@ https://tools.wmflabs.org/magnus-toolserver/commonsapi.php - request image info
 ## Summary
 OK, that's it for this fifth and last article.  For convenience and overview, let me summarize all the cool new things for KB's collection highlights we have seen in this article:
 
-38) A structured list of all KB collections highlights, both [basic]() and [more elaborate]()<br/>
-39) <br/>
+38) A [SPARQL driven thumbnail gallery](https://w.wiki/3E8z) of KB highlights<br/>
+39) A structured list of all KB collections highlights, both [basic]() and [more elaborate]() in varrious formats (json, xml..)<br/>
 40) <br/>
 41) <br/>
 42) <br/>
