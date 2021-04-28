@@ -5,22 +5,22 @@
 
 *In this [series of 5 articles](index.md) I show the added value of putting images and metadata of [digitised collection highlights](https://www.kb.nl/galerij/digitale-topstukken) of the KB, national library of the Netherlands, into the Wikimedia infrastructure. By putting our collection highlights into Wikidata, Wikimedia Commons and Wikipedia, dozens of new functionalities have been added. As a result of Wikifying this collection, you can now do things with these highlights that were not possible before.*
 
-In het vorige (vierde) deel van deze vijfdelige Plein-serie heb ik 11 hulpstukken van het rechter mes uitgeklapt. We bekeken welke vernieuwende functionaliteiten er voor losse Topstukafbeeldingen beschikbaar zijn gekomen; we lieten o.a. het kunnen downloaden van afbeeldingen in meerdere resoluties, metadatering per beeld met manifeste bronvermelding en rechtenstatus, geo-coördinaten , gestructureerde data, meertalige ontsluiting en nieuwe zoekmogelijkheden op basis van inhoud (‘wat staat erop?’) de revue passeren.
+In the previous (fourth) part of this series I discussed 11 tools of the right hand knife. We looked at [which new functionalities](Part%204%2C%20Images.html) have become available for individual highlight images. We talked about the ability to download images in multiple resolutions, [file level descriptive metadata](https://commons.wikimedia.org/wiki/File:Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg#Summary) with manifest attributions and copyrights status, geo coordinates linking images to [various map services](https://geohack.toolforge.org/geohack.php?pagename=File:Den_Haag,_gezicht_bij_de_Doelen_over_de_Korte_Vijverberg,_tot_aan_het_Plein_(7985085070).jpg&params=052.081352_N_0004.313528_E_globe:Earth_type:camera_source:Flickr_&language=nl), [linking images to Wikidata](https://commons.wikimedia.org/wiki/Commons:Structured_data), as well as enabling [multilingual search by content](https://hay.toolforge.org/sdsearch/#q=incategory:%22Media%20contributed%20by%20Koninklijke%20Bibliotheek%22%20haswbstatement:P180) (*What is depicted in the images?*)
 
 In dit vijfde deel ga ik het laatste groepje gereedschappen van het rechter mes uitklappen. Ik ga uitleggen hoe je op basis van de Wikimedia-infrastructuur onze topstukken buiten de Wikimedia-context kunt hergebruiken. Hoe je de topstukken als technisch LEGO kunt gebruiken t.b.v. je eigen websites, diensten, apps, hackathons en projecten.
 
+In this fifth part I am going to unfold the last group of tools. I am going to explain how, based on the Wikimedia infrastructure, you can reuse our masterpieces outside the Wikimedia context. How you can use the masterpieces as technical LEGO for your own websites, services, apps, hackathons and projects. 
+In Part 5, Reuse I will explain how you can reuse KB's collection highlights outside of the Wikimedia context, that is, for/in your own websites, services, apps, hackathons and projects. I'm going to talk about REST APIs, SPARQL, data dumps, Python scripts and machine interactions with our highlights.
+Ik ga het m.a.w. hebben over APIs, SPARQL, Python en script- en machinematige interacties met onze topstukken. Toffe dingen voor onze doelgroep van ontwikkelaars, appbouwers, digital humanists, data scientists, LOD-afficionados en andere leuke nerds.
+In other words, I'm going to talk about APIs, SPARQL, Python and script and machine interactions with our top pieces. Great things for our target group of developers, app builders, digital humanists, data scientists, LOD afficionados and other fun nerds. 
+
 <kbd><img src="images/image-p1-024.png" height="200"/></kbd><kbd><img src="images/image-p1-020.png" height="200"/></kbd><kbd><img src="images/image-p1-025.png" height="200"/></kbd>
 
-
- In Part 5, Reuse I will explain how you can reuse KB's collection highlights outside of the Wikimedia context, that is, for/in your own websites, services, apps, hackathons and projects. I'm going to talk about REST APIs, SPARQL, data dumps, Python scripts and machine interactions with our highlights.
-
-Ik ga het m.a.w. hebben over APIs, SPARQL, Python en script- en machinematige interacties met onze topstukken. Toffe dingen voor onze doelgroep van ontwikkelaars, appbouwers, digital humanists, data scientists, LOD-afficionados en andere leuke nerds.
-
-I'll Try to Follow the same orfer as in parts 2, 3 and 4, so 
-- all highlights
-- indivdial highlghts
-- individual highlght images
-and explain how you can retrieve some of the images, data, and texts we requested requested via the GUI (so in HTML)  in the previos parts now in their machine readable fromats(json, rdf, xnl, csv) via API and sparql services in the wikimedia infra, giving more controll & felixibilty over the excat ouptut, cutom made for ypour needs
+I'll try to follow the same order as in Parts 2, 3 and 4, so 
+# all highlights
+# indivdial highlghts
+# individual highlght images
+and explain how you can retrieve some of the images, data, and texts we requested requested via the GUI (so in HTML)  in the previos parts now in their machine readable fromats(json, rdf, xnl, csv) via API and sparql services in the wikimedia infra, giving more controll & felixibilty over the excat ouptut, custom made for ypour needs
 
 
 ## Reuse - all highlights
