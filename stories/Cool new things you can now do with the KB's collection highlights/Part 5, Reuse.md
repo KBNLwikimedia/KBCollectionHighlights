@@ -37,13 +37,13 @@ resulting into a **[SPARQL driven thumbnail gallery](https://w.wiki/3E8z)** of K
 
 39) Next, let's look at lists and tables. The [list of highlights](https://www.kb.nl/galerij/digitale-topstukken) on the KB website is only availabe as HTML. For effective reuse you'd prefer it in a structured and open format such as JSON, XML or RDF. Let's look how we can request **structured list of KB highlights, both simple and more elaborate** from the Wikidata query service: 
 
-  **a) Basic list**, with only the names and descriptions of the highlights<br/>
-   * Wikidata SPARQL endpoint (WDQS) https://w.wiki/3Du9
-   * result as JSON - https://query.wikidata.org/sparql?query=select%20%3Fitem%20%3FitemLabel%20%0Awhere%20{%0A%20%20%3Fitem%20p%3AP195%20%3Fst%20.%0A%20%20%3Fst%20ps%3AP195%20wd%3AQ1526131%20.%0A%20%20%3Fst%20pq%3AP2868%20wd%3AQ29188408%0A%20%20%20%20%20%20%20%20SERVICE%20wikibase%3Alabel%20{%20bd%3AserviceParam%20wikibase%3Alanguage%20%22nl%22.%20}%0A}&format=json
-   * https://query.wikidata.org/bigdata/namespace/wdq/sparql?query=select%20%3Fitem%20%3FitemLabel%20%0Awhere%20{%0A%20%20%3Fitem%20p%3AP195%20%3Fst%20.%0A%20%20%3Fst%20ps%3AP195%20wd%3AQ1526131%20.%0A%20%20%3Fst%20pq%3AP2868%20wd%3AQ29188408%0A%20%20%20%20%20%20%20%20SERVICE%20wikibase%3Alabel%20{%20bd%3AserviceParam%20wikibase%3Alanguage%20%22nl%22.%20}%0A} (XML download)
+  a) **[Simple list](https://w.wiki/3FWz)**, with the names, labels and descriptions of the highlights in English<br/>
 
+  <kbd><img src="images/image-p5-003.png" width="100%"/></kbd><br/><sub>*[Simple list](https://w.wiki/3FW$) of KB collection highlights, with the names, labels and descriptions of the highlights in English. Screenshot Wikidata query service d.d. 28-04-2021*</sub>
 
-  **b) Elaborate list**<br/>
+You can also request the [result as JSON](https://query.wikidata.org/sparql?query=%23%20Simple%20list%20of%20KB%20collection%20highlights%20%0ASELECT%20DISTINCT%20%3Fhighlight%20%3FhighlightLabel%20%3FhighlightDescription%0AWHERE%20%7B%0A%20%20%23%20the%20thing%20is%20part%20of%20the%20KB%20collection%2C%20and%20has%20role%20'collection%20highlight'%20within%20that%20collection%0A%20%20%3Fhighlight%20(p%3AP195%2Fps%3AP195)%20wd%3AQ1526131%3B%20p%3AP195%20%5Bpq%3AP2868%20wd%3AQ29188408%5D.%20%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%0A%7D%0AORDER%20BY%20%3FhighlightLabel&format=json) and as an [XML download](https://query.wikidata.org/bigdata/namespace/wdq/sparql?query=%23%20Simple%20list%20of%20KB%20collection%20highlights%20%0ASELECT%20DISTINCT%20%3Fhighlight%20%3FhighlightLabel%20%3FhighlightDescription%0AWHERE%20%7B%0A%20%20%23%20the%20thing%20is%20part%20of%20the%20KB%20collection%2C%20and%20has%20role%20'collection%20highlight'%20within%20that%20collection%0A%20%20%3Fhighlight%20(p%3AP195%2Fps%3AP195)%20wd%3AQ1526131%3B%20p%3AP195%20%5Bpq%3AP2868%20wd%3AQ29188408%5D.%20%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%0A%7D%0AORDER%20BY%20%3FhighlightLabel)
+
+  b) **[Elaborate list]()**<br/>
 Moe elabvorate list, we [alreay saw in part 2](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Listeria)
 --m aar dan als ruwe sparql en json
 SPARQL https://w.wiki/3DuJ (maar nog verbeteen)
