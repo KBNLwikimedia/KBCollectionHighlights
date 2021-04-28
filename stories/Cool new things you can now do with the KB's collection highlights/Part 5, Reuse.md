@@ -14,7 +14,7 @@ In dit vijfde deel ga ik het laatste groepje gereedschappen van het rechter mes 
 
  In Part 5, Reuse I will explain how you can reuse KB's collection highlights outside of the Wikimedia context, that is, for/in your own websites, services, apps, hackathons and projects. I'm going to talk about REST APIs, SPARQL, data dumps, Python scripts and machine interactions with our highlights.
 
-Ik ga het m.a.w. hebben over APIs, SPARQL, datadumps, Python en script- en machinematige interacties met onze topstukken. Toffe dingen voor onze doelgroep van ontwikkelaars, appbouwers, digital humanists, data scientists, LOD-afficionados en andere leuke nerds.
+Ik ga het m.a.w. hebben over APIs, SPARQL, Python en script- en machinematige interacties met onze topstukken. Toffe dingen voor onze doelgroep van ontwikkelaars, appbouwers, digital humanists, data scientists, LOD-afficionados en andere leuke nerds.
 
 I'll Try to Follow the same orfer as in parts 2, 3 and 4, so 
 - all highlights
@@ -65,7 +65,7 @@ It results into a [simple list](https://w.wiki/3FW$) of KB collection highlights
 
 You can also request the [result as JSON](https://query.wikidata.org/sparql?query=%23%20Simple%20list%20of%20KB%20collection%20highlights%20%0ASELECT%20DISTINCT%20%3Fhighlight%20%3FhighlightLabel%20%3FhighlightDescription%0AWHERE%20%7B%0A%20%20%23%20the%20thing%20is%20part%20of%20the%20KB%20collection%2C%20and%20has%20role%20'collection%20highlight'%20within%20that%20collection%0A%20%20%3Fhighlight%20(p%3AP195%2Fps%3AP195)%20wd%3AQ1526131%3B%20p%3AP195%20%5Bpq%3AP2868%20wd%3AQ29188408%5D.%20%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%0A%7D%0AORDER%20BY%20%3FhighlightLabel&format=json) and as an [XML download](https://query.wikidata.org/bigdata/namespace/wdq/sparql?query=%23%20Simple%20list%20of%20KB%20collection%20highlights%20%0ASELECT%20DISTINCT%20%3Fhighlight%20%3FhighlightLabel%20%3FhighlightDescription%0AWHERE%20%7B%0A%20%20%23%20the%20thing%20is%20part%20of%20the%20KB%20collection%2C%20and%20has%20role%20'collection%20highlight'%20within%20that%20collection%0A%20%20%3Fhighlight%20(p%3AP195%2Fps%3AP195)%20wd%3AQ1526131%3B%20p%3AP195%20%5Bpq%3AP2868%20wd%3AQ29188408%5D.%20%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%0A%7D%0AORDER%20BY%20%3FhighlightLabel)
 
-   b) *[Elaborate list](https://w.wiki/3FXe)*, recreating the [overview table of KB collection highlights](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Listeria) from [part 2](Part%202%2C%20Overviews%20of%20all%20highlights.html) via SPARQL 
+   b) *[Elaborate list](https://w.wiki/3FXe)*, recreating the [overview table of KB collection highlights](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Listeria) from [Part 2](Part%202%2C%20Overviews%20of%20all%20highlights.html) via SPARQL 
 
 <kbd><img src="images/image-p5-004.png" height="220"/></kbd><kbd><img src="images/image-p5-005.png" height="220"/></kbd><br/>
 <sub>*Left: [SPARQL query](https://w.wiki/3FXe) to create an elaborate list of KB collection highlights. Right: Result of the query, an [elaborate list](https://w.wiki/3FXg) of KB collection highlights. Please note the results have not been aggregated by the [GROUP_CONCAT function](https://www.wikidata.org/wiki/Wikidata:SPARQL_tutorial#Aggregate_functions_summary), hence the higher number of results compared to the simple query. Screenshots Wikidata query service d.d. 28-04-2021*</sub>
@@ -75,7 +75,7 @@ You can also request the [result as JSON](https://query.wikidata.org/sparql?quer
   <kbd><img src="images/image-p5-006.png" height="400"/></kbd><kbd><img src="images/image-p5-007.png" height="400"/></kbd><br/>
   <sub>*Left: JSON result of the query. Right: XML result of the query. Screenshots Wikidata query service d.d. 28-04-2021*</sub>
 
-39) You might want to **programatically check for Wikipedia articles about KB highlights** [in Dutch](https://w.wiki/3FbF), using this query:
+40) You might want to **programatically check for Wikipedia articles about KB highlights** [in Dutch](https://w.wiki/3FbF), using this query:
 
 ```sparql
 #Articles about KB collection highlights on Dutch Wikipedia
@@ -99,18 +99,71 @@ https://commons.wikimedia.org/w/api.php?action=help&modules=main - General, with
 https://commons.wikimedia.org/w/api.php?action=help&modules=query - Fetch data from and about Wikimedia Commons. Mostly used, with here some 
 https://commons.wikimedia.org/wiki/Commons:API/MediaWiki - Examples of using the MediaWiki API to request Commons content. 
 
+=============================================================
+41) Request the images from [Armorial de Beyeren](https://commons.wikimedia.org/wiki/Category:Armorial_de_Beyeren) as a JSON file
+
+as json 
+https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:Armorial%20de%20Beyeren&format=json&gcmnamespace=6
+https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category%3ADe+Nieuwe+Rijschool&format=json&gcmnamespace=6
+
+as xml 
+https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:Armorial%20de%20Beyeren&format=xml&gcmnamespace=6
+https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:De%20Nieuwe%20Rijschool&format=xml&gcmnamespace=6
 
 
-4x) Request the images from [Armorial de Beyeren](https://commons.wikimedia.org/wiki/Category:Armorial_de_Beyeren) as a JSON file
-as json https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:Armorial%20de%20Beyeren&format=json&gcmnamespace=6
-as xml https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:Armorial%20de%20Beyeren&format=xml&gcmnamespace=6
 
-List of deicted things in a highlight via sparql: 
+
+
+=============================================================
+42) Dingen afgebeeld in Atlas de Wit - via WMC sparql
+https://tinyurl.com/yzp3xy8l
+https://wcqs-beta.wmflabs.org/sparql?query=SELECT%20%3Ffile%20(GROUP_CONCAT(DISTINCT%20%3FdepictionLabel%20%3B%20separator%20%3D%20%22%20--%20%22)%20as%20%3FThingsDepicted)%0AWHERE%20%7b%0A%20%20%3Ffile%20wdt%3AP6243%20wd%3AQ2520345%20.%0A%20%20%3Ffile%20wdt%3AP180%20%3Fdepiction%20.%0A%20%20SERVICE%20%3Chttps%3A%2F%2Fquery.wikidata.org%2Fsparql%3E%20%7b%20%20%0A%20%20%20%20SERVICE%20wikibase%3Alabel%20%7b%0A%20%20%20%20%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%22nl%22%20.%0A%20%20%20%20%20%20%20%20%3Fdepiction%20rdfs%3Alabel%20%3FdepictionLabel.%0A%20%20%20%20%20%20%20%20%3Ffile%20rdfs%3Alabel%20%3FfileLabel.%0A%20%20%20%20%7d%0A%20%20%7d%0A%7d%0AGROUP%20BY%20%3Ffile&format=json
+
+#Captions of files depicting roses
+SELECT ?file ?fileLabel WHERE {
+  ?file wdt:P180 wd:Q80973 .
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}
+
+=============================================================
+43) Embedded AAJH contributos gallerey in KB website
+https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Hergebruik/Voorbeelden/Smoelenboek_bijdragers_AAJH#Vormgeving_kb.nl
+=====================================================
+Requrst which WP aricles (in all langiages) are avialable for a given highlightd, in json
+https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q42&props=sitelinks
+=======================================================
+44) De kenmerken van elke topstukk opvragen in xml, rdf, json
+
+For cases in which it is inconvenient to use content negotiation (e.g. to view non-HTML content in a web browser), you can also access data about an entity in a specific format by extending the data URL with an extension suffix to indicate the content format that you want, such as .json, .rdf, .ttl, .nt or .jsonld. For example, https://www.wikidata.org/wiki/Special:EntityData/Q42.json 
+
+https://www.wikidata.org/wiki/Special:EntityData/Q5.json
+https://www.wikidata.org/wiki/Special:EntityData/Q1018644
+https://www.wikidata.org/wiki/Special:EntityData/Q1018644.rdf
+
+========================================================================
+https://www.wikidata.org/w/api.php?action=help&modules=wbgetentities
+
+https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q372|Q44&format=json
+https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q372&format=xml
+========================================
+45) Een overicht opvragen in XML bij de Topstrukken betrokken entiteien:  (makers, bijdragers, vertalers, uitgevers, drukkers, illustratoren, eigenaren 
+==============================
+46)
+==============================
+47)
+==============================
+48)
+==============================
 
 ## Reuse - individual highlight images
-https://tools.wmflabs.org/magnus-toolserver/commonsapi.php - request image info
+==================================================
+49) SDoC Dingen afgebeeld in 1 bepaald bestand uit Atlas de Wit - via WMC api: 
+https://commons.wikimedia.org/wiki/Commons:Depicts#Access
+===================================
+50) https://tools.wmflabs.org/magnus-toolserver/commonsapi.php - request image info
 
-
+https://tools.wmflabs.org/magnus-toolserver/commonsapi.php?image=Album%20amicorum%20Jacob%20Heyblocq%20KB131H26%20-%20p010%20-%20Franciscus%20Snellinx%20-%20Poem%20part2.jpg&thumbwidth=150&thumbheight=150&versions&meta&format=json
+https://commons.wikimedia.org/w/api.php?action=query&titles=Image:Album%20amicorum%20Jacob%20Heyblocq%20KB131H26%20-%20p010%20-%20Franciscus%20Snellinx%20-%20Poem%20part2.jpg&prop=imageinfo&iiprop=extmetadata
 
 ## Summary
 OK, that's it for this fifth and last article.  For convenience and overview, let me summarize all the cool new things for KB's collection highlights we have seen in this article:
