@@ -100,19 +100,24 @@ https://commons.wikimedia.org/w/api.php?action=help&modules=query - Fetch data f
 https://commons.wikimedia.org/wiki/Commons:API/MediaWiki - Examples of using the MediaWiki API to request Commons content. 
 
 =============================================================
-41) Request the images from [Armorial de Beyeren](https://commons.wikimedia.org/wiki/Category:Armorial_de_Beyeren) as a JSON file
+41) Request the images from [Armorial de Beyeren](https://commons.wikimedia.org/wiki/Category:Armorial_de_Beyeren) as a JSON/XML file
 
+a) Shoert list, names only
 as json 
-https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:Armorial%20de%20Beyeren&format=json&gcmnamespace=6
-https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category%3ADe+Nieuwe+Rijschool&format=json&gcmnamespace=6
+* https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:Armorial%20de%20Beyeren&format=json&gcmnamespace=6
+* https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category%3ADe+Nieuwe+Rijschool&format=json&gcmnamespace=6
 
 as xml 
-https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:Armorial%20de%20Beyeren&format=xml&gcmnamespace=6
-https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:De%20Nieuwe%20Rijschool&format=xml&gcmnamespace=6
+* https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:Armorial%20de%20Beyeren&format=xml&gcmnamespace=6
+* https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:De%20Nieuwe%20Rijschool&format=xml&gcmnamespace=6
 
+b) Longer lists, URLs
+Request URLS: List of file titles, file page URLs and direct image URLs (json, via Commons API)
+* https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmtitle=Category:Reward%20letter%20of%20King%20Filip%20II%20of%20Spain%20to%20family%20of%20Balthasar%20Gerards,%201590&gcmlimit=500&gcmtype=file&prop=imageinfo&iiprop=url&format=json
+* https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmtitle=Category:Reward%20letter%20of%20King%20Filip%20II%20of%20Spain%20to%20family%20of%20Balthasar%20Gerards,%201590&gcmlimit=500&gcmtype=file&prop=imageinfo&iiprop=url&format=xml
 
-
-
+* https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmtitle=Category:Album_amicorum_van_Jacobus_Heyblocq&gcmlimit=500&gcmtype=file&prop=imageinfo&iiprop=url&format=json
+* https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmtitle=Category:Album_amicorum_van_Jacobus_Heyblocq&gcmlimit=500&gcmtype=file&prop=imageinfo&iiprop=url&format=xml
 
 =============================================================
 42) Dingen afgebeeld in Atlas de Wit - via WMC sparql
@@ -128,37 +133,41 @@ SELECT ?file ?fileLabel WHERE {
 =============================================================
 43) Embedded AAJH contributos gallerey in KB website
 https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Hergebruik/Voorbeelden/Smoelenboek_bijdragers_AAJH#Vormgeving_kb.nl
+
 =====================================================
-Requrst which WP aricles (in all langiages) are avialable for a given highlightd, in json
+44)Requrst which WP aricles (in all langiages) are avialable for a given highlightd, in json
 https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q42&props=sitelinks
+
 =======================================================
-44) De kenmerken van elke topstukk opvragen in xml, rdf, json
+45) De kenmerken van elke topstukk opvragen in xml, rdf, json
 
 For cases in which it is inconvenient to use content negotiation (e.g. to view non-HTML content in a web browser), you can also access data about an entity in a specific format by extending the data URL with an extension suffix to indicate the content format that you want, such as .json, .rdf, .ttl, .nt or .jsonld. For example, https://www.wikidata.org/wiki/Special:EntityData/Q42.json 
-
 https://www.wikidata.org/wiki/Special:EntityData/Q5.json
 https://www.wikidata.org/wiki/Special:EntityData/Q1018644
 https://www.wikidata.org/wiki/Special:EntityData/Q1018644.rdf
 
-========================================================================
 https://www.wikidata.org/w/api.php?action=help&modules=wbgetentities
-
 https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q372|Q44&format=json
 https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q372&format=xml
+
 ========================================
-45) Een overicht opvragen in XML bij de Topstrukken betrokken entiteien:  (makers, bijdragers, vertalers, uitgevers, drukkers, illustratoren, eigenaren 
+46) Een overicht opvragen in XML bij de Topstrukken betrokken entiteien:  (makers, bijdragers, vertalers, uitgevers, drukkers, illustratoren, eigenaren 
+
 ==============================
-46)
+47) Examples of **Python scripts** to request & process highlight data
+https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Hergebruik/Wikidata
+
 ==============================
-47)
-==============================
-48)
+48) linjkngto eexternal identfiers – europeana, rkd… AAJH
+
 ==============================
 
 ## Reuse - individual highlight images
+
 ==================================================
 49) SDoC Dingen afgebeeld in 1 bepaald bestand uit Atlas de Wit - via WMC api: 
 https://commons.wikimedia.org/wiki/Commons:Depicts#Access
+
 ===================================
 50) https://tools.wmflabs.org/magnus-toolserver/commonsapi.php - request image info
 
