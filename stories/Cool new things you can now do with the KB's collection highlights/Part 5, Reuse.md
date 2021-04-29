@@ -80,16 +80,16 @@ As before, the results can be requested in [JSON](https://query.wikidata.org/spa
 
 ## Reuse - individual highlights
 
-41) In [Part 3](Part%203%2C%20Overviews%20per%20highlight.html) we looked at the individual images (14), double openings (15) and miniatures/page details (16) that are available for public domain highlights. Let's see how we can **request images from the [Wikimedia Commons query API](https://commons.wikimedia.org/w/api.php?action=help&modules=query)** using [this documentation](https://www.mediawiki.org/wiki/API:Categorymembers).
+41) In [Part 3](Part%203%2C%20Overviews%20per%20highlight.html) we looked at the individual images (14), double openings (15) and miniatures/page details (16) that are available for public domain highlights. Let's see how we can **request image URLs from the [Wikimedia Commons query API](https://commons.wikimedia.org/w/api.php?action=help&modules=query)** using [this documentation](https://www.mediawiki.org/wiki/API:Categorymembers).
 
 - **Individual pages**<br/> 
   For [Armorial de Beyeren](https://commons.wikimedia.org/wiki/Category:Armorial_de_Beyeren) we can request a simple list of images
   - in JSON: [https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:Armorial%20de%20Beyeren&*format=json&gcmnamespace=6*](https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:Armorial%20de%20Beyeren&format=json&gcmnamespace=6) and 
-  - in XML [https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:Armorial%20de%20Beyeren&*format=xml&gcmnamespace=6*](https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:Armorial%20de%20Beyeren&format=xml&gcmnamespace=6). 
+  - in XML: [https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:Armorial%20de%20Beyeren&*format=xml&gcmnamespace=6*](https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:Armorial%20de%20Beyeren&format=xml&gcmnamespace=6). 
 
   Here we are filtering on [namespace=6](https://commons.wikimedia.org/wiki/Help:Namespaces#Standard_Namespaces) (ns=6), so we are looking for files only (ie. no categories (ns=14) or galleries (ns=0)).   
 
-  <kbd><img src="images/image-p5-008.png" width="100%"/></kbd><br/><sub>*XML list of files from [Armorial de Beyeren](https://commons.wikimedia.org/wiki/Category:Armorial_de_Beyeren) using [this API call](https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:Armorial%20de%20Beyeren&format=xml&gcmnamespace=6). Screenshots Wikimedia Commons API, d.d. 29-04-2021*</sub>
+  <kbd><img src="images/image-p5-008.png" width="100%"/></kbd><br/><sub>*XML list of files from [Armorial de Beyeren](https://commons.wikimedia.org/wiki/Category:Armorial_de_Beyeren) using [this API call](https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:Armorial%20de%20Beyeren&format=xml&gcmnamespace=6). Screenshot Wikimedia Commons API, d.d. 29-04-2021*</sub>
 
 - **Double page openings**<br/> 
   The downside of the above reponses is that they contain no real URLs (starting with https://), but only Wikimedia Commons file names. To request real https URLs we need to modify our API call. When we apply the modified call to the [double page openings of Visboek Coenen](https://commons.wikimedia.org/wiki/Category:Visboeck_Coenen_(openings)), 
@@ -98,20 +98,36 @@ As before, the results can be requested in [JSON](https://query.wikidata.org/spa
 
   we get this XML reponse
 
-  <kbd><img src="images/image-p5-009.png" width="100%"/></kbd><br/><sub>*XML reponse containing https URLs to the [double page openings of Visboek Coenen](https://commons.wikimedia.org/wiki/Category:Visboeck_Coenen_(openings)) using [this API call](https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmtitle=Category:Visboeck_Coenen_(openings)&gcmlimit=500&gcmtype=file&prop=imageinfo&iiprop=url&format=xml). Screenshots Wikimedia Commons API, d.d. 29-04-2021*</sub>
+  <kbd><img src="images/image-p5-009.png" width="100%"/></kbd><br/><sub>*XML reponse containing https URLs to the [double page openings of Visboek Coenen](https://commons.wikimedia.org/wiki/Category:Visboeck_Coenen_(openings)) using [this API call](https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmtitle=Category:Visboeck_Coenen_(openings)&gcmlimit=500&gcmtype=file&prop=imageinfo&iiprop=url&format=xml). Screenshot Wikimedia Commons API, d.d. 29-04-2021*</sub>
 
-  Please note that this reponse contains both direct URLs to the hires images ([example](https://upload.wikimedia.org/wikipedia/commons/e/ed/Adriaen_Coenen%27s_Visboeck_-_KB_78_E_54_-_Folio_001r.jpg)), as well as two forms of URLs to the Wikimedia Commons files pages ([example](https://commons.wikimedia.org/wiki/File:Adriaen_Coenen%27s_Visboeck_-_KB_78_E_54_-_Folio_001r.jpg)).
+  Please note that this reponse contains both direct URLs to the hires images ([example](https://upload.wikimedia.org/wikipedia/commons/e/ed/Adriaen_Coenen%27s_Visboeck_-_KB_78_E_54_-_Folio_001r.jpg)), as well as two forms of URLs to the Wikimedia Commons files page ([example](https://commons.wikimedia.org/wiki/File:Adriaen_Coenen%27s_Visboeck_-_KB_78_E_54_-_Folio_001r.jpg)).
   
-- **Miniatures and page details** fron Der Nature Bloeme // Page details from Kunst en Samenleving
-Similarly, 
+- **Miniatures and page details**<br/>
+  Besides calling the API by URL (as done above), it is also possible to do this via a Python script. For instance, we can request the [miniatures](https://commons.wikimedia.org/wiki/Category:Chroniques_de_Froissart,_vol_1_-_Den_Haag,_KB_:_72_A_25_(details)) from [Chroniques de Froissart](https://commons.wikimedia.org/wiki/Category:Chroniques_de_Froissart,_vol_1_-_Den_Haag,_KB_:_72_A_25_(c.1410)):
 
-b) Longer lists, URLs
-Request URLS: List of file titles, file page URLs and direct image URLs (json, via Commons API)
-* https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmtitle=Category:Reward%20letter%20of%20King%20Filip%20II%20of%20Spain%20to%20family%20of%20Balthasar%20Gerards,%201590&gcmlimit=500&gcmtype=file&prop=imageinfo&iiprop=url&format=json
-* https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmtitle=Category:Reward%20letter%20of%20King%20Filip%20II%20of%20Spain%20to%20family%20of%20Balthasar%20Gerards,%201590&gcmlimit=500&gcmtype=file&prop=imageinfo&iiprop=url&format=xml
+```python
+#!/usr/bin/python3
+import requests, json
+S = requests.Session()
+URL = "https://commons.wikimedia.org/w/api.php"
+PARAMS = {
+    "action": "query",
+    "gcmtitle":"Category:Chroniques_de_Froissart,_vol_1_-_Den_Haag,_KB_:_72_A_25_(details)",
+    "gcmlimit":"500",
+    "generator":"categorymembers",
+    "format":"json",
+    "gcmtype":"file",
+    "prop":"imageinfo",
+    "iiprop":"url"
+}
+R = S.get(url=URL, params=PARAMS)
+DATA = R.json()
+PAGES = DATA['query']['pages']
+print(json.dumps(PAGES, indent=2))
+```
+Running this script in my [Python IDE](https://www.jetbrains.com/pycharm/) gives the following output: 
 
-* https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmtitle=Category:Album_amicorum_van_Jacobus_Heyblocq&gcmlimit=500&gcmtype=file&prop=imageinfo&iiprop=url&format=json
-* https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmtitle=Category:Album_amicorum_van_Jacobus_Heyblocq&gcmlimit=500&gcmtype=file&prop=imageinfo&iiprop=url&format=xml
+  <kbd><img src="images/image-p5-010.png" width="100%"/></kbd><br/><sub>*Titles and URLs of [miniatures](https://commons.wikimedia.org/wiki/Category:Chroniques_de_Froissart,_vol_1_-_Den_Haag,_KB_:_72_A_25_(details)) from [Chroniques de Froissart](https://commons.wikimedia.org/wiki/Category:Chroniques_de_Froissart,_vol_1_-_Den_Haag,_KB_:_72_A_25_(c.1410)) formatted as JSON. Screenshot [Pycharm IDE](https://www.jetbrains.com/pycharm/), d.d. 29-04-2021*</sub>
 
 =============================================================
 42) Dingen afgebeeld in Atlas de Wit - via WMC sparql
@@ -176,7 +192,7 @@ OK, that's it for this fifth and last article.  For convenience and overview, le
 38) A [SPARQL driven thumbnail gallery](https://w.wiki/3E8z) of KB highlights<br/>
 39) Structured lists of all KB highlights, both [simple](https://w.wiki/3FWz) and [more elaborate](https://w.wiki/3FXe) in [JSON](https://query.wikidata.org/sparql?query=%23%20Elaborated%20list%20of%20KB%20collection%20highlights%2C%20recreating%0A%23%20https%3A%2F%2Fnl.wikipedia.org%2Fwiki%2FWikipedia%3AGLAM%2FKoninklijke_Bibliotheek_en_Nationaal_Archief%2FTopstukken%2FListeria%0A%23%20using%20SPARQL%0A%0ASELECT%20DISTINCT%20%3Fhighlight%20%3FhighlightLabel%20%3Ftitle%20%3FhighlightDescription%20%3Fimage%20%3FhighlightIsALabel%20%3FinventoryNr%20%0A%3Fkbcat%20%3Fkburl%20%3Fbrowsebook%20%3Fgallery%20%3FcopyrightLabel%20%0A%0AWHERE%20%7B%0A%20%20%3Fhighlight%20p%3AP195%20%3Fst%20.%0A%20%20%3Fst%20ps%3AP195%20wd%3AQ1526131%20.%0A%20%20%3Fst%20pq%3AP2868%20wd%3AQ29188408.%0A%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP18%20%3Fimage.%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP1476%20%3Ftitle.%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP31%20%3FhighlightIsA.%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP217%20%3FinventoryNr.%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP528%20%3Fppn.%0A%20%20%20%20%20BIND(CONCAT(%22https%3A%2F%2Fresolver.kb.nl%2Fresolve%3Furn%3DPPN%3A%22%2C%3Fppn)%20AS%20%3Fkbcat).%7D%20%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP973%20%3Fkburl.%0A%20%20%20%20%20FILTER(STRSTARTS(STR(%3Fkburl)%2C%20%22https%3A%2F%2Fwww.kb.nl%2Fthemas%2F%22)).%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP953%20%3Fbrowsebook.%0A%20%20%20%20%20FILTER(STRSTARTS(STR(%3Fbrowsebook)%2C%20%22https%3A%2F%2Fgalerij.kb.nl%22)).%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP935%20%3Fgal.%0A%20%20%20%20%20BIND(CONCAT(%22https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2F%22%2CREPLACE(%3Fgal%2C%22%20%22%2C%22_%22))%20AS%20%3Fgallery).%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP6216%20%3Fcopyright.%7D%0A%20%20%20%20%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%0A%7D%20ORDER%20BY%20%3FhighlightLabel%0A%0A%0A%0A%0A%0A%0A%0A&format=json) and [XML](https://query.wikidata.org/bigdata/namespace/wdq/sparql?query=%23%20Simple%20list%20of%20KB%20collection%20highlights%20%0ASELECT%20DISTINCT%20%3Fhighlight%20%3FhighlightLabel%20%3FhighlightDescription%0AWHERE%20%7B%0A%20%20%23%20the%20thing%20is%20part%20of%20the%20KB%20collection%2C%20and%20has%20role%20'collection%20highlight'%20within%20that%20collection%0A%20%20%3Fhighlight%20(p%3AP195%2Fps%3AP195)%20wd%3AQ1526131%3B%20p%3AP195%20%5Bpq%3AP2868%20wd%3AQ29188408%5D.%20%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%0A%7D%0AORDER%20BY%20%3FhighlightLabel)<br/>
 40) Programatically check for [Wikipedia articles about KB highlights in Dutch](https://w.wiki/3FbF)<br/>
-41) Request images from the [Wikimedia Commons query API](https://commons.wikimedia.org/w/api.php?action=help&modules=query)<br/>
+41) Request multiple image URLs from the [Wikimedia Commons query API](https://commons.wikimedia.org/w/api.php?action=help&modules=query) for a specific highlight<br/>
 42) <br/>
 43) <br/>
 44) <br/>
