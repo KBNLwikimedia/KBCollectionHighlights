@@ -78,7 +78,7 @@ As before, the results can be requested in [JSON](https://query.wikidata.org/spa
 
 ## Reuse - individual highlights
 
-41) In [Part 3](Part%203%2C%20Overviews%20per%20highlight.html) we looked at the individual images (14), double openings (15) and miniatures/page details (16) that are available for public domain highlights. Let's see how we can **request image URLs from the [Wikimedia Commons query API](https://commons.wikimedia.org/w/api.php?action=help&modules=query)** using [this documentation](https://www.mediawiki.org/wiki/API:Categorymembers).
+41) In [Part 3](Part%203%2C%20Overviews%20per%20highlight.html) we looked at individual pages (14), double page openings (15) and miniatures/page details (16) that are available for public domain highlights. Let's see how we can **request image URLs from the [Wikimedia Commons query API](https://commons.wikimedia.org/w/api.php?action=help&modules=query)** using [this documentation](https://www.mediawiki.org/wiki/API:Categorymembers).
 
 - **Individual pages**<br/> 
   For [Armorial de Beyeren](https://commons.wikimedia.org/wiki/Category:Armorial_de_Beyeren) we can request a simple list of images
@@ -90,7 +90,7 @@ As before, the results can be requested in [JSON](https://query.wikidata.org/spa
   <kbd><img src="images/image-p5-008.png" width="100%"/></kbd><br/><sub>*XML list of files from [Armorial de Beyeren](https://commons.wikimedia.org/wiki/Category:Armorial_de_Beyeren) using [this API call](https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:Armorial%20de%20Beyeren&format=xml&gcmnamespace=6). Screenshot Wikimedia Commons API, d.d. 29-04-2021*</sub>
 
 - **Double page openings**<br/> 
-  The downside of the above reponses is that they contain no real URLs (starting with https://), but only Wikimedia Commons file names. To request real https URLs we need to modify our API call. When we apply the modified call to the [double page openings of Visboek Coenen](https://commons.wikimedia.org/wiki/Category:Visboeck_Coenen_(openings)), 
+  The downside of the above reponses is that they do not contain URLs (starting with https://), but only Wikimedia Commons file names. To request https URLs we need to modify our API call. When we apply the modified call to the [double page openings of Visboek Coenen](https://commons.wikimedia.org/wiki/Category:Visboeck_Coenen_(openings)), 
 
   [https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmtitle=Category:Visboeck_Coenen_(openings)&gcmlimit=500&gcmtype=file&prop=imageinfo&iiprop=url&format=xml](https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmtitle=Category:Visboeck_Coenen_(openings)&gcmlimit=500&gcmtype=file&prop=imageinfo&iiprop=url&format=xml)
 
@@ -101,7 +101,7 @@ As before, the results can be requested in [JSON](https://query.wikidata.org/spa
   Please note that this reponse contains both direct URLs to the hires images ([example](https://upload.wikimedia.org/wikipedia/commons/e/ed/Adriaen_Coenen%27s_Visboeck_-_KB_78_E_54_-_Folio_001r.jpg)), as well as two forms of URLs to the Wikimedia Commons files page ([example](https://commons.wikimedia.org/wiki/File:Adriaen_Coenen%27s_Visboeck_-_KB_78_E_54_-_Folio_001r.jpg)).
   
 - **Miniatures and page details**<br/>
-  Besides calling the API by URL (as done above), it is also possible to do this via a Python script. For instance, we can request the [miniatures](https://commons.wikimedia.org/wiki/Category:Chroniques_de_Froissart,_vol_1_-_Den_Haag,_KB_:_72_A_25_(details)) from [Chroniques de Froissart](https://commons.wikimedia.org/wiki/Category:Chroniques_de_Froissart,_vol_1_-_Den_Haag,_KB_:_72_A_25_(c.1410)):
+  Besides calling the API by a URL query string (as done above), it is also possible to do this via a Python script. For instance, we can request the [miniatures](https://commons.wikimedia.org/wiki/Category:Chroniques_de_Froissart,_vol_1_-_Den_Haag,_KB_:_72_A_25_(details)) from [Chroniques de Froissart](https://commons.wikimedia.org/wiki/Category:Chroniques_de_Froissart,_vol_1_-_Den_Haag,_KB_:_72_A_25_(c.1410)):
 
   ```python
   #!/usr/bin/python3
@@ -127,6 +127,53 @@ As before, the results can be requested in [JSON](https://query.wikidata.org/spa
 
   <kbd><img src="images/image-p5-010.png" width="100%"/></kbd><br/><sub>*Titles and URLs of [miniatures](https://commons.wikimedia.org/wiki/Category:Chroniques_de_Froissart,_vol_1_-_Den_Haag,_KB_:_72_A_25_(details)) from [Chroniques de Froissart](https://commons.wikimedia.org/wiki/Category:Chroniques_de_Froissart,_vol_1_-_Den_Haag,_KB_:_72_A_25_(c.1410)) formatted as JSON. Screenshot [Pycharm IDE](https://www.jetbrains.com/pycharm/), d.d. 29-04-2021*</sub>
 
+42) Every KB highlight is described by a Wikidata item (Qnumber). Let's see how we can request **highlight information from the Wikidata API** directly from that Qnumber. We can use the [*wbgetentities* action](https://www.wikidata.org/w/api.php?action=help&modules=wbgetentities) for that.
+
+* Get all information (*'the entire Qnumber'*) from the [Beatrijs manuscript](https://www.wikidata.org/wiki/Q1929931) (Q1929931) in all available languages, as JSON: [https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1929931](https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1929931)
+
+* Get only the labels of the [Egmond Gospels](https://www.wikidata.org/wiki/Q759256) (Q759256) in all available languages, as XML: [https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q759256&props=labels&format=xml](https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q759256&props=labels&format=xml) 
+
+  <kbd><img src="images/image-p5-011.png" width="100%"/></kbd><br/><sub>*Comparision between the multilingual labeling of the Egmond Gospels (Q759256) from the [Wikidata web interface](https://www.wikidata.org/wiki/Q759256) and from the [Wikidata API](https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q759256&props=labels&format=xml). Screenshot Wikidata GUI & Wikidata API, d.d. 30-04-2021*</sub>
+
+
+* [Atlas Ortelius 1571](https://www.wikidata.org/wiki/Q67465742) (Q67465742)
+
+    https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q67465742|P18 [open in sandbox]
+
+* [Psalter of Eleanor of Aquitaine](https://www.wikidata.org/wiki/Q45126130) (Q45126130)
+
+
+
+
+
+https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q372|Q44&format=json
+https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q372&format=xml
+
+----------------------------------------
+
+For cases in which it is inconvenient to use content negotiation (e.g. to view non-HTML content in a web browser), you can also access data about an entity in a specific format by extending the data URL with an extension suffix to indicate the content format that you want, such as .json, .rdf, .ttl, .nt or .jsonld. For 
+
+https://www.wikidata.org/wiki/Wikidata:Data_access#Linked_Data_interface
+
+example, https://www.wikidata.org/wiki/Special:EntityData/Q42.json 
+https://www.wikidata.org/wiki/Special:EntityData/Q5.json
+https://www.wikidata.org/wiki/Special:EntityData/Q1018644
+https://www.wikidata.org/wiki/Special:EntityData/Q1018644.rdf
+
+
+
+=====================================================
+44)Requrst which WP aricles (in all langiages) are avialable for a given highlightd, in json
+https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q42&props=sitelinks
+
+
+========================================
+46) Een overicht opvragen in XML bij een topstuk betrokken entiteien:  (makers, bijdragers, vertalers, uitgevers, drukkers, illustratoren, eigenaren 
+
+=============================================================
+43) Embedded AAJH contributos gallerey in KB website
+https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Hergebruik/Voorbeelden/Smoelenboek_bijdragers_AAJH#Vormgeving_kb.nl
+
 =============================================================
 42) Dingen afgebeeld in Atlas de Wit - via WMC sparql
 https://tinyurl.com/yzp3xy8l
@@ -138,28 +185,6 @@ SELECT ?file ?fileLabel WHERE {
   SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
 }
 
-=============================================================
-43) Embedded AAJH contributos gallerey in KB website
-https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Hergebruik/Voorbeelden/Smoelenboek_bijdragers_AAJH#Vormgeving_kb.nl
-
-=====================================================
-44)Requrst which WP aricles (in all langiages) are avialable for a given highlightd, in json
-https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q42&props=sitelinks
-
-=======================================================
-45) De kenmerken van elke topstukk opvragen in xml, rdf, json
-
-For cases in which it is inconvenient to use content negotiation (e.g. to view non-HTML content in a web browser), you can also access data about an entity in a specific format by extending the data URL with an extension suffix to indicate the content format that you want, such as .json, .rdf, .ttl, .nt or .jsonld. For example, https://www.wikidata.org/wiki/Special:EntityData/Q42.json 
-https://www.wikidata.org/wiki/Special:EntityData/Q5.json
-https://www.wikidata.org/wiki/Special:EntityData/Q1018644
-https://www.wikidata.org/wiki/Special:EntityData/Q1018644.rdf
-
-https://www.wikidata.org/w/api.php?action=help&modules=wbgetentities
-https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q372|Q44&format=json
-https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q372&format=xml
-
-========================================
-46) Een overicht opvragen in XML bij de Topstrukken betrokken entiteien:  (makers, bijdragers, vertalers, uitgevers, drukkers, illustratoren, eigenaren 
 
 ==============================
 47) Examples of **Python scripts** to request & process highlight data
@@ -190,8 +215,8 @@ OK, that's it for this fifth and last article.  For convenience and overview, le
 38) A [SPARQL driven thumbnail gallery](https://w.wiki/3E8z) of KB highlights<br/>
 39) Structured lists of all KB highlights, both [simple](https://w.wiki/3FWz) and [more elaborate](https://w.wiki/3FXe) in [JSON](https://query.wikidata.org/sparql?query=%23%20Elaborated%20list%20of%20KB%20collection%20highlights%2C%20recreating%0A%23%20https%3A%2F%2Fnl.wikipedia.org%2Fwiki%2FWikipedia%3AGLAM%2FKoninklijke_Bibliotheek_en_Nationaal_Archief%2FTopstukken%2FListeria%0A%23%20using%20SPARQL%0A%0ASELECT%20DISTINCT%20%3Fhighlight%20%3FhighlightLabel%20%3Ftitle%20%3FhighlightDescription%20%3Fimage%20%3FhighlightIsALabel%20%3FinventoryNr%20%0A%3Fkbcat%20%3Fkburl%20%3Fbrowsebook%20%3Fgallery%20%3FcopyrightLabel%20%0A%0AWHERE%20%7B%0A%20%20%3Fhighlight%20p%3AP195%20%3Fst%20.%0A%20%20%3Fst%20ps%3AP195%20wd%3AQ1526131%20.%0A%20%20%3Fst%20pq%3AP2868%20wd%3AQ29188408.%0A%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP18%20%3Fimage.%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP1476%20%3Ftitle.%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP31%20%3FhighlightIsA.%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP217%20%3FinventoryNr.%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP528%20%3Fppn.%0A%20%20%20%20%20BIND(CONCAT(%22https%3A%2F%2Fresolver.kb.nl%2Fresolve%3Furn%3DPPN%3A%22%2C%3Fppn)%20AS%20%3Fkbcat).%7D%20%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP973%20%3Fkburl.%0A%20%20%20%20%20FILTER(STRSTARTS(STR(%3Fkburl)%2C%20%22https%3A%2F%2Fwww.kb.nl%2Fthemas%2F%22)).%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP953%20%3Fbrowsebook.%0A%20%20%20%20%20FILTER(STRSTARTS(STR(%3Fbrowsebook)%2C%20%22https%3A%2F%2Fgalerij.kb.nl%22)).%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP935%20%3Fgal.%0A%20%20%20%20%20BIND(CONCAT(%22https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2F%22%2CREPLACE(%3Fgal%2C%22%20%22%2C%22_%22))%20AS%20%3Fgallery).%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP6216%20%3Fcopyright.%7D%0A%20%20%20%20%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%0A%7D%20ORDER%20BY%20%3FhighlightLabel%0A%0A%0A%0A%0A%0A%0A%0A&format=json) and [XML](https://query.wikidata.org/bigdata/namespace/wdq/sparql?query=%23%20Simple%20list%20of%20KB%20collection%20highlights%20%0ASELECT%20DISTINCT%20%3Fhighlight%20%3FhighlightLabel%20%3FhighlightDescription%0AWHERE%20%7B%0A%20%20%23%20the%20thing%20is%20part%20of%20the%20KB%20collection%2C%20and%20has%20role%20'collection%20highlight'%20within%20that%20collection%0A%20%20%3Fhighlight%20(p%3AP195%2Fps%3AP195)%20wd%3AQ1526131%3B%20p%3AP195%20%5Bpq%3AP2868%20wd%3AQ29188408%5D.%20%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%0A%7D%0AORDER%20BY%20%3FhighlightLabel)<br/>
 40) Programatically check for [Wikipedia articles about KB highlights in Dutch](https://w.wiki/3FbF)<br/>
-41) Request multiple image URLs from the [Wikimedia Commons query API](https://commons.wikimedia.org/w/api.php?action=help&modules=query) for a specific highlight<br/>
-42) <br/>
+41) Request multiple image URLs from the [Wikimedia Commons query API](https://commons.wikimedia.org/w/api.php?action=help&modules=query) for a specific highlight, both via URL query strings and Python scripts<br/>
+42) Request highlight information from the [Wikidata API](https://www.wikidata.org/w/api.php?action=help&modules=wbgetentities) directly from the highlight's Qnumber<br/>
 43) <br/>
 44) <br/>
 45) <br/>
