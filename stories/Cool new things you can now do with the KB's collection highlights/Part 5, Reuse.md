@@ -103,26 +103,26 @@ As before, the results can be requested in [JSON](https://query.wikidata.org/spa
 - **Miniatures and page details**<br/>
   Besides calling the API by a URL query string (as done above), it is also possible to do this via a Python script. For instance, we can request the [miniatures](https://commons.wikimedia.org/wiki/Category:Chroniques_de_Froissart,_vol_1_-_Den_Haag,_KB_:_72_A_25_(details)) from [Chroniques de Froissart](https://commons.wikimedia.org/wiki/Category:Chroniques_de_Froissart,_vol_1_-_Den_Haag,_KB_:_72_A_25_(c.1410)):
 
-  ```python
-  #!/usr/bin/python3
-  import requests, json
-  S = requests.Session()
-  URL = "https://commons.wikimedia.org/w/api.php"
-  PARAMS = {
-     "action": "query",
-     "gcmtitle":"Category:Chroniques_de_Froissart,_vol_1_-_Den_Haag,_KB_:_72_A_25_(details)",
-     "gcmlimit":"500",
-     "generator":"categorymembers",
-     "format":"json",
-     "gcmtype":"file",
-     "prop":"imageinfo",
-     "iiprop":"url"
-  }
-  R = S.get(url=URL, params=PARAMS)
-  DATA = R.json()
-  PAGES = DATA['query']['pages']
-  print(json.dumps(PAGES, indent=2))
-  ```
+```python
+#!/usr/bin/python3
+import requests, json
+S = requests.Session()
+URL = "https://commons.wikimedia.org/w/api.php"
+PARAMS = {
+   "action": "query",
+   "gcmtitle":"Category:Chroniques_de_Froissart,_vol_1_-_Den_Haag,_KB_:_72_A_25_(details)",
+   "gcmlimit":"500",
+   "generator":"categorymembers",
+   "format":"json",
+   "gcmtype":"file",
+   "prop":"imageinfo",
+   "iiprop":"url"
+}
+R = S.get(url=URL, params=PARAMS)
+DATA = R.json()
+PAGES = DATA['query']['pages']
+print(json.dumps(PAGES, indent=2))
+```
   Running this script in my [Python IDE](https://www.jetbrains.com/pycharm/) gives the following output: 
 
   <kbd><img src="images/image-p5-010.png" width="100%"/></kbd><br/><sub>*Titles and URLs of [miniatures](https://commons.wikimedia.org/wiki/Category:Chroniques_de_Froissart,_vol_1_-_Den_Haag,_KB_:_72_A_25_(details)) from [Chroniques de Froissart](https://commons.wikimedia.org/wiki/Category:Chroniques_de_Froissart,_vol_1_-_Den_Haag,_KB_:_72_A_25_(c.1410)) formatted as JSON. Screenshot [Pycharm IDE](https://www.jetbrains.com/pycharm/), d.d. 29-04-2021*</sub>
@@ -153,46 +153,46 @@ For exploring the JSON response in further detail we can tweak [this Python scri
 For instance, we can make a list of all Wikidata properties that are used in [Q16641064](https://www.wikidata.org/wiki/Q16641064)
 
 ```python
-   import requests
-   import json
-   url = "https://www.wikidata.org/wiki/Special:EntityData/"
-   qnumbers = ['Q16641064'] # Haags liederenhandschrift // The Hague song manuscript
-   all_properties = {}
-   for qnum in qnumbers:
-       useurl = url + qnum + '.json'
-       headers = {
-   	'Accept' : 'application/json',
-   	'User-Agent': 'User OlafJanssen - Haags liederenhandschrift'
-       }
-       r = requests.get(useurl, headers=headers)
-       data = json.loads(r.text)
-       properties = list(data['entities'][qnum]['claims'].keys())
-       print(properties)
-   ```
+import requests
+import json
+url = "https://www.wikidata.org/wiki/Special:EntityData/"
+qnumbers = ['Q16641064'] # Haags liederenhandschrift // The Hague song manuscript
+all_properties = {}
+for qnum in qnumbers:
+    useurl = url + qnum + '.json'
+    headers = {
+	'Accept' : 'application/json',
+	'User-Agent': 'User OlafJanssen - Haags liederenhandschrift'
+    }
+    r = requests.get(useurl, headers=headers)
+    data = json.loads(r.text)
+    properties = list(data['entities'][qnum]['claims'].keys())
+    print(properties)
+```
 returning a list in Python
 
-    ```['P31', 'P18', 'P195', 'P217', 'P571', 'P973', 'P953', 'P373', 'P5008', 'P276', 'P1476', 'P170', 'P127', 'P767', 'P291', 'P2670', 'P2048', 'P2049', 'P186', 'P1104', 'P935', 'P8791', 'P1343', 'P528', 'P6216', 'P2671']```
+```['P31', 'P18', 'P195', 'P217', 'P571', 'P973', 'P953', 'P373', 'P5008', 'P276', 'P1476', 'P170', 'P127', 'P767', 'P291', 'P2670', 'P2048', 'P2049', 'P186', 'P1104', 'P935', 'P8791', 'P1343', 'P528', 'P6216', 'P2671']```
 
 If we modify the last couple of code lines into
 
-   ```python
-       .... # as previous
-       data = json.loads(r.text)
-       nlen= len(data['entities'][qnum]['claims']['P170'])
-       for i in range(0, nlen):
-           creatorid = data['entities'][qnum]['claims']['P170'][i]['mainsnak']['datavalue']['value']['id']
-	   creatorurl= "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=" + str(creatorid) + "&props=labels&languages=en&format=json"
-	   creatorresponse = requests.get(creatorurl, headers=headers)
-	   creatordata = json.loads(creatorresponse.text)
-	   print(str(i+1)+": "+creatordata['entities'][creatorid]['labels']['en']['value'])
-   ```
+```python
+   .... # as previous
+   data = json.loads(r.text)
+   nlen= len(data['entities'][qnum]['claims']['P170'])
+   for i in range(0, nlen):
+       creatorid = data['entities'][qnum]['claims']['P170'][i]['mainsnak']['datavalue']['value']['id']
+       creatorurl= "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=" + str(creatorid) + "&props=labels&languages=en&format=json"
+       creatorresponse = requests.get(creatorurl, headers=headers)
+       creatordata = json.loads(creatorresponse.text)
+       print(str(i+1)+": "+creatordata['entities'][creatorid]['labels']['en']['value'])
+```
 we can retrieve the English names (labels) of the three creators ([P170](https://www.wikidata.org/wiki/Property:P170)) of this manuscript: 
 
-   ```
-   1: Noydekijn
-   2: Augustijnken
-   3: Freidank
-   ```
+```
+1: Noydekijn
+2: Augustijnken
+3: Freidank
+```
 
 ========================================
 44) Een overicht opvragen in XML bij een topstuk betrokken entiteien:  (makers, bijdragers, vertalers, uitgevers, drukkers, illustratoren, eigenaren 
