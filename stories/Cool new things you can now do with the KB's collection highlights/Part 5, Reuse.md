@@ -146,7 +146,7 @@ print(json.dumps(PAGES, indent=2))
   * Other available formats are [JSON-LD](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.jsonld), [RDF](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.rdf), [NT](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.nt), [TTL or N3](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.ttl) and [PHP](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.php). 
   * Equivalant URLs for these requests use the *format argument*, e.g. : [Special:EntityData?id=Q16641064](https://www.wikidata.org/wiki/Special:EntityData?id=Q16641064&format=rdf)[*&format=rdf*](https://www.wikidata.org/wiki/Special:EntityData?id=Q16641064&format=rdf).
 
-   <kbd><img src="images/image-p5-012.png" width="100%"/></kbd><br/><sub>*Seven different output formats for the [Special:EntityData](https://www.mediawiki.org/wiki/Wikibase/EntityData) URL for the [Haags liederenhandschrift](https://www.wikidata.org/wiki/Q16641064) (Q16641064): [HTML](https://www.wikidata.org/wiki/Special:EntityData/Q16641064), [JSON](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.json), [JSON-LD](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.jsonld), [RDF](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.rdf), [NT](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.nt), [TTL or N3](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.ttl) and [PHP](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.php). Compilation of screenshot d.d. 03-05-2021*</sub>
+   <kbd><img src="images/image-p5-012.png" width="66%"/></kbd><br/><sub>*Seven different output formats for the [Special:EntityData](https://www.mediawiki.org/wiki/Wikibase/EntityData) URL for the [Haags liederenhandschrift](https://www.wikidata.org/wiki/Q16641064) (Q16641064): [HTML](https://www.wikidata.org/wiki/Special:EntityData/Q16641064), [JSON](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.json), [JSON-LD](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.jsonld), [RDF](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.rdf), [NT](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.nt), [TTL or N3](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.ttl) and [PHP](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.php). Compilation of screenshot d.d. 03-05-2021*</sub>
 
 For exploring the JSON response in further detail we can tweak [this Python script](https://gist.github.com/thisismattmiller/42c9d5981ee233c6288194af234ac6e4) that [Matt Miller](https://gist.github.com/thisismattmiller) from the Library of Congress explains in *[Demo: Programmatic Wikidata](https://www.youtube.com/watch?v=SzfC3KFqmPs)* from his YouTube series *[Programming for Cultural Heritage](https://www.youtube.com/playlist?list=PL9Oe03cT2WhwMsSZLsUg6ej-5imNzhgBX)*.
 
@@ -171,20 +171,20 @@ for qnum in qnumbers:
 ```
 returning a list in Python
 
-```['P31', 'P18', 'P195', 'P217', 'P571', 'P973', 'P953', 'P373', 'P5008', 'P276', 'P1476', 'P170', 'P127', 'P767', 'P291', 'P2670', 'P2048', 'P2049', 'P186', 'P1104', 'P935', 'P8791', 'P1343', 'P528', 'P6216', 'P2671']```
+  ```['P31', 'P18', 'P195', 'P217', 'P571', 'P973', 'P953', 'P373', 'P5008', 'P276', 'P1476', 'P170', 'P127', 'P767', 'P291', 'P2670', 'P2048', 'P2049', 'P186', 'P1104', 'P935', 'P8791', 'P1343', 'P528', 'P6216', 'P2671']```
 
 If we modify the last couple of code lines into
 
 ```python
-   .... # as previous
-   data = json.loads(r.text)
-   nlen= len(data['entities'][qnum]['claims']['P170'])
-   for i in range(0, nlen):
-       creatorid = data['entities'][qnum]['claims']['P170'][i]['mainsnak']['datavalue']['value']['id']
-       creatorurl= "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=" + str(creatorid) + "&props=labels&languages=en&format=json"
-       creatorresponse = requests.get(creatorurl, headers=headers)
-       creatordata = json.loads(creatorresponse.text)
-       print(str(i+1)+": "+creatordata['entities'][creatorid]['labels']['en']['value'])
+.... # as previous
+data = json.loads(r.text)
+nlen= len(data['entities'][qnum]['claims']['P170'])
+for i in range(0, nlen):
+    creatorid = data['entities'][qnum]['claims']['P170'][i]['mainsnak']['datavalue']['value']['id']
+    creatorurl= "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=" + str(creatorid) + "&props=labels&languages=en&format=json"
+    creatorresponse = requests.get(creatorurl, headers=headers)
+    creatordata = json.loads(creatorresponse.text)
+    print(str(i+1)+": "+creatordata['entities'][creatorid]['labels']['en']['value'])
 ```
 we can retrieve the English names (labels) of the three creators ([P170](https://www.wikidata.org/wiki/Property:P170)) of this manuscript: 
 
