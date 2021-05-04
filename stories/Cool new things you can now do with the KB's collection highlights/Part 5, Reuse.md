@@ -135,9 +135,9 @@ As before, the results can be requested in [JSON](https://query.wikidata.org/spa
 
   <kbd><img src="images/image-p5-011.png" width="100%"/></kbd><br/><sub>*Comparison between the multilingual labeling of the Egmond Gospels (Q759256) from the [Wikidata web interface](https://www.wikidata.org/wiki/Q759256) and from the [Wikidata API](https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q759256&props=labels&format=xml). Screenshot Wikidata GUI & Wikidata API, d.d. 30-04-2021*</sub>
 
-* Get the *aliases* of [Atlas Ortelius 1571](https://www.wikidata.org/wiki/Q67465742) (Q67465742) in German, Czech, Polish and Ukrainian, as JSON: [https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q67465742&props=aliases&languages=de|cs|pl|uk&format=json](https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q67465742&props=aliases&languages=de|cs|pl|uk&format=json)
+* Get the *aliases* of [Atlas Ortelius 1571](https://www.wikidata.org/wiki/Q67465742) (Q67465742) in German, Czech, Polish and Ukrainian, as JSON: [https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q67465742&props=aliases&languages=de%7Ccs%7Cpl%7Cuk&format=json](https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q67465742&props=aliases&languages=de%7Ccs%7Cpl%7Cuk&format=json)
 
-* Get the *Wikipedia articles* for both [Liber Pantegni](https://www.wikidata.org/wiki/Q748421) (Q748421) and the [Beyeren armorial](https://www.wikidata.org/wiki/Q3372028) (Q3372028) in all available languages, as XML: [https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q748421|Q3372028&props=sitelinks&format=xml](https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q748421|Q3372028&props=sitelinks&format=xml)
+* Get the *Wikipedia articles* for both [Liber Pantegni](https://www.wikidata.org/wiki/Q748421) (Q748421) and the [Beyeren armorial](https://www.wikidata.org/wiki/Q3372028) (Q3372028) in all available languages, as XML: [https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q748421%7CQ3372028&props=sitelinks&format=xml](https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q748421%7CQ3372028&props=sitelinks&format=xml)
 
 43) An alternative way is to **request full Wikidata items directly from the Qnumber via a [Special:EntityData](https://www.mediawiki.org/wiki/Wikibase/EntityData) URL.** The ouput can be obtained in no fewer than seven different formats:
 
@@ -153,21 +153,21 @@ For exploring the JSON response in further detail we can tweak [this Python scri
 For instance, we can make a list of all Wikidata properties that are used in [Q16641064](https://www.wikidata.org/wiki/Q16641064)
 
 ```python
-	import requests
-	import json
-	url = "https://www.wikidata.org/wiki/Special:EntityData/"
-	qnumbers = ['Q16641064'] # Haags liederenhandschrift // The Hague song manuscript
-	all_properties = {}
-	for qnum in qnumbers:
-	    useurl = url + qnum + '.json'
-	    headers = {
-		'Accept' : 'application/json',
-		'User-Agent': 'User OlafJanssen - Haags liederenhandschrift'
-	    }
-	    r = requests.get(useurl, headers=headers)
-	    data = json.loads(r.text)
-	    properties = list(data['entities'][qnum]['claims'].keys())
-	    print(properties)
+   import requests
+   import json
+   url = "https://www.wikidata.org/wiki/Special:EntityData/"
+   qnumbers = ['Q16641064'] # Haags liederenhandschrift // The Hague song manuscript
+   all_properties = {}
+   for qnum in qnumbers:
+       useurl = url + qnum + '.json'
+       headers = {
+   	'Accept' : 'application/json',
+   	'User-Agent': 'User OlafJanssen - Haags liederenhandschrift'
+       }
+       r = requests.get(useurl, headers=headers)
+       data = json.loads(r.text)
+       properties = list(data['entities'][qnum]['claims'].keys())
+       print(properties)
 ```
 returning a list in Python
 
@@ -178,22 +178,22 @@ returning a list in Python
 If we modify the last couple of code lines into
 
 ```python
-	.... # as previous
-	data = json.loads(r.text)
-	nlen= len(data['entities'][qnum]['claims']['P170'])
-	for i in range(0, nlen):
-	    creatorid = data['entities'][qnum]['claims']['P170'][i]['mainsnak']['datavalue']['value']['id']
-	    creatorurl= "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=" + str(creatorid) + "&props=labels&languages=en&format=json"
-	    creatorresponse = requests.get(creatorurl, headers=headers)
-	    creatordata = json.loads(creatorresponse.text)
-	    print(str(i+1)+": "+creatordata['entities'][creatorid]['labels']['en']['value'])
+   .... # as previous
+   data = json.loads(r.text)
+   nlen= len(data['entities'][qnum]['claims']['P170'])
+   for i in range(0, nlen):
+       creatorid = data['entities'][qnum]['claims']['P170'][i]['mainsnak']['datavalue']['value']['id']
+       creatorurl= "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=" + str(creatorid) + "&props=labels&languages=en&format=json"
+       creatorresponse = requests.get(creatorurl, headers=headers)
+       creatordata = json.loads(creatorresponse.text)
+       print(str(i+1)+": "+creatordata['entities'][creatorid]['labels']['en']['value'])
 ```
 we can retrieve the English names (labels) of the three creators ([P170](https://www.wikidata.org/wiki/Property:P170)) of this manuscript: 
 
 ```
-	1: Noydekijn
-	2: Augustijnken
-	3: Freidank
+   1: Noydekijn
+   2: Augustijnken
+   3: Freidank
 ```
 
 ========================================
