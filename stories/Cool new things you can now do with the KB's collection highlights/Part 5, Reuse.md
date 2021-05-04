@@ -200,23 +200,9 @@ we can retrieve the English names (labels) of the three creators ([P170](https:/
 44) Talkoing about creators ,let's see how we can requst a en a **machine reable structued overview overicht of  persons & institutions related to a specific highlight** opvragen in XML for a specific highlight:  (makers, bijdragers, vertalers, uitgevers, drukkers, illustratoren, eigenaren 
  so thr maiochine reaable equivalnt of points 9 and 10 from [Part 2]() 
 
-=============================================================
-45) Zooming in on pople, related to Embedded AAJH contributos gallerey in KB website
-https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Hergebruik/Voorbeelden/Smoelenboek_bijdragers_AAJH#Vormgeving_kb.nl
+A;ls use the sparql quety via a Python scriopy: 
 
-46) Dingen afgebeeld in Atlas de Wit - via WMC sparql
-https://tinyurl.com/yzp3xy8l
-https://wcqs-beta.wmflabs.org/sparql?query=SELECT%20%3Ffile%20(GROUP_CONCAT(DISTINCT%20%3FdepictionLabel%20%3B%20separator%20%3D%20%22%20--%20%22)%20as%20%3FThingsDepicted)%0AWHERE%20%7b%0A%20%20%3Ffile%20wdt%3AP6243%20wd%3AQ2520345%20.%0A%20%20%3Ffile%20wdt%3AP180%20%3Fdepiction%20.%0A%20%20SERVICE%20%3Chttps%3A%2F%2Fquery.wikidata.org%2Fsparql%3E%20%7b%20%20%0A%20%20%20%20SERVICE%20wikibase%3Alabel%20%7b%0A%20%20%20%20%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%22nl%22%20.%0A%20%20%20%20%20%20%20%20%3Fdepiction%20rdfs%3Alabel%20%3FdepictionLabel.%0A%20%20%20%20%20%20%20%20%3Ffile%20rdfs%3Alabel%20%3FfileLabel.%0A%20%20%20%20%7d%0A%20%20%7d%0A%7d%0AGROUP%20BY%20%3Ffile&format=json
-
-#Captions of files depicting roses
-SELECT ?file ?fileLabel WHERE {
-  ?file wdt:P180 wd:Q80973 .
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
-}
-
-
-==============================
-47) Examples of **Python scripts** to request & process highlight data
+Examples of **Python scripts** to request & process highlight data
 https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Hergebruik/Wikidata
 
 ```python
@@ -226,7 +212,12 @@ https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaa
 import sys
 from SPARQLWrapper import SPARQLWrapper, JSON
 endpoint_url = "https://query.wikidata.org/sparql"
-query = """# Vind topstukken uit de collectie van de Koninklijke Bibliotheek Nederland
+query = """
+
+
+AANPASSEN
+
+# Vind topstukken uit de collectie van de Koninklijke Bibliotheek Nederland
  SELECT DISTINCT ?topstuk ?topstukLabel 
  WHERE {
    # het ding is onderdeel van de collectie van de KB, en heeft daarbinnen de rol 'topstuk'
@@ -234,6 +225,8 @@ query = """# Vind topstukken uit de collectie van de Koninklijke Bibliotheek Ned
    SERVICE wikibase:label { bd:serviceParam wikibase:language "nl". }
  }
  ORDER BY ?topstukLabel"""
+
+
 
 def get_results(endpoint_url, query):
     user_agent = "WDQS-example Python/%s.%s" % (sys.version_info[0], sys.version_info[1])
@@ -247,24 +240,49 @@ results = get_results(endpoint_url, query)
 for result in results["results"]["bindings"]:
     print(result)
 ```
-==============================
-48) linjkngto eexternal identfiers – europeana, rkd… AAJH
 
+=============================================================
+45) Zooming in on pople, related to Embedded AAJH contributos gallerey in KB website
+https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Hergebruik/Voorbeelden/Smoelenboek_bijdragers_AAJH#Vormgeving_kb.nl
+
+
+==============================
+
+46) Dingen afgebeeld in Atlas de Wit - via WMC sparql
+https://tinyurl.com/yzp3xy8l
+https://wcqs-beta.wmflabs.org/sparql?query=SELECT%20%3Ffile%20(GROUP_CONCAT(DISTINCT%20%3FdepictionLabel%20%3B%20separator%20%3D%20%22%20--%20%22)%20as%20%3FThingsDepicted)%0AWHERE%20%7b%0A%20%20%3Ffile%20wdt%3AP6243%20wd%3AQ2520345%20.%0A%20%20%3Ffile%20wdt%3AP180%20%3Fdepiction%20.%0A%20%20SERVICE%20%3Chttps%3A%2F%2Fquery.wikidata.org%2Fsparql%3E%20%7b%20%20%0A%20%20%20%20SERVICE%20wikibase%3Alabel%20%7b%0A%20%20%20%20%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%22nl%22%20.%0A%20%20%20%20%20%20%20%20%3Fdepiction%20rdfs%3Alabel%20%3FdepictionLabel.%0A%20%20%20%20%20%20%20%20%3Ffile%20rdfs%3Alabel%20%3FfileLabel.%0A%20%20%20%20%7d%0A%20%20%7d%0A%7d%0AGROUP%20BY%20%3Ffile&format=json
+
+#Captions of files depicting roses
+SELECT ?file ?fileLabel WHERE {
+  ?file wdt:P180 wd:Q80973 .
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}
+
+
+==============================
+
+==============================
+47) linjkngto eexternal identfiers – europeana, rkd… AAJH
+ 
 ==============================
 
 ## Reuse - individual highlight images
 
 ==================================================
-49) SDoC Dingen afgebeeld in 1 bepaald bestand uit Atlas de Wit - via WMC api: 
+48) SDoC Dingen afgebeeld in 1 bepaald bestand uit Atlas de Wit - via WMC api: 
 https://commons.wikimedia.org/wiki/Commons:Depicts#Access
 
 ===================================
-50) https://tools.wmflabs.org/magnus-toolserver/commonsapi.php - request image info
+49) https://tools.wmflabs.org/magnus-toolserver/commonsapi.php - request image info
 
 https://commons.wikimedia.org/wiki/Commons:API/MediaWiki
 
 https://tools.wmflabs.org/magnus-toolserver/commonsapi.php?image=Album%20amicorum%20Jacob%20Heyblocq%20KB131H26%20-%20p010%20-%20Franciscus%20Snellinx%20-%20Poem%20part2.jpg&thumbwidth=150&thumbheight=150&versions&meta&format=json
 https://commons.wikimedia.org/w/api.php?action=query&titles=Image:Album%20amicorum%20Jacob%20Heyblocq%20KB131H26%20-%20p010%20-%20Franciscus%20Snellinx%20-%20Poem%20part2.jpg&prop=imageinfo&iiprop=extmetadata
+
+
+======================
+50) wikiPEDIA API exaples
 
 ## Summary
 OK, we could have easily gone to 60, but that's it for this fifth and last article.  For convenience and overview, let me summarize all the cool new things for KB's collection highlights we have seen in this article:
