@@ -21,16 +21,16 @@ I'll illustrate how you can retrieve the same images, data and texts we requeste
 ## Reuse - all highlights
 
 38) Let's start with recreating the [image grid](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Galerij) we started out with in [Part 2](Part%202%2C%20Overviews%20of%20all%20highlights.html) using the [Wikidata SPARQL query service](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service). A short [SPARQL query](https://w.wiki/3E8w) does the job: 
-	```sparql
-	# Thumbnail gallery of KB collection highlights
-	#defaultView:ImageGrid
-	SELECT DISTINCT ?item ?itemLabel ?image WHERE {
-	  # the thing is part of the KB collection, and has role 'collection highlight' within that collection
-	  ?item (p:P195/ps:P195) wd:Q1526131; p:P195 [pq:P2868 wd:Q29188408]. 
-	  OPTIONAL{?item wdt:P18 ?image.}
-	  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
-	} ORDER BY ?itemLabel
-	```
+```sparql
+   # Thumbnail gallery of KB collection highlights
+   #defaultView:ImageGrid
+   SELECT DISTINCT ?item ?itemLabel ?image WHERE {
+     # the thing is part of the KB collection, and has role 'collection highlight' within that collection
+     ?item (p:P195/ps:P195) wd:Q1526131; p:P195 [pq:P2868 wd:Q29188408]. 
+     OPTIONAL{?item wdt:P18 ?image.}
+     SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+   } ORDER BY ?itemLabel
+```
 This query results into a **[SPARQL driven thumbnail gallery](https://w.wiki/3E8z)** of KB highlights.
 
  <kbd><img src="images/image-p5-002.png" width="100%"/></kbd><br/><sub>*The [image grid](https://w.wiki/3E8z) of KB highlights for the above SPARQL query. Screenshot Wikidata query service d.d. 23-04-2021*</sub>
@@ -38,16 +38,16 @@ This query results into a **[SPARQL driven thumbnail gallery](https://w.wiki/3E8
 39) Next, let's look at lists and tables. The [list of highlights](https://www.kb.nl/galerij/digitale-topstukken) on the KB website is only availabe as HTML. For effective reuse you'd prefer it in a structured and open format such as JSON, XML or RDF. Let's look how we can request **structured lists of KB highlights, both simple and more elaborate** from the Wikidata query service: 
 
 - *Simple list*, using [this query](https://w.wiki/3FWz):
-	  ```sparql
-	  # Simple list of KB collection highlights 
-	  SELECT DISTINCT ?highlight ?highlightLabel ?highlightDescription
-	  WHERE {
-	    # the thing is part of the KB collection, and has role 'collection highlight' within that collection
-	    ?highlight (p:P195/ps:P195) wd:Q1526131; p:P195 [pq:P2868 wd:Q29188408]. 
-	    SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
-	  }
-	  ORDER BY ?highlightLabel
-	  ```
+   ```sparql
+     # Simple list of KB collection highlights 
+     SELECT DISTINCT ?highlight ?highlightLabel ?highlightDescription
+     WHERE {
+       # the thing is part of the KB collection, and has role 'collection highlight' within that collection
+       ?highlight (p:P195/ps:P195) wd:Q1526131; p:P195 [pq:P2868 wd:Q29188408]. 
+       SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+     }
+     ORDER BY ?highlightLabel
+   ```
   It results into a [simple list](https://w.wiki/3FW$) of KB collection highlights, with the names, labels and descriptions in English.
 
   <kbd><img src="images/image-p5-003.png" width="100%"/></kbd><br/><sub>*Result of the query, a [simple list](https://w.wiki/3FW$) of KB collection highlights, with the names, labels and descriptions in English. Screenshots Wikidata query service d.d. 28-04-2021*</sub>
@@ -152,47 +152,47 @@ For exploring the JSON response in further detail we can tweak [this Python scri
 
 For instance, we can make a list of all Wikidata properties that are used in [Q16641064](https://www.wikidata.org/wiki/Q16641064)
 
-	```python
-	import requests
-	import json
-	url = "https://www.wikidata.org/wiki/Special:EntityData/"
-	qnumbers = ['Q16641064'] # Haags liederenhandschrift // The Hague song manuscript
-	all_properties = {}
-	for qnum in qnumbers:
-	    useurl = url + qnum + '.json'
-	    headers = {
-		'Accept' : 'application/json',
-		'User-Agent': 'User OlafJanssen - Haags liederenhandschrift'
-	    }
-	    r = requests.get(useurl, headers=headers)
-	    data = json.loads(r.text)
-	    properties = list(data['entities'][qnum]['claims'].keys())
-	    print(properties)
-	```
+```python
+   import requests
+   import json
+   url = "https://www.wikidata.org/wiki/Special:EntityData/"
+   qnumbers = ['Q16641064'] # Haags liederenhandschrift // The Hague song manuscript
+   all_properties = {}
+   for qnum in qnumbers:
+       useurl = url + qnum + '.json'
+       headers = {
+   	'Accept' : 'application/json',
+   	'User-Agent': 'User OlafJanssen - Haags liederenhandschrift'
+       }
+       r = requests.get(useurl, headers=headers)
+       data = json.loads(r.text)
+       properties = list(data['entities'][qnum]['claims'].keys())
+       print(properties)
+   ```
 returning a list in Python
 
-  ```['P31', 'P18', 'P195', 'P217', 'P571', 'P973', 'P953', 'P373', 'P5008', 'P276', 'P1476', 'P170', 'P127', 'P767', 'P291', 'P2670', 'P2048', 'P2049', 'P186', 'P1104', 'P935', 'P8791', 'P1343', 'P528', 'P6216', 'P2671']```
+    ```['P31', 'P18', 'P195', 'P217', 'P571', 'P973', 'P953', 'P373', 'P5008', 'P276', 'P1476', 'P170', 'P127', 'P767', 'P291', 'P2670', 'P2048', 'P2049', 'P186', 'P1104', 'P935', 'P8791', 'P1343', 'P528', 'P6216', 'P2671']```
 
 If we modify the last couple of code lines into
 
-	```python
-	    .... # as previous
-	    data = json.loads(r.text)
-	    nlen= len(data['entities'][qnum]['claims']['P170'])
-	    for i in range(0, nlen):
-		creatorid = data['entities'][qnum]['claims']['P170'][i]['mainsnak']['datavalue']['value']['id']
-		creatorurl= "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=" + str(creatorid) + "&props=labels&languages=en&format=json"
-		creatorresponse = requests.get(creatorurl, headers=headers)
-		creatordata = json.loads(creatorresponse.text)
-		print(str(i+1)+": "+creatordata['entities'][creatorid]['labels']['en']['value'])
-	```
+   ```python
+       .... # as previous
+       data = json.loads(r.text)
+       nlen= len(data['entities'][qnum]['claims']['P170'])
+       for i in range(0, nlen):
+           creatorid = data['entities'][qnum]['claims']['P170'][i]['mainsnak']['datavalue']['value']['id']
+	   creatorurl= "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=" + str(creatorid) + "&props=labels&languages=en&format=json"
+	   creatorresponse = requests.get(creatorurl, headers=headers)
+	   creatordata = json.loads(creatorresponse.text)
+	   print(str(i+1)+": "+creatordata['entities'][creatorid]['labels']['en']['value'])
+   ```
 we can retrieve the English names (labels) of the three creators ([P170](https://www.wikidata.org/wiki/Property:P170)) of this manuscript: 
 
-	```
-	1: Noydekijn
-	2: Augustijnken
-	3: Freidank
-	```
+   ```
+   1: Noydekijn
+   2: Augustijnken
+   3: Freidank
+   ```
 
 ========================================
 44) Een overicht opvragen in XML bij een topstuk betrokken entiteien:  (makers, bijdragers, vertalers, uitgevers, drukkers, illustratoren, eigenaren 
