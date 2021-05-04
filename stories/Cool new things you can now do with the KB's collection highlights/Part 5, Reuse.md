@@ -21,16 +21,16 @@ I'll illustrate how you can retrieve the same images, data and texts we requeste
 ## Reuse - all highlights
 
 38) Let's start with recreating the [image grid](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Galerij) we started out with in [Part 2](Part%202%2C%20Overviews%20of%20all%20highlights.html) using the [Wikidata SPARQL query service](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service). A short [SPARQL query](https://w.wiki/3E8w) does the job: 
-```sparql
-# Thumbnail gallery of KB collection highlights
-#defaultView:ImageGrid
-SELECT DISTINCT ?item ?itemLabel ?image WHERE {
-  # the thing is part of the KB collection, and has role 'collection highlight' within that collection
-  ?item (p:P195/ps:P195) wd:Q1526131; p:P195 [pq:P2868 wd:Q29188408]. 
-  OPTIONAL{?item wdt:P18 ?image.}
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
-} ORDER BY ?itemLabel
-```
+	```sparql
+	# Thumbnail gallery of KB collection highlights
+	#defaultView:ImageGrid
+	SELECT DISTINCT ?item ?itemLabel ?image WHERE {
+	  # the thing is part of the KB collection, and has role 'collection highlight' within that collection
+	  ?item (p:P195/ps:P195) wd:Q1526131; p:P195 [pq:P2868 wd:Q29188408]. 
+	  OPTIONAL{?item wdt:P18 ?image.}
+	  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+	} ORDER BY ?itemLabel
+	```
 This query results into a **[SPARQL driven thumbnail gallery](https://w.wiki/3E8z)** of KB highlights.
 
  <kbd><img src="images/image-p5-002.png" width="100%"/></kbd><br/><sub>*The [image grid](https://w.wiki/3E8z) of KB highlights for the above SPARQL query. Screenshot Wikidata query service d.d. 23-04-2021*</sub>
@@ -38,16 +38,16 @@ This query results into a **[SPARQL driven thumbnail gallery](https://w.wiki/3E8
 39) Next, let's look at lists and tables. The [list of highlights](https://www.kb.nl/galerij/digitale-topstukken) on the KB website is only availabe as HTML. For effective reuse you'd prefer it in a structured and open format such as JSON, XML or RDF. Let's look how we can request **structured lists of KB highlights, both simple and more elaborate** from the Wikidata query service: 
 
 - *Simple list*, using [this query](https://w.wiki/3FWz):
-  ```sparql
-  # Simple list of KB collection highlights 
-  SELECT DISTINCT ?highlight ?highlightLabel ?highlightDescription
-  WHERE {
-    # the thing is part of the KB collection, and has role 'collection highlight' within that collection
-    ?highlight (p:P195/ps:P195) wd:Q1526131; p:P195 [pq:P2868 wd:Q29188408]. 
-    SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
-  }
-  ORDER BY ?highlightLabel
-  ```
+	  ```sparql
+	  # Simple list of KB collection highlights 
+	  SELECT DISTINCT ?highlight ?highlightLabel ?highlightDescription
+	  WHERE {
+	    # the thing is part of the KB collection, and has role 'collection highlight' within that collection
+	    ?highlight (p:P195/ps:P195) wd:Q1526131; p:P195 [pq:P2868 wd:Q29188408]. 
+	    SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+	  }
+	  ORDER BY ?highlightLabel
+	  ```
   It results into a [simple list](https://w.wiki/3FW$) of KB collection highlights, with the names, labels and descriptions in English.
 
   <kbd><img src="images/image-p5-003.png" width="100%"/></kbd><br/><sub>*Result of the query, a [simple list](https://w.wiki/3FW$) of KB collection highlights, with the names, labels and descriptions in English. Screenshots Wikidata query service d.d. 28-04-2021*</sub>
@@ -64,15 +64,15 @@ This query results into a **[SPARQL driven thumbnail gallery](https://w.wiki/3E8
 
 40) You might want to **programatically check for Wikipedia articles about KB highlights**, for instance in Dutch, using [this query](https://w.wiki/3FbF):
 ```sparql
-#Articles about KB collection highlights on Dutch Wikipedia
-select ?item ?itemLabel ?articleNL where {
-  ?item (p:P195/ps:P195) wd:Q1526131; p:P195 [pq:P2868 wd:Q29188408]. 
-  OPTIONAL {
-    ?articleNL schema:about ?item.
-    ?articleNL schema:isPartOf <https://nl.wikipedia.org/>.
-  }
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en,nl". }
-}
+   #Articles about KB collection highlights on Dutch Wikipedia
+   select ?item ?itemLabel ?articleNL where {
+   ?item (p:P195/ps:P195) wd:Q1526131; p:P195 [pq:P2868 wd:Q29188408]. 
+   OPTIONAL {
+     ?articleNL schema:about ?item.
+     ?articleNL schema:isPartOf <https://nl.wikipedia.org/>.
+   }
+   SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en,nl". }
+   }
 ```
 As before, the results can be requested in [JSON](https://query.wikidata.org/sparql?query=%23Articles%20about%20KB%20collection%20highlights%20on%20Dutch%20Wikipedia%0Aselect%20%3Fitem%20%3FitemLabel%20%3FarticleNL%20where%20%7B%0A%20%20%3Fitem%20p%3AP195%20%3Fst%20.%0A%20%20%3Fst%20ps%3AP195%20wd%3AQ1526131%20.%0A%20%20%3Fst%20pq%3AP2868%20wd%3AQ29188408%20.%0A%20%20OPTIONAL%20%7B%0A%20%20%20%20%3FarticleNL%20schema%3Aabout%20%3Fitem.%0A%20%20%20%20%3FarticleNL%20schema%3AisPartOf%20%3Chttps%3A%2F%2Fnl.wikipedia.org%2F%3E.%0A%20%20%7D%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%2Cnl%22.%20%7D%0A%7D%0A%0A%0A%0A%0A%0A%0A&format=json) and [in XML](https://query.wikidata.org/bigdata/namespace/wdq/sparql?query=%23Articles%20about%20KB%20collection%20highlights%20on%20Dutch%20Wikipedia%0Aselect%20%3Fitem%20%3FitemLabel%20%3FarticleNL%20where%20%7B%0A%20%20%3Fitem%20p%3AP195%20%3Fst%20.%0A%20%20%3Fst%20ps%3AP195%20wd%3AQ1526131%20.%0A%20%20%3Fst%20pq%3AP2868%20wd%3AQ29188408%20.%0A%20%20OPTIONAL%20%7B%0A%20%20%20%20%3FarticleNL%20schema%3Aabout%20%3Fitem.%0A%20%20%20%20%3FarticleNL%20schema%3AisPartOf%20%3Chttps%3A%2F%2Fnl.wikipedia.org%2F%3E.%0A%20%20%7D%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%2Cnl%22.%20%7D%0A%7D%0A%0A%0A%0A%0A%0A%0A) as well.
 
@@ -139,55 +139,60 @@ As before, the results can be requested in [JSON](https://query.wikidata.org/spa
 
 * Get the *Wikipedia articles* for both [Liber Pantegni](https://www.wikidata.org/wiki/Q748421) (Q748421) and the [Beyeren armorial](https://www.wikidata.org/wiki/Q3372028) (Q3372028) in all available languages, as XML: [https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q748421|Q3372028&props=sitelinks&format=xml](https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q748421|Q3372028&props=sitelinks&format=xml)
 
----------------------------------------
-
 43) An alternative way is to **request full Wikidata items directly from the Qnumber via a [Special:EntityData](https://www.mediawiki.org/wiki/Wikibase/EntityData) URL.** The ouput can be obtained in no fewer than seven different formats:
 
-* Get all information from the [Haags liederenhandschrift](https://www.wikidata.org/wiki/Q16641064) (Q16641064) as HTML: [https://www.wikidata.org/wiki/Special:EntityData/Q16641064](https://www.wikidata.org/wiki/Special:EntityData/Q16641064). This uses [content negotiation](https://en.wikipedia.org/wiki/content_negotiation) to return HTML in your browser. 
-* If you don't want to depend on content negotiation (e.g. view non-HTML content in a web browser), you can actively request alternative formats by appendig a format suffix to the URL, eg. to retrieve JSON: [https://www.wikidata.org/wiki/Special:EntityData/Q16641064.json](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.json). 
+* Get all information from the [Haags liederenhandschrift](https://www.wikidata.org/wiki/Q16641064) (Q16641064, *The Hague song manuscript*) as HTML: [https://www.wikidata.org/wiki/Special:EntityData/Q16641064](https://www.wikidata.org/wiki/Special:EntityData/Q16641064). This uses [content negotiation](https://en.wikipedia.org/wiki/content_negotiation) to return HTML in your browser. 
+* If you don't want to depend on content negotiation (e.g. view non-HTML content in a web browser), you can actively request alternative formats by appendig a *format suffix* to the URL, eg. to retrieve JSON: [https://www.wikidata.org/wiki/Special:EntityData/Q16641064.json](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.json). 
 * Other available formats are [JSON-LD](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.jsonld), [RDF](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.rdf), [NT](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.nt), [TTL or N3](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.ttl) and [PHP](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.php). 
-* Equivalant URLs for these requests use the format argument, e.g. : [Special:EntityData?id=Q16641064](https://www.wikidata.org/wiki/Special:EntityData?id=Q16641064&format=rdf)[*&format=rdf*](https://www.wikidata.org/wiki/Special:EntityData?id=Q16641064&format=rdf).
+* Equivalant URLs for these requests use the *format argument*, e.g. : [Special:EntityData?id=Q16641064](https://www.wikidata.org/wiki/Special:EntityData?id=Q16641064&format=rdf)[*&format=rdf*](https://www.wikidata.org/wiki/Special:EntityData?id=Q16641064&format=rdf).
 
   <kbd><img src="images/image-p5-012.png" width="100%"/></kbd><br/><sub>*Seven different output formats for the [Special:EntityData](https://www.mediawiki.org/wiki/Wikibase/EntityData) URL for the [Haags liederenhandschrift](https://www.wikidata.org/wiki/Q16641064) (Q16641064): [HTML](https://www.wikidata.org/wiki/Special:EntityData/Q16641064), [JSON](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.json), [JSON-LD](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.jsonld), [RDF](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.rdf), [NT](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.nt), [TTL or N3](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.ttl) and [PHP](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.php). Compilation of screenshot d.d. 03-05-2021*</sub>
 
-------------------------------
-Python script to process th oupu further
-Code Matt Miller API Data enpojnt
-https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Hergebruik/Voorbeelden/Smoelenboek_bijdragers_AAJH
-https://www.youtube.com/watch?v=SzfC3KFqmPs&t=20s
-https://gist.github.com/thisismattmiller/42c9d5981ee233c6288194af234ac6e4
+For exploring the JSON response in further detail we can tweak [this Python script](https://gist.github.com/thisismattmiller/42c9d5981ee233c6288194af234ac6e4) that [Matt Miller](https://gist.github.com/thisismattmiller) from the Library of Congress explains in *[Demo: Programmatic Wikidata](https://www.youtube.com/watch?v=SzfC3KFqmPs)* from his YouTube series *[Programming for Cultural Heritage](https://www.youtube.com/playlist?list=PL9Oe03cT2WhwMsSZLsUg6ej-5imNzhgBX)*.
 
-```python
-import requests
-import json
+For instance, we can make a list of all Wikidata properties that are used in [Q16641064](https://www.wikidata.org/wiki/Q16641064)
 
-url = "https://www.wikidata.org/wiki/Special:EntityData/"
-qnumbers = ['Q72752496'] # Album amicorum Jacob Heyblocq
-
-all_properties = {}
-for qnum in qnumbers:
-	useurl = url + qnum + '.json'
-	headers = {
+	```python
+	import requests
+	import json
+	url = "https://www.wikidata.org/wiki/Special:EntityData/"
+	qnumbers = ['Q16641064'] # Haags liederenhandschrift // The Hague song manuscript
+	all_properties = {}
+	for qnum in qnumbers:
+	    useurl = url + qnum + '.json'
+	    headers = {
 		'Accept' : 'application/json',
-		'User-Agent': 'User OlafJanssen - AAJH'
-	}
-	r = requests.get(useurl, headers=headers)
-	data = json.loads(r.text)
-	# print(data)
-	# print(data['entities'][qnum]['claims'])
-	properties = list(data['entities'][qnum]['claims'].keys())
-	print(properties)
-	for p in properties:
-		if p not in all_properties:
-			all_properties[p] = 0
-		all_properties[p]+=1
-print(all_properties)
-```
+		'User-Agent': 'User OlafJanssen - Haags liederenhandschrift'
+	    }
+	    r = requests.get(useurl, headers=headers)
+	    data = json.loads(r.text)
+	    properties = list(data['entities'][qnum]['claims'].keys())
+	    print(properties)
+	```
+returning a list in Python
 
+  ```['P31', 'P18', 'P195', 'P217', 'P571', 'P973', 'P953', 'P373', 'P5008', 'P276', 'P1476', 'P170', 'P127', 'P767', 'P291', 'P2670', 'P2048', 'P2049', 'P186', 'P1104', 'P935', 'P8791', 'P1343', 'P528', 'P6216', 'P2671']```
 
-=====================================================
+If we modify the last couple of code lines into
 
+	```python
+	    .... # as previous
+	    data = json.loads(r.text)
+	    nlen= len(data['entities'][qnum]['claims']['P170'])
+	    for i in range(0, nlen):
+		creatorid = data['entities'][qnum]['claims']['P170'][i]['mainsnak']['datavalue']['value']['id']
+		creatorurl= "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=" + str(creatorid) + "&props=labels&languages=en&format=json"
+		creatorresponse = requests.get(creatorurl, headers=headers)
+		creatordata = json.loads(creatorresponse.text)
+		print(str(i+1)+": "+creatordata['entities'][creatorid]['labels']['en']['value'])
+	```
+we can retrieve the English names (labels) of the three creators ([P170](https://www.wikidata.org/wiki/Property:P170)) of this manuscript: 
 
+	```
+	1: Noydekijn
+	2: Augustijnken
+	3: Freidank
+	```
 
 ========================================
 44) Een overicht opvragen in XML bij een topstuk betrokken entiteien:  (makers, bijdragers, vertalers, uitgevers, drukkers, illustratoren, eigenaren 
