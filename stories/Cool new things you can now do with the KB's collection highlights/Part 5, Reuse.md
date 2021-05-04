@@ -129,29 +129,19 @@ As before, the results can be requested in [JSON](https://query.wikidata.org/spa
 
 42) Every KB highlight is described by a Wikidata item (Qnumber). Let's see how we can request **highlight information from the Wikidata API** directly from that Qnumber. We can use the [*wbgetentities* action](https://www.wikidata.org/w/api.php?action=help&modules=wbgetentities) for that.
 
-* Get all information (*'the entire Qnumber'*) from the [Beatrijs manuscript](https://www.wikidata.org/wiki/Q1929931) (Q1929931) in all available languages, as JSON: [https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1929931](https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1929931)
+* Get *all information* ('the entire Qnumber') from the [Beatrijs manuscript](https://www.wikidata.org/wiki/Q1929931) (Q1929931) in all available languages, as JSON: [https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1929931](https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1929931)
 
-* Get only the labels of the [Egmond Gospels](https://www.wikidata.org/wiki/Q759256) (Q759256) in all available languages, as XML: [https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q759256&props=labels&format=xml](https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q759256&props=labels&format=xml) 
+* Get *only the labels* of the [Egmond Gospels](https://www.wikidata.org/wiki/Q759256) (Q759256) in all available languages, as XML: [https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q759256&props=labels&format=xml](https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q759256&props=labels&format=xml) 
 
   <kbd><img src="images/image-p5-011.png" width="100%"/></kbd><br/><sub>*Comparison between the multilingual labeling of the Egmond Gospels (Q759256) from the [Wikidata web interface](https://www.wikidata.org/wiki/Q759256) and from the [Wikidata API](https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q759256&props=labels&format=xml). Screenshot Wikidata GUI & Wikidata API, d.d. 30-04-2021*</sub>
 
+* Get the *aliases* of [Atlas Ortelius 1571](https://www.wikidata.org/wiki/Q67465742) (Q67465742) in German, Czech, Polish and Ukrainian, as JSON: [https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q67465742&props=aliases&languages=de|cs|pl|uk&format=json](https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q67465742&props=aliases&languages=de|cs|pl|uk&format=json)
 
-* [Atlas Ortelius 1571](https://www.wikidata.org/wiki/Q67465742) (Q67465742)
+* Get the *Wikipedia articles* for both [Liber Pantegni](https://www.wikidata.org/wiki/Q748421) (Q748421) and the [Beyeren armorial](https://www.wikidata.org/wiki/Q3372028) (Q3372028) in all available languages, as XML: [https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q748421|Q3372028&props=sitelinks&format=xml](https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q748421|Q3372028&props=sitelinks&format=xml)
 
-    https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q67465742|P18 [open in sandbox]
+---------------------------------------
 
-* [Psalter of Eleanor of Aquitaine](https://www.wikidata.org/wiki/Q45126130) (Q45126130)
-
-
-
-
-
-https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q372|Q44&format=json
-https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q372&format=xml
-
-----------------------------------------
-
-For cases in which it is inconvenient to use content negotiation (e.g. to view non-HTML content in a web browser), you can also access data about an entity in a specific format by extending the data URL with an extension suffix to indicate the content format that you want, such as .json, .rdf, .ttl, .nt or .jsonld. For 
+43) For cases in which it is inconvenient to use content negotiation (e.g. to view non-HTML content in a web browser), you can also access data about an entity in a specific format by extending the data URL with an extension suffix to indicate the content format that you want, such as .json, .rdf, .ttl, .nt or .jsonld. For 
 
 https://www.wikidata.org/wiki/Wikidata:Data_access#Linked_Data_interface
 
@@ -163,12 +153,11 @@ https://www.wikidata.org/wiki/Special:EntityData/Q1018644.rdf
 
 
 =====================================================
-44)Requrst which WP aricles (in all langiages) are avialable for a given highlightd, in json
-https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q42&props=sitelinks
+
 
 
 ========================================
-46) Een overicht opvragen in XML bij een topstuk betrokken entiteien:  (makers, bijdragers, vertalers, uitgevers, drukkers, illustratoren, eigenaren 
+44) Een overicht opvragen in XML bij een topstuk betrokken entiteien:  (makers, bijdragers, vertalers, uitgevers, drukkers, illustratoren, eigenaren 
 
 =============================================================
 43) Embedded AAJH contributos gallerey in KB website
