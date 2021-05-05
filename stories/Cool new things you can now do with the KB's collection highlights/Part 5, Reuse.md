@@ -172,7 +172,8 @@ For instance, we can make a list of all Wikidata properties that are used in [Q1
 returning a list in Python
 
 ```
-  ['P31', 'P18', 'P195', 'P217', 'P571', 'P973', 'P953', 'P373', 'P5008', 'P276', 'P1476', 'P170', 'P127', 'P767', 'P291', 'P2670', 'P2048', 'P2049', 'P186', 'P1104', 'P935', 'P8791', 'P1343', 'P528', 'P6216', 'P2671']
+  ['P31', 'P18', 'P195', 'P217', 'P571', 'P973', 'P953', 'P373', 'P5008', 'P276', 'P1476', 'P170', 'P127', 'P767', 
+  'P291', 'P2670', 'P2048', 'P2049', 'P186', 'P1104', 'P935', 'P8791', 'P1343', 'P528', 'P6216', 'P2671']
 ```
 
 If we modify the last couple of code lines into
@@ -183,7 +184,8 @@ If we modify the last couple of code lines into
   nlen= len(data['entities'][qnum]['claims']['P170'])
   for i in range(0, nlen):
       creatorid = data['entities'][qnum]['claims']['P170'][i]['mainsnak']['datavalue']['value']['id']
-      creatorurl= "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=" + str(creatorid) + "&props=labels&languages=en&format=json"
+      creatorurl= "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=" + str(creatorid) + 
+      	"&props=labels&languages=en&format=json"
       creatorresponse = requests.get(creatorurl, headers=headers)
       creatordata = json.loads(creatorresponse.text)
       print(str(i+1)+": "+creatordata['entities'][creatorid]['labels']['en']['value'])
