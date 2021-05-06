@@ -198,6 +198,10 @@ we can retrieve the English names (labels) of the three creators ([P170](https:/
   3: Freidank
 ```
 
+====================================================
+https://commons.wikimedia.org/wiki/Commons:Imker_(batch_download)
+
+
 ========================================
 44) Talkoing about creators ,let's see how we can requst a en a **machine reable structued overview overicht of  persons & institutions related to a specific highlight** opvragen in XML for a specific highlight:  (makers, bijdragers, vertalers, uitgevers, drukkers, illustratoren, eigenaren 
  so thr maiochine reaable equivalnt of points 9 and 10 from [Part 2]() 
