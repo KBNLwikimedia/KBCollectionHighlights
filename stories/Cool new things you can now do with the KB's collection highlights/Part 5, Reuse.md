@@ -137,7 +137,6 @@ As before, the results can be requested in [JSON](https://query.wikidata.org/spa
 
   <kbd><img src="images/image-p5-014.png" width="100%"/></kbd><br/><sub>*Downloading the hires images of the [Reward letter of King Filip II of Spain to family of Balthasar Gerards, 1590](https://commons.wikimedia.org/wiki/Category:Reward_letter_of_King_Filip_II_of_Spain_to_family_of_Balthasar_Gerards,_1590). Screenshot of the [Imker tool](https://commons.wikimedia.org/wiki/Commons:Imker_(batch_download)), d.d. 11-05-2021*</sub>
 
-
 43) Every KB highlight is described by a Wikidata item (Qnumber). Let's see how we can request **highlight information from the Wikidata API** directly from that Qnumber. We can use the [*wbgetentities* action](https://www.wikidata.org/w/api.php?action=help&modules=wbgetentities) for that.
 
 * Get *all information* ('the entire Qnumber') from the [Beatrijs manuscript](https://www.wikidata.org/wiki/Q1929931) (Q1929931) in all available languages, as JSON: [https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1929931](https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1929931)
@@ -209,17 +208,19 @@ we can retrieve the English names (labels) of the three creators ([P170](https:/
   3: Freidank
 ```
 
-
-
-
 ========================================
-45) Talkoing about creators ,let's see how we can requst a en a **machine reable structued overview overicht of  persons & institutions related to a specific highlight** opvragen in XML for a specific highlight:  (makers, bijdragers, vertalers, uitgevers, drukkers, illustratoren, eigenaren 
- so thr maiochine reaable equivalnt of points 9 and 10 from [Part 2]() 
+
+45) Talking about creators, let's see how we can request a **structued overview of persons & institutions related to a set of highlights**, such as authors, makers, contributors, publishers, printers, illustrators, translators, owners, collectors etc. This is actually the machine readable equivalent of points 9 and 10 from [Part 2](Part%202%2C%20Overviews%20of%20all%20highlights.html). 
+ 
+Let's do this for two KB highlights at the same time: the [Admirandorum quadruplex spectaculum](https://www.wikidata.org/wiki/Q42302438) and [Kunst en samenleving](https://www.wikidata.org/wiki/Q72752446) (*Art and society*). 
 
 A;ls use the sparql quety via a Python scriopy: 
 
-Examples of **Python scripts** to request & process highlight data
-https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Hergebruik/Wikidata
+
+
+----------------------
+
+We can also use a Pyhon script to make the requst to the Wikidatas SPARQL query service
 
 ```python
 # pip install sparqlwrapper
@@ -257,7 +258,10 @@ for result in results["results"]["bindings"]:
     print(result)
 ```
 
+with the result: 
+
 =============================================================
+
 45) Zooming in on pople, related to Embedded AAJH contributos gallerey in KB website
 https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Hergebruik/Voorbeelden/Smoelenboek_bijdragers_AAJH#Vormgeving_kb.nl
 
