@@ -212,11 +212,54 @@ we can retrieve the English names (labels) of the three creators ([P170](https:/
 
 45) Talking about creators, let's see how we can request a **structued overview of persons & institutions related to a set of highlights**, such as authors, makers, contributors, publishers, printers, illustrators, translators, owners, collectors etc. This is actually the machine readable equivalent of points 9 and 10 from [Part 2](Part%202%2C%20Overviews%20of%20all%20highlights.html). 
  
-Let's do this for two KB highlights at the same time: the [Admirandorum quadruplex spectaculum](https://www.wikidata.org/wiki/Q42302438) and [Kunst en samenleving](https://www.wikidata.org/wiki/Q72752446) (*Art and society*). 
+Let's do this for three KB highlights at the same time: the [Admirandorum quadruplex spectaculum](https://www.wikidata.org/wiki/Q42302438), [Kunst en samenleving](https://www.wikidata.org/wiki/Q72752446) (*Art and society*) and the above mentioned [Haags liederenhandschrift](https://www.wikidata.org/wiki/Q16641064). 
 
-A;ls use the sparql quety via a Python scriopy: 
+We use [this SPARQL query](https://query.wikidata.org/#%23%20Overview%20of%20persons%20%26%20institutions%20related%20to%20%0A%23%201%20Admirandorum%20quadruplex%20spectaculum%20%28Q42302438%29%2C%20%0A%23%203%20Kunst%20en%20samenleving%20%28Q72752446%29%20and%20%0A%23%204%20Haags%20liederenhandschrift%20%28Q16641064%29%20%0A%23%20such%20as%20authors%2C%20makers%2C%20contributors%2C%20publishers%2C%20printers%2C%20illustrators%2C%20translators%2C%20owners%20etc.%20%0ASELECT%20DISTINCT%20%3Fhighlight%20%3FhighlightLabel%0A%28GROUP_CONCAT%28DISTINCT%20%3FcreatorLabel%20%3B%20separator%20%3D%20%22%20----%20%22%29%20as%20%3Fcreators%29%0A%28GROUP_CONCAT%28DISTINCT%20%3FauthorLabel%20%3B%20separator%20%3D%20%22%20----%20%22%29%20as%20%3Fauthors%29%0A%28GROUP_CONCAT%28DISTINCT%20%3FcontributorLabel%20%3B%20separator%20%3D%20%22%20----%20%22%29%20as%20%3Fcontributors%29%0A%28GROUP_CONCAT%28DISTINCT%20%3FeditorLabel%20%3B%20separator%20%3D%20%22%20----%20%22%29%20as%20%3Feditors%29%0A%28GROUP_CONCAT%28DISTINCT%20%3FtranslatorLabel%20%3B%20separator%20%3D%20%22%20----%20%22%29%20as%20%3Ftranslators%29%0A%28GROUP_CONCAT%28DISTINCT%20%3FillustratorLabel%20%3B%20separator%20%3D%20%22%20----%20%22%29%20as%20%3Fillustrators%29%0A%28GROUP_CONCAT%28DISTINCT%20%3FpublisherLabel%20%3B%20separator%20%3D%20%22%20----%20%22%29%20as%20%3Fpublishers%29%0A%28GROUP_CONCAT%28DISTINCT%20%3Fowned_byLabel%20%3B%20separator%20%3D%20%22%20----%20%22%29%20as%20%3Fowned_bys%29%0A%0AWHERE%20%7B%0A%20%20%23%20the%20thing%20is%20part%20of%20the%20KB%20collection%2C%20and%20has%20role%20%27collection%20highlight%27%20within%20that%20collection%0A%20%20%3Fhighlight%20%28p%3AP195%2Fps%3AP195%29%20wd%3AQ1526131%3B%20p%3AP195%20%5Bpq%3AP2868%20wd%3AQ29188408%5D.%0A%20%20%23%20limit%20to%20Q42302438%2C%20Q72752446%20and%20Q16641064%0A%20%20VALUES%20%3Fhighlight%20%7Bwd%3AQ42302438%20wd%3AQ72752446%20wd%3AQ16641064%7D%0A%20%20%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP170%20%3Fcreator.%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP50%20%3Fauthor.%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP767%20%3Fcontributor.%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP98%20%3Feditor.%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP655%20%3Ftranslator.%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP110%20%3Fillustrator.%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP123%20%3Fpublisher.%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP127%20%3Fowned_by.%7D%0A%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%3Fhighlight%20rdfs%3Alabel%20%3FhighlightLabel.%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Fcreator%20rdfs%3Alabel%20%3FcreatorLabel.%20%3Fauthor%20rdfs%3Alabel%20%3FauthorLabel.%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Fcontributor%20rdfs%3Alabel%20%3FcontributorLabel.%20%3Feditor%20rdfs%3Alabel%20%3FeditorLabel.%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ftranslator%20rdfs%3Alabel%20%3FtranslatorLabel.%20%3Fillustrator%20rdfs%3Alabel%20%3FillustratorLabel.%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Fpublisher%20rdfs%3Alabel%20%3FpublisherLabel.%20%3Fowned_by%20rdfs%3Alabel%20%3Fowned_byLabel.%7D%0A%20%20%7D%0A%20%20GROUP%20BY%20%3Fhighlight%20%3FhighlightLabel%0A%20%20ORDER%20BY%20%3FhighlightLabel) in Wikidata:
 
+```sparql
+# Overview of persons & institutions related to 
+# 1 Admirandorum quadruplex spectaculum (Q42302438), 
+# 3 Kunst en samenleving (Q72752446) and 
+# 4 Haags liederenhandschrift (Q16641064) 
+# such as authors, makers, contributors, publishers, printers, illustrators, translators, owners etc. 
+SELECT DISTINCT ?highlight ?highlightLabel
+(GROUP_CONCAT(DISTINCT ?creatorLabel ; separator = " ---- ") as ?creators)
+(GROUP_CONCAT(DISTINCT ?authorLabel ; separator = " ---- ") as ?authors)
+(GROUP_CONCAT(DISTINCT ?contributorLabel ; separator = " ---- ") as ?contributors)
+(GROUP_CONCAT(DISTINCT ?editorLabel ; separator = " ---- ") as ?editors)
+(GROUP_CONCAT(DISTINCT ?translatorLabel ; separator = " ---- ") as ?translators)
+(GROUP_CONCAT(DISTINCT ?illustratorLabel ; separator = " ---- ") as ?illustrators)
+(GROUP_CONCAT(DISTINCT ?publisherLabel ; separator = " ---- ") as ?publishers)
+(GROUP_CONCAT(DISTINCT ?owned_byLabel ; separator = " ---- ") as ?owned_bys)
 
+WHERE {
+  # the thing is part of the KB collection, and has role 'collection highlight' within that collection
+  ?highlight (p:P195/ps:P195) wd:Q1526131; p:P195 [pq:P2868 wd:Q29188408].
+  # limit to Q42302438, Q72752446 and Q16641064
+  VALUES ?highlight {wd:Q42302438 wd:Q72752446 wd:Q16641064}
+  
+  OPTIONAL{?highlight wdt:P170 ?creator.}
+  OPTIONAL{?highlight wdt:P50 ?author.}
+  OPTIONAL{?highlight wdt:P767 ?contributor.}
+  OPTIONAL{?highlight wdt:P98 ?editor.}
+  OPTIONAL{?highlight wdt:P655 ?translator.}
+  OPTIONAL{?highlight wdt:P110 ?illustrator.}
+  OPTIONAL{?highlight wdt:P123 ?publisher.}
+  OPTIONAL{?highlight wdt:P127 ?owned_by.}
+
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". ?highlight rdfs:label ?highlightLabel.
+                           ?creator rdfs:label ?creatorLabel. ?author rdfs:label ?authorLabel. 
+                           ?contributor rdfs:label ?contributorLabel. ?editor rdfs:label ?editorLabel. 
+                           ?translator rdfs:label ?translatorLabel. ?illustrator rdfs:label ?illustratorLabel. 
+                           ?publisher rdfs:label ?publisherLabel. ?owned_by rdfs:label ?owned_byLabel.}
+  }
+  GROUP BY ?highlight ?highlightLabel
+  ORDER BY ?highlightLabel
+```
+
+The empty roles without names  have been omitted - betr omnschrijvnen
+
+plaatje vh resultaat
 
 ----------------------
 
@@ -230,18 +273,45 @@ import sys
 from SPARQLWrapper import SPARQLWrapper, JSON
 endpoint_url = "https://query.wikidata.org/sparql"
 query = """
+# Overview of persons & institutions related to 
+# 1 Admirandorum quadruplex spectaculum (Q42302438), 
+# 3 Kunst en samenleving (Q72752446) and 
+# 4 Haags liederenhandschrift (Q16641064) 
+# such as authors, makers, contributors, publishers, printers, illustrators, translators, owners etc. 
+SELECT DISTINCT ?highlight ?highlightLabel
+(GROUP_CONCAT(DISTINCT ?creatorLabel ; separator = " ---- ") as ?creators)
+(GROUP_CONCAT(DISTINCT ?authorLabel ; separator = " ---- ") as ?authors)
+(GROUP_CONCAT(DISTINCT ?contributorLabel ; separator = " ---- ") as ?contributors)
+(GROUP_CONCAT(DISTINCT ?editorLabel ; separator = " ---- ") as ?editors)
+(GROUP_CONCAT(DISTINCT ?translatorLabel ; separator = " ---- ") as ?translators)
+(GROUP_CONCAT(DISTINCT ?illustratorLabel ; separator = " ---- ") as ?illustrators)
+(GROUP_CONCAT(DISTINCT ?publisherLabel ; separator = " ---- ") as ?publishers)
+(GROUP_CONCAT(DISTINCT ?owned_byLabel ; separator = " ---- ") as ?owned_bys)
 
+WHERE {
+  # the thing is part of the KB collection, and has role 'collection highlight' within that collection
+  ?highlight (p:P195/ps:P195) wd:Q1526131; p:P195 [pq:P2868 wd:Q29188408].
+  # limit to Q42302438, Q72752446 and Q16641064
+  VALUES ?highlight {wd:Q42302438 wd:Q72752446 wd:Q16641064}
+  
+  OPTIONAL{?highlight wdt:P170 ?creator.}
+  OPTIONAL{?highlight wdt:P50 ?author.}
+  OPTIONAL{?highlight wdt:P767 ?contributor.}
+  OPTIONAL{?highlight wdt:P98 ?editor.}
+  OPTIONAL{?highlight wdt:P655 ?translator.}
+  OPTIONAL{?highlight wdt:P110 ?illustrator.}
+  OPTIONAL{?highlight wdt:P123 ?publisher.}
+  OPTIONAL{?highlight wdt:P127 ?owned_by.}
 
-AANPASSEN
-
-# Vind topstukken uit de collectie van de Koninklijke Bibliotheek Nederland
- SELECT DISTINCT ?topstuk ?topstukLabel 
- WHERE {
-   # het ding is onderdeel van de collectie van de KB, en heeft daarbinnen de rol 'topstuk'
-   ?topstuk (p:P195/ps:P195) wd:Q1526131; p:P195 [pq:P2868 wd:Q29188408]. 
-   SERVICE wikibase:label { bd:serviceParam wikibase:language "nl". }
- }
- ORDER BY ?topstukLabel"""
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". ?highlight rdfs:label ?highlightLabel.
+                           ?creator rdfs:label ?creatorLabel. ?author rdfs:label ?authorLabel. 
+                           ?contributor rdfs:label ?contributorLabel. ?editor rdfs:label ?editorLabel. 
+                           ?translator rdfs:label ?translatorLabel. ?illustrator rdfs:label ?illustratorLabel. 
+                           ?publisher rdfs:label ?publisherLabel. ?owned_by rdfs:label ?owned_byLabel.}
+  }
+  GROUP BY ?highlight ?highlightLabel
+  ORDER BY ?highlightLabel
+"""
 
 
 
