@@ -256,6 +256,8 @@ WHERE {
 
 The empty roles without names  have been omitted - betr omnschrijvnen
 
+Or the query result as a [JSON reponse]()
+
 plaatje vh resultaat
 
 ----------------------
@@ -313,7 +315,7 @@ for result in results["results"]["bindings"]:
     print(result)
 ```
 
-with the result: 
+with the result as JSON 
 
 =============================================================
 
