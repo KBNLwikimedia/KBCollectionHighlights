@@ -99,7 +99,7 @@ For convenience and overview, let me summarize all the cool new things for KB's 
 37) [new search options](https://hay.toolforge.org/sdsearch/) for these collections.<br/>
 
 ## Up next
-OK, that's it for this fourth article. In [Part 5, Reuse](Part%205%2C%20Reuse.html) I will explain how you can reuse KB's collection highlights *outside of the Wikimedia context*, that is, for/in your own websites, services, apps, hackathons and projects. I'm going to talk about REST APIs, SPARQL, data dumps, Python scripts and machine interactions with our highlights. 
+OK, that's it for this fourth article. In [Part 5, Reuse](Part%205%2C%20Reuse.html) I will explain how you can reuse KB's collection highlights *outside of the Wikimedia context*, that is, for/in your own websites, services, apps, hackathons and projects. I'm going to talk about REST APIs, SPARQL, image bulk downloading, Python scripts and machine interactions with our highlights. 
 
 <hr>
 
