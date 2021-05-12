@@ -323,9 +323,9 @@ giving an output of three [Python dictionaries](https://www.w3schools.com/python
 
 Let's now look at three alternative approaches for generating such a facebook from the Wikimedia infrastructure https://kbnlwikimedia.github.io/Alba-Amicorum/alba/AA-Jacob-Heyblocq/reuse/
 
-1
-2
-3
+ - An HTML facebook based on the Wikimedia Commons API
+ - An HTML facebook based on the Wikidata SPARQL service with a JSON response
+ - A facebook from a Wikidata SPARQL query using a HTML-embed via an iframe
 
 
 
