@@ -322,7 +322,7 @@ giving an output of three [Python dictionaries](https://www.w3schools.com/python
 
 45) In points 22-25 of [Part 3](Part%203%2C%20Overviews%20per%20highlight.html) we looked at the people related to the [Album amicorum Jacob Heyblocq](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Alfabetisch#Album_amicorum_van_Jacobus_Heyblocq_(1623-1690),_rector_van_de_Latijnse_school_te_Amsterdam) and created a [facebook](https://w.wiki/phx) of album contributors directly from a Wikidata [SPARQL query](https://w.wiki/tBE).
 
-https://github.com/KBNLwikimedia/Alba-Amicorum/tree/main/alba/AA-Jacob-Heyblocq/reuse
+https://kbnlwikimedia.github.io/Alba-Amicorum/alba/AA-Jacob-Heyblocq/reuse/
 
 
 ==============================
