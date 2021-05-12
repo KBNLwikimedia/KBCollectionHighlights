@@ -317,12 +317,17 @@ giving an output of three [Python dictionaries](https://www.w3schools.com/python
 {'hl': {'type': 'uri', 'value': 'http://www.wikidata.org/entity/Q42302438'}, 'hlLabel': {'xml:lang': 'en', 'type': 'literal', 'value': 'Admirandorum quadruplex spectaculum'}, 'creators': {'type': 'literal', 'value': 'Jan van Call'}, 'authors': {'type': 'literal', 'value': ''}, 'contributors': {'type': 'literal', 'value': ''}, 'editors': {'type': 'literal', 'value': ''}, 'translators': {'type': 'literal', 'value': ''}, 'illustrators': {'type': 'literal', 'value': 'Jan van Call'}, 'publishers': {'type': 'literal', 'value': 'Peter Schenk the Elder'}, 'owned_bys': {'type': 'literal', 'value': 'Aleida Betsy Terpstra'}}
 {'hl': {'type': 'uri', 'value': 'http://www.wikidata.org/entity/Q16641064'}, 'hlLabel': {'xml:lang': 'en', 'type': 'literal', 'value': 'Haags liederenhandschrift'}, 'creators': {'type': 'literal', 'value': 'Freidank ---- Augustijnken ---- Noydekijn'}, 'authors': {'type': 'literal', 'value': ''}, 'contributors': {'type': 'literal', 'value': 'Eerste stadhouderlijke binderij'}, 'editors': {'type': 'literal', 'value': ''}, 'translators': {'type': 'literal', 'value': ''}, 'illustrators': {'type': 'literal', 'value': ''}, 'publishers': {'type': 'literal', 'value': ''}, 'owned_bys': {'type': 'literal', 'value': 'William V ---- William IV, Prince of Orange ---- Matilda of Guelders ---- Stadhouderlijke bibliotheek'}}
 {'hl': {'type': 'uri', 'value': 'http://www.wikidata.org/entity/Q72752446'}, 'hlLabel': {'xml:lang': 'en', 'type': 'literal', 'value': 'Kunst en samenleving'}, 'creators': {'type': 'literal', 'value': ''}, 'authors': {'type': 'literal', 'value': 'Walter Crane'}, 'contributors': {'type': 'literal', 'value': 'Gerrit Willem Dijsselhof'}, 'editors': {'type': 'literal', 'value': 'Jan Veth'}, 'translators': {'type': 'literal', 'value': 'Jan Veth'}, 'illustrators': {'type': 'literal', 'value': ''}, 'publishers': {'type': 'literal', 'value': 'Scheltema en Holkema'}, 'owned_bys': {'type': 'literal', 'value': ''}}
-
 ```
 
-45) In points 22-25 of [Part 3](Part%203%2C%20Overviews%20per%20highlight.html) we looked at the people related to the [Album amicorum Jacob Heyblocq](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Alfabetisch#Album_amicorum_van_Jacobus_Heyblocq_(1623-1690),_rector_van_de_Latijnse_school_te_Amsterdam) and created a [facebook](https://w.wiki/phx) of album contributors directly from a Wikidata [SPARQL query](https://w.wiki/tBE).
+45) In points 22-25 of [Part 3](Part%203%2C%20Overviews%20per%20highlight.html) we looked at the portraits, genders, occupations and lifespans of the people who contributed to the [Album amicorum Jacob Heyblocq](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Alfabetisch#Album_amicorum_van_Jacobus_Heyblocq_(1623-1690),_rector_van_de_Latijnse_school_te_Amsterdam) and created a [facebook of album contributors](https://w.wiki/phx) directly from a Wikidata [SPARQL query](https://w.wiki/tBE).
 
-https://kbnlwikimedia.github.io/Alba-Amicorum/alba/AA-Jacob-Heyblocq/reuse/
+Let's now look at three alternative approaches for generating such a facebook from the Wikimedia infrastructure https://kbnlwikimedia.github.io/Alba-Amicorum/alba/AA-Jacob-Heyblocq/reuse/
+
+1
+2
+3
+
+
 
 
 ==============================
