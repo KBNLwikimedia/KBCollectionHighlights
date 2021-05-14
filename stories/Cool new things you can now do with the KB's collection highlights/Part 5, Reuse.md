@@ -355,6 +355,8 @@ Let's now look at three **approaches for generating off-wiki image galleries** f
 
 47) Atlas de Wit - via WMC sparql
 
+https://commons.wikimedia.org/wiki/Commons:SPARQL_query_service
+https://commons.wikimedia.org/wiki/Commons:SPARQL_query_service/queries/examples
 [Wikimedia Commons SPARQL query service](https://wcqs-beta.wmflabs.org) 
 
 ===============================
@@ -389,6 +391,10 @@ https://www.mediawiki.org/wiki/Wikibase/API
 https://www.mediawiki.org/wiki/Extension:WikibaseMediaInfo
 https://www.mediawiki.org/wiki/Help:Extension:WikibaseCirrusSearch
 
+
+https://commons.wikimedia.org/w/api.php?action=wbgetentities&format=json&ids=M76359368
+https://commons.wikimedia.org/wiki/Special:ApiSandbox#action=wbgetentities&format=json&ids=M76359368%7CM76359366
+Scroiptje schrijven om alle Mids Comm0nccat 'Atlas de Wit 1698' ui te vragen en dan per Mid bovenstaande toepassen
 
 ===============================
 2 - plaaategrodnen via sparwl
@@ -436,6 +442,7 @@ SELECT ?file ?image ?depiction ?coord WHERE {
 ==================================================
 49) SDoC Dingen afgebeeld in 1 bepaald bestand uit Atlas de Wit - via WMC api: 
 https://commons.wikimedia.org/wiki/Commons:Depicts#Access
+https://commons.wikimedia.org/w/api.php?action=wbgetentities&format=json&ids=M76359368
 
 https://commons.wikimedia.org/w/api.php?action=wbgetentities&format=json&sites=commonswiki&titles=File%3ACommons_logo.svg
 
