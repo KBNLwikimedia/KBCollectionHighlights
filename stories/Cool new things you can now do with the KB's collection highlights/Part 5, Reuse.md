@@ -347,25 +347,86 @@ Let's now look at three **approaches for generating off-wiki image galleries** f
 
   We can expand this approach into a design that fits seamlessly into [the pages about the album on the KB website](https://www.kb.nl/themas/vriendenboeken/verwoede-verzamelaars/jacob-heyblocqs-vriendenboek), resulting into [a KB styled facebook](https://kbnlwikimedia.github.io/Alba-Amicorum/alba/AA-Jacob-Heyblocq/reuse/bijdragersAAJH-smoelenboek-SparqlHTMLembed-mockupkbnl.html). 
 	
-  <kbd><img src="images/image-p5-018.png" height="300"/></kbd><kbd><img src="images/image-p5-019.png" height="300"/></kbd>
+   <kbd><img src="images/image-p5-018.png" height="300"/></kbd><kbd><img src="images/image-p5-019.png" height="300"/></kbd>
  <br/><sub>*Another approach for making a HTML portrait gallery of contributors to the Album amicorum Jacob Heyblocq, using a Wikidata SPARQL query and an embedded iframe. Left: A [plain, unstyled facebook](https://kbnlwikimedia.github.io/Alba-Amicorum/alba/AA-Jacob-Heyblocq/reuse/bijdragersAAJH-smoelenboek-SparqlHTMLembed-plain.html). Right: The same iframe, but now embedded into a [KB styled portrait gallery](https://kbnlwikimedia.github.io/Alba-Amicorum/alba/AA-Jacob-Heyblocq/reuse/bijdragersAAJH-smoelenboek-SparqlHTMLembed-mockupkbnl.html). Screenshots d.d. 14-05-2021*</sub>
 
-==============================
+===============================
+===============================
 
-47) Dingen afgebeeld in Atlas de Wit - via WMC sparql
-https://tinyurl.com/yzp3xy8l
-https://wcqs-beta.wmflabs.org/sparql?query=SELECT%20%3Ffile%20(GROUP_CONCAT(DISTINCT%20%3FdepictionLabel%20%3B%20separator%20%3D%20%22%20--%20%22)%20as%20%3FThingsDepicted)%0AWHERE%20%7b%0A%20%20%3Ffile%20wdt%3AP6243%20wd%3AQ2520345%20.%0A%20%20%3Ffile%20wdt%3AP180%20%3Fdepiction%20.%0A%20%20SERVICE%20%3Chttps%3A%2F%2Fquery.wikidata.org%2Fsparql%3E%20%7b%20%20%0A%20%20%20%20SERVICE%20wikibase%3Alabel%20%7b%0A%20%20%20%20%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%22nl%22%20.%0A%20%20%20%20%20%20%20%20%3Fdepiction%20rdfs%3Alabel%20%3FdepictionLabel.%0A%20%20%20%20%20%20%20%20%3Ffile%20rdfs%3Alabel%20%3FfileLabel.%0A%20%20%20%20%7d%0A%20%20%7d%0A%7d%0AGROUP%20BY%20%3Ffile&format=json
+47) Atlas de Wit - via WMC sparql
 
-#Captions of files depicting roses
-SELECT ?file ?fileLabel WHERE {
-  ?file wdt:P180 wd:Q80973 .
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+[Wikimedia Commons SPARQL query service](https://wcqs-beta.wmflabs.org) 
+
+===============================
+#Things depicted in Atlas de Wit 1698 - https://tinyurl.com/yzp3xy8l
+```sparql
+#Things depicted in Atlas de Wit 1698 - https://tinyurl.com/yzp3xy8l
+SELECT ?file (GROUP_CONCAT(DISTINCT ?depictionLabel ; separator = " -- ") as ?ThingsDepicted)
+WHERE {
+  ?file wdt:P6243 wd:Q2520345 .
+  ?file wdt:P180 ?depiction .
+  SERVICE <https://query.wikidata.org/sparql> {  
+    SERVICE wikibase:label {
+        bd:serviceParam wikibase:language "en" .
+        ?depiction rdfs:label ?depictionLabel.
+        ?file rdfs:label ?fileLabel.
+    }
+  }
 }
+GROUP BY ?file
+```
+
+  <kbd><img src="images/image-p5-019.png" width="100%"/></kbd><br/><sub>*. Screenshots fff d.d. 14-05-2021*</sub>
+
+
+[as JSON](https://wcqs-beta.wmflabs.org/sparql?query=SELECT%20%3Ffile%20(GROUP_CONCAT(DISTINCT%20%3FdepictionLabel%20%3B%20separator%20%3D%20%22%20--%20%22)%20as%20%3FThingsDepicted)%0AWHERE%20%7b%0A%20%20%3Ffile%20wdt%3AP6243%20wd%3AQ2520345%20.%0A%20%20%3Ffile%20wdt%3AP180%20%3Fdepiction%20.%0A%20%20SERVICE%20%3Chttps%3A%2F%2Fquery.wikidata.org%2Fsparql%3E%20%7b%20%20%0A%20%20%20%20SERVICE%20wikibase%3Alabel%20%7b%0A%20%20%20%20%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%22nl%22%20.%0A%20%20%20%20%20%20%20%20%3Fdepiction%20rdfs%3Alabel%20%3FdepictionLabel.%0A%20%20%20%20%20%20%20%20%3Ffile%20rdfs%3Alabel%20%3FfileLabel.%0A%20%20%20%20%7d%0A%20%20%7d%0A%7d%0AGROUP%20BY%20%3Ffile&format=json)
+
+
+===============================
+
+SDoC uitvragen via WD API-call (P180 depicts) --> nog uitzoeken!!
+https://www.mediawiki.org/wiki/Wikibase/API
+https://www.mediawiki.org/wiki/Extension:WikibaseMediaInfo
+https://www.mediawiki.org/wiki/Help:Extension:WikibaseCirrusSearch
+
+
+===============================
+2 - plaaategrodnen via sparwl
+
+```sparql
+# Gallery of maps from Atlas de Wit 1698
+#defaultView:ImageGrid
+SELECT ?file ?image WHERE {
+  ?file wdt:P6243 wd:Q2520345 .
+  ?file schema:contentUrl ?url .
+  bind(iri(concat("http://commons.wikimedia.org/wiki/Special:FilePath/", wikibase:decodeUri(substr(str(?url),53)))) AS ?image)
+}
+```
+
+===============================
+3 kaartjte met plaatsen (zie Punt 26 Deel 3 )  https://tinyurl.com/y2y7pfbj
+
+```sparql
+# Cities from Altas de Wit 1698 plotted an a modern map
+#defaultView:Map
+SELECT ?file ?image ?depiction ?coord WHERE {
+  ?file wdt:P6243 wd:Q2520345 .
+  ?file wdt:P180 ?depiction .
+  ?file schema:contentUrl ?url .
+  SERVICE <https://query.wikidata.org/sparql> {
+    ?depiction wdt:P625 ?coord.
+    }
+  bind(iri(concat("http://commons.wikimedia.org/wiki/Special:FilePath/", replace(substr(str(?url),53),"_","%20"))) AS ?image)
+  SERVICE wikibase:label {
+        bd:serviceParam wikibase:language "en" .
+      }
+}
+```
 
 
 ==============================
+===============================
 
-==============================
 48) linjkngto eexternal identfiers – europeana, rkd… AAJH
  
 ==============================
@@ -375,6 +436,8 @@ SELECT ?file ?fileLabel WHERE {
 ==================================================
 49) SDoC Dingen afgebeeld in 1 bepaald bestand uit Atlas de Wit - via WMC api: 
 https://commons.wikimedia.org/wiki/Commons:Depicts#Access
+
+https://commons.wikimedia.org/w/api.php?action=wbgetentities&format=json&sites=commonswiki&titles=File%3ACommons_logo.svg
 
 ===================================
 50) https://tools.wmflabs.org/magnus-toolserver/commonsapi.php - request image info
