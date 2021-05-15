@@ -350,9 +350,9 @@ Let's now look at three **approaches for generating off-wiki image galleries** f
    <kbd><img src="images/image-p5-018.png" height="300"/></kbd><kbd><img src="images/image-p5-019.png" height="300"/></kbd>
  <br/><sub>*Another approach for making a HTML portrait gallery of contributors to the Album amicorum Jacob Heyblocq, using a Wikidata SPARQL query and an embedded iframe. Left: A [plain, unstyled facebook](https://kbnlwikimedia.github.io/Alba-Amicorum/alba/AA-Jacob-Heyblocq/reuse/bijdragersAAJH-smoelenboek-SparqlHTMLembed-plain.html). Right: The same iframe, but now embedded into a [KB styled portrait gallery](https://kbnlwikimedia.github.io/Alba-Amicorum/alba/AA-Jacob-Heyblocq/reuse/bijdragersAAJH-smoelenboek-SparqlHTMLembed-mockupkbnl.html). Screenshots d.d. 14-05-2021*</sub>
 
-47) In items 33 and 35 of [Part 4](Part%204%2C%20Images.html) we already looked at things (Wikidata entities) that can be seen in KB collection highlights, making images not only discoverable via the regular metadata, but also multilingually searchable by content (What's depicted in it?). Let's now look at how we can **retrieve depicted entities programmatically**. We'll use  [Atlas de Wit 1698](https://commons.wikimedia.org/wiki/Category:Atlas_de_Wit_1698) for this . We can do this either via the [Wikimedia Commons SPARQL query service](https://commons.wikimedia.org/wiki/Commons:SPARQL_query_service), the Wikimedia Commons API or via the [Petscan tool](https://petscan.wmflabs.org/).
+47) In items 33 and 35 of [Part 4](Part%204%2C%20Images.html) we already looked at things (Wikidata entities) that can be seen in KB collection highlights, making images not only discoverable via the regular metadata, but also multilingually searchable by content (What's depicted in it?). Let's now look at how we can **[retrieve depicted entities programmatically](https://commons.wikimedia.org/wiki/Commons:Depicts#Access)**. We'll use  [Atlas de Wit 1698](https://commons.wikimedia.org/wiki/Category:Atlas_de_Wit_1698) for this . We can do this either via the [Wikimedia Commons SPARQL query service](https://commons.wikimedia.org/wiki/Commons:SPARQL_query_service), the Wikimedia Commons API or via the [Petscan tool](https://petscan.wmflabs.org/).
 
-  - To retrieve the depicted entities via the [Wikimedia Commons SPARQL query service](https://wcqs-beta.wmflabs.org), we use [this query](https://tinyurl.com/yg4qsbj4):  
+ - To retrieve the depicted entities via the [Wikimedia Commons SPARQL query service](https://wcqs-beta.wmflabs.org), we use [this query](https://tinyurl.com/yg4qsbj4):  
 
  ```sparql
  #Things depicted in Atlas de Wit 1698
@@ -375,30 +375,20 @@ Let's now look at three **approaches for generating off-wiki image galleries** f
   <kbd><img src="images/image-p5-020.png" width="100%"/></kbd><br/><sub>*[Things depicted](https://tinyurl.com/yg4qsbj4) in [Atlas de Wit 1698](https://commons.wikimedia.org/wiki/Category:Atlas_de_Wit_1698). Screenshots [Wikimedia Commons SPARQL query service](https://tinyurl.com/yz3qs7k6) d.d. 15-05-2021*</sub>
 
 ===========2 Commons APO====================
+The Wikimedia Commons API allows us to retriece th depictged entities for individuial images. for instance, for <this image>, https://commons.wikimedia.org/entity/M32093127 
+	
+	, https://commons.wikimedia.org/wiki/File:Atlas_de_Wit_1698-pl048-Montfoort-KB_PPN_145205088.jpg
+	
+	https://commons.wikimedia.org/w/api.php?action=wbgetentities&format=json&ids=M32093127 
+	
+	in th json repons retriecve the Qnumbers of the thing deptreicted
+	
 
-SDoC uitvragen via WD API-call (P180 depicts) --> nog uitzoeken!!
-https://www.mediawiki.org/wiki/Wikibase/API
-https://www.mediawiki.org/wiki/Extension:WikibaseMediaInfo
-https://www.mediawiki.org/wiki/Help:Extension:WikibaseCirrusSearch
-
-PETSCAN tool : https://petscan.wmflabs.org/?ns[6]=1&project=wikimedi&search_max_results=1000&categories=Atlas%20de%20Wit%201698&language=commons&doit=&format=json 
+If we want to list all things depeicted for all images in [Atlas de Wit 1698](https://commons.wikimedia.org/wiki/Category:Atlas_de_Wit_1698), we can wtire a small scropt t o itrate over the category members
 
 
-https://commons.wikimedia.org/w/api.php?action=wbgetentities&format=json&ids=M76359368
-https://commons.wikimedia.org/wiki/Special:ApiSandbox#action=wbgetentities&format=json&ids=M76359368%7CM76359366
-Scroiptje schrijven om alle Mids Comm0nccat 'Atlas de Wit 1698' ui te vragen en dan per Mid bovenstaande toepassen
-
-```sparql
-# Gallery of maps from Atlas de Wit 1698
-#defaultView:ImageGrid
-SELECT ?file ?image WHERE {
-  ?file wdt:P6243 wd:Q2520345 .
-  ?file schema:contentUrl ?url .
-  bind(iri(concat("http://commons.wikimedia.org/wiki/Special:FilePath/", wikibase:decodeUri(substr(str(?url),53)))) AS ?image)
-}
-```
 ================= 3 Petscan tool
-
+A handier way thamn iterating over the category mebers in the above scriopts is using the PETSCAN tool : https://petscan.wmflabs.org/?ns[6]=1&project=wikimedi&search_max_results=1000&categories=Atlas%20de%20Wit%201698&language=commons&doit=&format=json
 
 ===============================
 3 kaartjte met plaatsen (zie item Deel 3 )  https://tinyurl.com/y2y7pfbj
@@ -431,19 +421,16 @@ SELECT ?file ?image ?depiction ?coord WHERE {
 ## Reuse - individual highlight images
 
 ==================================================
-49) SDoC Dingen afgebeeld in 1 bepaald bestand uit Atlas de Wit - via WMC api: 
-https://commons.wikimedia.org/wiki/Commons:Depicts#Access
-https://commons.wikimedia.org/w/api.php?action=wbgetentities&format=json&ids=M76359368
 
-https://commons.wikimedia.org/w/api.php?action=wbgetentities&format=json&sites=commonswiki&titles=File%3ACommons_logo.svg
-
-===================================
-50) https://tools.wmflabs.org/magnus-toolserver/commonsapi.php - request image info
+49) https://tools.wmflabs.org/magnus-toolserver/commonsapi.php - request image info
 
 https://commons.wikimedia.org/wiki/Commons:API/MediaWiki
 
 https://tools.wmflabs.org/magnus-toolserver/commonsapi.php?image=Album%20amicorum%20Jacob%20Heyblocq%20KB131H26%20-%20p010%20-%20Franciscus%20Snellinx%20-%20Poem%20part2.jpg&thumbwidth=150&thumbheight=150&versions&meta&format=json
 https://commons.wikimedia.org/w/api.php?action=query&titles=Image:Album%20amicorum%20Jacob%20Heyblocq%20KB131H26%20-%20p010%20-%20Franciscus%20Snellinx%20-%20Poem%20part2.jpg&prop=imageinfo&iiprop=extmetadata
+
+===========================
+50) iets met Wikipedia artiuelen over topstuikkenb
 
 
 ## Summary
@@ -457,8 +444,9 @@ OK, we could have easily gone to 60, but that's it for this fifth and last artic
 43) Request highlight information from the [Wikidata API](https://www.wikidata.org/w/api.php?action=help&modules=wbgetentities) in multiple formats, directly from the highlight's Qnumber<br/>
 44) Request full Wikidata items in seven different formats via a [Special:EntityData](https://www.mediawiki.org/wiki/Wikibase/EntityData) URL, directly from the Qnumber: [HTML](https://www.wikidata.org/wiki/Special:EntityData/Q16641064), [JSON](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.json), [JSON-LD](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.jsonld), [RDF](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.rdf), [NT](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.nt), [TTL or N3](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.ttl) and [PHP](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.php) <br/>
 45) A structured, machine readable [overview of persons and institutions related to KB highlights](https://query.wikidata.org/sparql?query=%23%20Overview%20of%20persons%20%26%20institutions%20related%20to%20%0A%23%201%20Admirandorum%20quadruplex%20spectaculum%20%28Q42302438%29%2C%20%0A%23%203%20Kunst%20en%20samenleving%20%28Q72752446%29%20and%20%0A%23%204%20Haags%20liederenhandschrift%20%28Q16641064%29%20%0A%23%20such%20as%20authors%2C%20makers%2C%20contributors%2C%20publishers%2C%20printers%2C%20illustrators%2C%20translators%2C%20owners%20etc.%20%0ASELECT%20DISTINCT%20%3Fhl%20%3FhlLabel%0A%28GROUP_CONCAT%28DISTINCT%20%3FcreatorLabel%20%3B%20separator%20%3D%20%22%20----%20%22%29%20as%20%3Fcreators%29%0A%28GROUP_CONCAT%28DISTINCT%20%3FauthorLabel%20%3B%20separator%20%3D%20%22%20----%20%22%29%20as%20%3Fauthors%29%0A%28GROUP_CONCAT%28DISTINCT%20%3FcontributorLabel%20%3B%20separator%20%3D%20%22%20----%20%22%29%20as%20%3Fcontributors%29%0A%28GROUP_CONCAT%28DISTINCT%20%3FeditorLabel%20%3B%20separator%20%3D%20%22%20----%20%22%29%20as%20%3Feditors%29%0A%28GROUP_CONCAT%28DISTINCT%20%3FtranslatorLabel%20%3B%20separator%20%3D%20%22%20----%20%22%29%20as%20%3Ftranslators%29%0A%28GROUP_CONCAT%28DISTINCT%20%3FillustratorLabel%20%3B%20separator%20%3D%20%22%20----%20%22%29%20as%20%3Fillustrators%29%0A%28GROUP_CONCAT%28DISTINCT%20%3FpublisherLabel%20%3B%20separator%20%3D%20%22%20----%20%22%29%20as%20%3Fpublishers%29%0A%28GROUP_CONCAT%28DISTINCT%20%3Fowned_byLabel%20%3B%20separator%20%3D%20%22%20----%20%22%29%20as%20%3Fowned_bys%29%0A%0AWHERE%20%7B%0A%20%20%23%20the%20thing%20is%20part%20of%20the%20KB%20collection%2C%20and%20has%20role%20%27collection%20highlight%27%20within%20that%20collection%0A%20%20%3Fhl%20%28p%3AP195%2Fps%3AP195%29%20wd%3AQ1526131%3B%20p%3AP195%20%5Bpq%3AP2868%20wd%3AQ29188408%5D.%0A%20%20%23%20limit%20to%20Q42302438%2C%20Q72752446%20and%20Q16641064%0A%20%20VALUES%20%3Fhl%20%7Bwd%3AQ42302438%20wd%3AQ72752446%20wd%3AQ16641064%7D%0A%20%20%0A%20%20OPTIONAL%7B%3Fhl%20wdt%3AP170%20%3Fcreator.%7D%0A%20%20OPTIONAL%7B%3Fhl%20wdt%3AP50%20%3Fauthor.%7D%0A%20%20OPTIONAL%7B%3Fhl%20wdt%3AP767%20%3Fcontributor.%7D%0A%20%20OPTIONAL%7B%3Fhl%20wdt%3AP98%20%3Feditor.%7D%0A%20%20OPTIONAL%7B%3Fhl%20wdt%3AP655%20%3Ftranslator.%7D%0A%20%20OPTIONAL%7B%3Fhl%20wdt%3AP110%20%3Fillustrator.%7D%0A%20%20OPTIONAL%7B%3Fhl%20wdt%3AP123%20%3Fpublisher.%7D%0A%20%20OPTIONAL%7B%3Fhl%20wdt%3AP127%20%3Fowned_by.%7D%0A%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%3Fhl%20rdfs%3Alabel%20%3FhlLabel.%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Fcreator%20rdfs%3Alabel%20%3FcreatorLabel.%20%3Fauthor%20rdfs%3Alabel%20%3FauthorLabel.%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Fcontributor%20rdfs%3Alabel%20%3FcontributorLabel.%20%3Feditor%20rdfs%3Alabel%20%3FeditorLabel.%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ftranslator%20rdfs%3Alabel%20%3FtranslatorLabel.%20%3Fillustrator%20rdfs%3Alabel%20%3FillustratorLabel.%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Fpublisher%20rdfs%3Alabel%20%3FpublisherLabel.%20%3Fowned_by%20rdfs%3Alabel%20%3Fowned_byLabel.%7D%0A%20%20%7D%0A%20%20GROUP%20BY%20%3Fhl%20%3FhlLabel%0A%20%20ORDER%20BY%20%3FhlLabel&format=json), such as authors, makers, contributors, publishers, printers, illustrators, translators, owners, collectors etc.<br/>
-46) approaches for generating off-wiki image galleries from the Wikimedia infrasteucxture - 3 ways <br/>
-47) <br/>
+===========================
+46) XXXXXXXapproaches for generating off-wiki image galleries from the Wikimedia infrasteucxture - 3 ways <br/>
+47) XXXXXXXXXXXX[retrieve depicted entities programmatically](https://commons.wikimedia.org/wiki/Commons:Depicts#Access), either via the [Wikimedia Commons SPARQL query service](https://commons.wikimedia.org/wiki/Commons:SPARQL_query_service), the Wikimedia Commons API or via the [Petscan tool](https://petscan.wmflabs.org/).<br/>
 48) <br/>
 49) <br/>
 50) <br/>
