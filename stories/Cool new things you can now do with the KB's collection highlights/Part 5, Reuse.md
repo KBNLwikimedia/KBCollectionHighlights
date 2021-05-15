@@ -355,11 +355,12 @@ Let's now look at three **approaches for generating off-wiki image galleries** f
 
 47) Atlas de Wit - via WMC sparql
 
-https://commons.wikimedia.org/wiki/Commons:SPARQL_query_service
-https://commons.wikimedia.org/wiki/Commons:SPARQL_query_service/queries/examples
+In items 33 and 35 of [Part 4](Part%204%2C%20Images.html) we already looked at things (Wikidata entities) that can be seen in KB collection highlights, making images not only discoverable via the regular metadata, but also multilingually searchable by content (What's depicted in it?). Let's now look at how we can **retrieve depicted entities programatically**. We'll use  [Atlas de Wit 1698](https://commons.wikimedia.org/wiki/Category:Atlas_de_Wit_1698) for this . We can do this either via the [Wikimedia Commons SPARQL query service]https://commons.wikimedia.org/wiki/Commons:SPARQL_query_service), the Wikimedia Commons API or via the [Petscan tool](https://petscan.wmflabs.org/)
+
+
+====1  WMC SPARQL===========================
 [Wikimedia Commons SPARQL query service](https://wcqs-beta.wmflabs.org) 
 
-===============================
 #Things depicted in Atlas de Wit 1698 - https://tinyurl.com/yzp3xy8l
 ```sparql
 #Things depicted in Atlas de Wit 1698 - https://tinyurl.com/yzp3xy8l
@@ -384,20 +385,19 @@ GROUP BY ?file
 [as JSON](https://wcqs-beta.wmflabs.org/sparql?query=SELECT%20%3Ffile%20(GROUP_CONCAT(DISTINCT%20%3FdepictionLabel%20%3B%20separator%20%3D%20%22%20--%20%22)%20as%20%3FThingsDepicted)%0AWHERE%20%7b%0A%20%20%3Ffile%20wdt%3AP6243%20wd%3AQ2520345%20.%0A%20%20%3Ffile%20wdt%3AP180%20%3Fdepiction%20.%0A%20%20SERVICE%20%3Chttps%3A%2F%2Fquery.wikidata.org%2Fsparql%3E%20%7b%20%20%0A%20%20%20%20SERVICE%20wikibase%3Alabel%20%7b%0A%20%20%20%20%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%22nl%22%20.%0A%20%20%20%20%20%20%20%20%3Fdepiction%20rdfs%3Alabel%20%3FdepictionLabel.%0A%20%20%20%20%20%20%20%20%3Ffile%20rdfs%3Alabel%20%3FfileLabel.%0A%20%20%20%20%7d%0A%20%20%7d%0A%7d%0AGROUP%20BY%20%3Ffile&format=json)
 
 
-===============================
+===========2 Commons APO====================
 
 SDoC uitvragen via WD API-call (P180 depicts) --> nog uitzoeken!!
 https://www.mediawiki.org/wiki/Wikibase/API
 https://www.mediawiki.org/wiki/Extension:WikibaseMediaInfo
 https://www.mediawiki.org/wiki/Help:Extension:WikibaseCirrusSearch
 
+PETSCAN tool : https://petscan.wmflabs.org/?ns[6]=1&project=wikimedi&search_max_results=1000&categories=Atlas%20de%20Wit%201698&language=commons&doit=&format=json 
+
 
 https://commons.wikimedia.org/w/api.php?action=wbgetentities&format=json&ids=M76359368
 https://commons.wikimedia.org/wiki/Special:ApiSandbox#action=wbgetentities&format=json&ids=M76359368%7CM76359366
 Scroiptje schrijven om alle Mids Comm0nccat 'Atlas de Wit 1698' ui te vragen en dan per Mid bovenstaande toepassen
-
-===============================
-2 - plaaategrodnen via sparwl
 
 ```sparql
 # Gallery of maps from Atlas de Wit 1698
@@ -408,9 +408,11 @@ SELECT ?file ?image WHERE {
   bind(iri(concat("http://commons.wikimedia.org/wiki/Special:FilePath/", wikibase:decodeUri(substr(str(?url),53)))) AS ?image)
 }
 ```
+================= 3 Petscan tool
+
 
 ===============================
-3 kaartjte met plaatsen (zie Punt 26 Deel 3 )  https://tinyurl.com/y2y7pfbj
+3 kaartjte met plaatsen (zie item Deel 3 )  https://tinyurl.com/y2y7pfbj
 
 ```sparql
 # Cities from Altas de Wit 1698 plotted an a modern map
