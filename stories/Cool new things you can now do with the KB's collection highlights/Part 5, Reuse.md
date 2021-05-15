@@ -350,40 +350,29 @@ Let's now look at three **approaches for generating off-wiki image galleries** f
    <kbd><img src="images/image-p5-018.png" height="300"/></kbd><kbd><img src="images/image-p5-019.png" height="300"/></kbd>
  <br/><sub>*Another approach for making a HTML portrait gallery of contributors to the Album amicorum Jacob Heyblocq, using a Wikidata SPARQL query and an embedded iframe. Left: A [plain, unstyled facebook](https://kbnlwikimedia.github.io/Alba-Amicorum/alba/AA-Jacob-Heyblocq/reuse/bijdragersAAJH-smoelenboek-SparqlHTMLembed-plain.html). Right: The same iframe, but now embedded into a [KB styled portrait gallery](https://kbnlwikimedia.github.io/Alba-Amicorum/alba/AA-Jacob-Heyblocq/reuse/bijdragersAAJH-smoelenboek-SparqlHTMLembed-mockupkbnl.html). Screenshots d.d. 14-05-2021*</sub>
 
-===============================
-===============================
+47) In items 33 and 35 of [Part 4](Part%204%2C%20Images.html) we already looked at things (Wikidata entities) that can be seen in KB collection highlights, making images not only discoverable via the regular metadata, but also multilingually searchable by content (What's depicted in it?). Let's now look at how we can **retrieve depicted entities programmatically**. We'll use  [Atlas de Wit 1698](https://commons.wikimedia.org/wiki/Category:Atlas_de_Wit_1698) for this . We can do this either via the [Wikimedia Commons SPARQL query service](https://commons.wikimedia.org/wiki/Commons:SPARQL_query_service), the Wikimedia Commons API or via the [Petscan tool](https://petscan.wmflabs.org/).
 
-47) Atlas de Wit - via WMC sparql
+  - To retrieve the depicted entities via the [Wikimedia Commons SPARQL query service](https://wcqs-beta.wmflabs.org), we use [this query](https://tinyurl.com/yg4qsbj4):  
 
-In items 33 and 35 of [Part 4](Part%204%2C%20Images.html) we already looked at things (Wikidata entities) that can be seen in KB collection highlights, making images not only discoverable via the regular metadata, but also multilingually searchable by content (What's depicted in it?). Let's now look at how we can **retrieve depicted entities programatically**. We'll use  [Atlas de Wit 1698](https://commons.wikimedia.org/wiki/Category:Atlas_de_Wit_1698) for this . We can do this either via the [Wikimedia Commons SPARQL query service]https://commons.wikimedia.org/wiki/Commons:SPARQL_query_service), the Wikimedia Commons API or via the [Petscan tool](https://petscan.wmflabs.org/)
+ ```sparql
+ #Things depicted in Atlas de Wit 1698
+ SELECT ?file (GROUP_CONCAT(DISTINCT ?depictionLabel ; separator = " -- ") as ?ThingsDepicted)
+ WHERE {
+   ?file wdt:P6243 wd:Q2520345 .
+   ?file wdt:P180 ?depiction .
+   SERVICE <https://query.wikidata.org/sparql> {  
+     SERVICE wikibase:label {
+         bd:serviceParam wikibase:language "en" .
+         ?depiction rdfs:label ?depictionLabel.
+         ?file rdfs:label ?fileLabel.
+     }
+   }
+ }
+ GROUP BY ?file
+ ```
+  giving [this result](https://tinyurl.com/yz3qs7k6), which can also be requested [as JSON](https://wcqs-beta.wmflabs.org/sparql?query=SELECT%20%3Ffile%20(GROUP_CONCAT(DISTINCT%20%3FdepictionLabel%20%3B%20separator%20%3D%20%22%20--%20%22)%20as%20%3FThingsDepicted)%0AWHERE%20%7b%0A%20%20%3Ffile%20wdt%3AP6243%20wd%3AQ2520345%20.%0A%20%20%3Ffile%20wdt%3AP180%20%3Fdepiction%20.%0A%20%20SERVICE%20%3Chttps%3A%2F%2Fquery.wikidata.org%2Fsparql%3E%20%7b%20%20%0A%20%20%20%20SERVICE%20wikibase%3Alabel%20%7b%0A%20%20%20%20%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22%20.%0A%20%20%20%20%20%20%20%20%3Fdepiction%20rdfs%3Alabel%20%3FdepictionLabel.%0A%20%20%20%20%20%20%20%20%3Ffile%20rdfs%3Alabel%20%3FfileLabel.%0A%20%20%20%20%7d%0A%20%20%7d%0A%7d%0AGROUP%20BY%20%3Ffile&format=json).
 
-
-====1  WMC SPARQL===========================
-[Wikimedia Commons SPARQL query service](https://wcqs-beta.wmflabs.org) 
-
-#Things depicted in Atlas de Wit 1698 - https://tinyurl.com/yzp3xy8l
-```sparql
-#Things depicted in Atlas de Wit 1698 - https://tinyurl.com/yzp3xy8l
-SELECT ?file (GROUP_CONCAT(DISTINCT ?depictionLabel ; separator = " -- ") as ?ThingsDepicted)
-WHERE {
-  ?file wdt:P6243 wd:Q2520345 .
-  ?file wdt:P180 ?depiction .
-  SERVICE <https://query.wikidata.org/sparql> {  
-    SERVICE wikibase:label {
-        bd:serviceParam wikibase:language "en" .
-        ?depiction rdfs:label ?depictionLabel.
-        ?file rdfs:label ?fileLabel.
-    }
-  }
-}
-GROUP BY ?file
-```
-
-  <kbd><img src="images/image-p5-019.png" width="100%"/></kbd><br/><sub>*. Screenshots fff d.d. 14-05-2021*</sub>
-
-
-[as JSON](https://wcqs-beta.wmflabs.org/sparql?query=SELECT%20%3Ffile%20(GROUP_CONCAT(DISTINCT%20%3FdepictionLabel%20%3B%20separator%20%3D%20%22%20--%20%22)%20as%20%3FThingsDepicted)%0AWHERE%20%7b%0A%20%20%3Ffile%20wdt%3AP6243%20wd%3AQ2520345%20.%0A%20%20%3Ffile%20wdt%3AP180%20%3Fdepiction%20.%0A%20%20SERVICE%20%3Chttps%3A%2F%2Fquery.wikidata.org%2Fsparql%3E%20%7b%20%20%0A%20%20%20%20SERVICE%20wikibase%3Alabel%20%7b%0A%20%20%20%20%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%22nl%22%20.%0A%20%20%20%20%20%20%20%20%3Fdepiction%20rdfs%3Alabel%20%3FdepictionLabel.%0A%20%20%20%20%20%20%20%20%3Ffile%20rdfs%3Alabel%20%3FfileLabel.%0A%20%20%20%20%7d%0A%20%20%7d%0A%7d%0AGROUP%20BY%20%3Ffile&format=json)
-
+  <kbd><img src="images/image-p5-020.png" width="100%"/></kbd><br/><sub>*[Things depicted](https://tinyurl.com/yg4qsbj4) in [Atlas de Wit 1698](https://commons.wikimedia.org/wiki/Category:Atlas_de_Wit_1698). Screenshots [Wikimedia Commons SPARQL query service](https://tinyurl.com/yz3qs7k6) d.d. 15-05-2021*</sub>
 
 ===========2 Commons APO====================
 
