@@ -377,7 +377,7 @@ Let's now look at three **approaches for generating off-wiki image galleries** f
   
   From that Mnumber (*M+Page ID*) we can request the (Wikidata Qnumbers of the) depicted entities via the API call [https://commons.wikimedia.org/w/api.php?action=wbgetentities&format=json&ids=M32093127](https://commons.wikimedia.org/w/api.php?action=wbgetentities&format=json&ids=M32093127) as JSON: 
 
-  <kbd><img src="images/image-p5-021.png" width="100%"/></kbd><br/><sub>*Wikidata Qnumbers of things depicted in [File:Atlas de Wit 1698-pl048-Montfoort-KB PPN 145205088.jpg](https://commons.wikimedia.org/wiki/File:Atlas_de_Wit_1698-pl048-Montfoort-KB_PPN_145205088.jpg) (M32093127). Result of [this API call](https://commons.wikimedia.org/w/api.php?action=wbgetentities&format=json&ids=M32093127). Screenshots Wikimedia Commons API, d.d. 15-05-2021*</sub>. 
+  <kbd><img src="images/image-p5-021.png" width="100%"/></kbd><br/><sub>*Wikidata Qnumbers of things depicted in [File:Atlas de Wit 1698-pl048-Montfoort-KB PPN 145205088.jpg](https://commons.wikimedia.org/wiki/File:Atlas_de_Wit_1698-pl048-Montfoort-KB_PPN_145205088.jpg) (M32093127). Result of [this API call](https://commons.wikimedia.org/w/api.php?action=wbgetentities&format=json&ids=M32093127). Screenshots Wikimedia Commons API, d.d. 15-05-2021*</sub> 
   
   If we want to list all things depicted in all images in [Category:Atlas de Wit 1698](https://commons.wikimedia.org/wiki/Category:Atlas_de_Wit_1698), we can write a small Python script to iterate over all images in that category, using the [API call we saw in item 41](https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:Atlas_de_Wit_1698&format=json&gcmnamespace=6) to request the pageIDs and titles of the files in that category: 
     
@@ -451,34 +451,36 @@ Each database has its associated Wikidata property:
 Let's start by querying Wikidata to see which AAJH contributors have any of these properties connected to them:
 as well as construct URLs for retrieving JSON from that database
 
+https://w.wiki/3Ln6
+
   ```sparql
-SELECT DISTINCT ?contr ?contrLabel  ?EuropeanaID ?RKDID ?RKDURI ?BPID ?BPURI ?DBNLaID
-WHERE {
-  wd:Q72752496 wdt:P767 ?contr.
-  OPTIONAL { ?contr wdt:P7704 ?EuropeanaID.}
-  OPTIONAL { ?contr wdt:P650 ?RKDID. 
-           bind(uri(concat("https://api.rkd.nl/api/record/artists/",?RKDID ,"?format=json")) as ?RKDURI)
-           } 
-  OPTIONAL { ?contr wdt:P651 ?BPID. 
-           bind(uri(concat("http://www.biografischportaal.nl/persoon/json/", ?BPID)) as ?BPURI) # http://www.biografischportaal.nl/about/bioport-api-documentation
-           } 
-  
-  OPTIONAL { ?contr wdt:P723 ?DBNLaID. } 
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
-  }
-ORDER BY DESC(?EuropeanaID)
+  SELECT DISTINCT ?contr ?contrLabel ?EuropeanaID ?EuropeanaURI ?RKDID ?RKDURI ?BPID ?BPURI ?DBNLaID ?DBNLaURI
+  WHERE {
+    wd:Q72752496 wdt:P767 ?contr.
+    OPTIONAL { ?contr wdt:P7704 ?EuropeanaID.
+             bind(uri(concat("https://www.europeana.eu/api/entities/",?EuropeanaID ,".json?wskey=apidemo")) as ?EuropeanaURI)}
+    OPTIONAL {?contr wdt:P650 ?RKDID. 
+             bind(uri(concat("https://api.rkd.nl/api/record/artists/",?RKDID ,"?format=json")) as ?RKDURI)} 
+    OPTIONAL {?contr wdt:P651 ?BPID. 
+             bind(uri(concat("http://www.biografischportaal.nl/persoon/json/", ?BPID)) as ?BPURI)} # http://www.biografischportaal.nl/about/bioport-api-documentation
+    OPTIONAL {?contr wdt:P723 ?DBNLaID. 
+             bind(uri(concat("http://data.bibliotheken.nl/doc/dbnla/",?DBNLaID ,".json")) as ?DBNLaURI)}  
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+    }
+  ORDER BY DESC(?EuropeanaID)
 ```
-https://query.wikidata.org/#SELECT%20DISTINCT%20%3Fcontr%20%3FcontrLabel%20%20%3FEuropeanaID%20%3FRKDID%20%3FRKDURI%20%3FBPID%20%3FBPURI%20%3FDBNLaID%0AWHERE%20%7B%0A%20%20wd%3AQ72752496%20wdt%3AP767%20%3Fcontr.%0A%20%20OPTIONAL%20%7B%20%3Fcontr%20wdt%3AP7704%20%3FEuropeanaID.%7D%0A%20%20OPTIONAL%20%7B%20%3Fcontr%20wdt%3AP650%20%3FRKDID.%20%0A%20%20%20%20%20%20%20%20%20%20%20bind%28uri%28concat%28%22https%3A%2F%2Fapi.rkd.nl%2Fapi%2Frecord%2Fartists%2F%22%2C%3FRKDID%20%2C%22%3Fformat%3Djson%22%29%29%20as%20%3FRKDURI%29%0A%20%20%20%20%20%20%20%20%20%20%20%7D%20%0A%20%20OPTIONAL%20%7B%20%3Fcontr%20wdt%3AP651%20%3FBPID.%20%0A%20%20%20%20%20%20%20%20%20%20%20bind%28uri%28concat%28%22http%3A%2F%2Fwww.biografischportaal.nl%2Fpersoon%2Fjson%2F%22%2C%20%3FBPID%29%29%20as%20%3FBPURI%29%20%23%20http%3A%2F%2Fwww.biografischportaal.nl%2Fabout%2Fbioport-api-documentation%0A%20%20%20%20%20%20%20%20%20%20%20%7D%20%0A%20%20%0A%20%20OPTIONAL%20%7B%20%3Fcontr%20wdt%3AP723%20%3FDBNLaID.%20%7D%20%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%0A%20%20%7D%0AORDER%20BY%20DESC%28%3FEuropeanaID%29%0A%0A
+resulting into
 
+  <kbd><img src="images/image-p5-022.png" width="100%"/></kbd><br/><sub>*aaaa https://w.wiki/3Ln7 Screenshots Wikidata query service, d.d. 16-05-2021*</sub> 
 
-  <kbd><img src="images/image-p5-022.png" width="100%"/></kbd><br/><sub>*Wikidata Qnumbers of things depicted in [File:Atlas de Wit 1698-pl048-Montfoort-KB PPN 145205088.jpg](https://commons.wikimedia.org/wiki/File:Atlas_de_Wit_1698-pl048-Montfoort-KB_PPN_145205088.jpg) (M32093127). Result of [this API call](https://commons.wikimedia.org/w/api.php?action=wbgetentities&format=json&ids=M32093127). Screenshots Wikimedia Commons API, d.d. 15-05-2021*</sub>. 
+From th JSON uri further peocessing can be done, let's l;ook at Euroipeana for instanvce
 
 XXXXXXXXXXXXXXXXXXXX
 
 
 
 
-https://query.wikidata.org/#SELECT%20DISTINCT%20%3Fentity%20%3FentityLabel%20%3Fvalue%20%3FvalueLabel%20WHERE%20%7B%20%20%3Fentity%20wdt%3AP31%20wd%3AQ5%3Bwdt%3AP3919%20wd%3AQ72752496%20.%20%20%3Fentity%20wdt%3AP3919%20wd%3AQ72752496%20.%20%20%3Fentity%20p%3AP723%20%3Fprop%20.%20OPTIONAL%20%7B%20%3Fprop%20ps%3AP723%20%3Fvalue%20%7D%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%7D 
+
 ==============================
 
 ## Reuse - individual highlight images
