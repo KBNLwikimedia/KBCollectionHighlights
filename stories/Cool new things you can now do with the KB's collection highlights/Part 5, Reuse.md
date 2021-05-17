@@ -167,7 +167,6 @@ For instance, we can make a list of all Wikidata properties that are used in [Q1
   import json
   url = "https://www.wikidata.org/wiki/Special:EntityData/"
   qnumbers = ['Q16641064'] # Haags liederenhandschrift // The Hague song manuscript
-  all_properties = {}
   for qnum in qnumbers:
       useurl = url + qnum + '.json'
       headers = {
@@ -378,16 +377,61 @@ Let's now look at three **approaches for generating off-wiki image galleries** f
   
   From that Mnumber (*M+Page ID*) we can request the (Wikidata Qnumbers of the) depicted entities via the API call [https://commons.wikimedia.org/w/api.php?action=wbgetentities&format=json&ids=M32093127](https://commons.wikimedia.org/w/api.php?action=wbgetentities&format=json&ids=M32093127) as JSON: 
 
-  <kbd><img src="images/image-p5-021.png" width="100%"/></kbd><br/><sub>*Qnumbers of things depicted in [File:Atlas de Wit 1698-pl048-Montfoort-KB PPN 145205088.jpg](https://commons.wikimedia.org/wiki/File:Atlas_de_Wit_1698-pl048-Montfoort-KB_PPN_145205088.jpg) (M32093127). Result of [this API call](https://commons.wikimedia.org/w/api.php?action=wbgetentities&format=json&ids=M32093127). Screenshots Wikimedia Commons SPARQL query service, d.d. 15-05-2021*</sub>. 
+  <kbd><img src="images/image-p5-021.png" width="100%"/></kbd><br/><sub>*Qnumbers of things depicted in [File:Atlas de Wit 1698-pl048-Montfoort-KB PPN 145205088.jpg](https://commons.wikimedia.org/wiki/File:Atlas_de_Wit_1698-pl048-Montfoort-KB_PPN_145205088.jpg) (M32093127). Result of [this API call](https://commons.wikimedia.org/w/api.php?action=wbgetentities&format=json&ids=M32093127). Screenshots Wikimedia Commons API, d.d. 15-05-2021*</sub>. 
   
-  If we want to list & count all things depicted in all images in [Category:Atlas de Wit 1698](https://commons.wikimedia.org/wiki/Category:Atlas_de_Wit_1698), we can write a small Python script to iterate over all images in that category, using the [API call we saw in item 41](https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:Atlas_de_Wit_1698&format=json&gcmnamespace=6) to request the pageIDs and titles of the files in that category: 
+  If we want to list all things depicted in all images in [Category:Atlas de Wit 1698](https://commons.wikimedia.org/wiki/Category:Atlas_de_Wit_1698), we can write a small Python script to iterate over all images in that category, using the [API call we saw in item 41](https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:Atlas_de_Wit_1698&format=json&gcmnamespace=6) to request the pageIDs and titles of the files in that category: 
     
   ```python
+import requests
+import json
+baseurl = "https://commons.wikimedia.org/w/api.php?action="
+cat = "Category:Atlas_de_Wit_1698"
+headers = {'Accept' : 'application/json', 'User-Agent': 'User OlafJanssen - Category:Atlas_de_Wit_1698'}
+
+filesurl= baseurl + "query&generator=categorymembers&gcmlimit=500&gcmtitle=" + cat +  "&format=json&gcmnamespace=6"
+files = requests.get(filesurl, headers=headers)
+filesdata = json.loads(files.text)
+pageids=list(filesdata['query']['pages'].keys())
+
+for pageid in pageids:
+    mnumber="M"+str(pageid)
+    pageurl= baseurl + "wbgetentities&format=json&ids=" + str(mnumber)
+    pageresponse = requests.get(pageurl, headers=headers)
+    pagedata = json.loads(pageresponse.text)
+    pagetitle=pagedata.get('entities').get(mnumber).get('title')
+    p180s = pagedata.get('entities').get(mnumber).get('statements').get('P180', 'XX')
+    if str(p180s) != "XX":
+        depictslist=[]
+        for p in range(0, len(p180s)):
+            qnum= p180s[p]['mainsnak']['datavalue']['value']['id']
+            depictsurl = "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=" + str(qnum) + "&props=labels&languages=en&format=json"
+            depictsresponse = requests.get(depictsurl, headers=headers)
+            depictsdata = json.loads(depictsresponse.text)
+            depicts = depictsdata.get('entities', 'XX').get(qnum).get('labels', 'XX').get('en', 'XX')
+            if str(depicts) != "XX":
+                a = str(depicts.get('value')) + " (" + str(qnum) + ")"
+                depictslist.append(a)
+        print(str(mnumber) + " ||  " + str(pagetitle) + " ||  " + ' -- '.join(depictslist))
    ```
  
    This gives the following result:
  
- 
+   ```
+M32246841 || File:Atlas de Wit 1698-pl017-Leiden-de burcht.jpg || tree (Q10884) -- peafowl (Q201251) -- dog (Q144) -- Burcht van Leiden (Q2345558) -- gate (Q53060)
+M32092934 || File:Atlas de Wit 1698-pl017-Leiden-KB PPN 145205088.jpg || Leiden (Q43631) -- Rhine (Q584) -- Oude Rijn (Q2478570) -- Nieuwe Rijn (Q671841) -- Nieuwe Rijn (Q57945772) -- Pieterskerk (Q1537972) -- Hooglandse Kerk (Q1537970) -- Rapenburg (Q2597656) -- Academy Building (Q2515805) -- Hortus Botanicus Leiden (Q2468128) -- Zijlpoort (Q2326072) -- bolwerk (Q891475) -- fortified town (Q677678) -- Morschpoort, Leiden (Q2688448) -- Marepoort (Q1817627) -- Burcht van Leiden (Q2345558)
+M32246845 || File:Atlas de Wit 1698-pl017-Leiden-Pieterskerk.jpg || Pieterskerk (Q1537972) -- tree (Q10884) -- dog (Q144) -- weather vane (Q524738)
+M32246848 || File:Atlas de Wit 1698-pl017-Leiden-St Pancraskerk.jpg || Hooglandse Kerk (Q1537970) -- cloud (Q8074) -- weathercock (Q2157687) -- leadlight (Q488094) -- door (Q36794) -- woman (Q467) -- child (Q7569) -- dog (Q144) -- hat (Q80151) -- carriage (Q235356) -- walking stick (Q1347864) -- horse (Q726) -- tree (Q10884) -- crow-stepped gable (Q1939660) -- clock (Q376) -- Burcht van Leiden (Q2345558)
+M32246852 || File:Atlas de Wit 1698-pl017-Leiden-stadhuis.jpg || Leiden City Hall (Q2191676) -- dog (Q144) -- crow-stepped gable (Q1939660) -- cow (Q11748378)
+M32092941 || File:Atlas de Wit 1698-pl017a-Leiden, Stadhuis-KB PPN 145205088.jpg || Leiden City Hall (Q2191676) -- Hooglandse Kerk (Q1537970) -- Leiden (Q43631) -- Burcht van Leiden (Q2345558) -- dog (Q144) -- cow (Q11748378) -- peafowl (Q201251) -- Pieterskerk (Q1537972) -- coach (Q4655519) -- crow-stepped gable (Q1939660) -- gate (Q53060)
+....
+M32092951 || File:Atlas de Wit 1698-pl018-Amsterdam-KB PPN 145205088.jpg || Amsterdam (Q727) -- Royal Palace of Amsterdam (Q1056152) -- fortified town (Q677678)
+M32092959 || File:Atlas de Wit 1698-pl018a-Amsterdam, Dam-KB PPN 145205088.jpg || Dam Square (Q839050) -- Royal Palace of Amsterdam (Q1056152) -- dog (Q144) -- horse (Q726) -- fire extinguisher (Q190672) -- fire department (Q6498663) -- Nieuwe Kerk (Q1419675) -- weigh house (Q1407236) -- Oude Kerk (Q623558) -- pump (Q134574) -- fire hose (Q1410061) -- firewater (Q5452025) -- coat of arms of Amsterdam (Q683829)
+M32092960 || File:Atlas de Wit 1698-pl018b-Amsterdam, Stadhuis-KB PPN 145205088.jpg || Royal Palace of Amsterdam (Q1056152)
+M32092964 || File:Atlas de Wit 1698-pl018c-Amsterdam, profiel (Joan de Ram)-KB PPN 145205088.jpg || Amsterdam (Q727) -- boat (Q35872) -- river (Q4022)
+M32092969 || File:Atlas de Wit 1698-pl018d-Amsterdam, Oude Kerk-KB PPN 145205088.jpg || Royal Palace of Amsterdam (Q1056152) -- weigh house (Q1407236) -- Nieuwe Kerk (Q1419675) -- market (Q37654) -- horse (Q726) -- Euronext Amsterdam (Q478720) -- exchange building (Q10882966) -- Oude Kerk (Q623558) -- péniche (Q7578326) -- porter (Q1509714) -- coat of arms of Amsterdam (Q683829) -- dog (Q144)
+.....
+   ```
+   
   c) A handier way thamn iterating over the category mebers in the above scriopts is using the PETSCAN tool : https://petscan.wmflabs.org/?ns[6]=1&project=wikimedi&search_max_results=1000&categories=Atlas%20de%20Wit%201698&language=commons&doit=&format=json
 
 ===============================
