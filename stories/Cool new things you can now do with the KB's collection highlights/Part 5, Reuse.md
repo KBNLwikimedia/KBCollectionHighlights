@@ -350,9 +350,9 @@ Let's now look at three **approaches for generating off-wiki image galleries** f
    <kbd><img src="images/image-p5-018.png" height="300"/></kbd><kbd><img src="images/image-p5-019.png" height="300"/></kbd>
  <br/><sub>*Another approach for making a HTML portrait gallery of contributors to the Album amicorum Jacob Heyblocq, using a Wikidata SPARQL query and an embedded iframe. Left: A [plain, unstyled facebook](https://kbnlwikimedia.github.io/Alba-Amicorum/alba/AA-Jacob-Heyblocq/reuse/bijdragersAAJH-smoelenboek-SparqlHTMLembed-plain.html). Right: The same iframe, but now embedded into a [KB styled portrait gallery](https://kbnlwikimedia.github.io/Alba-Amicorum/alba/AA-Jacob-Heyblocq/reuse/bijdragersAAJH-smoelenboek-SparqlHTMLembed-mockupkbnl.html). Screenshots d.d. 14-05-2021*</sub>
 
-47) In items 33 and 35 of [Part 4](Part%204%2C%20Images.html) we already looked at things (Wikidata entities) that can be seen in KB collection highlights, making images not only discoverable via the regular metadata, but also multilingually searchable by content (What's depicted in it?). Let's now look at how we can **[retrieve depicted entities programmatically](https://commons.wikimedia.org/wiki/Commons:Depicts#Access)**. We'll use  [Atlas de Wit 1698](https://commons.wikimedia.org/wiki/Category:Atlas_de_Wit_1698) for this . We can do this either via the [Wikimedia Commons SPARQL query service](https://commons.wikimedia.org/wiki/Commons:SPARQL_query_service), the Wikimedia Commons API or via the [Petscan tool](https://petscan.wmflabs.org/).
+47) In items 33 and 35 of [Part 4](Part%204%2C%20Images.html) we already looked at things (Wikidata entities) that can be seen in KB collection highlights, making images not only discoverable via the regular metadata, but also multilingually searchable by content (What's depicted in it?). Let's now look at how we can **[retrieve depicted entities programmatically](https://commons.wikimedia.org/wiki/Commons:Depicts#Access)**. We'll use  [Atlas de Wit 1698](https://commons.wikimedia.org/wiki/Category:Atlas_de_Wit_1698) for this . We can do this either via a) the [Wikimedia Commons SPARQL query service](https://commons.wikimedia.org/wiki/Commons:SPARQL_query_service), b) the Wikimedia Commons API or c) via the [Petscan tool](https://petscan.wmflabs.org/).
 
- - To retrieve the depicted entities via the [Wikimedia Commons SPARQL query service](https://wcqs-beta.wmflabs.org), we use [this query](https://tinyurl.com/yg4qsbj4):  
+  a) To retrieve the depicted entities via the [Wikimedia Commons SPARQL query service](https://wcqs-beta.wmflabs.org), we use [this query](https://tinyurl.com/yg4qsbj4):  
 
  ```sparql
  #Things depicted in Atlas de Wit 1698
@@ -374,21 +374,21 @@ Let's now look at three **approaches for generating off-wiki image galleries** f
 
   <kbd><img src="images/image-p5-020.png" width="100%"/></kbd><br/><sub>*[Things depicted](https://tinyurl.com/yg4qsbj4) in [Atlas de Wit 1698](https://commons.wikimedia.org/wiki/Category:Atlas_de_Wit_1698). Screenshots [Wikimedia Commons SPARQL query service](https://tinyurl.com/yz3qs7k6) d.d. 15-05-2021*</sub>
 
-===========2 Commons APO====================
-The Wikimedia Commons API allows us to retriece th depictged entities for individuial images. for instance, for <this image>, https://commons.wikimedia.org/entity/M32093127 
-	
-	, https://commons.wikimedia.org/wiki/File:Atlas_de_Wit_1698-pl048-Montfoort-KB_PPN_145205088.jpg
-	
-	https://commons.wikimedia.org/w/api.php?action=wbgetentities&format=json&ids=M32093127 
-	
-	in th json repons retriecve the Qnumbers of the thing deptreicted
-	
+  b) The Wikimedia Commons API allows us to retrieve depicted entities for individual images. Let's use [https://commons.wikimedia.org/wiki/File:Atlas_de_Wit_1698-pl048-Montfoort-KB_PPN_145205088.jpg](https://commons.wikimedia.org/wiki/File:Atlas_de_Wit_1698-pl048-Montfoort-KB_PPN_145205088.jpg) as an example. As can be seen from the *Concept URI* link in the *Tools* navigation on the left, this file can also be requested via the URI [https://commons.wikimedia.org/entity/M32093127](https://commons.wikimedia.org/entity/M32093127), where '32093127' is the Page ID that is listed in the [Page information](https://commons.wikimedia.org/w/index.php?title=File:Atlas_de_Wit_1698-pl048-Montfoort-KB_PPN_145205088.jpg&action=info), also in the left hand navigation. This Mnumber is Wikimedia Commons' equivalent of the Wikidata Qnumber.
+  
+  From that Mnumber (*M+Page ID*) we can request the (Wikidata Qnumbers of the) depicted entities via the API call [https://commons.wikimedia.org/w/api.php?action=wbgetentities&format=json&ids=M32093127](https://commons.wikimedia.org/w/api.php?action=wbgetentities&format=json&ids=M32093127) as JSON: 
 
-If we want to list all things depeicted for all images in [Atlas de Wit 1698](https://commons.wikimedia.org/wiki/Category:Atlas_de_Wit_1698), we can wtire a small scropt t o itrate over the category members
-
-
-================= 3 Petscan tool
-A handier way thamn iterating over the category mebers in the above scriopts is using the PETSCAN tool : https://petscan.wmflabs.org/?ns[6]=1&project=wikimedi&search_max_results=1000&categories=Atlas%20de%20Wit%201698&language=commons&doit=&format=json
+  <kbd><img src="images/image-p5-021.png" width="100%"/></kbd><br/><sub>*Qnumbers of things depicted in [File:Atlas de Wit 1698-pl048-Montfoort-KB PPN 145205088.jpg](https://commons.wikimedia.org/wiki/File:Atlas_de_Wit_1698-pl048-Montfoort-KB_PPN_145205088.jpg) (M32093127). Result of [this API call](https://commons.wikimedia.org/w/api.php?action=wbgetentities&format=json&ids=M32093127). Screenshots Wikimedia Commons SPARQL query service, d.d. 15-05-2021*</sub>. 
+  
+  If we want to list & count all things depicted in all images in [Category:Atlas de Wit 1698](https://commons.wikimedia.org/wiki/Category:Atlas_de_Wit_1698), we can write a small Python script to iterate over all images in that category, using the [API call we saw in item 41](https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:Atlas_de_Wit_1698&format=json&gcmnamespace=6) to request the pageIDs and titles of the files in that category: 
+    
+  ```python
+   ```
+ 
+   This gives the following result:
+ 
+ 
+  c) A handier way thamn iterating over the category mebers in the above scriopts is using the PETSCAN tool : https://petscan.wmflabs.org/?ns[6]=1&project=wikimedi&search_max_results=1000&categories=Atlas%20de%20Wit%201698&language=commons&doit=&format=json
 
 ===============================
 3 kaartjte met plaatsen (zie item Deel 3 )  https://tinyurl.com/y2y7pfbj
