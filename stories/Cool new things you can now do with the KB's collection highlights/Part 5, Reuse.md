@@ -377,7 +377,7 @@ Let's now look at three **approaches for generating off-wiki image galleries** f
   
   From that Mnumber (*M+Page ID*) we can request the (Wikidata Qnumbers of the) depicted entities via the API call [https://commons.wikimedia.org/w/api.php?action=wbgetentities&format=json&ids=M32093127](https://commons.wikimedia.org/w/api.php?action=wbgetentities&format=json&ids=M32093127) as JSON: 
 
-  <kbd><img src="images/image-p5-021.png" width="100%"/></kbd><br/><sub>*Qnumbers of things depicted in [File:Atlas de Wit 1698-pl048-Montfoort-KB PPN 145205088.jpg](https://commons.wikimedia.org/wiki/File:Atlas_de_Wit_1698-pl048-Montfoort-KB_PPN_145205088.jpg) (M32093127). Result of [this API call](https://commons.wikimedia.org/w/api.php?action=wbgetentities&format=json&ids=M32093127). Screenshots Wikimedia Commons API, d.d. 15-05-2021*</sub>. 
+  <kbd><img src="images/image-p5-021.png" width="100%"/></kbd><br/><sub>*Wiidata Qnumbers of things depicted in [File:Atlas de Wit 1698-pl048-Montfoort-KB PPN 145205088.jpg](https://commons.wikimedia.org/wiki/File:Atlas_de_Wit_1698-pl048-Montfoort-KB_PPN_145205088.jpg) (M32093127). Result of [this API call](https://commons.wikimedia.org/w/api.php?action=wbgetentities&format=json&ids=M32093127). Screenshots Wikimedia Commons API, d.d. 15-05-2021*</sub>. 
   
   If we want to list all things depicted in all images in [Category:Atlas de Wit 1698](https://commons.wikimedia.org/wiki/Category:Atlas_de_Wit_1698), we can write a small Python script to iterate over all images in that category, using the [API call we saw in item 41](https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:Atlas_de_Wit_1698&format=json&gcmnamespace=6) to request the pageIDs and titles of the files in that category: 
     
@@ -432,30 +432,8 @@ M32092969 || File:Atlas de Wit 1698-pl018d-Amsterdam, Oude Kerk-KB PPN 145205088
 .....
    ```
    
-  c) A handier way thamn iterating over the category mebers in the above scriopts is using the PETSCAN tool : https://petscan.wmflabs.org/?ns[6]=1&project=wikimedi&search_max_results=1000&categories=Atlas%20de%20Wit%201698&language=commons&doit=&format=json
-
-===============================
-3 kaartjte met plaatsen (zie item Deel 3 )  https://tinyurl.com/y2y7pfbj
-
-```sparql
-# Cities from Altas de Wit 1698 plotted an a modern map
-#defaultView:Map
-SELECT ?file ?image ?depiction ?coord WHERE {
-  ?file wdt:P6243 wd:Q2520345 .
-  ?file wdt:P180 ?depiction .
-  ?file schema:contentUrl ?url .
-  SERVICE <https://query.wikidata.org/sparql> {
-    ?depiction wdt:P625 ?coord.
-    }
-  bind(iri(concat("http://commons.wikimedia.org/wiki/Special:FilePath/", replace(substr(str(?url),53),"_","%20"))) AS ?image)
-  SERVICE wikibase:label {
-        bd:serviceParam wikibase:language "en" .
-      }
-}
-```
-
-
-==============================
+  c) An alternative way of finding the pageIDs of the category members is by using the [JSON response of the PetScan tool](https://petscan.wmflabs.org/?ns%5B6%5D=1&project=wikimedi&search_max_results=1000&categories=Atlas%20de%20Wit%201698&language=commons&doit=&format=json) for the given category. I leave it to the reader to implement this approach into the Python script.  
+  
 ===============================
 
 48) linjkngto eexternal identfiers – europeana, rkd… AAJH
