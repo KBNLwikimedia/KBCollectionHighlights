@@ -434,10 +434,25 @@ M32092969 || File:Atlas de Wit 1698-pl018d-Amsterdam, Oude Kerk-KB PPN 145205088
    
   c) An alternative way of finding the pageIDs of the category members is by using the [JSON response of the PetScan tool](https://petscan.wmflabs.org/?ns%5B6%5D=1&project=wikimedi&search_max_results=1000&categories=Atlas%20de%20Wit%201698&language=commons&doit=&format=json) for the given category. I leave it to the reader to implement this approach into the Python script.  
   
-===============================
+48) In item 46 we looked at portrait galleries of the contributors to the Album amicorum Jacob Heyblocq, where the portraits were stored in the Wikimedia infrastructure (Wikimedia Commons to be exact). . Let's now look at external (non-Wikimedia) databases where these persons, their works and their lives are described. For instance let's look at 
 
-48) As the finla exmaple of this section .. njkngto eexternal identfiers – europeana, rkd… AAJH
- 
+Europeana - short description
+RKD - 
+Biografisch Portaal
+Biografisch Portaal
+
+to connect to these database from Wikidata
+
+- [Europeana entity - P7704](https://www.wikidata.org/wiki/Property:P7704)
+- [RKDartists ID - P650](https://www.wikidata.org/wiki/Property:P650) 
+- [Biografisch Portaal van Nederland ID - P651](https://www.wikidata.org/wiki/Property:P651)
+- [Biografisch Portaal author ID  - P723](https://www.wikidata.org/wiki/Property:P723)
+
+https://query.wikidata.org/#SELECT%20DISTINCT%20%3Fentity%20%3FentityLabel%20%3Fvalue%20%3FvalueLabel%20WHERE%20%7B%20%20%3Fentity%20wdt%3AP31%20wd%3AQ5%3Bwdt%3AP3919%20wd%3AQ72752496%20.%20%20%3Fentity%20wdt%3AP3919%20wd%3AQ72752496%20.%20%20%3Fentity%20p%3AP650%20%3Fprop%20.%20OPTIONAL%20%7B%20%3Fprop%20ps%3AP650%20%3Fvalue%20%7D%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%7D
+
+
+
+https://query.wikidata.org/#SELECT%20DISTINCT%20%3Fentity%20%3FentityLabel%20%3Fvalue%20%3FvalueLabel%20WHERE%20%7B%20%20%3Fentity%20wdt%3AP31%20wd%3AQ5%3Bwdt%3AP3919%20wd%3AQ72752496%20.%20%20%3Fentity%20wdt%3AP3919%20wd%3AQ72752496%20.%20%20%3Fentity%20p%3AP723%20%3Fprop%20.%20OPTIONAL%20%7B%20%3Fprop%20ps%3AP723%20%3Fvalue%20%7D%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%7D 
 ==============================
 
 ## Reuse - individual highlight images
