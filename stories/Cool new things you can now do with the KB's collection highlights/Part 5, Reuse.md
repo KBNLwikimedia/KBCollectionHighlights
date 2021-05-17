@@ -434,21 +434,47 @@ M32092969 || File:Atlas de Wit 1698-pl018d-Amsterdam, Oude Kerk-KB PPN 145205088
    
   c) An alternative way of finding the pageIDs of the category members is by using the [JSON response of the PetScan tool](https://petscan.wmflabs.org/?ns%5B6%5D=1&project=wikimedi&search_max_results=1000&categories=Atlas%20de%20Wit%201698&language=commons&doit=&format=json) for the given category. I leave it to the reader to implement this approach into the Python script.  
   
-48) In item 46 we looked at portrait galleries of the contributors to the Album amicorum Jacob Heyblocq, where the portraits were stored in the Wikimedia infrastructure (Wikimedia Commons to be exact). . Let's now look at external (non-Wikimedia) databases where these persons, their works and their lives are described. For instance let's look at 
+48) In item 46 we looked at portrait galleries of the contributors to the Album amicorum Jacob Heyblocq, where the portraits were stored in the Wikimedia infrastructure (Wikimedia Commons to be exact). Let's now look at external (non-Wikimedia) databases where these persons, their works and their lives are described. For instance let's look at 
 
-Europeana - short description
-RKD - 
-Biografisch Portaal
-Biografisch Portaal
+- [Europeana](https://www.europeana.eu) - access to millions of European books, music, artworks etc.  
+- [RKD](https://rkd.nl/en/) - the Netherlands Institute for Art History.
+- [Biografisch Portaal](http://www.biografischportaal.nl/en/) - scientific information about prominent figures from Dutch history.
+- [DBNL](https://www.dbnl.org/) - the Digital Library of Dutch Literature, a collection of primary and secondary information on Dutch language and literature.
 
-to connect to these database from Wikidata
+Each database has its associated Wikidata property: 
 
 - [Europeana entity - P7704](https://www.wikidata.org/wiki/Property:P7704)
 - [RKDartists ID - P650](https://www.wikidata.org/wiki/Property:P650) 
 - [Biografisch Portaal van Nederland ID - P651](https://www.wikidata.org/wiki/Property:P651)
-- [Biografisch Portaal author ID  - P723](https://www.wikidata.org/wiki/Property:P723)
+- [Digitale Bibliotheek voor de Nederlandse Letteren author ID  - P723](https://www.wikidata.org/wiki/Property:P723)
 
-https://query.wikidata.org/#SELECT%20DISTINCT%20%3Fentity%20%3FentityLabel%20%3Fvalue%20%3FvalueLabel%20WHERE%20%7B%20%20%3Fentity%20wdt%3AP31%20wd%3AQ5%3Bwdt%3AP3919%20wd%3AQ72752496%20.%20%20%3Fentity%20wdt%3AP3919%20wd%3AQ72752496%20.%20%20%3Fentity%20p%3AP650%20%3Fprop%20.%20OPTIONAL%20%7B%20%3Fprop%20ps%3AP650%20%3Fvalue%20%7D%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%7D
+Let's start by querying Wikidata to see which AAJH contributors have any of these properties connected to them:
+as well as construct URLs for retrieving JSON from that database
+
+  ```sparql
+SELECT DISTINCT ?contr ?contrLabel  ?EuropeanaID ?RKDID ?RKDURI ?BPID ?BPURI ?DBNLaID
+WHERE {
+  wd:Q72752496 wdt:P767 ?contr.
+  OPTIONAL { ?contr wdt:P7704 ?EuropeanaID.}
+  OPTIONAL { ?contr wdt:P650 ?RKDID. 
+           bind(uri(concat("https://api.rkd.nl/api/record/artists/",?RKDID ,"?format=json")) as ?RKDURI)
+           } 
+  OPTIONAL { ?contr wdt:P651 ?BPID. 
+           bind(uri(concat("http://www.biografischportaal.nl/persoon/json/", ?BPID)) as ?BPURI) # http://www.biografischportaal.nl/about/bioport-api-documentation
+           } 
+  
+  OPTIONAL { ?contr wdt:P723 ?DBNLaID. } 
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+  }
+ORDER BY DESC(?EuropeanaID)
+```
+https://query.wikidata.org/#SELECT%20DISTINCT%20%3Fcontr%20%3FcontrLabel%20%20%3FEuropeanaID%20%3FRKDID%20%3FRKDURI%20%3FBPID%20%3FBPURI%20%3FDBNLaID%0AWHERE%20%7B%0A%20%20wd%3AQ72752496%20wdt%3AP767%20%3Fcontr.%0A%20%20OPTIONAL%20%7B%20%3Fcontr%20wdt%3AP7704%20%3FEuropeanaID.%7D%0A%20%20OPTIONAL%20%7B%20%3Fcontr%20wdt%3AP650%20%3FRKDID.%20%0A%20%20%20%20%20%20%20%20%20%20%20bind%28uri%28concat%28%22https%3A%2F%2Fapi.rkd.nl%2Fapi%2Frecord%2Fartists%2F%22%2C%3FRKDID%20%2C%22%3Fformat%3Djson%22%29%29%20as%20%3FRKDURI%29%0A%20%20%20%20%20%20%20%20%20%20%20%7D%20%0A%20%20OPTIONAL%20%7B%20%3Fcontr%20wdt%3AP651%20%3FBPID.%20%0A%20%20%20%20%20%20%20%20%20%20%20bind%28uri%28concat%28%22http%3A%2F%2Fwww.biografischportaal.nl%2Fpersoon%2Fjson%2F%22%2C%20%3FBPID%29%29%20as%20%3FBPURI%29%20%23%20http%3A%2F%2Fwww.biografischportaal.nl%2Fabout%2Fbioport-api-documentation%0A%20%20%20%20%20%20%20%20%20%20%20%7D%20%0A%20%20%0A%20%20OPTIONAL%20%7B%20%3Fcontr%20wdt%3AP723%20%3FDBNLaID.%20%7D%20%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%0A%20%20%7D%0AORDER%20BY%20DESC%28%3FEuropeanaID%29%0A%0A
+
+
+  <kbd><img src="images/image-p5-022.png" width="100%"/></kbd><br/><sub>*Wikidata Qnumbers of things depicted in [File:Atlas de Wit 1698-pl048-Montfoort-KB PPN 145205088.jpg](https://commons.wikimedia.org/wiki/File:Atlas_de_Wit_1698-pl048-Montfoort-KB_PPN_145205088.jpg) (M32093127). Result of [this API call](https://commons.wikimedia.org/w/api.php?action=wbgetentities&format=json&ids=M32093127). Screenshots Wikimedia Commons API, d.d. 15-05-2021*</sub>. 
+
+XXXXXXXXXXXXXXXXXXXX
+
 
 
 
