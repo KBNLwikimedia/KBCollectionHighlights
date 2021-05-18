@@ -371,13 +371,13 @@ Let's now look at three **approaches for generating off-wiki image galleries** f
  ```
   giving [this result](https://tinyurl.com/yz3qs7k6), which can also be requested [as JSON](https://wcqs-beta.wmflabs.org/sparql?query=SELECT%20%3Ffile%20(GROUP_CONCAT(DISTINCT%20%3FdepictionLabel%20%3B%20separator%20%3D%20%22%20--%20%22)%20as%20%3FThingsDepicted)%0AWHERE%20%7b%0A%20%20%3Ffile%20wdt%3AP6243%20wd%3AQ2520345%20.%0A%20%20%3Ffile%20wdt%3AP180%20%3Fdepiction%20.%0A%20%20SERVICE%20%3Chttps%3A%2F%2Fquery.wikidata.org%2Fsparql%3E%20%7b%20%20%0A%20%20%20%20SERVICE%20wikibase%3Alabel%20%7b%0A%20%20%20%20%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22%20.%0A%20%20%20%20%20%20%20%20%3Fdepiction%20rdfs%3Alabel%20%3FdepictionLabel.%0A%20%20%20%20%20%20%20%20%3Ffile%20rdfs%3Alabel%20%3FfileLabel.%0A%20%20%20%20%7d%0A%20%20%7d%0A%7d%0AGROUP%20BY%20%3Ffile&format=json).
 
-  <kbd><img src="images/image-p5-020.png" width="100%"/></kbd><br/><sub>*[Things depicted](https://tinyurl.com/yg4qsbj4) in [Atlas de Wit 1698](https://commons.wikimedia.org/wiki/Category:Atlas_de_Wit_1698). Screenshots [Wikimedia Commons SPARQL query service](https://tinyurl.com/yz3qs7k6) d.d. 15-05-2021*</sub>
+  <kbd><img src="images/image-p5-020.png" width="100%"/></kbd><br/><sub>*[Things depicted](https://tinyurl.com/yg4qsbj4) in [Atlas de Wit 1698](https://commons.wikimedia.org/wiki/Category:Atlas_de_Wit_1698). Screenshot [Wikimedia Commons SPARQL query service](https://tinyurl.com/yz3qs7k6) d.d. 15-05-2021*</sub>
 
   b) The Wikimedia Commons API allows us to retrieve depicted entities for individual images. Let's use [https://commons.wikimedia.org/wiki/File:Atlas_de_Wit_1698-pl048-Montfoort-KB_PPN_145205088.jpg](https://commons.wikimedia.org/wiki/File:Atlas_de_Wit_1698-pl048-Montfoort-KB_PPN_145205088.jpg) as an example. As can be seen from the *Concept URI* link in the *Tools* navigation on the left, this file can also be requested via the URI [https://commons.wikimedia.org/entity/M32093127](https://commons.wikimedia.org/entity/M32093127), where '32093127' is the Page ID that is listed in the [Page information](https://commons.wikimedia.org/w/index.php?title=File:Atlas_de_Wit_1698-pl048-Montfoort-KB_PPN_145205088.jpg&action=info), also in the left hand navigation. This Mnumber is Wikimedia Commons' equivalent of the Wikidata Qnumber.
   
   From that Mnumber (*M+Page ID*) we can request the (Wikidata Qnumbers of the) depicted entities via the API call [https://commons.wikimedia.org/w/api.php?action=wbgetentities&format=json&ids=M32093127](https://commons.wikimedia.org/w/api.php?action=wbgetentities&format=json&ids=M32093127) as JSON: 
 
-  <kbd><img src="images/image-p5-021.png" width="100%"/></kbd><br/><sub>*Wikidata Qnumbers of things depicted in [File:Atlas de Wit 1698-pl048-Montfoort-KB PPN 145205088.jpg](https://commons.wikimedia.org/wiki/File:Atlas_de_Wit_1698-pl048-Montfoort-KB_PPN_145205088.jpg) (M32093127). Result of [this API call](https://commons.wikimedia.org/w/api.php?action=wbgetentities&format=json&ids=M32093127). Screenshots Wikimedia Commons API, d.d. 15-05-2021*</sub> 
+  <kbd><img src="images/image-p5-021.png" width="100%"/></kbd><br/><sub>*Wikidata Qnumbers of things depicted in [File:Atlas de Wit 1698-pl048-Montfoort-KB PPN 145205088.jpg](https://commons.wikimedia.org/wiki/File:Atlas_de_Wit_1698-pl048-Montfoort-KB_PPN_145205088.jpg) (M32093127). Result of [this API call](https://commons.wikimedia.org/w/api.php?action=wbgetentities&format=json&ids=M32093127). Screenshot Wikimedia Commons API, d.d. 15-05-2021*</sub> 
   
   If we want to list all things depicted in all images in [Category:Atlas de Wit 1698](https://commons.wikimedia.org/wiki/Category:Atlas_de_Wit_1698), we can write a small Python script to iterate over all images in that category, using the [API call we saw in item 41](https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:Atlas_de_Wit_1698&format=json&gcmnamespace=6) to request the pageIDs and titles of the files in that category: 
     
@@ -434,7 +434,7 @@ M32092969 || File:Atlas de Wit 1698-pl018d-Amsterdam, Oude Kerk-KB PPN 145205088
    
   c) An alternative way of finding the pageIDs of the category members is by using the [JSON response of the PetScan tool](https://petscan.wmflabs.org/?ns%5B6%5D=1&project=wikimedi&search_max_results=1000&categories=Atlas%20de%20Wit%201698&language=commons&doit=&format=json) for the given category. I leave it to the reader to implement this approach into the Python script.  
   
-48) In item 46 we looked at portrait galleries of the contributors to the Album amicorum Jacob Heyblocq, where the portraits were stored in the Wikimedia infrastructure (Wikimedia Commons to be exact). Let's now look at external (non-Wikimedia) databases where these persons, their works and their lives are described. For instance let's look at 
+48) In item 46 we looked at portrait galleries of the contributors to the Album amicorum Jacob Heyblocq, where the portraits were stored in the Wikimedia infrastructure (Wikimedia Commons to be exact). Let's now look at external (non-Wikimedia) databases where these persons, their images, works and their lives are described. For instance let's look at 
 
 - [Europeana](https://www.europeana.eu) - access to millions of European books, music, artworks etc.  
 - [RKD](https://rkd.nl/en/) - the Netherlands Institute for Art History.
@@ -448,10 +448,7 @@ Each database has its associated Wikidata property:
 - [Biografisch Portaal van Nederland ID - P651](https://www.wikidata.org/wiki/Property:P651)
 - [Digitale Bibliotheek voor de Nederlandse Letteren author ID  - P723](https://www.wikidata.org/wiki/Property:P723)
 
-Let's start by querying Wikidata to see which AAJH contributors have any of these properties connected to them:
-as well as construct URLs for retrieving JSON from that database
-
-https://w.wiki/3Ln6
+Let's start by querying Wikidata to see [which AAJH contributors have any of these properties](https://w.wiki/3Ln6) connected to them:
 
   ```sparql
   SELECT DISTINCT ?contr ?contrLabel ?EuropeanaID ?EuropeanaURI ?RKDID ?RKDURI ?BPID ?BPURI ?DBNLaID ?DBNLaURI
@@ -469,11 +466,11 @@ https://w.wiki/3Ln6
     }
   ORDER BY DESC(?EuropeanaID)
 ```
-resulting into
+Via the bind(uri(concat())) bits we constructed direct URIs for retrieving JSON responses from the databases. This query results into [this JSON result](https://query.wikidata.org/sparql?query=SELECT%20DISTINCT%20%3Fcontr%20%3FcontrLabel%20%3FEuropeanaID%20%3FEuropeanaURI%20%3FRKDID%20%3FRKDURI%20%3FBPID%20%3FBPURI%20%3FDBNLaID%20%3FDBNLaURI%0AWHERE%20%7B%0A%20%20wd%3AQ72752496%20wdt%3AP767%20%3Fcontr.%0A%20%20OPTIONAL%20%7B%20%3Fcontr%20wdt%3AP7704%20%3FEuropeanaID.%0A%20%20%20%20%20%20%20%20%20%20%20bind(uri(concat(%22https%3A%2F%2Fwww.europeana.eu%2Fapi%2Fentities%2F%22%2C%3FEuropeanaID%20%2C%22.json%3Fwskey%3Dapidemo%22))%20as%20%3FEuropeanaURI)%7D%0A%20%20OPTIONAL%20%7B%3Fcontr%20wdt%3AP650%20%3FRKDID.%20%0A%20%20%20%20%20%20%20%20%20%20%20bind(uri(concat(%22https%3A%2F%2Fapi.rkd.nl%2Fapi%2Frecord%2Fartists%2F%22%2C%3FRKDID%20%2C%22%3Fformat%3Djson%22))%20as%20%3FRKDURI)%7D%20%0A%20%20OPTIONAL%20%7B%3Fcontr%20wdt%3AP651%20%3FBPID.%20%0A%20%20%20%20%20%20%20%20%20%20%20bind(uri(concat(%22http%3A%2F%2Fwww.biografischportaal.nl%2Fpersoon%2Fjson%2F%22%2C%20%3FBPID))%20as%20%3FBPURI)%7D%20%23%20http%3A%2F%2Fwww.biografischportaal.nl%2Fabout%2Fbioport-api-documentation%0A%20%20OPTIONAL%20%7B%3Fcontr%20wdt%3AP723%20%3FDBNLaID.%20%0A%20%20%20%20%20%20%20%20%20%20%20bind(uri(concat(%22http%3A%2F%2Fdata.bibliotheken.nl%2Fdoc%2Fdbnla%2F%22%2C%3FDBNLaID%20%2C%22.json%22))%20as%20%3FDBNLaURI)%7D%20%20%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%0A%20%20%7D%0AORDER%20BY%20DESC(%3FEuropeanaID)%0A%0A&format=json), or [this table](https://w.wiki/3Ln7): 
 
-  <kbd><img src="images/image-p5-022.png" width="100%"/></kbd><br/><sub>*aaaa https://w.wiki/3Ln7 Screenshots Wikidata query service, d.d. 16-05-2021*</sub> 
+  <kbd><img src="images/image-p5-022.png" width="100%"/></kbd><br/><sub>*Europeana, RDK, BiografischePortaal and DBNL identifiers and JSON-URIs for the contributors of the Album amicorum Jacob Heyblocq, as [retrieved from Wikidata](https://w.wiki/3Ln7). Screenshot Wikidata query service, d.d. 16-05-2021*</sub> 
 
-From th JSON uri further peocessing can be done, let's l;ook at Euroipeana for instanvce
+We can use these JSON-URIs as starting points to further dive into these databases and retrieve information from them that is not available in the Wikimedia infrastructure. Let's elaborate this for Europeana.
 
 XXXXXXXXXXXXXXXXXXXX
 
