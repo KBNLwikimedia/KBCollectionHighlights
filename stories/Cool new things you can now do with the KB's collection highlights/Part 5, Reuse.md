@@ -472,9 +472,52 @@ Via the bind(uri(concat())) bits we constructed direct URIs for retrieving JSON 
 
 We can use these JSON-URIs as starting points to further dive into these databases and retrieve information from them that is not available in the Wikimedia infrastructure. Let's elaborate this for Europeana.
 
-XXXXXXXXXXXXXXXXXXXX
+=========================
+
+49) We can also use SPARQL query Wikidata and [other SPARQL endpoints](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/Federation_report) simultaneously, so called [federated querying](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/Federated_queries)
 
 
+ -we want # Look for Dutch literary works written by the contributors of the Album amicorum Jacob Heyblocq in www.dbnl.org
+# and retrieve (the URLs of) the first pages of those works
+
+Query van AAJH-bijdragers met een link naar de titels in DBNL. Tweede link is naar de eerste pagina van de tekst: https://w.wiki/zzU
+
+https://w.wiki/3L$L
+
+  ```sparql
+  # Look for Dutch literary works written by the contributors of the Album amicorum Jacob Heyblocq in www.dbnl.org
+# and retrieve (the URLs of) the first pages of those works
+PREFIX schema: <http://schema.org/>
+
+SELECT DISTINCT ?WDcontr ?WDcontrLabel ?WDDBNLaID #Wikidata stuff
+?DBNLauthorURL ?DBNLauthorName #DBNL author stuff
+?DBNLworkID ?DBNLworkURL ?DBNLworkTitle #DBNL work stuff
+?DBNLwebsiteURL ?DBNLtextURL #DBNL website stuff
+
+WHERE {wd:Q72752496 wdt:P767 ?WDcontr.
+      ?WDcontr wdt:P723 ?WDDBNLaID. 
+
+       SERVICE <http://data.bibliotheken.nl/sparql>{
+          ?DBNLauthorURL schema:identifier ?WDDBNLaID;
+              schema:name ?DBNLauthorName ;
+              schema:mainEntityOfPage ?page .
+          ?page schema:mainEntity ?authorid .
+          ?DBNLworkURL schema:author ?authorid ;
+              schema:identifier ?DBNLworkID;
+              schema:name ?DBNLworkTitle ;
+              schema:url ?DBNLwebsiteURL.
+       }
+       BIND(URI(CONCAT("http://www.dbnl.org/tekst/", ?DBNLworkID, "_01/",?DBNLworkID,"_01_0001.php")) as ?DBNLtextURL)
+       SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }}
+LIMIT 150
+  ```
+
+ as [JSON response](https://query.wikidata.org/sparql?query=%23%20Look%20for%20Dutch%20literary%20works%20written%20by%20the%20contributors%20of%20the%20Album%20amicorum%20Jacob%20Heyblocq%20in%20www.dbnl.org%0A%23%20and%20retrieve%20(the%20URLs%20of)%20the%20first%20pages%20of%20those%20works%0APREFIX%20schema%3A%20%3Chttp%3A%2F%2Fschema.org%2F%3E%0A%0ASELECT%20DISTINCT%20%3FWDcontr%20%3FWDcontrLabel%20%3FWDDBNLaID%20%23Wikidata%20stuff%0A%3FDBNLauthorURL%20%3FDBNLauthorName%20%23DBNL%20author%20stuff%0A%3FDBNLworkID%20%3FDBNLworkURL%20%3FDBNLworkTitle%20%23DBNL%20work%20stuff%0A%3FDBNLwebsiteURL%20%3FDBNLtextURL%20%23DBNL%20website%20stuff%0A%0AWHERE%20%7Bwd%3AQ72752496%20wdt%3AP767%20%3FWDcontr.%0A%20%20%20%20%20%20%20%3FWDcontr%20wdt%3AP723%20%3FWDDBNLaID.%20%0A%20%20%20%20%20%20%20SERVICE%20%3Chttp%3A%2F%2Fdata.bibliotheken.nl%2Fsparql%3E%7B%0A%20%20%20%20%20%20%20%20%20%20%3FDBNLauthorURL%20schema%3Aidentifier%20%3FWDDBNLaID%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20schema%3Aname%20%3FDBNLauthorName%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20schema%3AmainEntityOfPage%20%3Fpage%20.%0A%20%20%20%20%20%20%20%20%20%20%3Fpage%20schema%3AmainEntity%20%3Fauthorid%20.%0A%20%20%20%20%20%20%20%20%20%20%3FDBNLworkURL%20schema%3Aauthor%20%3Fauthorid%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20schema%3Aidentifier%20%3FDBNLworkID%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20schema%3Aname%20%3FDBNLworkTitle%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20schema%3Aurl%20%3FDBNLwebsiteURL.%0A%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20BIND(URI(CONCAT(%22http%3A%2F%2Fwww.dbnl.org%2Ftekst%2F%22%2C%20%3FDBNLworkID%2C%20%22_01%2F%22%2C%3FDBNLworkID%2C%22_01_0001.php%22))%20as%20%3FDBNLtextURL)%0A%20%20%20%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%7D%0ALIMIT%20150%0A&format=json)
+ 
+ [table](https://w.wiki/3L$j) and
+
+  <kbd><img src="images/image-p5-023.png" width="100%"/></kbd><br/><sub>*we want # Look for Dutch literary works written by the contributors of the Album amicorum Jacob Heyblocq in www.dbnl.org
+# and retrieve (the URLs of) the first pages of those works https://w.wiki/3L$j. Screenshot Wikidata query service, d.d. 16-05-2021*</sub> 
 
 
 
@@ -482,23 +525,22 @@ XXXXXXXXXXXXXXXXXXXX
 
 ## Reuse - individual highlight images
 
-Finally, to warpa up this (long) article, lets look at two exampels of reusing individual highlight images
+Finally, to warpa up this (long) article, lets look at an exampple of reusing individual highlight images
 
 ==================================================
 
-49) https://tools.wmflabs.org/magnus-toolserver/commonsapi.php - request image info
+50) https://tools.wmflabs.org/magnus-toolserver/commonsapi.php - request image info
 
 https://commons.wikimedia.org/wiki/Commons:API/MediaWiki
 
 https://tools.wmflabs.org/magnus-toolserver/commonsapi.php?image=Album%20amicorum%20Jacob%20Heyblocq%20KB131H26%20-%20p010%20-%20Franciscus%20Snellinx%20-%20Poem%20part2.jpg&thumbwidth=150&thumbheight=150&versions&meta&format=json
 https://commons.wikimedia.org/w/api.php?action=query&titles=Image:Album%20amicorum%20Jacob%20Heyblocq%20KB131H26%20-%20p010%20-%20Franciscus%20Snellinx%20-%20Poem%20part2.jpg&prop=imageinfo&iiprop=extmetadata
 
-===========================
-50) iets met Wikipedia artiuelen over topstuikkenb
+
 
 
 ## Summary
-OK, we could have easily gone to 60, but that's it for this fifth and last article.  For convenience and overview, let me summarize all the cool new things for KB's collection highlights we have seen in this article:
+OK, we could have easily gone to 60+ examples, but that's it for this fifth and last article. For convenience and overview, let me summarize all the cool new things for KB's collection highlights we have seen in this article:
 
 38) A [SPARQL driven thumbnail gallery](https://w.wiki/3E8z) of KB highlights<br/>
 39) Structured lists of all KB highlights, both [simple](https://w.wiki/3FWz) and [more elaborate](https://w.wiki/3FXe) in [JSON](https://query.wikidata.org/sparql?query=%23%20Elaborated%20list%20of%20KB%20collection%20highlights%2C%20recreating%0A%23%20https%3A%2F%2Fnl.wikipedia.org%2Fwiki%2FWikipedia%3AGLAM%2FKoninklijke_Bibliotheek_en_Nationaal_Archief%2FTopstukken%2FListeria%0A%23%20using%20SPARQL%0A%0ASELECT%20DISTINCT%20%3Fhighlight%20%3FhighlightLabel%20%3Ftitle%20%3FhighlightDescription%20%3Fimage%20%3FhighlightIsALabel%20%3FinventoryNr%20%0A%3Fkbcat%20%3Fkburl%20%3Fbrowsebook%20%3Fgallery%20%3FcopyrightLabel%20%0A%0AWHERE%20%7B%0A%20%20%3Fhighlight%20p%3AP195%20%3Fst%20.%0A%20%20%3Fst%20ps%3AP195%20wd%3AQ1526131%20.%0A%20%20%3Fst%20pq%3AP2868%20wd%3AQ29188408.%0A%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP18%20%3Fimage.%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP1476%20%3Ftitle.%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP31%20%3FhighlightIsA.%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP217%20%3FinventoryNr.%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP528%20%3Fppn.%0A%20%20%20%20%20BIND(CONCAT(%22https%3A%2F%2Fresolver.kb.nl%2Fresolve%3Furn%3DPPN%3A%22%2C%3Fppn)%20AS%20%3Fkbcat).%7D%20%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP973%20%3Fkburl.%0A%20%20%20%20%20FILTER(STRSTARTS(STR(%3Fkburl)%2C%20%22https%3A%2F%2Fwww.kb.nl%2Fthemas%2F%22)).%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP953%20%3Fbrowsebook.%0A%20%20%20%20%20FILTER(STRSTARTS(STR(%3Fbrowsebook)%2C%20%22https%3A%2F%2Fgalerij.kb.nl%22)).%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP935%20%3Fgal.%0A%20%20%20%20%20BIND(CONCAT(%22https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2F%22%2CREPLACE(%3Fgal%2C%22%20%22%2C%22_%22))%20AS%20%3Fgallery).%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP6216%20%3Fcopyright.%7D%0A%20%20%20%20%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%0A%7D%20ORDER%20BY%20%3FhighlightLabel%0A%0A%0A%0A%0A%0A%0A%0A&format=json) and [XML](https://query.wikidata.org/bigdata/namespace/wdq/sparql?query=%23%20Simple%20list%20of%20KB%20collection%20highlights%20%0ASELECT%20DISTINCT%20%3Fhighlight%20%3FhighlightLabel%20%3FhighlightDescription%0AWHERE%20%7B%0A%20%20%23%20the%20thing%20is%20part%20of%20the%20KB%20collection%2C%20and%20has%20role%20'collection%20highlight'%20within%20that%20collection%0A%20%20%3Fhighlight%20(p%3AP195%2Fps%3AP195)%20wd%3AQ1526131%3B%20p%3AP195%20%5Bpq%3AP2868%20wd%3AQ29188408%5D.%20%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%0A%7D%0AORDER%20BY%20%3FhighlightLabel)<br/>
