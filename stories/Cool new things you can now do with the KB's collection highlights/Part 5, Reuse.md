@@ -35,6 +35,8 @@ This query results into a **[SPARQL driven thumbnail gallery](https://w.wiki/3E8
 
  <kbd><img src="images/image-p5-002.png" width="100%"/></kbd><br/><sub>*The [image grid](https://w.wiki/3E8z) of KB highlights for the above SPARQL query. Screenshot Wikidata query service d.d. 23-04-2021*</sub>
 
+<hr>
+
 39) Next, let's look at lists and tables. The [list of highlights](https://www.kb.nl/galerij/digitale-topstukken) on the KB website is only availabe as HTML. For effective reuse you'd prefer it in a structured and open format such as JSON, XML or RDF. Let's look how we can request **structured lists of KB highlights, both simple and more elaborate** from the Wikidata query service: 
 
 - *Simple list*, using [this query](https://w.wiki/3FWz):
@@ -61,6 +63,8 @@ This query results into a **[SPARQL driven thumbnail gallery](https://w.wiki/3E8
    You can also request the [result as JSON](https://query.wikidata.org/sparql?query=%23%20Elaborated%20list%20of%20KB%20collection%20highlights%2C%20recreating%0A%23%20https%3A%2F%2Fnl.wikipedia.org%2Fwiki%2FWikipedia%3AGLAM%2FKoninklijke_Bibliotheek_en_Nationaal_Archief%2FTopstukken%2FListeria%0A%23%20using%20SPARQL%0A%0ASELECT%20DISTINCT%20%3Fhighlight%20%3FhighlightLabel%20%3Ftitle%20%3FhighlightDescription%20%3Fimage%20%3FhighlightIsALabel%20%3FinventoryNr%20%0A%3Fkbcat%20%3Fkburl%20%3Fbrowsebook%20%3Fgallery%20%3FcopyrightLabel%20%0A%0AWHERE%20%7B%0A%20%20%3Fhighlight%20p%3AP195%20%3Fst%20.%0A%20%20%3Fst%20ps%3AP195%20wd%3AQ1526131%20.%0A%20%20%3Fst%20pq%3AP2868%20wd%3AQ29188408.%0A%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP18%20%3Fimage.%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP1476%20%3Ftitle.%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP31%20%3FhighlightIsA.%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP217%20%3FinventoryNr.%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP528%20%3Fppn.%0A%20%20%20%20%20BIND(CONCAT(%22https%3A%2F%2Fresolver.kb.nl%2Fresolve%3Furn%3DPPN%3A%22%2C%3Fppn)%20AS%20%3Fkbcat).%7D%20%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP973%20%3Fkburl.%0A%20%20%20%20%20FILTER(STRSTARTS(STR(%3Fkburl)%2C%20%22https%3A%2F%2Fwww.kb.nl%2Fthemas%2F%22)).%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP953%20%3Fbrowsebook.%0A%20%20%20%20%20FILTER(STRSTARTS(STR(%3Fbrowsebook)%2C%20%22https%3A%2F%2Fgalerij.kb.nl%22)).%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP935%20%3Fgal.%0A%20%20%20%20%20BIND(CONCAT(%22https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2F%22%2CREPLACE(%3Fgal%2C%22%20%22%2C%22_%22))%20AS%20%3Fgallery).%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP6216%20%3Fcopyright.%7D%0A%20%20%20%20%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%0A%7D%20ORDER%20BY%20%3FhighlightLabel%0A%0A%0A%0A%0A%0A%0A%0A&format=json) and as an [XML download](https://query.wikidata.org/bigdata/namespace/wdq/sparql?query=%23%20Elaborated%20list%20of%20KB%20collection%20highlights%2C%20recreating%0A%23%20https%3A%2F%2Fnl.wikipedia.org%2Fwiki%2FWikipedia%3AGLAM%2FKoninklijke_Bibliotheek_en_Nationaal_Archief%2FTopstukken%2FListeria%0A%23%20using%20SPARQL%0A%0ASELECT%20DISTINCT%20%3Fhighlight%20%3FhighlightLabel%20%3Ftitle%20%3FhighlightDescription%20%3Fimage%20%3FhighlightIsALabel%20%3FinventoryNr%20%0A%3Fkbcat%20%3Fkburl%20%3Fbrowsebook%20%3Fgallery%20%3FcopyrightLabel%20%0A%0AWHERE%20%7B%0A%20%20%3Fhighlight%20p%3AP195%20%3Fst%20.%0A%20%20%3Fst%20ps%3AP195%20wd%3AQ1526131%20.%0A%20%20%3Fst%20pq%3AP2868%20wd%3AQ29188408.%0A%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP18%20%3Fimage.%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP1476%20%3Ftitle.%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP31%20%3FhighlightIsA.%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP217%20%3FinventoryNr.%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP528%20%3Fppn.%0A%20%20%20%20%20BIND(CONCAT(%22https%3A%2F%2Fresolver.kb.nl%2Fresolve%3Furn%3DPPN.%3A%22%2C%3Fppn)%20AS%20%3Fkbcat).%7D%20%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP973%20%3Fkburl.%0A%20%20%20%20%20FILTER(STRSTARTS(STR(%3Fkburl)%2C%20%22https%3A%2F%2Fwww.kb.nl%2Fthemas%2F%22)).%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP953%20%3Fbrowsebook.%0A%20%20%20%20%20FILTER(STRSTARTS(STR(%3Fbrowsebook)%2C%20%22https%3A%2F%2Fgalerij.kb.nl%22)).%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP935%20%3Fgal.%0A%20%20%20%20%20BIND(CONCAT(%22https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2F%22%2CREPLACE(%3Fgal%2C%22%20%22%2C%22_%22))%20AS%20%3Fgallery).%7D%0A%20%20OPTIONAL%7B%3Fhighlight%20wdt%3AP6216%20%3Fcopyright.%7D%0A%20%20%20%20%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%0A%7D%20ORDER%20BY%20%3FhighlightLabel%0A%0A%0A%0A%0A%0A%0A%0A).
 
     <kbd><img src="images/image-p5-006.png" height="400"/></kbd><kbd><img src="images/image-p5-007.png" height="400"/></kbd><br/><sub>*Left: JSON result of the query. Right: XML result of the query. Screenshots Wikidata query service d.d. 28-04-2021*</sub>
+
+<hr>
 
 40) You might want to **programatically check for Wikipedia articles about KB highlights**, for instance in Dutch, using [this query](https://w.wiki/3FbF):
 ```sparql
@@ -127,6 +131,8 @@ As before, the results can be requested in [JSON](https://query.wikidata.org/spa
 
   <kbd><img src="images/image-p5-010.png" width="100%"/></kbd><br/><sub>*Titles and URLs of [miniatures](https://commons.wikimedia.org/wiki/Category:Chroniques_de_Froissart,_vol_1_-_Den_Haag,_KB_:_72_A_25_(details)) from [Chroniques de Froissart](https://commons.wikimedia.org/wiki/Category:Chroniques_de_Froissart,_vol_1_-_Den_Haag,_KB_:_72_A_25_(c.1410)) formatted as JSON. Screenshot [Pycharm IDE](https://www.jetbrains.com/pycharm/), d.d. 29-04-2021*</sub>
 
+<hr>
+
 42) If you don't want to use the Wikimedia Commons API for getting image URLs, no problem, there a some **readily available bulk image download tools** for obtaining the **hires image URLs** and/or the **hires images themselves** from a specific KB highlight category on Wikimedia Commons.
 
   Using the **[Wiki Loves Downloads tool](https://wikilovesdownloads.toolforge.org/)** you can easily get all the direct download URLs of the hires images of eg. the [Reward letter of King Filip II of Spain to family of Balthasar Gerards, 1590](https://commons.wikimedia.org/wiki/Category:Reward_letter_of_King_Filip_II_of_Spain_to_family_of_Balthasar_Gerards,_1590). Because this tool was developed by [Wikimedia Deutschland](https://www.wikimedia.de/), the default user interface is in German. We can use Google Translate to get a [English user interface](https://translate.google.com/translate?hl=en&sl=de&tl=en&u=https%3A%2F%2Fwikilovesdownloads.toolforge.org%2F) for international audiences. As stated in the tool, it divides the images of a category from Wikimedia Commons into a desired number of lists and generates these in the form of (zipped) text files with links to the respective images so that they can be downloaded with the help of a download manager (or a script).
@@ -136,6 +142,8 @@ As before, the results can be requested in [JSON](https://query.wikidata.org/spa
   If you prefer the images themselves rather than only the URLs, the Java based **[Imker tool](https://commons.wikimedia.org/wiki/Commons:Imker_(batch_download))** is the way to go. It downloads all images from a specific category (or page) on Wikimedia Commons (or any other Wikimedia site) to your local machine. 
 
   <kbd><img src="images/image-p5-014.png" width="100%"/></kbd><br/><sub>*Downloading the hires images of the [Reward letter of King Filip II of Spain to family of Balthasar Gerards, 1590](https://commons.wikimedia.org/wiki/Category:Reward_letter_of_King_Filip_II_of_Spain_to_family_of_Balthasar_Gerards,_1590). Screenshot of the [Imker tool](https://commons.wikimedia.org/wiki/Commons:Imker_(batch_download)), d.d. 11-05-2021*</sub>
+
+<hr>
 
 43) Every KB highlight is described by a Wikidata item (Qnumber). Let's see how we can request **highlight information from the Wikidata API** directly from that Qnumber. We can use the [*wbgetentities* action](https://www.wikidata.org/w/api.php?action=help&modules=wbgetentities) for that.
 
@@ -148,6 +156,8 @@ As before, the results can be requested in [JSON](https://query.wikidata.org/spa
 * Get the *aliases* of [Atlas Ortelius 1571](https://www.wikidata.org/wiki/Q67465742) (Q67465742) in German, Czech, Polish and Ukrainian, as JSON: [https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q67465742&props=aliases&languages=de%7Ccs%7Cpl%7Cuk&format=json](https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q67465742&props=aliases&languages=de%7Ccs%7Cpl%7Cuk&format=json)
 
 * Get the *Wikipedia articles* for both [Liber Pantegni](https://www.wikidata.org/wiki/Q748421) (Q748421) and the [Beyeren armorial](https://www.wikidata.org/wiki/Q3372028) (Q3372028) in all available languages, as XML: [https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q748421%7CQ3372028&props=sitelinks&format=xml](https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q748421%7CQ3372028&props=sitelinks&format=xml)
+
+<hr>
 
 44) An alternative way is to **request full Wikidata items directly from the Qnumber via a [Special:EntityData](https://www.mediawiki.org/wiki/Wikibase/EntityData) URL.** The ouput can be obtained in no fewer than seven different formats:
 
@@ -206,6 +216,7 @@ we can retrieve the English names (labels) of the three creators ([P170](https:/
   2: Augustijnken
   3: Freidank
 ```
+<hr>
 
 45) Talking about creators, let's see how we can request a **structured overview of persons and institutions related to a set of highlights**, such as authors, makers, contributors, publishers, printers, illustrators, translators, owners, collectors etc. This is actually the machine readable equivalent of points 9 and 10 from [Part 2](Part%202%2C%20Overviews%20of%20all%20highlights.html). 
 
@@ -317,6 +328,7 @@ giving an output of three [Python dictionaries](https://www.w3schools.com/python
 {'hl': {'type': 'uri', 'value': 'http://www.wikidata.org/entity/Q16641064'}, 'hlLabel': {'xml:lang': 'en', 'type': 'literal', 'value': 'Haags liederenhandschrift'}, 'creators': {'type': 'literal', 'value': 'Freidank ---- Augustijnken ---- Noydekijn'}, 'authors': {'type': 'literal', 'value': ''}, 'contributors': {'type': 'literal', 'value': 'Eerste stadhouderlijke binderij'}, 'editors': {'type': 'literal', 'value': ''}, 'translators': {'type': 'literal', 'value': ''}, 'illustrators': {'type': 'literal', 'value': ''}, 'publishers': {'type': 'literal', 'value': ''}, 'owned_bys': {'type': 'literal', 'value': 'William V ---- William IV, Prince of Orange ---- Matilda of Guelders ---- Stadhouderlijke bibliotheek'}}
 {'hl': {'type': 'uri', 'value': 'http://www.wikidata.org/entity/Q72752446'}, 'hlLabel': {'xml:lang': 'en', 'type': 'literal', 'value': 'Kunst en samenleving'}, 'creators': {'type': 'literal', 'value': ''}, 'authors': {'type': 'literal', 'value': 'Walter Crane'}, 'contributors': {'type': 'literal', 'value': 'Gerrit Willem Dijsselhof'}, 'editors': {'type': 'literal', 'value': 'Jan Veth'}, 'translators': {'type': 'literal', 'value': 'Jan Veth'}, 'illustrators': {'type': 'literal', 'value': ''}, 'publishers': {'type': 'literal', 'value': 'Scheltema en Holkema'}, 'owned_bys': {'type': 'literal', 'value': ''}}
 ```
+<hr>
 
 46) In points 22-25 of [Part 3](Part%203%2C%20Overviews%20per%20highlight.html) we looked at the portraits, genders, occupations and lifespans of the [people who contributed to the Album amicorum Jacob Heyblocq](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Alfabetisch#Album_amicorum_van_Jacobus_Heyblocq_(1623-1690),_rector_van_de_Latijnse_school_te_Amsterdam) and created an [on-wiki portrait gallery/facebook](https://w.wiki/phx) of album contributors directly from a Wikidata [SPARQL query](https://w.wiki/tBE).
 
@@ -348,6 +360,8 @@ Let's now look at three **approaches for generating off-wiki image galleries** f
 	
    <kbd><img src="images/image-p5-018.png" height="300"/></kbd><kbd><img src="images/image-p5-019.png" height="300"/></kbd>
  <br/><sub>*Another approach for making a HTML portrait gallery of contributors to the Album amicorum Jacob Heyblocq, using a Wikidata SPARQL query and an embedded iframe. Left: A [plain, unstyled facebook](https://kbnlwikimedia.github.io/Alba-Amicorum/alba/AA-Jacob-Heyblocq/reuse/bijdragersAAJH-smoelenboek-SparqlHTMLembed-plain.html). Right: The same iframe, but now embedded into a [KB styled portrait gallery](https://kbnlwikimedia.github.io/Alba-Amicorum/alba/AA-Jacob-Heyblocq/reuse/bijdragersAAJH-smoelenboek-SparqlHTMLembed-mockupkbnl.html). Screenshots d.d. 14-05-2021*</sub>
+
+<hr>
 
 47) In items 33 and 35 of [Part 4](Part%204%2C%20Images.html) we already looked at things (Wikidata entities) that can be seen in KB collection highlights, making images not only discoverable via the regular metadata, but also multilingually searchable by content (What's depicted in it?). Let's now look at how we can **[retrieve depicted entities programmatically](https://commons.wikimedia.org/wiki/Commons:Depicts#Access)**. We'll use  [Atlas de Wit 1698](https://commons.wikimedia.org/wiki/Category:Atlas_de_Wit_1698) for this . We can do this either via a) the [Wikimedia Commons SPARQL query service](https://commons.wikimedia.org/wiki/Commons:SPARQL_query_service), b) the Wikimedia Commons API or c) via the [Petscan tool](https://petscan.wmflabs.org/).
 
@@ -433,7 +447,9 @@ M32092969 || File:Atlas de Wit 1698-pl018d-Amsterdam, Oude Kerk-KB PPN 145205088
    ```
    
   c) An alternative way of finding the pageIDs of the category members is by using the [JSON response of the PetScan tool](https://petscan.wmflabs.org/?ns%5B6%5D=1&project=wikimedi&search_max_results=1000&categories=Atlas%20de%20Wit%201698&language=commons&doit=&format=json) for the given category. I leave it to the reader to implement this approach into the Python script.  
-  
+
+<hr>
+
 48) In item 46 we looked at portrait galleries of the contributors to the Album amicorum Jacob Heyblocq, where the portraits were stored in the Wikimedia infrastructure (Wikimedia Commons to be exact). Let's now look at **external (non-Wikimedia) databases** where these persons, their images, works and their lives are described. For instance let's look at 
 
 - [Europeana](https://www.europeana.eu) - access to millions of European books, music, artworks etc.  
@@ -474,6 +490,8 @@ We can use these JSON-URIs as starting points to further dive into the **REST AP
 
  using  tose extana ldatabases < XXXXXXXXXXXXXXXXXXXXXXXX
 
+<hr>
+
 49) We can combine a SPARQL query in Wikidata with simultaneous queries in [other SPARQL endpoints](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/Federation_report). This is called **[federated SPARQL querying](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/Federated_queries)** and we can use it to extract some base information from Wikidata and combine that with additional, enriching information from external (linked open) databases.
 
 Let's say we want to look for Dutch literary works written by the contributors of the *Album amicorum Jacob Heyblocq*, as stored in the [DBNL website](https://www.dbnl.org) and retrieve (the URLs of) the first pages of those works. We can construct [this federated SPARQL query](https://w.wiki/3MLQ) for that:
@@ -511,8 +529,6 @@ LIMIT 150
   This query results into a [list](https://w.wiki/3MLR) or a [JSON response](https://query.wikidata.org/sparql?query=%23%20Look%20for%20Dutch%20literary%20works%20written%20by%20the%20contributors%20of%20the%20Album%20amicorum%20Jacob%20Heyblocq%20in%20www.dbnl.org%0A%23%20and%20retrieve%20(the%20URLs%20of)%20the%20first%20pages%20of%20those%20works%0APREFIX%20schema%3A%20%3Chttp%3A%2F%2Fschema.org%2F%3E%0A%0ASELECT%20DISTINCT%20%3FWDcontr%20%3FWDcontrLabel%20%3FWDDBNLaID%20%23Wikidata%20stuff%0A%3FDBNLauthorURL%20%3FDBNLauthorName%20%23DBNL%20author%20stuff%0A%3FDBNLworkID%20%3FDBNLworkURL%20%3FDBNLworkTitle%20%23DBNL%20work%20stuff%0A%3FDBNLwebsiteURL%20%3FDBNLtextURL%20%23DBNL%20website%20stuff%0A%0AWHERE%20%7Bwd%3AQ72752496%20wdt%3AP767%20%3FWDcontr.%0A%20%20%20%20%20%20%20%3FWDcontr%20wdt%3AP723%20%3FWDDBNLaID.%20%0A%20%20%20%20%20%20%20SERVICE%20%3Chttp%3A%2F%2Fdata.bibliotheken.nl%2Fsparql%3E%7B%0A%20%20%20%20%20%20%20%20%20%20%3FDBNLauthorURL%20schema%3Aidentifier%20%3FWDDBNLaID%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20schema%3Aname%20%3FDBNLauthorName%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20schema%3AmainEntityOfPage%20%3Fpage%20.%0A%20%20%20%20%20%20%20%20%20%20%3Fpage%20schema%3AmainEntity%20%3Fauthorid%20.%0A%20%20%20%20%20%20%20%20%20%20%3FDBNLworkURL%20schema%3Aauthor%20%3Fauthorid%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20schema%3Aidentifier%20%3FDBNLworkID%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20schema%3Aname%20%3FDBNLworkTitle%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20schema%3Aurl%20%3FDBNLwebsiteURL.%0A%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20BIND(URI(CONCAT(%22http%3A%2F%2Fwww.dbnl.org%2Ftekst%2F%22%2C%20%3FDBNLworkID%2C%20%22_01%2F%22%2C%3FDBNLworkID%2C%22_01_0001.php%22))%20as%20%3FDBNLtextURL)%0A%20%20%20%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%7D%0ALIMIT%20150%0A&format=json) (query might be slow).
 
   <kbd><img src="images/image-p5-023.png" width="100%"/></kbd><br/><sub>*Dutch literary works in the [DBNL website](https://www.dbnl.org) written by the contributors of the Album amicorum Jacob Heyblocq, obtained by a [federated SPARQL query](https://w.wiki/3MLQ) in both Wikidata and [data.bibliotheken.nl](http://data.bibliotheken.nl), the LOD triple store of the KB. The last column shows (the URLs of) the first page of the works. Screenshot Wikidata query service, d.d. 19-05-2021*</sub> 
-
-==============================
 
 ## Reuse - individual highlight images
 
