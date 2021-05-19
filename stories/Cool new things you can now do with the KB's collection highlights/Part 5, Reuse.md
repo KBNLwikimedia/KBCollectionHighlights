@@ -450,7 +450,7 @@ M32092969 || File:Atlas de Wit 1698-pl018d-Amsterdam, Oude Kerk-KB PPN 145205088
 
 <hr>
 
-48) In item 46 we looked at portrait galleries of the contributors to the Album amicorum Jacob Heyblocq, where the portraits were stored in the Wikimedia infrastructure (Wikimedia Commons to be exact). Let's now look at **external (non-Wikimedia) databases** where these persons, their images, works and their lives are described. For instance let's look at 
+48) In item 46 we looked at portrait galleries of the contributors to the Album amicorum Jacob Heyblocq, where the portraits were stored in the Wikimedia infrastructure (Wikimedia Commons to be exact). Let's now look at **external (non-Wikimedia) databases** describing these persons, their images, works and their lives. For instance let's look at 
 
 - [Europeana](https://www.europeana.eu) - access to millions of European books, music, artworks etc.  
 - [RKD](https://rkd.nl/en/) - the Netherlands Institute for Art History.
