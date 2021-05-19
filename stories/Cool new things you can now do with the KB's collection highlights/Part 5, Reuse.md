@@ -12,9 +12,9 @@ In this fifth part I am going to unfold the last group of tools. I am going to i
 <kbd><img src="images/image-p1-024.png" height="200"/></kbd><kbd><img src="images/image-p1-020.png" height="200"/></kbd><kbd><img src="images/image-p1-025.png" height="200"/></kbd>
 
 I'll try to follow the same order as in [Part 2](Part%202%2C%20Overviews%20of%20all%20highlights.html) , [3](Part%203%2C%20Overviews%20per%20highlight.html) and [4](Part%204%2C%20Images.html), so 
-* all highlights together
-* indivudual highlights
-* individual highlight images.
+* all highlights together (38-40)
+* indivudual highlights (41-49)
+* individual highlight images (50).
 
 I'll illustrate how you can retrieve the same images, data and texts we requested via the GUI (so in HTML) in these previous parts, but now in their raw, machine readable formats (JSON, XML etc.) using Wikimedia's APIs and SPARQL services. This will give you more control & flexibilty over the exact outputs, custom made for your needs.
 
