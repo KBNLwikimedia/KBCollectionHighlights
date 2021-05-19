@@ -434,7 +434,7 @@ M32092969 || File:Atlas de Wit 1698-pl018d-Amsterdam, Oude Kerk-KB PPN 145205088
    
   c) An alternative way of finding the pageIDs of the category members is by using the [JSON response of the PetScan tool](https://petscan.wmflabs.org/?ns%5B6%5D=1&project=wikimedi&search_max_results=1000&categories=Atlas%20de%20Wit%201698&language=commons&doit=&format=json) for the given category. I leave it to the reader to implement this approach into the Python script.  
   
-48) In item 46 we looked at portrait galleries of the contributors to the Album amicorum Jacob Heyblocq, where the portraits were stored in the Wikimedia infrastructure (Wikimedia Commons to be exact). Let's now look at external (non-Wikimedia) databases where these persons, their images, works and their lives are described. For instance let's look at 
+48) In item 46 we looked at portrait galleries of the contributors to the Album amicorum Jacob Heyblocq, where the portraits were stored in the Wikimedia infrastructure (Wikimedia Commons to be exact). Let's now look at **external (non-Wikimedia) databases** where these persons, their images, works and their lives are described. For instance let's look at 
 
 - [Europeana](https://www.europeana.eu) - access to millions of European books, music, artworks etc.  
 - [RKD](https://rkd.nl/en/) - the Netherlands Institute for Art History.
@@ -455,71 +455,62 @@ Let's start by querying Wikidata to see [which AAJH contributors have any of the
   WHERE {
     wd:Q72752496 wdt:P767 ?contr.
     OPTIONAL { ?contr wdt:P7704 ?EuropeanaID.
-             bind(uri(concat("https://www.europeana.eu/api/entities/",?EuropeanaID ,".json?wskey=apidemo")) as ?EuropeanaURI)}
+             BIND(URI(CONCAT(concat("https://www.europeana.eu/api/entities/",?EuropeanaID ,".json?wskey=apidemo")) as ?EuropeanaURI)}
     OPTIONAL {?contr wdt:P650 ?RKDID. 
-             bind(uri(concat("https://api.rkd.nl/api/record/artists/",?RKDID ,"?format=json")) as ?RKDURI)} 
+             BIND(URI(CONCAT("https://api.rkd.nl/api/record/artists/",?RKDID ,"?format=json")) as ?RKDURI)} 
     OPTIONAL {?contr wdt:P651 ?BPID. 
-             bind(uri(concat("http://www.biografischportaal.nl/persoon/json/", ?BPID)) as ?BPURI)} # http://www.biografischportaal.nl/about/bioport-api-documentation
+             BIND(URI(CONCAT("http://www.biografischportaal.nl/persoon/json/", ?BPID)) as ?BPURI)} # http://www.biografischportaal.nl/about/bioport-api-documentation
     OPTIONAL {?contr wdt:P723 ?DBNLaID. 
-             bind(uri(concat("http://data.bibliotheken.nl/doc/dbnla/",?DBNLaID ,".json")) as ?DBNLaURI)}  
+             BIND(URI(CONCAT("http://data.bibliotheken.nl/doc/dbnla/",?DBNLaID ,".json")) as ?DBNLaURI)}  
     SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
     }
   ORDER BY DESC(?EuropeanaID)
 ```
-Via the bind(uri(concat())) bits we constructed direct URIs for retrieving JSON responses from the databases. This query results into [this JSON result](https://query.wikidata.org/sparql?query=SELECT%20DISTINCT%20%3Fcontr%20%3FcontrLabel%20%3FEuropeanaID%20%3FEuropeanaURI%20%3FRKDID%20%3FRKDURI%20%3FBPID%20%3FBPURI%20%3FDBNLaID%20%3FDBNLaURI%0AWHERE%20%7B%0A%20%20wd%3AQ72752496%20wdt%3AP767%20%3Fcontr.%0A%20%20OPTIONAL%20%7B%20%3Fcontr%20wdt%3AP7704%20%3FEuropeanaID.%0A%20%20%20%20%20%20%20%20%20%20%20bind(uri(concat(%22https%3A%2F%2Fwww.europeana.eu%2Fapi%2Fentities%2F%22%2C%3FEuropeanaID%20%2C%22.json%3Fwskey%3Dapidemo%22))%20as%20%3FEuropeanaURI)%7D%0A%20%20OPTIONAL%20%7B%3Fcontr%20wdt%3AP650%20%3FRKDID.%20%0A%20%20%20%20%20%20%20%20%20%20%20bind(uri(concat(%22https%3A%2F%2Fapi.rkd.nl%2Fapi%2Frecord%2Fartists%2F%22%2C%3FRKDID%20%2C%22%3Fformat%3Djson%22))%20as%20%3FRKDURI)%7D%20%0A%20%20OPTIONAL%20%7B%3Fcontr%20wdt%3AP651%20%3FBPID.%20%0A%20%20%20%20%20%20%20%20%20%20%20bind(uri(concat(%22http%3A%2F%2Fwww.biografischportaal.nl%2Fpersoon%2Fjson%2F%22%2C%20%3FBPID))%20as%20%3FBPURI)%7D%20%23%20http%3A%2F%2Fwww.biografischportaal.nl%2Fabout%2Fbioport-api-documentation%0A%20%20OPTIONAL%20%7B%3Fcontr%20wdt%3AP723%20%3FDBNLaID.%20%0A%20%20%20%20%20%20%20%20%20%20%20bind(uri(concat(%22http%3A%2F%2Fdata.bibliotheken.nl%2Fdoc%2Fdbnla%2F%22%2C%3FDBNLaID%20%2C%22.json%22))%20as%20%3FDBNLaURI)%7D%20%20%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%0A%20%20%7D%0AORDER%20BY%20DESC(%3FEuropeanaID)%0A%0A&format=json), or [this table](https://w.wiki/3Ln7): 
+Via the BIND(URI(CONCAT())) operators we constructed direct URIs for retrieving JSON responses from the databases. This query results into [this JSON result](https://query.wikidata.org/sparql?query=SELECT%20DISTINCT%20%3Fcontr%20%3FcontrLabel%20%3FEuropeanaID%20%3FEuropeanaURI%20%3FRKDID%20%3FRKDURI%20%3FBPID%20%3FBPURI%20%3FDBNLaID%20%3FDBNLaURI%0AWHERE%20%7B%0A%20%20wd%3AQ72752496%20wdt%3AP767%20%3Fcontr.%0A%20%20OPTIONAL%20%7B%20%3Fcontr%20wdt%3AP7704%20%3FEuropeanaID.%0A%20%20%20%20%20%20%20%20%20%20%20bind(uri(concat(%22https%3A%2F%2Fwww.europeana.eu%2Fapi%2Fentities%2F%22%2C%3FEuropeanaID%20%2C%22.json%3Fwskey%3Dapidemo%22))%20as%20%3FEuropeanaURI)%7D%0A%20%20OPTIONAL%20%7B%3Fcontr%20wdt%3AP650%20%3FRKDID.%20%0A%20%20%20%20%20%20%20%20%20%20%20bind(uri(concat(%22https%3A%2F%2Fapi.rkd.nl%2Fapi%2Frecord%2Fartists%2F%22%2C%3FRKDID%20%2C%22%3Fformat%3Djson%22))%20as%20%3FRKDURI)%7D%20%0A%20%20OPTIONAL%20%7B%3Fcontr%20wdt%3AP651%20%3FBPID.%20%0A%20%20%20%20%20%20%20%20%20%20%20bind(uri(concat(%22http%3A%2F%2Fwww.biografischportaal.nl%2Fpersoon%2Fjson%2F%22%2C%20%3FBPID))%20as%20%3FBPURI)%7D%20%23%20http%3A%2F%2Fwww.biografischportaal.nl%2Fabout%2Fbioport-api-documentation%0A%20%20OPTIONAL%20%7B%3Fcontr%20wdt%3AP723%20%3FDBNLaID.%20%0A%20%20%20%20%20%20%20%20%20%20%20bind(uri(concat(%22http%3A%2F%2Fdata.bibliotheken.nl%2Fdoc%2Fdbnla%2F%22%2C%3FDBNLaID%20%2C%22.json%22))%20as%20%3FDBNLaURI)%7D%20%20%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%0A%20%20%7D%0AORDER%20BY%20DESC(%3FEuropeanaID)%0A%0A&format=json), or [this table](https://w.wiki/3Ln7): 
 
   <kbd><img src="images/image-p5-022.png" width="100%"/></kbd><br/><sub>*Europeana, RDK, BiografischePortaal and DBNL identifiers and JSON-URIs for the contributors of the Album amicorum Jacob Heyblocq, as [retrieved from Wikidata](https://w.wiki/3Ln7). Screenshot Wikidata query service, d.d. 16-05-2021*</sub> 
 
-We can use these JSON-URIs as starting points to further dive into these databases and retrieve information from them that is not available in the Wikimedia infrastructure. Let's elaborate this for Europeana.
+We can use these JSON-URIs as starting points to further dive into the **REST APIs of these databases** and retrieve information from them that is not available in the Wikimedia infrastructure. Let's elaborate this for the [Europeana REST APIs](https://pro.europeana.eu/page/intro).
 
-=========================
+ using  tose extana ldatabases < XXXXXXXXXXXXXXXXXXXXXXXX
 
-49) We can also use SPARQL query Wikidata and [other SPARQL endpoints](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/Federation_report) simultaneously, so called [federated querying](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/Federated_queries)
+49) We can combine a SPARQL query in Wikidata with simultaneous queries in [other SPARQL endpoints](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/Federation_report). This is called **[federated SPARQL querying](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/Federated_queries)** and we can use it to extract some base information from Wikidata and combine that with additional, enriching information from external (linked open) databases.
 
-
- -we want # Look for Dutch literary works written by the contributors of the Album amicorum Jacob Heyblocq in www.dbnl.org
-# and retrieve (the URLs of) the first pages of those works
-
-Query van AAJH-bijdragers met een link naar de titels in DBNL. Tweede link is naar de eerste pagina van de tekst: https://w.wiki/zzU
-
-https://w.wiki/3L$L
+Let's say we want to look for Dutch literary works written by the contributors of the *Album amicorum Jacob Heyblocq*, as stored in the [DBNL website](https://www.dbnl.org) and retrieve (the URLs of) the first pages of those works. We can construct [this federated SPARQL query](https://w.wiki/3MLQ) for that:
 
   ```sparql
-  # Look for Dutch literary works written by the contributors of the Album amicorum Jacob Heyblocq in www.dbnl.org
+# Look for Dutch literary works written by the contributors of the Album amicorum Jacob Heyblocq in www.dbnl.org
 # and retrieve (the URLs of) the first pages of those works
 PREFIX schema: <http://schema.org/>
 
 SELECT DISTINCT ?WDcontr ?WDcontrLabel ?WDDBNLaID #Wikidata stuff
-?DBNLauthorURL ?DBNLauthorName #DBNL author stuff
+?DBNLauthorURL ?DBNLauthorName #DBNL author stuff, as is ?authorid
 ?DBNLworkID ?DBNLworkURL ?DBNLworkTitle #DBNL work stuff
 ?DBNLwebsiteURL ?DBNLtextURL #DBNL website stuff
 
 WHERE {wd:Q72752496 wdt:P767 ?WDcontr.
       ?WDcontr wdt:P723 ?WDDBNLaID. 
-
-       SERVICE <http://data.bibliotheken.nl/sparql>{
-          ?DBNLauthorURL schema:identifier ?WDDBNLaID;
-              schema:name ?DBNLauthorName ;
-              schema:mainEntityOfPage ?page .
-          ?page schema:mainEntity ?authorid .
-          ?DBNLworkURL schema:author ?authorid ;
-              schema:identifier ?DBNLworkID;
-              schema:name ?DBNLworkTitle ;
-              schema:url ?DBNLwebsiteURL.
-       }
-       BIND(URI(CONCAT("http://www.dbnl.org/tekst/", ?DBNLworkID, "_01/",?DBNLworkID,"_01_0001.php")) as ?DBNLtextURL)
-       SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }}
+      SERVICE <http://data.bibliotheken.nl/sparql>{
+         ?DBNLauthorURL schema:identifier ?WDDBNLaID;
+             schema:name ?DBNLauthorName;
+             schema:mainEntityOfPage ?page.
+         ?page schema:mainEntity ?authorid.
+         ?DBNLworkURL schema:author ?authorid;
+             schema:identifier ?DBNLworkID;
+             schema:name ?DBNLworkTitle;
+             schema:url ?DBNLwebsiteURL.
+      }
+      BIND(URI(CONCAT("http://www.dbnl.org/tekst/", ?DBNLworkID, "_01/",?DBNLworkID,"_01_0001.php")) as ?DBNLtextURL)
+      SERVICE wikibase:label {bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en".}
+}
 LIMIT 150
   ```
+  
+  After having retrieved the base information about a contributor (author) from Wikidata (*?WDcontr, ?WDcontrLabel, ?WDDBNLaID*), we use *WDDBNLaID* to find information about the author in [http://data.bibliotheken.nl](http://data.bibliotheken.nl), the LOD triplestore of the KB (*?DBNLauthorURL, ?DBNLauthorName, ?authorid*). From there we find information about the works that the author wrote (*?DBNLworkID, ?DBNLworkURL, ?DBNLworkTitle*). In the last step we find two links to the DBNL website (*?DBNLwebsiteURL, ?DBNLtextURL*), where the latter is the link to the first page of the work.
+  
+  This query results into a [list](https://w.wiki/3MLR) or a [JSON response](https://query.wikidata.org/sparql?query=%23%20Look%20for%20Dutch%20literary%20works%20written%20by%20the%20contributors%20of%20the%20Album%20amicorum%20Jacob%20Heyblocq%20in%20www.dbnl.org%0A%23%20and%20retrieve%20(the%20URLs%20of)%20the%20first%20pages%20of%20those%20works%0APREFIX%20schema%3A%20%3Chttp%3A%2F%2Fschema.org%2F%3E%0A%0ASELECT%20DISTINCT%20%3FWDcontr%20%3FWDcontrLabel%20%3FWDDBNLaID%20%23Wikidata%20stuff%0A%3FDBNLauthorURL%20%3FDBNLauthorName%20%23DBNL%20author%20stuff%0A%3FDBNLworkID%20%3FDBNLworkURL%20%3FDBNLworkTitle%20%23DBNL%20work%20stuff%0A%3FDBNLwebsiteURL%20%3FDBNLtextURL%20%23DBNL%20website%20stuff%0A%0AWHERE%20%7Bwd%3AQ72752496%20wdt%3AP767%20%3FWDcontr.%0A%20%20%20%20%20%20%20%3FWDcontr%20wdt%3AP723%20%3FWDDBNLaID.%20%0A%20%20%20%20%20%20%20SERVICE%20%3Chttp%3A%2F%2Fdata.bibliotheken.nl%2Fsparql%3E%7B%0A%20%20%20%20%20%20%20%20%20%20%3FDBNLauthorURL%20schema%3Aidentifier%20%3FWDDBNLaID%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20schema%3Aname%20%3FDBNLauthorName%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20schema%3AmainEntityOfPage%20%3Fpage%20.%0A%20%20%20%20%20%20%20%20%20%20%3Fpage%20schema%3AmainEntity%20%3Fauthorid%20.%0A%20%20%20%20%20%20%20%20%20%20%3FDBNLworkURL%20schema%3Aauthor%20%3Fauthorid%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20schema%3Aidentifier%20%3FDBNLworkID%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20schema%3Aname%20%3FDBNLworkTitle%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20schema%3Aurl%20%3FDBNLwebsiteURL.%0A%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20BIND(URI(CONCAT(%22http%3A%2F%2Fwww.dbnl.org%2Ftekst%2F%22%2C%20%3FDBNLworkID%2C%20%22_01%2F%22%2C%3FDBNLworkID%2C%22_01_0001.php%22))%20as%20%3FDBNLtextURL)%0A%20%20%20%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%7D%0ALIMIT%20150%0A&format=json) (query might be slow).
 
- as [JSON response](https://query.wikidata.org/sparql?query=%23%20Look%20for%20Dutch%20literary%20works%20written%20by%20the%20contributors%20of%20the%20Album%20amicorum%20Jacob%20Heyblocq%20in%20www.dbnl.org%0A%23%20and%20retrieve%20(the%20URLs%20of)%20the%20first%20pages%20of%20those%20works%0APREFIX%20schema%3A%20%3Chttp%3A%2F%2Fschema.org%2F%3E%0A%0ASELECT%20DISTINCT%20%3FWDcontr%20%3FWDcontrLabel%20%3FWDDBNLaID%20%23Wikidata%20stuff%0A%3FDBNLauthorURL%20%3FDBNLauthorName%20%23DBNL%20author%20stuff%0A%3FDBNLworkID%20%3FDBNLworkURL%20%3FDBNLworkTitle%20%23DBNL%20work%20stuff%0A%3FDBNLwebsiteURL%20%3FDBNLtextURL%20%23DBNL%20website%20stuff%0A%0AWHERE%20%7Bwd%3AQ72752496%20wdt%3AP767%20%3FWDcontr.%0A%20%20%20%20%20%20%20%3FWDcontr%20wdt%3AP723%20%3FWDDBNLaID.%20%0A%20%20%20%20%20%20%20SERVICE%20%3Chttp%3A%2F%2Fdata.bibliotheken.nl%2Fsparql%3E%7B%0A%20%20%20%20%20%20%20%20%20%20%3FDBNLauthorURL%20schema%3Aidentifier%20%3FWDDBNLaID%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20schema%3Aname%20%3FDBNLauthorName%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20schema%3AmainEntityOfPage%20%3Fpage%20.%0A%20%20%20%20%20%20%20%20%20%20%3Fpage%20schema%3AmainEntity%20%3Fauthorid%20.%0A%20%20%20%20%20%20%20%20%20%20%3FDBNLworkURL%20schema%3Aauthor%20%3Fauthorid%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20schema%3Aidentifier%20%3FDBNLworkID%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20schema%3Aname%20%3FDBNLworkTitle%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20schema%3Aurl%20%3FDBNLwebsiteURL.%0A%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20BIND(URI(CONCAT(%22http%3A%2F%2Fwww.dbnl.org%2Ftekst%2F%22%2C%20%3FDBNLworkID%2C%20%22_01%2F%22%2C%3FDBNLworkID%2C%22_01_0001.php%22))%20as%20%3FDBNLtextURL)%0A%20%20%20%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%7D%0ALIMIT%20150%0A&format=json)
- 
- [table](https://w.wiki/3L$j) and
-
-  <kbd><img src="images/image-p5-023.png" width="100%"/></kbd><br/><sub>*we want # Look for Dutch literary works written by the contributors of the Album amicorum Jacob Heyblocq in www.dbnl.org
-# and retrieve (the URLs of) the first pages of those works https://w.wiki/3L$j. Screenshot Wikidata query service, d.d. 16-05-2021*</sub> 
-
-
+  <kbd><img src="images/image-p5-023.png" width="100%"/></kbd><br/><sub>*Dutch literary works in the [DBNL website](https://www.dbnl.org) written by the contributors of the Album amicorum Jacob Heyblocq, obtained by a [federated SPARQL query](https://w.wiki/3MLQ) in both Wikidata and [data.bibliotheken.nl](http://data.bibliotheken.nl), the LOD triple store of the KB. The last column shows (the URLs of) the first page of the works. Screenshot Wikidata query service, d.d. 19-05-2021*</sub> 
 
 ==============================
 
@@ -553,8 +544,8 @@ OK, we could have easily gone to 60+ examples, but that's it for this fifth and 
 ===========================
 46) XXXXXXXapproaches for generating off-wiki image galleries from the Wikimedia infrasteucxture - 3 ways <br/>
 47) XXXXXXXXXXXX[retrieve depicted entities programmatically](https://commons.wikimedia.org/wiki/Commons:Depicts#Access), either via the [Wikimedia Commons SPARQL query service](https://commons.wikimedia.org/wiki/Commons:SPARQL_query_service), the Wikimedia Commons API or via the [Petscan tool](https://petscan.wmflabs.org/).<br/>
-48) <br/>
-49) <br/>
+48) extract info fromexrtnal database using the REST APIs of tose extana ldatabases <br/>
+49) extract info simultaneously from both Wikidata and external databases using fedrated SPARQL queries<br/>
 50) <br/>
 
 ## Summary of summaries
