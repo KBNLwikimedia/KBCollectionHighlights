@@ -493,16 +493,16 @@ We can use these JSON URIs as starting points to further dive into the **REST AP
   The works by Govert Flinck can be retrieved via [http://data.europeana.eu/agent/base/63198](http://data.europeana.eu/agent/base/63198), which redirects to the Europeana website [https://www.europeana.eu/en/collections/person/63198-govert-flinck](https://www.europeana.eu/en/collections/person/63198-govert-flinck). 
   This result set can be requested as JSON via [https://www.europeana.eu/api/v2/search.json?wskey=api2demo&media=true&start=1&rows=100&profile=minimal&query=%22http://data.europeana.eu/agent/base/63198%22](https://www.europeana.eu/api/v2/search.json?wskey=api2demo&media=true&start=1&rows=100&profile=minimal&query=%22http://data.europeana.eu/agent/base/63198%22), retrieving results 1-100 (*&start=1&rows=100&*), as documented on [here](https://pro.europeana.eu/page/search#pagination) 
 
+  <kbd><img src="images/image-p5-024.png" height="300"/></kbd><kbd><img src="images/image-p5-024a.png" height="300"/></kbd><br/><sub>* Europena website (left) and as JSON (right) Screenshot , d.d. 01-06-2021*</sub> 
+
   One of Flinck's works on is [Schutters van de compagnie van kapitein Joan Huydecoper en luitenant Frans van Waveren](https://www.europeana.eu/en/item/2024903/photography_ProvidedCHO_KU_Leuven_9990688460101488), which can be represented in JSON via [https://api.europeana.eu/record/2024903/photography_ProvidedCHO_KU_Leuven_9990688460101488.json?wskey=api2demo](https://api.europeana.eu/record/2024903/photography_ProvidedCHO_KU_Leuven_9990688460101488.json?wskey=api2demo) 
-
+  
   This work is in the collection of the KU Leuven University, where the full image is available via [https://lib.is/IE2392190/stream?quality=LOW](https://lib.is/IE2392190/stream?quality=LOW). A thumbnail can be generated using the Europeana API: [https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Flib.is%2FIE2392190%2Fstream%3Fquality%3DLOW&type=IMAGE](https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Flib.is%2FIE2392190%2Fstream%3Fquality%3DLOW&type=IMAGE)
-
-XXXXXXXXXXXXXXXXXXX  <kbd><img src="images/image-p5-026.png" width="100%"/></kbd><br/><sub>*  Screenshot , d.d. 01-06-2021*</sub> 
-
-
+  
+  <kbd><img src="images/image-p5-025.png" height="300"/></kbd><kbd><img src="images/image-p5-025a.png" height="300"/></kbd><kbd><img src="images/image-p5-025b.png" height="300"/></kbd><br/><sub>*Europena website (left) and as JSON (right)   Screenshot , d.d. 01-06-2021*</sub> 
 
 
-XXXXXXXXXXXXXXXXXXX  <kbd><img src="images/image-p5-024.png" width="100%"/></kbd><br/><sub>*Outpiut script Govet Flcinkc Euroeana json urls.hgfhgfh  Screenshot [Pycharm IDE](https://www.jetbrains.com/pycharm/), d.d. 01-06-2021*</sub> 
+ <kbd><img src="images/image-p5-026.png" width="100%"/></kbd><br/><sub>*Outpiut script Govet Flcinkc Euroeana json urls.hgfhgfh  Screenshot [Pycharm IDE](https://www.jetbrains.com/pycharm/), d.d. 01-06-2021*</sub> 
 
 <hr>
 
