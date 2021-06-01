@@ -504,6 +504,13 @@ We can use these JSON URIs as starting points to further dive into the **REST AP
 
  <kbd><img src="images/image-p5-026.png" width="100%"/></kbd><br/><sub>*Outpiut script Govet Flcinkc Euroeana json urls.hgfhgfh  Screenshot [Pycharm IDE](https://www.jetbrains.com/pycharm/), d.d. 01-06-2021*</sub> 
 
+[Python script](https://kbnlwikimedia.github.io/Alba-Amicorum/alba/AA-Jacob-Heyblocq/reuse/scripts/bijdragersAAJH-WerkenInEuropeana.py)
+
+Combining this for all AAJH for all their works, 
+For oinstance., exported to Excel
+[Resulting Excel](https://github.com/KBNLwikimedia/Alba-Amicorum/blob/main/alba/AA-Jacob-Heyblocq/reuse/excels/AAJH-contributors-works-Europeana.xlsx?raw=true)
+
+
 <hr>
 
 49) We can combine a SPARQL query in Wikidata with simultaneous queries in [other SPARQL endpoints](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/Federation_report). This is called **[federated SPARQL querying](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/Federated_queries)** and we can use it to extract some base information from Wikidata and combine that with additional, enriching information from external (linked open) databases.
