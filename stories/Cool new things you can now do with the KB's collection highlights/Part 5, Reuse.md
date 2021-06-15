@@ -555,7 +555,7 @@ LIMIT 150
 
 Finally, to wrap up this (long) article, let's look at an example of reusing individual highlight images. Let's use the [map of the Iberian Peninsula](https://commons.wikimedia.org/wiki/File:Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg) we looked at in the beginning of [Part 4](Part%204%2C%20Images.html). 
 
-50) Using a [Wikimedia Commons API tool](https://magnus-toolserver.toolforge.org/commonsapi.php) created by (the great) [Magnus Manske](https://hay.toolforge.org/directory/#/author/Magnus%20Manske), we can programmatically request (meta)data associated with this image in XML, such as  
+50) Using a [Wikimedia Commons API tool](https://magnus-toolserver.toolforge.org/commonsapi.php) created by (the great) [Magnus Manske](https://hay.toolforge.org/directory/#/author/Magnus%20Manske), we can **programmatically request (meta)data associated with an individual image** in XML, such as  
 
   - [https://tools.wmflabs.org/magnus-toolserver/commonsapi.php?image=Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg&thumbwidth=234](https://tools.wmflabs.org/magnus-toolserver/commonsapi.php?image=Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg&thumbwidth=234) - returns the URL of a [thumbnail of 234px wide](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg/234px-Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg)
   - [https://tools.wmflabs.org/magnus-toolserver/commonsapi.php?image=Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg&thumbwidth=234&meta](https://tools.wmflabs.org/magnus-toolserver/commonsapi.php?image=Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg&thumbwidth=234&meta) - adds the EXIF data
@@ -586,7 +586,7 @@ OK, we could have easily gone to 60+ examples, but that's it for this fifth and 
 47) XXXXXXXXXXXX[retrieve depicted entities programmatically](https://commons.wikimedia.org/wiki/Commons:Depicts#Access), either via the [Wikimedia Commons SPARQL query service](https://commons.wikimedia.org/wiki/Commons:SPARQL_query_service), the Wikimedia Commons API or via the [Petscan tool](https://petscan.wmflabs.org/).<br/>
 48) extract info fromexrtnal database using the REST APIs of tose extana ldatabases <br/>
 49) extract info simultaneously from both Wikidata and external databases using fedrated SPARQL queries<br/>
-50) <br/>
+50) **programmatically request (meta)data associated with an individual image**<br/>
 
 ## Summary of summaries
 As a bonus, amd for overview., part 6 is a summary of all 50 new cool things
