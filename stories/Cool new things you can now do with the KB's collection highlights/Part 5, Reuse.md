@@ -553,18 +553,20 @@ LIMIT 150
 
 ## Reuse - individual highlight images
 
-Finally, to warpa up this (long) article, lets look at an exampple of reusing individual highlight images
+Finally, to wrap up this (long) article, let's look at an example of reusing individual highlight images. Let's use the [map of the Iberian Peninsula](https://commons.wikimedia.org/wiki/File:Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg) we looked at in the beginning of [Part 4](Part%204%2C%20Images.html). 
 
-==================================================
+50) Using a [Wikimedia Commons API tool](https://magnus-toolserver.toolforge.org/commonsapi.php) created by (the great) [Magnus Manske](https://hay.toolforge.org/directory/#/author/Magnus%20Manske), we can programmatically request (meta)data associated with this image in XML, such as  
 
-50) https://tools.wmflabs.org/magnus-toolserver/commonsapi.php - request image info
+  - [https://tools.wmflabs.org/magnus-toolserver/commonsapi.php?image=Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg&thumbwidth=234](https://tools.wmflabs.org/magnus-toolserver/commonsapi.php?image=Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg&thumbwidth=234) - returns the URL of a [thumbnail of 234px wide](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg/234px-Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg)
+  - [https://tools.wmflabs.org/magnus-toolserver/commonsapi.php?image=Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg&thumbwidth=234&meta](https://tools.wmflabs.org/magnus-toolserver/commonsapi.php?image=Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg&thumbwidth=234&meta) - returns the EXIF data as well
 
-https://commons.wikimedia.org/wiki/Commons:API/MediaWiki
+  <kbd><img src="images/image-p5-027.png" width="100%"/></kbd><br/><sub>*URLs associated with the [map of the Iberian Peninsula](https://commons.wikimedia.org/wiki/File:Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg) as returned by Magnus Manske's [Wikimedia Commons API tool](https://tools.wmflabs.org/magnus-toolserver/commonsapi.php?image=Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg&thumbwidth=234). Note the URL of the [thumbnail of 234px wide](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg/234px-Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg). Screenshot [Wikimedia Commons API tool](https://magnus-toolserver.toolforge.org/commonsapi.php), d.d. 15-06-2021*</sub> 
 
-https://tools.wmflabs.org/magnus-toolserver/commonsapi.php?image=Album%20amicorum%20Jacob%20Heyblocq%20KB131H26%20-%20p010%20-%20Franciscus%20Snellinx%20-%20Poem%20part2.jpg&thumbwidth=150&thumbheight=150&versions&meta&format=json
-https://commons.wikimedia.org/w/api.php?action=query&titles=Image:Album%20amicorum%20Jacob%20Heyblocq%20KB131H26%20-%20p010%20-%20Franciscus%20Snellinx%20-%20Poem%20part2.jpg&prop=imageinfo&iiprop=extmetadata
+  We can also [query the Commons API](https://commons.wikimedia.org/w/api.php?action=help&modules=query) directly to retrieve information about an individual image. We use [these examples](https://commons.wikimedia.org/wiki/Commons:API/MediaWiki) and [this documentation](https://commons.wikimedia.org/w/api.php?action=help&modules=query%2Bimageinfo) for inspiration. For example:
 
-
+  - [https://commons.wikimedia.org/w/api.php?action=query&titles=Image%3AAtlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg&prop=imageinfo&iiprop=url&format=json](https://commons.wikimedia.org/w/api.php?action=query&titles=Image%3AAtlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg&prop=imageinfo&iiprop=url&format=json) - returns the [direct image URL](https://upload.wikimedia.org/wikipedia/commons/b/b1/Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg), [the regular file page URL](https://commons.wikimedia.org/wiki/File:Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg) and the [permanent file page URL](https://commons.wikimedia.org/w/index.php?curid=41663328). See also item 41, bullet 2 @ Double page openings.
+  - [https://commons.wikimedia.org/w/api.php?action=query&titles=Image%3AAtlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg&prop=imageinfo&iiprop=extmetadata&iiextmetadatalanguage=nl&format=json](https://commons.wikimedia.org/w/api.php?action=query&titles=Image%3AAtlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg&prop=imageinfo&iiprop=extmetadata&iiextmetadatalanguage=nl&format=json) - returns the formatted metadata (ie. with HTML markup) in Dutch
+  - [https://commons.wikimedia.org/w/api.php?action=query&titles=Image%3AAtlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg&prop=imageinfo&iiprop=metadata&iimetadataversion=latest&format=json](https://commons.wikimedia.org/w/api.php?action=query&titles=Image%3AAtlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg&prop=imageinfo&iiprop=metadata&iimetadataversion=latest&format=json) - returns the EXIF data
 
 
 ## Summary
