@@ -1,5 +1,6 @@
 ![Banner](../images/banners/KBTopstukkenBannerWikimedia_EN.jpg)
 # 50 cool new things you can now do with KB's collection highlights - Part 4, Images
+*Latest update 16-06-2021*
 
 <img src="images/KBtopstukkenMemeEN.jpg" width="70%" align="right"/>
 
