@@ -87,15 +87,15 @@ As a result of this call my colleagues set to work, some with great enthusiasm. 
 ## Summary
 For convenience and overview, let me summarize all the cool new things for KB's collection highlights we have seen in this article:
 
-27) Image downloads in various resolutions<br/>
+27) Image downloads in various resolutions.<br/>
 28) [File level descriptive metadata](https://commons.wikimedia.org/wiki/File:Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg#Summary) including<br/>
-29) textual and visiual source attribution of the KB,<br/>
+29) textual and visual source attribution of the KB,<br/>
 30) manifest copyrights status (public domain) and <br/>
 31) multiple thematic categorisations.<br/>
-32) Geo coordinates for selected images, linking them to [various map services](https://geohack.toolforge.org/geohack.php?pagename=File:Den_Haag,_gezicht_bij_de_Doelen_over_de_Korte_Vijverberg,_tot_aan_het_Plein_(7985085070).jpg&params=052.081352_N_0004.313528_E_globe:Earth_type:camera_source:Flickr_&language=nl)<br/>
+32) Geo coordinates for selected images, linking them to [various map services](https://geohack.toolforge.org/geohack.php?pagename=File:Den_Haag,_gezicht_bij_de_Doelen_over_de_Korte_Vijverberg,_tot_aan_het_Plein_(7985085070).jpg&params=052.081352_N_0004.313528_E_globe:Earth_type:camera_source:Flickr_&language=nl).<br/>
 33) Structured, machine-readable data, [linking images to Wikidata](https://commons.wikimedia.org/wiki/Commons:Structured_data), enabling <br/>
 34) 'automatic multilinguality' and multilingual search, and <br/>
-35) making them searchable by content (*What is depicted in the images?*).<br/>
+35) making them searchable by content. (*What is depicted in the images?*)<br/>
 36) Stimulate (inter)national participation for enriching KB's collections by [public tagging campaigns](https://isa.toolforge.org/campaigns/74), enabling <br/>
 37) [new search options](https://hay.toolforge.org/sdsearch/) for these collections.<br/>
 
