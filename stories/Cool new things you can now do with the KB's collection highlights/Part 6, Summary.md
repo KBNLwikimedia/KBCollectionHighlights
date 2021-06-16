@@ -23,7 +23,7 @@ A visual summary:
 <kbd><img src="images/image-p1-022.png" height="150"/></kbd><kbd><img src="images/image-p1-023.png" height="150"/></kbd><kbd><img src="images/image-p1-024.png" height="150"/></kbd><kbd><img src="images/image-p1-020.png" height="150" align="left"/></kbd><kbd><img src="images/image-p1-025.png" height="150" align="left"/></kbd><kbd><img src="images/image-p1-026.png" height="150"/></kbd><kbd><img src="images/image-p1-027.png" height="150"/></kbd>
 
 ## [Part 2, Overviews of all highlights](Part%202%2C%20Overviews%20of%20all%20highlights.html)
-In the second article I looked at which handy & useful *overviews of all highlights combined* have become available as a result of the project. These include
+In the second article I looked at which handy & useful *overviews of all highlights combined* have become available as a result of Wikifying our highlights. These include
 
 1) A [thumbnail gallery](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Galerij) for all highlights.<br/>
 2) A [visual gallery page](https://commons.wikimedia.org/wiki/Collection_highlights_of_Koninklijke_Bibliotheek) with 6 previews for each highlight.<br/>
@@ -57,7 +57,7 @@ In the third article I discussed which new functionalities *for individual highl
 26) [Map visualisations](https://tinyurl.com/y2y7pfbj) for selected highlights in which locations and places play key roles.<br/>
 
 ## [Part 4, Images](Part%204%2C%20Images.html)
-In this article I showed which new functionalities *for individual highlight images* are available as a result of the project, including
+In this article I showed which new functionalities *for individual highlight images* are available now that they are part of the Wikimedia infrastructure. These include
 
 27) Image downloads in various resolutions.<br/>
 28) [File level descriptive metadata](https://commons.wikimedia.org/wiki/File:Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg#Summary) including<br/>
