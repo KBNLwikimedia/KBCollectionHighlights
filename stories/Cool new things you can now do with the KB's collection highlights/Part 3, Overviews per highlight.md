@@ -94,20 +94,20 @@ The [alphabetical place name index](https://www.kb.nl/themas/atlassen/stedenatla
 ## Summary
 For convenience and overview, let me summarize all the cool new things for KB's collection highlights we have seen in this article:
 
-13) Merging KB's institutional and Wikimedia's participative worlds for each highlight<br/>
-14) A [gallery page with individual images](https://commons.wikimedia.org/wiki/Buiten!_Waar_de_vogels_fluiten) for each public domain highlight<br/>
-15) [Double page openings](https://commons.wikimedia.org/wiki/Category:Visboeck_Coenen_(openings)) for most public domain highlights<br/>
-16) [Miniatures](https://commons.wikimedia.org/wiki/Category:Miniatures_from_Der_naturen_bloeme_-_KB_KA_16) and/or cut-outs of [interesting page sections](https://commons.wikimedia.org/wiki/Category:Kunst_en_samenleving_(KB_-_KW_1310_F_3_-_details)) for selected public domain highlights<br/>
+13) Merging KB's institutional and Wikimedia's participative worlds for each highlight.<br/>
+14) A [gallery page with individual images](https://commons.wikimedia.org/wiki/Buiten!_Waar_de_vogels_fluiten) for each public domain highlight.<br/>
+15) [Double page openings](https://commons.wikimedia.org/wiki/Category:Visboeck_Coenen_(openings)) for most public domain highlights.<br/>
+16) [Miniatures](https://commons.wikimedia.org/wiki/Category:Miniatures_from_Der_naturen_bloeme_-_KB_KA_16) and/or cut-outs of [interesting page sections](https://commons.wikimedia.org/wiki/Category:Kunst_en_samenleving_(KB_-_KW_1310_F_3_-_details)) for selected public domain highlights.<br/>
 17) Openly licensed [audio tracks](https://commons.wikimedia.org/wiki/Category:Beatrijs_(audio)) and <br/>
-18) [explainer videos](https://www.youtube.com/watch?v=Vnvr6WoyPKk) for selected highlights<br/>
+18) [explainer videos](https://www.youtube.com/watch?v=Vnvr6WoyPKk) for selected highlights.<br/>
 19) Reusable [introduction texts under CC0-licensing](https://web.archive.org/web/20210126072215/https://www.kb.nl/auteursrecht) for each highligt <br/>
-20) Openly licensed and freely reusable building blocks (images, audio, videos, texts) for each highligt<br/>
-21) A [KB citation template](https://nl.wikipedia.org/wiki/Sjabloon:Bronvermelding_kb.nl) for use on Dutch Wikipedia <br/>
-22) A [facebook](https://w.wiki/phx) of contributors to the [Album amicorum Jacob Heyblocq](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Alfabetisch#Album_amicorum_van_Jacobus_Heyblocq_(1623-1690),_rector_van_de_Latijnse_school_te_Amsterdam)<br/>
+20) Openly licensed and freely reusable building blocks (images, audio, videos, texts) for each highligt.<br/>
+21) A [KB citation template](https://nl.wikipedia.org/wiki/Sjabloon:Bronvermelding_kb.nl) for use on Dutch Wikipedia.<br/>
+22) A [facebook](https://w.wiki/phx) of contributors to the [Album amicorum Jacob Heyblocq](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Alfabetisch#Album_amicorum_van_Jacobus_Heyblocq_(1623-1690),_rector_van_de_Latijnse_school_te_Amsterdam).<br/>
 23) Overviews of the [gender distribution](https://w.wiki/F5J), <br/>
 24) the [occupations](https://w.wiki/F5N) and <br/>
-25) the [life spans](https://w.wiki/qzx) of those contributors<br/>
-26) [Map visualisations](https://tinyurl.com/y2y7pfbj) for selected highlights in which locations and places play key roles<br/>
+25) the [life spans](https://w.wiki/qzx) of those contributors.<br/>
+26) [Map visualisations](https://tinyurl.com/y2y7pfbj) for selected highlights in which locations and places play key roles.<br/>
 
 ## Up next
 So far for this third article. In [Part 4, Images](Part%204%2C%20Images.html), I'll discuss which new & innovative functionalities *for individual highlight images* have become  available as a result of the project. 
