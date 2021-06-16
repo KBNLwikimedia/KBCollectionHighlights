@@ -12,7 +12,7 @@
 -  [Part 3, Overviews per highlight](Part%203%2C%20Overviews%20per%20highlight.html) - new functionalities for individual highlights that are available from now on.
 - [Part 4, Images](Part%204%2C%20Images.html) - new things you can do with our individual highlight images now that they are part of the Wikimedia infrastructure. 
 - [Part 5, Reuse](Part%205%2C%20Reuse.html) - some examples of programmatically reusing KB's collection highlights, for instance for/in your own websites, services, apps, hackathons and projects. SPARQL, APIs, Python scripts, JSON, XML, image bulk downloading, machine interactions, that kind of stuff.
-- [Part 6, Summary](Part%206%2C%20Summary.html) - all 50 new cool things in a super handy single list.
+<!-- - [Part 6, Summary](Part%206%2C%20Summary.html) - all 50 new cool things in a super handy single list. -->
 
 ## Credits
 The Wikification of our collection highlights was done by [Danielle Jansen](https://commons.wikimedia.org/wiki/User:DanielleJWiki), with technical expertise & support by [Vera de Kok](https://commons.wikimedia.org/wiki/User:1Veertje_(KB)) and some helping hands from the author. 
