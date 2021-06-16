@@ -584,7 +584,7 @@ OK, we could have easily gone to 60+ examples, but that's it for this fifth and 
 50) Programmatically request (meta)data associated with an individual image via both the [Wikimedia Commons API tool](https://magnus-toolserver.toolforge.org/commonsapi.php) and [directly from the Commons API](https://commons.wikimedia.org/w/api.php?action=help&modules=query), using [these examples](https://commons.wikimedia.org/wiki/Commons:API/MediaWiki) and [this imageinfo API documentation](https://commons.wikimedia.org/w/api.php?action=help&modules=query%2Bimageinfo) for inspiration.<br/>
 
 ## Part 6 - Summary of summaries
-As a bonus - and for overview - I've created a summary of the individual summaries from parts [2](Part%202%2C%20Overviews%20of%20all%20highlights.html), [3](Part%203%2C%20Overviews%20per%20highlight.html), [4](Part%204%2C%20Images.html) and the one above. See [Part 6, Summary](Part%206%2C%20Summary.html) for all 50 new cool things in a single super handy list.
+As a bonus - and for overview - I've created a summary of the individual summaries from parts [2](Part%202%2C%20Overviews%20of%20all%20highlights.html), [3](Part%203%2C%20Overviews%20per%20highlight.html), [4](Part%204%2C%20Images.html) and the one above. See [Part 6, Summary](Part%206%2C%20Summary.html) for all 50 new cool things in a super handy single list.
 
 <hr>
 
