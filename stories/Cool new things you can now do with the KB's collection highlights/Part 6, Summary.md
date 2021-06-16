@@ -9,14 +9,9 @@
 As a bonus - and for overview - I've created a summary of the individual summaries from parts 2, 3, 4 and 5. This 6th part summarizes all 50 new cool things in one super handy single list.
 
 ## [Part 1, Introduction](Part%201%2C%20Introduction.html)
-In the introduction of the series I discussed the things (functionalities) you could already do with [KB's collection highlights](https://www.kb.nl/galerij/digitale-topstukke)) on KB's own websites, before we started the [WikiProject Collection highlights](https://www.wikidata.org/wiki/Wikidata:WikiProject_Collection_highlights_National_Library_of_the_Netherlands) in 2020. I also looked at some of the limitations that arise from offering our highlights in read/view-only mode, catering for classical heritage consumers. I explained why 
+In the introduction of the series I discussed the things (functionalities) you could already do with [KB's collection highlights](https://www.kb.nl/galerij/digitale-topstukken) on KB's own native websites, before we started the [WikiProject Collection highlights](https://www.wikidata.org/wiki/Wikidata:WikiProject_Collection_highlights_National_Library_of_the_Netherlands) in 2020. I also looked at some of the limitations that arise from offering our highlights in read/view-only mode, catering for classical heritage consumers. 
 
-
-3) the paradigm shift the KB made,  consuming to read-write creating, where our hioghlighta are LEGO bricks to build stuff with. 
-
-wikifying our highlights 
-
-catering fro new tyes of audiuences fotr out hihjlighds
+I explained why it made sense to also offer our collection highlights as LEGO®-like building blocks to creative and technical audiences, allowing them to freely and openly reuse and combine this collection as they see fit. We choose the Wikimedia infrastructure (the combination of Wikidata, Wikimedia Commons and Wikipedia) as our toolkit, as many of the building blocks we were looking for were readily available on those platforms.
 
 A visual summary: 
 
