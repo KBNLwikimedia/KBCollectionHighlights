@@ -21,7 +21,7 @@ The actual Wikification of KB's collection highlights was done by [Danielle Jans
 <br clear="all"/>
 <img align="left" src="images/240px-Vera_de_Kok_bij_de_Wikimedia_Conferentie_Nederland_2012_-_Flickr_-_Sebastiaan_ter_Burg.jpg" width="50"/>
 
-[Vera de Kok](https://commons.wikimedia.org/wiki/User:1Veertje_(KB)) provided technical expertise & support for making images and data availale in Wikimedia Commons and Wikidata. 
+[Vera de Kok](https://commons.wikimedia.org/wiki/User:1Veertje_(KB)) provided technical expertise & support for making images and data availale in Wikimedia Commons and Wikidata. Read more about Vera in the interview *[It “gets addictive quickly.” How a developer found her passion in Wikipedia](https://medium.com/freely-sharing-the-sum-of-all-knowledge/wikiherstory-it-gets-addictive-quickly-how-a-developer-found-her-passion-in-wikipedia-7dba6d685728)*.
 <br clear="all"/>
 <br clear="all"/>
 <img align="left" src="../images/800px-Olaf_Janssen_at_GLAM_WIKI_Tel_Aviv_Conference_2018.JPG" width="50"/>
