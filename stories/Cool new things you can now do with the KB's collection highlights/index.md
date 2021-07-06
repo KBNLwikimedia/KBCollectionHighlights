@@ -16,7 +16,7 @@
 
 ## About the team
 <!-- <img align="left" src="../images/thumbDJ.jpg" width="50"/> -->
-The actual Wikification of KB's collection highlights was done by [Danielle Jansen](https://commons.wikimedia.org/wiki/User:DanielleJWiki). 
+The actual Wikification of KB's collection highlights was done by [Danielle Jansen](https://commons.wikimedia.org/wiki/User:DanielleJWiki). She is a structured data specialist and is currently working on creating a public platform for KB's Special Collections. 
 <br clear="all"/>
 <br clear="all"/>
 <img align="left" src="images/240px-Vera_de_Kok_bij_de_Wikimedia_Conferentie_Nederland_2012_-_Flickr_-_Sebastiaan_ter_Burg.jpg" width="50"/>
@@ -28,9 +28,6 @@ The actual Wikification of KB's collection highlights was done by [Danielle Jans
 
 These articles have been written by Olaf Janssen. He is the Wikimedia coordinator of the KB, the national library of the Netherlands. He contributes to
 [Wikipedia](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief), [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Koninklijke_Bibliotheek) and [Wikidata](https://www.wikidata.org/wiki/Wikidata:GLAM/Koninklijke_Bibliotheek_Nederland) as [User:OlafJanssen](https://nl.wikipedia.org/wiki/Gebruiker:OlafJanssen)<br>
-
-
-
 
 ## Reusing these articles
 The texts of these articles are available under the [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. 
