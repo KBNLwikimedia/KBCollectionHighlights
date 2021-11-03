@@ -394,7 +394,7 @@ Let's now look at three **approaches for generating off-Wiki image galleries** f
 
   <kbd><img src="images/image-p5-021.png" width="100%"/></kbd><br/><sub>*Wikidata Qnumbers of things depicted in [File:Atlas de Wit 1698-pl048-Montfoort-KB PPN 145205088.jpg](https://commons.wikimedia.org/wiki/File:Atlas_de_Wit_1698-pl048-Montfoort-KB_PPN_145205088.jpg) (M32093127). Result of [this API call](https://commons.wikimedia.org/w/api.php?action=wbgetentities&format=json&ids=M32093127). Screenshot Wikimedia Commons API, d.d. 15-05-2021*</sub> 
   
-  If we want to list all things depicted in all images in [Category:Atlas de Wit 1698](https://commons.wikimedia.org/wiki/Category:Atlas_de_Wit_1698), we can write a small Python script to iterate over all images in that category, using the [API call we saw in item 41](https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:Atlas_de_Wit_1698&format=json&gcmnamespace=6) to request the pageIDs and titles of the files in that category: 
+  If we want to make an English (*taglang = 'en'*) list of all things depicted in all images in [Category:Atlas de Wit 1698](https://commons.wikimedia.org/wiki/Category:Atlas_de_Wit_1698), we can write a small Python script to iterate over all images in that category, using the [API call we saw in item 41](https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmlimit=500&gcmtitle=Category:Atlas_de_Wit_1698&format=json&gcmnamespace=6) to request the pageIDs and titles of the files in that category: 
     
   ```python
 import requests
@@ -407,26 +407,28 @@ filesurl= baseurl + "query&generator=categorymembers&gcmlimit=500&gcmtitle=" + c
 files = requests.get(filesurl, headers=headers)
 filesdata = json.loads(files.text)
 pageids=list(filesdata['query']['pages'].keys())
+taglang = 'en' #Language of P180 tags
 
 for pageid in pageids:
-    mnumber="M"+str(pageid)
-    pageurl= baseurl + "wbgetentities&format=json&ids=" + str(mnumber)
-    pageresponse = requests.get(pageurl, headers=headers)
-    pagedata = json.loads(pageresponse.text)
-    pagetitle=pagedata.get('entities').get(mnumber).get('title')
-    p180s = pagedata.get('entities').get(mnumber).get('statements').get('P180', 'XX')
-    if str(p180s) != "XX":
-        depictslist=[]
-        for p in range(0, len(p180s)):
-            qnum= p180s[p]['mainsnak']['datavalue']['value']['id']
-            depictsurl = "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=" + str(qnum) + "&props=labels&languages=en&format=json"
-            depictsresponse = requests.get(depictsurl, headers=headers)
-            depictsdata = json.loads(depictsresponse.text)
-            depicts = depictsdata.get('entities', 'XX').get(qnum).get('labels', 'XX').get('en', 'XX')
-            if str(depicts) != "XX":
-                a = str(depicts.get('value')) + " (" + str(qnum) + ")"
-                depictslist.append(a)
-        print(str(mnumber) + " ||  " + str(pagetitle) + " ||  " + ' -- '.join(depictslist))
+  mnumber="M"+str(pageid)
+  pageurl= baseurl + "wbgetentities&format=json&ids=" + str(mnumber)
+  pageresponse = requests.get(pageurl, headers=headers)
+  pagedata = json.loads(pageresponse.text)
+  pagetitle=pagedata.get('entities').get(mnumber).get('title')
+  p180s = pagedata.get('entities').get(mnumber).get('statements').get('P180', 'XX')
+  if str(p180s) != "XX":
+      depictslist=[]
+
+      for p in range(0, len(p180s)):
+          qnum= p180s[p]['mainsnak']['datavalue']['value']['id']
+          depictsurl = "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=" + str(qnum) + "&props=labels&languages="+str(taglang)+"&format=json"
+          depictsresponse = requests.get(depictsurl, headers=headers)
+          depictsdata = json.loads(depictsresponse.text)
+          depicts = depictsdata.get('entities', 'XX').get(qnum).get('labels', 'XX').get(taglang, 'XX')
+          if str(depicts) != "XX":
+              a = str(depicts.get('value')) + " (https://www.wikidata.org/wiki/" + str(qnum) + ")"
+              depictslist.append(a)
+      print(str(mnumber) + " ||  " + str(pagetitle) + " ||  " + ' -- '.join(depictslist))
    ```
  
    This gives the following result:
