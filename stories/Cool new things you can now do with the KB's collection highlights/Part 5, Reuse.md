@@ -1,6 +1,6 @@
 ![Banner](../images/banners/KBTopstukkenBannerWikimedia_EN.jpg)
 # 50 cool new things you can now do with KB's collection highlights - Part 5, Reuse
-*Latest update 16-06-2021*
+*Latest update 12-11-2023*
 
 <img src="images/KBtopstukkenMemeEN.jpg" width="70%" align="right"/>
 
@@ -21,7 +21,8 @@ I'll illustrate how you can retrieve the same images, data and texts we requeste
 
 ## Reuse - all highlights
 
-38) Let's start with recreating the [image grid](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Galerij) we started out with in [Part 2](Part%202%2C%20Overviews%20of%20all%20highlights.html) using the [Wikidata SPARQL query service](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service). A short [SPARQL query](https://w.wiki/3E8w) does the job: 
+### 38) SPARQL driven thumbnail gallery of KB highlights
+Let's start with recreating the [image grid](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Galerij) we started out with in [Part 2](Part%202%2C%20Overviews%20of%20all%20highlights.html) using the [Wikidata SPARQL query service](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service). A short [SPARQL query](https://w.wiki/3E8w) does the job: 
 ```sparql
    # Thumbnail gallery of KB collection highlights
    #defaultView:ImageGrid
@@ -38,7 +39,8 @@ This query results into a **[SPARQL driven thumbnail gallery](https://w.wiki/3E8
 
 <hr>
 
-39) Next, let's look at lists and tables. The [list of highlights](https://www.kb.nl/galerij/digitale-topstukken) on the KB website is only availabe as HTML. For effective reuse you'd prefer it in a structured and open format such as JSON, XML or RDF. Let's look how we can request **structured lists of KB highlights, both simple and more elaborate** from the Wikidata query service: 
+### 39) Structured lists of all KB highlights, both simple and in JSON and XML
+Next, let's look at lists and tables. The [list of highlights](https://www.kb.nl/galerij/digitale-topstukken) on the KB website is only availabe as HTML. For effective reuse you'd prefer it in a structured and open format such as JSON, XML or RDF. Let's look how we can request **structured lists of KB highlights, both simple and more elaborate** from the Wikidata query service: 
 
 - *Simple list*, using [this query](https://w.wiki/3FWz):
    ```sparql
@@ -67,7 +69,8 @@ This query results into a **[SPARQL driven thumbnail gallery](https://w.wiki/3E8
 
 <hr>
 
-40) You might want to **programatically check for Wikipedia articles about KB highlights**, for instance in Dutch, using [this query](https://w.wiki/3FbF):
+### 40) Programatically check for Wikipedia articles about KB highlights in Dutch
+You might want to **programatically check for Wikipedia articles about KB highlights**, for instance in Dutch, using [this query](https://w.wiki/3FbF):
 ```sparql
    #Articles about KB collection highlights on Dutch Wikipedia
    select ?item ?itemLabel ?articleNL where {
@@ -83,7 +86,8 @@ As before, the results can be requested in [JSON](https://query.wikidata.org/spa
 
 ## Reuse - individual highlights
 
-41) In [Part 3](Part%203%2C%20Overviews%20per%20highlight.html) we looked at individual pages (14), double page openings (15) and miniatures/page details (16) that are available for public domain highlights. Let's see how we can **request image URLs from the [Wikimedia Commons query API](https://commons.wikimedia.org/w/api.php?action=help&modules=query)** using [this documentation](https://www.mediawiki.org/wiki/API:Categorymembers).
+### 41) Request multiple image URLs from the Wikimedia Commons query API for a specific highlight
+In [Part 3](Part%203%2C%20Overviews%20per%20highlight.html) we looked at individual pages (14), double page openings (15) and miniatures/page details (16) that are available for public domain highlights. Let's see how we can **request image URLs from the [Wikimedia Commons query API](https://commons.wikimedia.org/w/api.php?action=help&modules=query)** using [this documentation](https://www.mediawiki.org/wiki/API:Categorymembers).
 
 - **Individual pages**<br/> 
   For [Armorial de Beyeren](https://commons.wikimedia.org/wiki/Category:Armorial_de_Beyeren) we can request a simple list of images
@@ -134,7 +138,8 @@ As before, the results can be requested in [JSON](https://query.wikidata.org/spa
 
 <hr>
 
-42) If you don't want to use the Wikimedia Commons API for getting image URLs, no problem, there a some **readily available bulk image download tools** for obtaining the **hires image URLs** and/or the **hires images themselves** from a specific KB highlight category on Wikimedia Commons.
+### 42) Readily available bulk image download tools
+If you don't want to use the Wikimedia Commons API for getting image URLs, no problem, there a some **readily available bulk image download tools** for obtaining the **hires image URLs** and/or the **hires images themselves** from a specific KB highlight category on Wikimedia Commons.
 
   Using the **[Wiki Loves Downloads tool](https://wikilovesdownloads.toolforge.org/)** you can easily get all the direct download URLs of the hires images of eg. the [Reward letter of King Filip II of Spain to family of Balthasar Gerards, 1590](https://commons.wikimedia.org/wiki/Category:Reward_letter_of_King_Filip_II_of_Spain_to_family_of_Balthasar_Gerards,_1590). Because this tool was developed by [Wikimedia Deutschland](https://www.wikimedia.de/), the default user interface is in German. We can use Google Translate to get a [English user interface](https://translate.google.com/translate?hl=en&sl=de&tl=en&u=https%3A%2F%2Fwikilovesdownloads.toolforge.org%2F) for international audiences. As stated in the tool, it divides the images of a category from Wikimedia Commons into a desired number of lists and generates these in the form of (zipped) text files with links to the respective images so that they can be downloaded with the help of a download manager (or a script).
 
@@ -146,7 +151,8 @@ As before, the results can be requested in [JSON](https://query.wikidata.org/spa
 
 <hr>
 
-43) Every KB highlight is described by a Wikidata item (Qnumber). Let's see how we can request **highlight information from the Wikidata API** directly from that Qnumber. We can use the [*wbgetentities* action](https://www.wikidata.org/w/api.php?action=help&modules=wbgetentities) for that.
+### 43) Request highlight information from the Wikidata API, directly from the highlight's Qnumber.
+Every KB highlight is described by a Wikidata item (Qnumber). Let's see how we can request **highlight information from the Wikidata API** directly from that Qnumber. We can use the [*wbgetentities* action](https://www.wikidata.org/w/api.php?action=help&modules=wbgetentities) for that.
 
 * Get *all information* ('the entire Qnumber') from the [Beatrijs manuscript](https://www.wikidata.org/wiki/Q1929931) (Q1929931) in all available languages, as JSON: [https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1929931](https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1929931)
 
@@ -160,7 +166,8 @@ As before, the results can be requested in [JSON](https://query.wikidata.org/spa
 
 <hr>
 
-44) An alternative way is to **request full Wikidata items directly from the Qnumber** via a [Special:EntityData](https://www.mediawiki.org/wiki/Wikibase/EntityData) URL. The ouput can be obtained in no fewer than **seven different formats**:
+### 44) Request full Wikidata items directly from the Qnumber (in HTML, JSON, JSON-LD, RDF, NT, TTL or N3 and PHP)
+An alternative way is to **request full Wikidata items directly from the Qnumber** via a [Special:EntityData](https://www.mediawiki.org/wiki/Wikibase/EntityData) URL. The ouput can be obtained in no fewer than **seven different formats**:
 
  - Get all information from the [Haags liederenhandschrift](https://www.wikidata.org/wiki/Q16641064) (Q16641064, *The Hague song manuscript*) as HTML: [https://www.wikidata.org/wiki/Special:EntityData/Q16641064](https://www.wikidata.org/wiki/Special:EntityData/Q16641064). This uses [content negotiation](https://en.wikipedia.org/wiki/content_negotiation) to return HTML in your browser. 
  - If you don't want to depend on content negotiation (e.g. view non-HTML content in a web browser), you can actively request alternative formats by appendig a *format suffix* to the URL, eg. to retrieve JSON: [https://www.wikidata.org/wiki/Special:EntityData/Q16641064.json](https://www.wikidata.org/wiki/Special:EntityData/Q16641064.json). 
@@ -219,7 +226,8 @@ we can retrieve the English names (labels) of the three creators ([P170](https:/
 ```
 <hr>
 
-45) Talking about creators, let's see how we can request a **structured overview of persons and institutions related to a set of highlights**, such as authors, makers, contributors, publishers, printers, illustrators, translators, owners, collectors etc. This is actually the machine readable equivalent of points 9 and 10 from [Part 2](Part%202%2C%20Overviews%20of%20all%20highlights.html). 
+### 45) Get a structured, machine readable overview of persons and institutions related to KB highlights
+Talking about creators, let's see how we can request a **structured overview of persons and institutions related to a set of highlights**, such as authors, makers, contributors, publishers, printers, illustrators, translators, owners, collectors etc. This is actually the machine readable equivalent of points 9 and 10 from [Part 2](Part%202%2C%20Overviews%20of%20all%20highlights.html). 
 
 Let's do this for three KB highlights at the same time: 
   1) [Admirandorum quadruplex spectaculum](https://www.wikidata.org/wiki/Q42302438) (Q42302438), 
@@ -331,7 +339,8 @@ giving an output of three [Python dictionaries](https://www.w3schools.com/python
 ```
 <hr>
 
-46) In points 22-25 of [Part 3](Part%203%2C%20Overviews%20per%20highlight.html) we looked at the portraits, genders, occupations and lifespans of the [people who contributed to the Album amicorum Jacob Heyblocq](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Alfabetisch#Album_amicorum_van_Jacobus_Heyblocq_(1623-1690),_rector_van_de_Latijnse_school_te_Amsterdam) and created an [on-Wiki portrait gallery/facebook](https://w.wiki/phx) of album contributors directly from a Wikidata [SPARQL query](https://w.wiki/tBE).
+### 46) Generating off-Wiki image galleries
+In points 22-25 of [Part 3](Part%203%2C%20Overviews%20per%20highlight.html) we looked at the portraits, genders, occupations and lifespans of the [people who contributed to the Album amicorum Jacob Heyblocq](https://nl.wikipedia.org/wiki/Wikipedia:GLAM/Koninklijke_Bibliotheek_en_Nationaal_Archief/Topstukken/Alfabetisch#Album_amicorum_van_Jacobus_Heyblocq_(1623-1690),_rector_van_de_Latijnse_school_te_Amsterdam) and created an [on-Wiki portrait gallery/facebook](https://w.wiki/phx) of album contributors directly from a Wikidata [SPARQL query](https://w.wiki/tBE).
 
 Let's now look at three **approaches for generating off-Wiki image galleries** from the Wikimedia infrastructure. The following examples are detailed in (and extracted from) the article *[Reusing the album amicorum Jacob Heyblocq - Image gallery of album contributors](https://kbnlwikimedia.github.io/Alba-Amicorum/alba/AA-Jacob-Heyblocq/reuse/)* here on Github.  
 
@@ -364,7 +373,8 @@ Let's now look at three **approaches for generating off-Wiki image galleries** f
 
 <hr>
 
-47) In items 33 and 35 of [Part 4](Part%204%2C%20Images.html) we already looked at things (Wikidata entities) that can be seen in KB collection highlights, making images not only discoverable via the regular metadata, but also multilingually searchable by content (What's depicted in it?). Let's now look at how we can **[retrieve depicted entities programmatically](https://commons.wikimedia.org/wiki/Commons:Depicts#Access)**. We'll use  [Atlas de Wit 1698](https://commons.wikimedia.org/wiki/Category:Atlas_de_Wit_1698) for this . We can do this either via a) the [Wikimedia Commons SPARQL query service](https://commons.wikimedia.org/wiki/Commons:SPARQL_query_service), b) the Wikimedia Commons API or c) via the [Petscan tool](https://petscan.wmflabs.org/).
+### 47) Programmatically retrieve things depicted in images
+In items 33 and 35 of [Part 4](Part%204%2C%20Images.html) we already looked at things (Wikidata entities) that can be seen in KB collection highlights, making images not only discoverable via the regular metadata, but also multilingually searchable by content (What's depicted in it?). Let's now look at how we can **[retrieve depicted entities programmatically](https://commons.wikimedia.org/wiki/Commons:Depicts#Access)**. We'll use  [Atlas de Wit 1698](https://commons.wikimedia.org/wiki/Category:Atlas_de_Wit_1698) for this . We can do this either via a) the [Wikimedia Commons SPARQL query service](https://commons.wikimedia.org/wiki/Commons:SPARQL_query_service), b) the Wikimedia Commons API or c) via the [Petscan tool](https://petscan.wmflabs.org/).
 
   a) To retrieve the depicted entities via the [Wikimedia Commons SPARQL query service](https://wcqs-beta.wmflabs.org), we use [this query](https://tinyurl.com/yg4qsbj4):  
 
@@ -453,7 +463,8 @@ M32092969 || File:Atlas de Wit 1698-pl018d-Amsterdam, Oude Kerk-KB PPN 145205088
 
 <hr>
 
-48) In item 46 we looked at portrait galleries of the contributors to the Album amicorum Jacob Heyblocq, where the portraits were stored in the Wikimedia infrastructure (Wikimedia Commons to be exact). Let's now look at **external (non-Wikimedia) databases** describing these persons, their images, works and their lives. For instance let's look at 
+### 48) Extract information from external databases starting from Wikidata identifiers
+In item 46 we looked at portrait galleries of the contributors to the Album amicorum Jacob Heyblocq, where the portraits were stored in the Wikimedia infrastructure (Wikimedia Commons to be exact). Let's now look at **external (non-Wikimedia) databases** describing these persons, their images, works and their lives. For instance let's look at 
 
 - [Europeana](https://www.europeana.eu) - access to millions of European books, music, artworks etc.  
 - [RKD](https://rkd.nl/en/) - the Netherlands Institute for Art History.
@@ -512,7 +523,8 @@ The output is also written to [this Excel file](https://github.com/KBNLwikimedia
 
 <hr>
 
-49) We can combine a SPARQL query in Wikidata with simultaneous queries in [other SPARQL endpoints](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/Federation_report). This is called **[federated SPARQL querying](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/Federated_queries)** and we can use it to extract some base information from Wikidata and combine that with additional, enriching information from other, external (linked open) databases.
+### 49) Extract information simultaneously from both Wikidata and external databases using federated SPARQL queries
+We can combine a SPARQL query in Wikidata with simultaneous queries in [other SPARQL endpoints](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/Federation_report). This is called **[federated SPARQL querying](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/Federated_queries)** and we can use it to extract some base information from Wikidata and combine that with additional, enriching information from other, external (linked open) databases.
 
 Let's say we want to look for Dutch literary works written by the contributors of the *Album amicorum Jacob Heyblocq*, as stored in the [DBNL website](https://www.dbnl.org) and retrieve (the URLs of) the first pages of those works. We can construct [this federated SPARQL query](https://w.wiki/3MLQ) for that:
 
@@ -554,7 +566,8 @@ LIMIT 150
 
 Finally, to wrap up this (long) article, let's look at an example of reusing individual highlight images. Let's use the [map of the Iberian Peninsula](https://commons.wikimedia.org/wiki/File:Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg) we looked at in the beginning of [Part 4](Part%204%2C%20Images.html). 
 
-50) Using a [Wikimedia Commons API tool](https://magnus-toolserver.toolforge.org/commonsapi.php) created by (the great) [Magnus Manske](https://hay.toolforge.org/directory/#/author/Magnus%20Manske), we can **programmatically request (meta)data associated with an individual image** in XML, such as  
+### 50) Programmatically request (meta)data associated with an individual image 
+Using a [Wikimedia Commons API tool](https://magnus-toolserver.toolforge.org/commonsapi.php) created by (the great) [Magnus Manske](https://hay.toolforge.org/directory/#/author/Magnus%20Manske), we can **programmatically request (meta)data associated with an individual image** in XML, such as  
 
   - [https://tools.wmflabs.org/magnus-toolserver/commonsapi.php?image=Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg&thumbwidth=234](https://tools.wmflabs.org/magnus-toolserver/commonsapi.php?image=Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg&thumbwidth=234) - returns the URL of a [thumbnail of 234px wide](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg/234px-Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg)
   - [https://tools.wmflabs.org/magnus-toolserver/commonsapi.php?image=Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg&thumbwidth=234&meta](https://tools.wmflabs.org/magnus-toolserver/commonsapi.php?image=Atlas_Van_der_Hagen-KW1049B12_002-HISPANIAE_ET_PORTUGALIAE_REGNA.jpeg&thumbwidth=234&meta) - adds the EXIF data
