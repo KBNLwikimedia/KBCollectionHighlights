@@ -1,5 +1,5 @@
 <table width="100%" border="0"><tr><td align="left">
-<a href="https://kbnlwikimedia.github.io/stories/"><< Back to collection highlights stories index</a>
+<a href="https://kbnlwikimedia.github.io/KBCollectionHighlights/stories/"><< Back to collection highlights stories index</a>
 </td><td align="right">
 <a href="https://github.com/KBNLwikimedia/KBCollectionHighlights" target="_blank">>> To the Github repo of this page</a>
 </td></tr></table>
