@@ -1,4 +1,8 @@
-[<< Back to index of this story](https://kbnlwikimedia.github.io/KBCollectionHighlights/stories/Cool%20new%20things%20you%20can%20now%20do%20with%20the%20KB's%20collection%20highlights/index.html)
+<table width="100%" border="0"><tr><td align="left">
+<a href="https://kbnlwikimedia.github.io/KBCollectionHighlights/stories/Cool%20new%20things%20you%20can%20now%20do%20with%20the%20KB's%20collection%20highlights/index.html"><< Back to index of this story</a>
+</td><td align="right">
+<a href="https://github.com/KBNLwikimedia/KBCollectionHighlights" target="_blank">>> To the Github repo of this page</a>
+</td></tr></table>
 
 ![Banner](../images/banners/KBTopstukkenBannerWikimedia_EN.jpg)
 # 50 cool new things you can now do with KB's collection highlights - Part 6, Summary

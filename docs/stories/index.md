@@ -1,4 +1,8 @@
-[<< Back to stories index](https://kbnlwikimedia.github.io/stories)
+<table width="100%" border="0"><tr><td align="left">
+<a href="https://kbnlwikimedia.github.io/stories/"><< Back to stories index</a>
+</td><td align="right">
+<a href="https://github.com/KBNLwikimedia/KBCollectionHighlights" target="_blank">>> To the Github repo of this page</a>
+</td></tr></table>
 
 ![Banner](images/banners/KBTopstukkenBannerWikimedia_EN.jpg)
 
@@ -7,7 +11,7 @@
 ## [50 cool new things you can now do with KB's collection highlights](Cool%20new%20things%20you%20can%20now%20do%20with%20the%20KB's%20collection%20highlights/) - March 2021
 *In this series of 5 articles we show the added value of putting images and metadata of [digitised collection highlights](https://www.kb.nl/zoeken/content/categorie/topstuk) of the KB, national library of the Netherlands, into the Wikimedia infrastructure. By putting our collection highlights into Wikidata, Wikimedia Commons and Wikipedia, dozens of new functionalities have been added. As a result of Wikifying this collection, you can now do things with these highlights that were not possible before.*
 
-<a href="Cool%20new%20things%20you%20can%20now%20do%20with%20the%20KB's%20collection%20highlights/"><img src="Cool%20new%20things%20you%20can%20now%20do%20with%20the%20KB's%20collection%20highlights/images/KBtopstukkenMemeEN.jpg" width="70%"/></a>
+<a href="Cool%20new%20things%20you%20can%20now%20do%20with%20the%20KB's%20collection%20highlights/"><img src="Cool%20new%20things%20you%20can%20now%20do%20with%20the%20KB%27s%20collection%20highlights%2Fimages%2FKBtopstukkenMemeEN.jpg" width="70%"/></a>
 
 ## [You better shape up! Datamodellen & shape expressions bij de KB](https://ecritures.medium.com/you-better-shape-up-datamodellen-shape-expressions-bij-de-kb-c49669257e64) - 19 November 2020
 *Short description* (article in Dutch)
